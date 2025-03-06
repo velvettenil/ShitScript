@@ -1,0 +1,38 @@
+{
+    "robloxLsp.diagnostics.globals": [
+        "getexecutorname",
+        "getexecutorname",
+        "identifyexecutor",
+        "getcustomasset",
+        "http_request",
+        "syn",
+        "request",
+        "isfile",
+        "writefile",
+        "isfolder",
+        "isfolder",
+        "makefolder",
+        "readfile",
+        "fireproximityprompt",
+        "setclipboard",
+        "getgenv",
+        "queue_on_teleport",
+        "fluxus",
+        "delfile",
+        "gethwid",
+        "delfolder",
+        "listfiles",
+        "Rayfield",
+        "getgc",
+        "http",
+        "flux",
+        "bit",
+        "_ENV"
+    ],
+    "stylua.targetReleaseVersion": "latest",
+    "robloxLsp.diagnostics.disable": [
+        "unused-local",
+        "redefined-local",
+        "unbalanced-assignments"
+    ]
+}
