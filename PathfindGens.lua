@@ -9,7 +9,6 @@ local DCWebhook = (getgenv and getgenv().DiscordWebhook) or false
 if DCWebhook == "" then
 	DCWebhook = false
 end
-print("mafiozi")
 local ProfilePicture = ""
 local queueteleport = syn and syn.queue_on_teleport or queue_on_teleport or (fluxus and fluxus.queue_on_teleport)
 if queueteleport then
@@ -258,16 +257,17 @@ local function PathFinding(generator)
 	end
 
 	local path = game:GetService("PathfindingService"):CreatePath({
-		AgentRadius = 2,
+		AgentRadius = 2.5,
 		AgentHeight = 1,
-		AgentCanJump = false
+		AgentCanJump = false,
 	})
 
-	local success = pcall(function()
+	local success, errorMessage = pcall(function()
 		path:ComputeAsync(rootPart.Position, targetPosition)
 	end)
 
 	if not success or path.Status ~= Enum.PathStatus.Success then
+		print("Path computation failed:", errorMessage)
 		return false
 	end
 
