@@ -1,5 +1,4 @@
--- Packed using RedlinePack v1.1.1
-setclipboard("https://discord.gg/fartsaken")
+setclipboard("https://discord.com/fartsaken")
 local RayfieldLib = (function(...) -- ../Libraries/Rayfield.lua
     --[[
     
@@ -2005,7 +2004,7 @@ local RayfieldLib = (function(...) -- ../Libraries/Rayfield.lua
     	-- Tab
     	local FirstTab = false
     	local Window = {}
-    	getgenv().FARTSAKEN_WINDOW = Window
+    	getgenv().LEAFHUB_WINDOW = Window
     	function Window:SetWindowName(newName)
     		Settings.Name = newName
     		Topbar.Title.Text = newName
@@ -3810,7 +3809,7 @@ Loop = RunService.Stepped:Connect(function()
     			FileName = "Big Hub52"
     		},
     		Discord = {
-    			Enabled = true,
+    			Enabled = false,
     			Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
     			RememberJoins = true -- Set this to false to make them join the discord every time they load it up
     		},
@@ -4028,7 +4027,6 @@ Loop = RunService.Stepped:Connect(function()
     
     return RayfieldLibrary
 end)()
-
 local LuaArmorAPI = loadstring(game:HttpGet("https://sdkapi-public.luarmor.net/library.lua"))()
 LuaArmorAPI.script_id = "624a0bc4ce8a5660f80ecd8d6d16b2a4"
 
@@ -4046,11 +4044,11 @@ function validateKey(enteredKey)
         local userFacingMessage
         local receivedCode = serverResponseOrError.code
         if receivedCode == "KEY_EXPIRED" then
-            userFacingMessage = "Your daily key has expired! Please get a new one."
+            userFacingMessage = "Your daily key has expired! Please get a new one in our discord."
         elseif receivedCode == "KEY_BANNED" then
             userFacingMessage = "Sorry, you have been blacklisted."
         elseif receivedCode == "KEY_HWID_LOCKED" then
-            userFacingMessage = "Your key is HWID locked."
+            userFacingMessage = "Your key is HWID locked, please request a HWID reset in our discord."
         elseif receivedCode == "KEY_INCORRECT" or receivedCode == "KEY_INVALID" then
             userFacingMessage = "This key is invalid."
         else
@@ -4062,44 +4060,46 @@ function validateKey(enteredKey)
 end
 
 task.spawn(function()
-    RayfieldLib:CreateWindow({
-        Name = "Fartsaken",
-        Icon = "microwave",
-        LoadingTitle = "Fartsaken",
-        LoadingSubtitle = "by ivannetta",
+	RayfieldLib:CreateWindow({
+		Name = "Fartsaken",
+		Icon = "microwave",
+		LoadingTitle = "Fartsaken",
+		LoadingSubtitle = "by ivannetta",
 
-        DisableRayfieldPrompts = false,
-        DisableBuildWarnings = false,
+		DisableRayfieldPrompts = false,
+		DisableBuildWarnings = false,
 
-        ConfigurationSaving = {
-            Enabled = true,
-            FolderName = nil,
-            FileName = "FartsakenConfig",
-        },
+		ConfigurationSaving = {
+			Enabled = true,
+			FolderName = nil,
+			FileName = "FartsakenConfig",
+		},
 
-        Discord = {
-            Enabled = true,
-            Invite = "fartsaken",
-            RememberJoins = true,
-        },
+		Discord = {
+			Enabled = true,
+			Invite = "fartsaken",
+			RememberJoins = true,
+		},
 
-        KeySystem = true,
-        KeySettings = {
-            Title = "Fartsaken | Key System",
-            Subtitle = "A tree filled with keys is the best tree...",
-            Note = "Key link copied to clipboard!",
-            FileName = "fartsaken_key",
-            SaveKey = true,
-            GrabKeyFromSite = false,
-            ValidateCallback = validateKey
-        },
-    })
+		KeySystem = true,
+		KeySettings = {
+			Title = "Fartsaken | Key System",
+			Subtitle = "A tree filled with keys is the best tree...",
+			Note = "Key link copied to clipboard!",
+			FileName = "fartsaken_key",
+			SaveKey = true,
+			GrabKeyFromSite = false,
+			ValidateCallback = validateKey,
+		},
+	})
 end)
+
+-- thank you leafy and dottik ily
 
 repeat
     task.wait()
-until validKey ~= nil and getgenv().FARTSAKEN_WINDOW ~= nil
+until validKey ~= nil and getgenv().LEAFHUB_WINDOW ~= nil
 task.wait(0.5)
 script_key = validKey
-getgenv().FARTHUB_RAYFIELD = RayfieldLib
+getgenv().LEAFHUB_RAYFIELD = RayfieldLib
 LuaArmorAPI.load_script()
