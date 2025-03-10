@@ -1,1 +1,4105 @@
-local a=[[77fuscator 0.6.1 EARLY BUILD]];return(function(a,b,c,d,e,f,f,g,h,i,j,k,l,l,m,n,o,p,p,q,r)local s,t,u,v,w,x,y,z,ba,bb,bc,bd,be,bf,bg,bh,bi,bj,bk,bl,bm,bn,bo,bp,bq,br,bs,bt,bu,bv,bw,bx,by,bz,ca,cb=0 while true do if s<=8 then if s<=3 then if s<=1 then if 1>s then t,u,v,w,x,y,z,ba,bb,bc,bd,be,bf,bg,bh,bi,bj,bk,bl,bm,bn,bo,bp,bq,br,bs,bt=nil else bu=3 end else if 3~=s then while true do if(bu<=1)then if(bu>1 or bu==1)then bu=0 be=function(cc,cd,ce)local cf=0 while true do if cf==0 then if ce then local ce=(cc/2^(cd-1))%2^((ce-1)-(cd-1)+1);return ce-ce%1;else local cd=(2^(cd-1));return(cc%(cd+cd)>=cd)and 1 or 0;end;else break end cf=cf+1 end end else break end else if bu>=3 then if(bu==3)then bu=4 bk=function(cc)local cd,ce,cf,cg,ch,ci,cj,ck,cl,cm,cn=0 while true do if cd<=3 then if cd<=1 then if 0==cd then ce,cf,cg,ch,ci,cj,ck=nil else cl=2 end else if cd<3 then while true do if(cl==2 or cl>2)then if(cl==2 or cl<2)then cl=4 cj,ce,ch="","",{}else if not(cl~=3)then cl=0 ck={}else cl=3 cf=256 end end else if(cl<1)then cl=1 for cl=0,cf-1 do ck[cl]=c(cl)end else break end end end else cm=4 end end else if cd<=5 then if cd>4 then cn=2 else while true do if(cm>=2)then if cm<=2 then cm=3 ci=function()local cl,co,cp,cq=0 while true do if cl<=1 then if 1~=cl then co,cp=nil else cq=1 end else if cl<=2 then while true do if(cq<=1)then if(cq<1)then break else cq=2 co=j(d(cc,cg,cg),36)end else if(cq>3 or cq==3)then if(cq<=3)then cq=0 cg=cg+co;else cq=3 cp=j(d(cc,cg,(cg+co-1)),36)end else cq=4 cg=cg+1;end end end else if 4>cl then return cp else break end end end cl=cl+1 end end else if not(cm==4)then cm=0 cj=c(ci())else cm=2 cg=1 end end else if cm<=0 then cm=1 ch[1]=cj;else break end end end end else if 7>cd then while true do if cn>=1 then if not(cn~=1)then break else cn=0 while cg<#cc do local j local cc=1 while true do if(cc>=2)then if(cc<2 or cc==2)then cc=4 ch[#ch+1],cj,cf=ce,ce,(cf+1)else if(cc<4)then cc=0 if ck[j]then ce=ck[j]else ce=cj..d(cj,1,1)end;else break end end else if cc>0 then cc=3 j=ci()else cc=2 ck[cf]=cj..d(ce,1,1)end end end end;end else cn=1 return e(ch)end end else break end end end cd=cd+1 end end else bu=2 bd=bk(a)end else bu=1 t=m or function(a,e)local j,m,bk,bu=0 while true do if j<=1 then if j~=1 then m,bk=nil else bu=2 end else if j<=2 then while true do if bu<=1 then if(bu<1)then bu=3 while(a>0 and e>0)do local cc,cd local ce=0 while true do if(ce>2 or ce==2)then if not(ce==2)then ce=1 if not(cc==cd)then bk=bk+m end else break end else if ce<=0 then ce=3 cc,cd=a%2,e%2 else ce=2 a,e,m=(a-cc)/2,((e-cd)/2),(m*2)end end end end else break end else if(bu>3 or bu==3)then if not(bu==3)then bu=1 while a>0 do local cc local cd=0 while true do if cd>=2 then if(cd>2)then cd=1 if cc>0 then bk=(bk+m)end else break end else if cd<=0 then cd=3 cc=(a%2)else cd=2 a,m=((a-cc)/2),m*2 end end end end else bu=4 if a<e then a=e end end else bu=0 m,bk=1,0 end end end else if j==3 then return bk else break end end end j=j+1 end end end end end else bv=2 end end else if s<=5 then if 4<s then bw=1 else while true do if(bv<=1)then if bv>0 then bv=(((t(t(t(1312748,878896),189880),811188))-599801)-967895)bc={}else bv=(function(a)local e,j=0 while true do if e<=1 then if 0<e then while true do if(a>277768 or a==277768)then if(a>364876 or a==364876)then if not(a~=364876)then a=(a-87108)j=j+1 else a=a-7386 j=(j+1)end else a=(a-84729)j=(j+1)end else if(a==149802 or a>149802)then if a<=149802 then a=(a-65564)j=(j+1)else a=(a-43237)j=(j+1)end else a=a-84234 j=j+1 end end if(j==6)then break end end else j=0 end else if 2==e then return a else break end end e=e+1 end end)(372262)x=function()local a,e,j,m,bk,bu,cc=0 while true do if a<=2 then if a<=0 then e,j,m,bk=nil else if a==1 then bu=3 else while true do if(bu<1 or bu==1)then if bu==0 then bu=4 e=t(e,bf)else bu=2 bk=t(bk,bf)end else if bu<=2 then break else if not(bu~=3)then bu=0 e,j,bk,m=b(bd,y,(y+3))else bu=1 j=t(j,bf)end end end end end end else if a<=3 then cc=0 else if a~=5 then while true do if(cc<1 or cc==1)then if not(cc==1)then cc=2 m=t(m,bf)else break end else if(cc>2)then cc=1 return(m*16777216)+(bk*65536)+(j*256)+e;else cc=3 y=(y+4);end end end else break end end end a=a+1 end end end else if bv<=2 then bv=(function(a)local e,j=0 while true do if e<=1 then if 0==e then j=0 else while true do if a<=-3916 then if(a<-62870 or a==-62870)then a=a+58954 j=(j+1)else if(a<-3916)then a=(a-16675)j=j+1 else a=a+97081 j=j+1 end end else if(a>20968 or a==20968)then if(a==93165)then a=(a-93162)j=j+1 else a=a-21228 j=(j+1)end else a=(a-45935)j=j+1 end end if j==6 then break end end end else if 2==e then return a else break end end e=e+1 end end)(20968)y=1 else if(bv==4 or bv>4)then break else bv=(function(a)local e,j=0 while true do if e<=1 then if e>0 then while true do if(a>=-1996)then if(a>=24170)then if a<=24170 then a=(a-38083)j=j+1 else if a>35571 then a=(a-17869)j=(j+1)else a=(a-37567)j=j+1 end end else if not(a==-1996)then a=(a-57570)j=(j+1)else a=a+44035 j=j+1 end end else if(a==-72037 or a<-72037)then if(a>-72037 or a==-72037)then a=a+45624 j=j+1 else a=(a+99512)j=(j+1)end else if(a==-48495 or a<-48495)then a=a-51016 j=j+1 else if a>=-13913 then a=(a-58124)j=j+1 else a=(a+35488)j=j+1 end end end end if not(j~=10)then break end end else j=0 end else if e<3 then return a else break end end e=e+1 end end)(35571)bf=(function(a)local e,j,m=0 while true do if e<=1 then if 0<e then m=2 else j=nil end else if 3>e then while true do if m>=2 then if m~=3 then m=3 j=0 else m=0 while true do if(a<=167098)then if(a>72914)then a=(a-94184)j=j+1 else a=a-72834 j=(j+1)end else if a<188742 then a=(a-6622)j=j+1 else a=(a-15022)j=(j+1)end end if not(j~=4)then break end end end else if m~=0 then break else m=1 return a end end end else break end end e=e+1 end end)(188742)end end end end end else if s<=6 then while true do if(bw<=1)then if not(bw~=0)then bw=(function(a)local e,j=0 while true do if e<=1 then if e>0 then while true do if(a>89126 or a==89126)then if(a>=119161)then if(a<119161 or a==119161)then a=(a-30035)j=j+1 else a=(a-93214)j=(j+1)end else a=a+59275 j=j+1 end else if a>=55187 then if not(a~=55187)then a=a-4189 j=(j+1)else a=(a-82748)j=j+1 end else a=a+31753 j=j+1 end end if(j==6)then break end end else j=0 end else if 2==e then return a else break end end e=e+1 end end)(119161)u=function(a,e)local j=0 while true do if 1~=j then return l(a/e);else break end j=j+1 end end else bw=(function(a)local e,j=0 while true do if e<=1 then if 1~=e then j=0 else while true do if a<=-134660 then if(a<=-165502)then if a>-179770 then a=a+8894 j=(j+1)else a=a+96750 j=j+1 end else if(a==-156608 or a<-156608)then a=(a+67753)j=(j+1)else if(a==-134660)then a=(a-30842)j=(j+1)else a=(a+227)j=(j+1)end end end else if(a<=-88855)then if(a==-91021 or a>-91021)then if not(a==-88855)then a=a-23514 j=j+1 else a=a-90915 j=j+1 end else a=(a-20352)j=j+1 end else if(a<=-83020)then a=(a+33872)j=(j+1)else if(a==10232 or a>10232)then a=a-10230 j=j+1 else a=a+59380 j=j+1 end end end end if not(j~=11)then break end end end else if 3>e then return a else break end end e=e+1 end end)(-91021)br=function()local a,e,j=0 while true do if a<=1 then if 0<a then j=2 else e=nil end else if 2==a then while true do if(j==2 or j>2)then if j<3 then j=0 e=t(b(bd,y,y),bf)else break end else if(j==0)then j=1 y=y+1;else j=3 return e;end end end else break end end a=a+1 end end end else if bw>=3 then if(bw<4)then bw=(function(a)local e,j=0 while true do if e<=1 then if 1~=e then j=0 else while true do if(a==-131847 or a<-131847)then if(a>-152703 or a==-152703)then if a>=-131847 then a=(a-49714)j=j+1 else a=a+77252 j=j+1 end else if(a<=-181561)then a=(a+28858)j=(j+1)else a=a+33898 j=j+1 end end else if(a<-75451 or a==-75451)then if a==-75451 then a=(a-16206)j=(j+1)else a=a+94856 j=j+1 end else if not(a~=92484)then a=a-92480 j=j+1 else a=a+89285 j=j+1 end end end if j==8 then break end end end else if 2==e then return a else break end end e=e+1 end end)(-165745)v=(2^32)else break end else bw=0 bn=(o or function(a,e)local j,m local o=3 while true do if o>=2 then if o>=3 then if o>=4 then break else o=0 m=0 end else o=4 return m;end else if o<1 then o=1 j=1 else o=2 while a>0 and e>0 do local o,bk local bu=0 while true do if bu<=1 then if bu>0 then bu=2 bk=e%2 else bu=1 o=a%2 end else if bu>=3 then if bu>=4 then break else bu=4 a=l(a/2);end else bu=3 if o==1 and bk==1 then m=m+j;end;end end end local a=0 while true do if a>=1 then if a==2 then break else a=2 j=j*2;end else a=1 e=l(e/2);end end end;end end end end)end end end else if s==7 then bx=0 else while true do if(bx>2 or bx==2)then if(bx>=3)then if bx~=3 then bx=(function(a)local e,j=0 while true do if e<=1 then if 1~=e then j=0 else while true do if(a==-84492 or a<-84492)then if(a<-84492)then a=a+49509 j=(j+1)else a=(a-5612)j=(j+1)end else if a<=-65424 then a=(a+70358)j=(j+1)else if a<=-40595 then a=(a-24829)j=(j+1)else a=a-4933 j=j+1 end end end if j==5 then break end end end else if 2==e then return a else break end end e=e+1 end end)(-84492)bo,z=nil else break end else bx=(function(a)local e,j=0 while true do if e<=1 then if 0<e then while true do if(a==-277664 or a>-277664)then if a>=-85303 then if a~=-85303 then a=a+46690 j=j+1 else a=a+38616 j=(j+1)end else if a<-180615 then a=(a+97049)j=(j+1)else a=(a+95312)j=(j+1)end end else if(a<-372968 or a==-372968)then if a<=-430199 then a=a+57231 j=(j+1)else a=a+95304 j=j+1 end else if(a<=-355560)then a=a-74639 j=(j+1)else a=(a-56980)j=j+1 end end end if j==8 then break end end else j=0 end else if e>2 then break else return a end end e=e+1 end end)(-298580)bo=(r or function(a,e)if e<0 then return z(a,-e)end return(a*2^e)%v;end);end else if(bx~=1)then bx=t(t(((((2000503)-156427)-700344))-970463,683420),575821)bi=(n or function(a,e)local j,m local n=1 while true do if n>=2 then if n<=2 then n=3 while a>0 or e>0 do local o,r local bk=4 while true do if bk<=1 then if bk==0 then break else bk=2 if r==1 or o==1 then m=m+j;end;end else if bk<=2 then bk=0 a=l(a/2);else if bk<=3 then bk=1 o=e%2 else bk=3 r=a%2 end end end end local a=2 while true do if a>=1 then if a>1 then a=1 e=l(e/2);else a=0 j=j*2;end else break end end end;else if n~=4 then n=4 return m;else break end end else if n>0 then n=0 m=0 else n=2 j=1 end end end end)else bx=(function(a)local e,j=0 while true do if e<=1 then if e~=1 then j=0 else while true do if(a<132991 or a==132991)then if(a<=92771)then if(a==92771)then a=(a-92769)j=(j+1)else a=(a+56091)j=(j+1)end else if(a<96676 or a==96676)then a=a+87470 j=j+1 else a=(a-53144)j=(j+1)end end else if(a>=144557)then if a<=144557 then a=(a-47881)j=j+1 else if a==184146 then a=a-8295 j=j+1 else a=a-83080 j=j+1 end end else if a>=141913 then a=(a-8922)j=j+1 else a=a+8619 j=j+1 end end end if not(j~=9)then break end end end else if 3~=e then return a else break end end e=e+1 end end)(141913)z=q or function(a,e)local j=0 while true do if j<=0 then if e<0 then return bo(a,-e)end else if 1==j then return l(a%v/2^e)else break end end j=j+1 end end;end end end end end end end else if s<=12 then if s<=10 then if s<10 then by=2 else while true do if(by<=1)then if by>0 then by=(function(a)local e,j=0 while true do if e<=1 then if 1~=e then j=0 else while true do if a>=27763 then if(a<=75797)then if a>=75797 then a=a+80478 j=j+1 else a=(a-47722)j=j+1 end else if(a<=79869)then a=a+2942 j=j+1 else if a~=82811 then a=a-76406 j=j+1 else a=a-55048 j=j+1 end end end else if(a==-51736 or a<-51736)then if(a==-73140)then a=(a+21404)j=(j+1)else a=(a+51739)j=(j+1)end else if not(a~=-33680)then a=(a-39460)j=j+1 else a=(a-13721)j=j+1 end end end if not(j~=9)then break end end end else if e~=3 then return a else break end end e=e+1 end end)(75797)ba=function(a)local e=0 while true do if 1~=e then return((-1-a)%v)else break end e=e+1 end end else by=(function(a)local e,j=0 while true do if e<=1 then if 1>e then j=0 else while true do if(a==-36749 or a>-36749)then if(a<=-36749)then a=(a-7079)j=(j+1)else a=a-58250 j=j+1 end else if a==-43828 then a=a+19849 j=j+1 else a=(a+82233)j=j+1 end end if(j==4)then break end end end else if 3~=e then return a else break end end e=e+1 end end)(-36749)bp={}end else if(by==3 or by>3)then if by~=3 then break else by=0 bm=function()local a,e,j=0 while true do if a<=1 then if a==0 then e=nil else j=1 end else if a~=3 then while true do if j<=1 then if j~=0 then j=0 e=0 else j=3 for m=0,2 do e=bi(e,bo(t(b(bd,y,y),bf),(8*m)));y=y+1;end end else if(j<=2)then break else j=2 return e;end end end else break end end a=a+1 end end end else by=(function(a)local e,j=0 while true do if e<=1 then if e<1 then j=0 else while true do if(a==12793 or a<12793)then if a~=-22876 then a=a+3799 j=j+1 else a=a+35669 j=j+1 end else if a>=29057 then if not(a==76217)then a=(a-29056)j=j+1 else a=(a-47160)j=(j+1)end else a=(a+59625)j=j+1 end end if j==5 then break end end end else if e>2 then break else return a end end e=e+1 end end)(-22876)bj=function()local a,e,j,m=0 while true do if a<=1 then if 0<a then m=4 else e,j=nil end else if a<=2 then while true do if(m==1 or m<1)then if(m==1)then m=2 y=y+2;else m=1 j=t(j,bf)end else if(m==2 or m<2)then break else if(m>3)then m=3 e,j=b(bd,y,y+2)else m=0 e=t(e,bf)end end end end else if a~=4 then return(j*256)+e;else break end end end a=a+1 end end end end end end else if 11<s then while true do if bz<=1 then if(bz>0)then bz=(function(a)local e,j=0 while true do if e<=1 then if e<1 then j=0 else while true do if(a>137112 or a==137112)then if a~=137112 then a=a-13574 j=j+1 else a=a-47778 j=j+1 end else if(a>=89334)then a=(a-24673)j=(j+1)else a=(a-64658)j=j+1 end end if j==4 then break end end end else if 3>e then return a else break end end e=e+1 end end)(150686)bb={}else bz=(function(a)local e,j=0 while true do if e<=1 then if e<1 then j=0 else while true do if(a<-67761 or a==-67761)then if not(a~=-92246)then a=a+24485 j=j+1 else a=(a+15904)j=(j+1)end else if not(a==-51857)then a=(a-74473)j=j+1 else a=a+51858 j=j+1 end end if j==4 then break end end end else if 2==e then return a else break end end e=e+1 end end)(-17773)w=function()local a,e,j,m,n=0 while true do if a<=1 then if a>0 then n=2 else e,j,m=nil end else if a<=2 then while true do if n<=1 then if n~=1 then n=1 e=nil else n=3 m=0 end else if(n>3 or n==3)then if n==3 then n=4 repeat local o=1 while true do if(o==1 or o<1)then if(o~=1)then o=4 j=j+bn(e,127)*2^m;else o=3 e=t(b(bd,y,y),bf);end else if(o==3 or o>3)then if o~=4 then o=0 y=(y+1);else o=2 m=m+7;end else break end end end until not(bn(e,128)~=0);else break end else n=0 j=0 end end end else if a~=4 then return j;else break end end end a=a+1 end end end else if(bz>3 or bz==3)then if not(bz==3)then break else bz=(function(a)local e,j=0 while true do if e<=1 then if 1~=e then j=0 else while true do if(a<=-21002)then if not(a==-29311)then a=a+84419 j=j+1 else a=(a+8309)j=j+1 end else if(a>45898 or a==45898)then if(a==45898 or a<45898)then a=a-48321 j=(j+1)else a=(a-17519)j=(j+1)end else a=a+2425 j=(j+1)end end if not(j~=5)then break end end end else if e>2 then break else return a end end e=e+1 end end)(-29311)bt=function()local a,e,j,m,n,o,q,r,v,bk,bm,bu,bv,bw,bx,by=0 while true do if a<=4 then if a<=1 then if 1~=a then e,j,m,n,o,q,r,v,bk,bm,bu=nil else bv=2 end else if a<=2 then while true do if(bv>2 or bv==2)then if(bv==3 or bv>3)then if(bv>3)then bv=3 y=y+8;else bv=0 o=t(o,bf)end else bv=4 o,bu,e,n,bm,r,v,q=b(bd,y,y+7)end else if not(bv==1)then bv=1 bu=t(bu,bf)else break end end end else if a~=4 then bw=0 else while true do if(bw==1 or bw<1)then if bw==1 then bw=4 n=t(n,bf)else bw=1 e=t(e,bf)end else if(bw==2 or bw<2)then break else if not(bw~=3)then bw=2 r=t(r,bf)else bw=3 bm=t(bm,bf)end end end end end end end else if a<=6 then if 6>a then bx=3 else while true do if bx>=2 then if(bx<=2)then bx=1 j=(((q%128))*16+l(v/16))else if not(bx~=3)then bx=4 v=t(v,bf)else bx=0 q=t(q,bf)end end else if not(bx~=1)then break else bx=2 m=q>127 and-1 or 1 end end end end else if a<=7 then by=0 else if 8<a then break else while true do if(by<=1)then if(by==1 or by>1)then break else by=2 bk=(((v%16)*2^48+r*2^40+bm*2^32+n*2^24+(e*(2^16))+(bu*2^8)+o))end else if(by==2 or by<2)then by=4 if not(j~=0)then if(bk==0)then return m*0;else return(m*bk)*(2^(-1022-52));end;elseif not(j~=2047)then if not(bk~=0)then return(m*(1/0));else return(0/0);end;end;else if by<=3 then by=1 return m*bk*2^(j-1023-52);else by=3 bk=(bk+(2^52));end end end end end end end end a=a+1 end end end else bz=(function(a)local e,j=0 while true do if e<=1 then if 1>e then j=0 else while true do if(a<-246732 or a==-246732)then if(a<=-308175)then if a<-308175 then a=(a+46975)j=j+1 else a=(a+61443)j=j+1 end else if(a>-268183 or a==-268183)then if(a==-246732)then a=(a-21451)j=(j+1)else a=(a-17534)j=j+1 end else a=(a+89355)j=j+1 end end else if a>=-89487 then if a<=-89487 then a=a+37168 j=j+1 else if not(a==-31039)then a=a-62808 j=(j+1)else a=(a+31043)j=j+1 end end else if a>=-133622 then if not(a~=-115127)then a=a+84088 j=j+1 else a=(a+44135)j=(j+1)end else a=a+62740 j=j+1 end end end if not(j~=11)then break end end end else if e<3 then return a else break end end e=e+1 end end)(-355150)bl=function()local a,e,j,l,m,n=0 while true do if a<=2 then if a<=0 then e,j,l=nil else if 1<a then while true do if(m<1 or m==1)then if not(m==0)then m=0 y=(y+j);else break end else if(m<=2)then m=4 j=w()else if(m<=3)then m=1 l=d(bd,y,(y+j-1))else m=3 if(not(j~=0))then return'';end;end end end end else m=2 end end else if a<=3 then n=0 else if a~=5 then while true do if n<=1 then if(n>1 or n==1)then break else n=3 e=''end else if not(n~=2)then n=1 return e;else n=2 for j=1,#l do e=(e..c(t(b(d(l,j,j)),bf)));end end end end else break end end end a=a+1 end end end end end else bz=0 end end else if s<=14 then if 13<s then while true do if(ca<1 or ca==1)then if ca==0 then ca=t(t(((((2251413)-563545)-562815)-440943),740305),80798)bs=function()local a,b,c,d,e,j,l,m=0 while true do if a<=3 then if a<=1 then if 1>a then b,c,d,e=nil else j=4 end else if 2<a then l=3 else while true do if j<=1 then if not(j~=1)then j=0 c={}else j=3 b=x()end else if(j>3 or j==3)then if(j==4 or j>4)then j=1 e={}else j=2 d={}end else break end end end end end else if a<=5 then if 5~=a then while true do if l<=1 then if(l==0)then l=2 e[225]=d;else l=4 e[218]={};end else if(l<=2)then l=1 e[192]=t(bj(),bf);else if l<4 then l=0 for c=1,b do local b=br();if((b==0))then d[c]=((br()~=0));elseif(not(b~=2))then d[c]=bt();elseif((b==1))then if not(br()~=1)then d[c]=bq()else d[c]=bl()end;end;end else break end end end end else m=1 end else if a<7 then while true do if m>=2 then if(m>3 or m==3)then if m~=3 then m=0 e[197]={};else break end else m=3 return e;end else if(m==1 or m>1)then m=4 for b=1,w()do e[218][(b-1)]=bs();end else m=2 for b=1,w()do local c=br();if(be(c,1,1)==0)then local c local d=1 while true do if d>=2 then if d<=2 then break else if d>=4 then d=0 c[72]=x();else d=4 c[44]=x();end end else if(d>0)then d=3 c={[97]=w(),[129]=x(),}else d=2 c[69]=bj();end end end local d=1 while true do if(d>1 or d==1)then if not(d~=1)then d=2 c[91]=x();else d=0 e[197][b]=c;end else break end end end end end end end else break end end end a=a+1 end end else break end else if ca>=3 then if(ca>=4)then ca=0 bq=function()local a=0 while true do if a<1 then return g({},{['\95\95\105\110\100\101\120']=function()while true do end end,['\95\95\110\101\119\105\110\100\101\120']=function()while true do end end,['\95\95\116\111\115\116\114\105\110\103']=function()while true do end end,})else break end a=a+1 end end else ca=((((((t(1671172,87923))-54951)-153320)-391041)-560986)-467721)bh=function(...)local a=0 while true do if 0==a then return{...},h('#',...)else break end a=a+1 end end end else ca=(function(a)local b,c=0 while true do if b<=1 then if b>0 then while true do if(a>-44378 or a==-44378)then if(a<=-44378)then a=(a-97388)c=(c+1)else if(a<41231)then a=(a+85369)c=c+1 else a=a-41228 c=c+1 end end else if(a==-141766 or a>-141766)then if(a<-141766 or a==-141766)then a=(a+97628)c=c+1 else a=(a+41195)c=c+1 end else a=(a+82181)c=c+1 end end if not(c~=6)then break end end else c=0 end else if 2<b then break else return a end end b=b+1 end end)(-167754)bg=x end end end else ca=2 end else if s<=15 then cb=function(a,b)local c;local d;local e;local g=a[197];return function(...)local j;local l=1;local m;local n;local o;local q;local r;local v;local w;local x;local y;while true do v=g[l];y=v[97];if y>=98 then if(y==147 or y>147)then if y>=171 then if y<=182 then if(y>177 or y==177)then if(y<179 or y==179)then if(y<=177)then if(w[v[129]]>w[v[72]])then l=(l+1);else l=v[44];end;else if(y>178)then local bd=v[129]local be={w[bd]()};local bf=v[72];local bg=0;do local bd,bf=bd,bf;while true do bg=(bg+1);w[bd]=be[bg];if bd>=bf then break end;bd=bd+1;end;end;else c=a[218];end end else if(y>=181)then if not(y==182)then local bd=c[v[44]];local be={};local bf=v[72];do local bf,bg=1,bf;while true do l=l+1;local bj=g[l];if(bj[97]==120)then be[(bf-1)]={w,bj[44],nil,nil,nil};else be[(bf-1)]=b[bj[44]]end;r[((#r)+1)]=be;if bf>=bg then break end;bf=bf+1;end;end;w[v[129]]=cb(bd,be);else w[v[129]]=bn(w[v[44]],w[v[72]]);end else w[v[129]]=e[v[44]];end end else if(y>174 or y==174)then if y<=174 then local bd=v[129];do return w[bd],w[bd+1]end else if not(y~=176)then w[v[129]]=z(e[v[44]],e[v[72]]);else local bd=v[129];local be=w[bd+2];local bf=(w[bd]+be);local bg=w[bd+1];local bj;if not(be~=p(be))then bj=bf<=bg;else bj=(bf>=bg);end;if bj then w[bd]=bf;w[bd+3]=bf;l=v[44];end;end end else if(y==171 or y<171)then w[v[129]]=w[v[44]]^e[v[72]];else if y==173 then w[v[129]]=bi(e[v[44]],w[v[72]]);else if((e[v[129]]<e[v[72]]))then l=l+1;else l=v[44];end;end end end end else if y>=189 then if y<=191 then if y>=190 then if y==190 then else w[v[129]]=t(w[v[44]],w[v[72]]);end else w[v[129]]=129;end else if(y<193 or y==193)then if(y<192 or y==192)then w[v[72]]=w[v[129]](w[v[44]]);else if((w[v[129]]==w[v[72]]or w[v[129]]>w[v[72]]))then l=(l+1);else l=v[44];end;end else if not(y~=194)then w[v[129]]=bn(w[v[44]],e[v[72]]);else w[v[129]]=ba(w[v[44]]);end end end else if y>=186 then if(y<186 or y==186)then for p=0,m do if((p>=d))then x[p-d]=n[(p+1)];else w[p]=n[p+1];end;end;else if(y<188)then local p=v[129]local ba,bd=bh(w[p](i(w,(p+1),j)))j=(bd+p-1)local bd=0;do local p,be=p,j;while true do bd=bd+1;w[p]=ba[bd];if p>=be then break end;p=p+1;end;end;else e[v[72]]=-e[v[72]];end end else if(y==184 or y>184)then if y==185 then w[v[129]]=(e[v[44]]+w[v[72]]);else if w[v[129]]then l=l+1;else l=v[44];end;end else w[v[72]]=-w[v[72]];end end end end else if(y<=158)then if(y<=152)then if(y<149 or y==149)then if(y<147 or y==147)then w[v[129]]=e[v[44]]/e[v[72]];else if not(y==149)then local p=v w[v[129]]=function()return p[129]end;else local p=v[129];local ba=w[p];local bd=j-p;do local bd,be=1,bd;while true do ba[bd]=w[p+bd]if bd>=be then break end;bd=bd+1;end;end;end end else if(y<150 or y==150)then w[v[129]]=e;else if y==151 then if(not(e[v[44]]==e[v[72]]))then l=(l+1);end;else w[v[44]]=-w[v[44]];end end end else if y>=156 then if(y<156 or y==156)then w[v[129]]=w[v[44]][e[v[72]]];else if y~=157 then local p=w[v[72]];if not p then l=l+1;else w[v[129]]=p;l=v[44];end;else w[v[129]]=w[v[44]]*e[v[72]];end end else if(y<153 or y==153)then e[v[44]]=-e[v[44]];else if y>154 then w[v[129]][e[v[44]]]=e[v[72]];else w[v[129]]=t(w[v[44]],e[v[72]]);end end end end else if(y==164 or y<164)then if(y<=161)then if y<=159 then local p=v[129];do return i(w,p,j)end;else if y~=160 then w[v[129]]=e[v[44]]*w[v[72]];else w[v[129]]=-w[v[44]];end end else if(y<162 or y==162)then r={}else if(y==163)then w={};do local p,ba=0,m;while true do if p<d then w[p]=n[p+1];else break end;if p>=ba then break end;p=p+1;end;end;else local p=v[129]local ba,bd=bh(w[p](w[p+1]))j=(bd+p-1)local bd=0;for be=p,j do bd=(bd+1);w[be]=ba[bd];end;end end end else if(y>168 or y==168)then if(y==168 or y<168)then j=-1 else if(y>=170)then w[v[129]]=(e[v[44]]^e[v[72]]);else local p=v[129]local ba={w[p](w[p+1])};local bd=0;for be=p,v[72]do bd=(bd+1);w[be]=ba[bd];end end end else if(y>=166)then if not(y~=166)then local p=v[129];local ba=(v[72]-1)*50;local bd=w[p];local be=(j-p);do local be,bf=1,be;while true do bd[(ba+be)]=w[(p+be)]if be>=bf then break end;be=be+1;end;end;else end else local p=v[129]w[p]=w[p](i(w,p+1,j));end end end end end else if(y>122 or y==122)then if y<=133 then if(y>=128)then if(y==131 or y>131)then if(y>=132)then if(y~=132)then local p=v[129];local ba=w[p];local bd=v[44];do local bd,be=1,bd;while true do ba[bd]=w[(p+bd)]if bd>=be then break end;bd=bd+1;end;end;else w[v[129]]=g;end else if(not(w[v[44]]==w[v[72]]))then l=l+1;end;end else if y<=128 then local p=v[44];w[v[129]]=(w[p]..w[p+1]);else if(y<130)then if(e[v[129]]>=e[v[72]])then l=l+1;else l=v[44];end;else e=a[225];end end end else if(y==125 or y>125)then if(y>126 or y==126)then if(y~=126)then if(not(w[v[44]]==e[v[72]]))then l=(l+1);end;else if((w[v[44]]==e[v[72]]))then l=l+1;end;end else w[v[129]]=72;end else if y>=123 then if y<124 then w[v[129]][e[v[44]]]=w[v[72]];else if not(v[129]~=0)then l=l+v[44];local p=v[l+v[72]];p[129]=1;v[129]=1;end end else local p=v[129];do return i(w,p,(p+v[44]))end;end end end else if(y==140 or y>140)then if(y==143 or y>143)then if(y==145 or y>145)then if not(y==146)then local p=v[129];local ba=w[v[44]];w[(p+1)]=ba;w[p]=ba[w[v[72]]];else w[v[129]]=bb;end else if(y>143)then w[v[129]]=t(e[v[44]],w[v[72]]);else local p=w[v[72]];if p then l=l+1;else w[v[129]]=p;l=v[44];end;end end else if y<=140 then w[v[129]]=(e[v[44]]^w[v[72]]);else if y<142 then local p=v[129];local ba={};for bb=1,#r do local r=r[bb];do local bb,bd=0,#r;while true do local r=r[bb];local be=r[1];local bf=r[2];if(be==w)and bf>=p then ba[bf]=be[bf];r[1]=ba;end;if bb>=bd then break end;bb=bb+1;end;end;end;else local p=v[129]local r,ba=bh(w[p]())j=((ba+p)-1)local ba=0;do local p,bb=p,j;while true do ba=(ba+1);w[p]=r[ba];if p>=bb then break end;p=p+1;end;end;end end end else if(y>=137)then if(y<=137)then local p=v[129];local r=((v[72]-1)*50);local ba=w[p];local bb=v[44];for bd=1,bb do ba[r+bd]=w[(p+bd)]end;else if y<=138 then else do return end;end end else if y<=134 then if not w[v[129]]then l=(l+1);else l=v[44];end;else if(y>135)then w[v[129]]=bo(w[v[44]],w[v[72]]);else w[v[129]]=bi(e[v[44]],e[v[72]]);end end end end end else if y<=109 then if y>=104 then if y>=107 then if(y==107 or y<107)then w[v[129]]=bi(w[v[44]],e[v[72]]);else if not(y~=109)then if(e[v[129]]<=w[v[72]])then l=(l+1);else l=v[44];end;else w[v[129]]=(w[v[44]]+e[v[72]]);end end else if(y>105 or y==105)then if(y>=106)then local p=v[129];local r=v[44];local ba=v[72];for bb=p,r do w[bb]=w[(bb-ba)];end;else if((e[v[129]]<w[v[72]]))then l=l+1;else l=v[44];end;end else w[v[129]]=(w[v[44]]/w[v[72]]);end end else if(y>=101)then if(y>102 or y==102)then if(y==103 or y>103)then local p=b[v[44]];w[v[129]]=p[1][p[2]];else if(w[v[129]]<w[v[72]])then l=(l+1);else l=v[44];end;end else if(not(w[v[44]]~=w[v[72]]))then l=l+1;end;end else if y<=98 then local p=v[129];local r=w[v[44]];w[p+1]=r;w[p]=r[e[v[72]]];else if(y>=100)then w[v[129]]=z(e[v[44]],w[v[72]]);else w[v[129]]=z(w[v[44]],w[v[72]]);end end end end else if y>=116 then if(y>=119)then if(y==119 or y<119)then if(w[v[129]]<e[v[72]])then l=(l+1);else l=v[44];end;else if(y==120 or y<120)then w[v[129]]=w[v[44]];else if((w[v[129]]==w[v[72]]or w[v[129]]<w[v[72]]))then l=(l+1);else l=v[44];end;end end else if y<=116 then w[v[129]][w[v[44]]]=v[72];else if y==117 then w[v[129]]=(w[v[44]]%w[v[72]]);else end end end else if(y>=113)then if(y<=113)then w[v[129]]=bo(e[v[44]],e[v[72]]);else if(y<115)then if(e[v[44]]~=w[v[72]])then l=l+1;end;else w[v[129]]=g[(l+v[44])];end end else if(y>=111)then if(y>111)then l=v[44];else w[v[129]]=#w[v[44]];end else w[v[129]]=q;end end end end end end else if(y>49 or y==49)then if(y>73 or y==73)then if(y>85 or y==85)then if y>=91 then if(y==93 or y<93)then if(y==91 or y<91)then if((e[v[129]]>w[v[72]]))then l=l+1;else l=v[44];end;else if(y==92 or y<92)then w[v[129]]=nil;else w[v[129]]=44;end end else if(y>96 or y==96)then if y~=97 then w[v[129]]=l;else w[v[129]]=u(e[v[44]],e[v[72]]);end else if y<95 then local p=v[129]local r={w[p](i(w,p+1,v[44]))};local ba=0;for bb=p,v[72]do ba=(ba+1);w[bb]=r[ba];end else w[v[129]]=cb(c[v[44]],nil);end end end else if(y<=87)then if(y>86 or y==86)then if y>=87 then return i(w[v[129]]);else w[v[129]]=e[v[44]]%e[v[72]];end else w[v[129]]=(v[44]~=0);end else if(y<=88)then do local c,p=v[129],v[44];while true do w[c]=nil;if c>=p then break end;c=c+1;end;end;else if not(y==90)then d=a[192];else local a=v w[v[129]]=function()return a[129]end;end end end end else if(y==79 or y>79)then if(y<81 or y==81)then if(y==79 or y<79)then w[v[129]]=(e[v[44]]-w[v[72]]);else if not(y==81)then local a=v[129];do return w[a](i(w,(a+1),j))end;else local a=v[129]w[a](i(w,(a+1),j))end end else if y<=82 then w[v[129]]=w[v[44]]^w[v[72]];else if(y==83)then if(v[129]~=0)then l=l+v[44];v[44]=0;end;else local a=v[129];local c=v[72];local p=(a+2);local r={w[a](w[a+1],w[p])};do local c,ba=1,c;while true do w[p+c]=r[c];if c>=ba then break end;c=c+1;end;end;local a=w[a+3];if a then w[p]=a;else l=l+1;end;end end end else if(y<=75)then if(y==74 or y>74)then if y<75 then w[v[129]]={};else w[v[129]]=bo(w[v[44]],e[v[72]]);end else local a=v[129]w[a](i(w,(a+1),v[44]))end else if(y<76 or y==76)then if(e[v[129]]<=e[v[72]])then l=(l+1);else l=v[44];end;else if y>77 then q=f()else local a=v[129];do return w[a](i(w,a+1,v[44]))end;end end end end end else if(y>61 or y==61)then if(y==67 or y>67)then if(y==69 or y<69)then if y>=68 then if y~=68 then w[v[129]]=(e[v[44]]+e[v[72]]);else w[v[129]]=bi(w[v[44]],w[v[72]]);end else w[v[129]]={i({},1,v[44])};end else if y<=70 then if((w[v[129]]>e[v[72]]or w[v[129]]==e[v[72]]))then l=l+1;else l=v[44];end;else if y>71 then if(not(e[v[44]]~=w[v[72]]))then l=l+1;end;else w[v[129]][v[44]]=v[72];end end end else if(y==63 or y<63)then if y>=62 then if not(y==62)then q[e[v[44]]]=w[v[129]];else n={...}end else w[v[129]]=bn(e[v[44]],w[v[72]]);end else if(y==64 or y<64)then w[v[129]]=bp;else if y==66 then m=h('#',...)-1 else w[v[129]]=v[44];end end end end else if y<=54 then if(y==52 or y>52)then if(y==52 or y<52)then w[v[129]]=w[v[44]]%e[v[72]];else if y==54 then w[v[129]]={};else q=w[v[129]];end end else if(y<49 or y==49)then w[v[129]]=(not w[v[44]]);else if not(y==51)then local a=v[129]w[a]=w[a](w[a+1]);else local a=v[44];local c=w[a]for f=(a+1),v[72]do c=(c..w[f]);end;w[v[129]]=c;end end end else if y<=57 then if(y>=56)then if y~=56 then local a=v[129]local c={w[a](i(w,a+1,j))};local f=0;for h=a,v[72]do f=(f+1);w[h]=c[f];end else w[v[129]]=bc;end else if(e[v[129]]>=w[v[72]])then l=(l+1);else l=v[44];end;end else if(y>=59)then if y>=60 then local a=v[129]local c,f=bh(w[a](i(w,(a+1),v[44])))j=f+a-1 local f=0;for h=a,j do f=f+1;w[h]=c[f];end;else w[v[129]]=(e[v[44]]*e[v[72]]);end else w[v[129]]=w end end end end end else if(y>=24)then if(y>36 or y==36)then if(y<=41)then if y>=39 then if(y==40 or y>40)then if y>40 then w[v[129]]=bc;else local a=v[129]w[a](w[a+1])end else if((e[v[129]]>e[v[72]]))then l=(l+1);else l=v[44];end;end else if(y>=37)then if not(y~=37)then if((w[v[129]]>e[v[72]]))then l=(l+1);else l=v[44];end;else w[v[129]][w[v[44]]]=w[v[72]];end else local a=v[129];l=l+1;local c=((g[l][209]-1)*50);local f=w[a];local h=v[44];do local h,n=1,h;while true do f[c+h]=w[a+h]if h>=n then break end;h=h+1;end;end;end end else if(y==45 or y>45)then if y>=47 then if(y<47 or y==47)then w[v[129]][w[v[44]]]=e[v[72]];else x={}end else if y~=45 then else w[v[129]]=u(w[v[44]],w[v[72]]);end end else if(y==43 or y>43)then if y~=44 then j=v[129];else local a=b[v[44]];a[1][a[2]]=w[v[129]];end else w[v[129]]=bo(e[v[44]],w[v[72]]);end end end else if(y>=30)then if(y>33 or y==33)then if(y>=34)then if y<35 then w[v[129]]=w[v[44]][w[v[72]]];else w[v[129]]=(e[v[44]]/w[v[72]]);end else local a=v[129];l=l+1;local b=(g[l][209]-1)*50;local c=w[a];local f=j-a;do local f,g=1,f;while true do c[(b+f)]=w[(a+f)]if f>=g then break end;f=f+1;end;end;end else if y>=31 then if not(y==31)then w[v[129]]=97;else do return w[v[129]]end end else w[v[129]]=w[v[44]]*w[v[72]];end end else if y>=27 then if(y==28 or y>28)then if y~=28 then local a=v w[v[129]]=function()return a[129]end;else w[v[129]]=u(e[v[44]],w[v[72]]);end else do return w[v[129]]();end;end else if(y==24 or y<24)then local a=v[129]w[a]=w[a]();else if(y==25 or y<25)then local a=v[129]w[a]=w[a](i(w,a+1,v[44]));else local a=v[129];do local b,c=a,v[72];while true do w[b]=e[((b-a)+1)];if b>=c then break end;b=b+1;end;end;end end end end end else if(y==11 or y<11)then if(y>6 or y==6)then if y>=9 then if y<=9 then w[v[129]]=q[e[v[44]]];else if(y==11)then w[v[129]]=t;else w={}end end else if(y>=7)then if(y<=7)then w[v[129]][v[44]]=w[v[72]];else w[v[129]]=bn(e[v[44]],e[v[72]]);end else w[v[129]]=(e[v[44]]%e[v[72]]);end end else if(y==3 or y>3)then if(y<3 or y==3)then local a=v[129];j=(a+o-1);for b=a,j do local a=x[b-a];w[b]=a;end;else if(y<4 or y==4)then w[v[129]]=e[v[44]]-e[v[72]];else w[v[129]]=(w[v[44]]/e[v[72]]);end end else if(y==0 or y<0)then if(not(e[v[44]]~=e[v[72]]))then l=l+1;end;else if not(y~=1)then w[v[129]]=(w[v[44]]+w[v[72]]);else w[v[129]]=w[v[44]][v[72]];end end end end else if(y==17 or y<17)then if(y>15 or y==15)then if(y<15 or y==15)then w[v[129]]=w[v[44]]-w[v[72]];else if(y~=17)then local a=v[129];w[a]=((w[a]or 0)-(w[a+2]or 0));l=v[44];else w[v[129]]=t(e[v[44]],e[v[72]]);end end else if(y>=13)then if(y<=13)then o=(m-d)+1 else w[v[129]]=u(w[v[44]],e[v[72]]);end else local a=w[v[44]]do local b,c,d,f=k,w[v[129]];while true do d,f=b(c,d)if not d then break end;a[(#a+1)]=f end;end;end end else if(y==20 or y<20)then if(y<=18)then w[v[129]]();else if(y==19)then if((w[v[129]]<=e[v[72]]))then l=(l+1);else l=v[44];end;else w[v[129]]=((v[44]~=0));l=l+1;end end else if(y>22 or y==22)then if(y<22 or y==22)then w[v[129]]=(w[v[44]]-e[v[72]]);else w[v[129]]=z(w[v[44]],e[v[72]]);end else local a=v[129];local b=v[44];for c=a,b do w[c]=x[c-a];end;end end end end end end end l=l+1;end;end;end else if 16<s then break else return cb(bs(),{})();end end end end end s=s+1 end end)('21822827522922822A21R1Z22A27527D22824W23327722H1R1L191F161H1S1P1K27722I1F1F21027A2101Y21L21Q21J27C27523K2602432281I27I26722Z22O24P22A21024B23W1127722C21G21D21021D27I25Z22U23G24921S23B24K23W1L27T1H1522W101A22P101722T1028L28P1Z21N27722J26Q23322Z23Y21S21E24625J1O24422Q2771M2441E1P26Y21722F26N26H23026K1M25K25J24F1L26525J24H25L1K24221J24M21526123W22X23421T25V27222C22621P24Y26321S23K25E26R24J1N23R24M24Z24125F26X24J23M25L22W25S22324V25U2622461J1A22Y1Y26T24O23W21C2331G22X22X28427E21W1G27722F25C22Z22P23Y22X21K2472BT27E2282BX27V28121G21H2142C62281G21R2BW27827A27722B24X23H21E27722225T22O23124F22H23B24623Q1P24E21I24J24I26E21H24P24O23L24Q23F27021V25R21Z24S26H27722D1W28021Q21027I1Z21F2801W2101F21L21G28B22321S24L23H1M24J24G2142DJ25U23G23C24722627T21O21R21D21G1Z27Z28121J2CM26323F2312CF2282202CJ22F1O22P1H1822U22R1S27722G25D21Z22I24522H21L23U24B29G21D21121021K1F2CD1W21L1Y21H2CF26O2CI2BX1422P22W1R1522T1P2EQ22G2CJ22C21O2112FD2DJ25T22K22325123D27723525T23G22Z2F723B23K23U1F24922S25624I26Z21H24Q24V25K24L23524Y22C25Q22425626F101U21226R24521D2EL22822D21E21L21022R22Q2EQ24G27H22822M2CT2CV2CX28Y1L25O22M24T25126Y2EQ1Q2CJ22E1O22R22T1322O1H2F225023H28U21W21L23V24A2EQ2CG27722922F2BX1O2102101W1N21H2DO22821U25C22P23124B21Z23B23U2411923Z22R25824U26O23F24U27123L27721S25D2I723S22Q21L24F24C1O25B23725624X26U23A25427722L27K27M1P1U1J1V12121L1J142JR2672DZ24L22Q1P24S24M21Q25A22B23V24329C21D29E27I25J23122Z24F22621L24O24C1527721V28C22O26222021I23L23R1324821I24Q24I25B23424W25325X24W29C2151W2FM2C72281U2CJ21T25J23F23F23T22021123Q2491O23P23D24M26F25Y23F25724O2CM2HB2IP22F1J1S22W1V1622R1O2M42HC27723G27023E23123U22G23125C25I1023P23C24J24Y26P23D24Y24K25M24S22U25822C25L21W26U26I181221H24G24F21R21722B24F24W21126X26N24P26M23725W25D2DJ2CC21O21D2152II12111V1U16132CM2FL1W27722A1029S2IQ2KW2622BJ24B23L1923M22Q24H24K27222P25024O25R29G25C22V23824F1B21N23U23Z1O25Y21I27723H2MJ2ML2MN2MP1V23S23H24P25326U21K24T24Y25F2E126P1P25M22K254272141V21F27124021D21M1I26624Y1Y26Q24J23L26221L26J25V25U2IF26X28L21P28O21K28L22U22Q122KT22822C21F21R2CC27722N2622IT24322521Q23W23S2LV2LX24225Y22228L25H23F23C24E29C21L21P2LH27E25S1P2HX27V21F21D21O21O2DJ1W21D2FK1Z27722E2EI2DM2H82HA2HC2HE2O627021A2QO2JT1F1O1727R1F1S1V1J27K1K2CF25S2LK29G2EE2EG1F2DQ2DS2IP22126022V23B2411B21G23K2491523T23626G24Z26O21H25A24R25K25523A27122E25W22526W2DJ2EE21321H1Y2SC1T2CJ22D2CC21E2112H827U1F21Q21H2132CB2CD28L21J21D2R92JA27X28P21O2FH21421H21F2FE21L21R21Q27B2LI1V2CJ22J1S1L22P1V1T1L1A1H1L22W2K32H928P21E21O2RA27D25S112UF2JC23C24D22623B25824D1D24822T2RP2TM21I21I2TF2772202OB21U21025R24E1U23N23C24V26F26O22V27124J25G2GU26E22A25E182EQ22R2CJ22I2BZ2C122X1Y24B24D1323M2772242OB22L21I23N23K1825P21I23O24O27223525024P25I26H22V26P21X25R22H24T24I21Z22M27I2QL1Y21R2U82TR2EQ1K2CJ2322OB21Z21Q23L23M1923S21I25824O25B2382VU25K24V23626V21X25F21Z24T24S1X2131824725S2381U22925Z25621F26D26A23L25I22S26A25U24326W25326125Y26P24G1625322Z25C24N24O25223522T1U1C2911U1R1022P1J22X1M1Q22P2772C822822G27N1L12131P2NZ27I2W623Y22V21I23X23W102SC1J1G2EQ21S2TJ2UT2UV27T2SJ21L2DT1F21N21H2NV22821W25F22Z23924921W21M23U25J22425423J24L2L723D25424H25X26R2DX22822K1Z2IO2R928P2ZZ21H2BX2R91Z1Z2H72UW27524W2FP22822F25V22Z23126222O29N2BX310B310D310F23U2RP2RR2EK2ID2ZC22N28S28U21S2XH23Y22423R23724X26H24X21N2SC311A23424I21O21924B1R21H23W2651F23T21A24P26Q24P1Z26L24H24926X23526P22B24E22526N26G22G21Y1Z26924F22O28L21E21421R1Y2RK2DM2IP23A2KL22Z24322J1Z25R23S1F23Z23725725025B2J22T324T21H24Y23F25L22025926D171N22P24G24D21221322525I26T23224U10310927E314D2HJ2282Q71L24V314L1E314L24V1D314O2LI22826A2291U314O11314O1M314R2LI23217314O18314O3154314L314S23222Y314O21E314O1F31512C726Q22916314O314Q314L231315H27E19315P314L1B3155315Q27D2TB315G314L232314O1S315X2751I12314O22W314O1J316522822I314K314L22Z314O315C31592LI22O21K3169316B316D1U314W314M314O14316D22L315T24V21L314O316O316L2C726I2293156314L1N3157316D2632ZB276314S2LI23627D29G151P1H161M1L1I22U1P1I2ME2QJ22W29A22V2RP2RF2RH2RJ22822B2M52EQ2242HX311P2822C92DV21Q2CC2E6316E27V27X318A2H822C2QB2FF2DJ31102BX1K22X1H1M22T22O1V2RP22P1M1P1T192F1318H2TQ2TS2TU318G22E2VC2VE313922822H2X62X821028131112H92M52RW319F21328021021H21I21L31002QJ2102LF319L22C29D29F22822E1R1722X181N1I2FN2CI2CF31192CJ22B1N22T22T2CF2CH2TJ2TL2TN2DJ1822T1I22O1N2RK2RM1Y2UC2RB311A22I14141S22U1Q22Q1L17296318P21D2UU319L2792RO22822J1A22S2QF131O22U1U2H21Q277310V310X2IO28O31BD319W22I1Q22V1P22T111P191L22O22W11319F317E229229314G21S314T229230314O21J314O3168317427E2321H314O3162314L316431CP27D315J316A314L316C314L314Y31CX2751U1P314O10314O1R316D1I316G24V1V31CN316D23231CO24V317824V316T24V314S22I31DC314L31CS314L31DL314S2Q71G3163314O1O316D191T314O31CK314L1Q316D22O22X314O31D8314L13316D2TB31DV24V21C314O31EM31D522822L31EF24V31ES1I316D3176316W314L315N24V31D031DQ2C722A26R317E2C7314O31F327E22C1W27E22M27D31F9314S317D27E31F7317G2ZC27631CF27531CH2TB1K314O31E6314L31DP314S1I31F231CM314L31DA31EP31AU31D931DB316D2Q731G331DM315F31DJ316024V316K24V31FV31FA31CQ31CW24V31GE317331GJ27D2O0314O31DP315031EP315J15314O21I316Q31EP314U31E0314L1931E231E43171314L315824V31HA31DR23331DI314L1A316X31D431DO314O315L31EP317631DH314L31EY24V31EA31D531F531FL31FG316531FC31FE31HX31EP31FJ317J31FM31FK317J31FP22831CH22I31HP31ET314O317A31G431HR31GA31E831GP2751931F031GL31EK314S314U31DL31EH31CV316R31DN31GO31ES315A31H331ID314L31EV31EP23231GA316Z31DT31IK314I229315E31D331E131EP2TB31J831DL31FT31EP1I31H5315O314O31DF314S315J31IC31HA31EO31J922L31ED31D131CL31EW22931EK31IF24V31HJ2LI31HV317G31FH2C731HZ27D31FF27531K92C731I3317F31I527522C31I731CE31CE31261G1327521X228315J31GA31F231IY2LI2TB31GA31DF31HE31EP1921F315D31GC31EP22I31E3315U316J31IV314O31L324V31DX2LI314U31HT24V31GL1C31DD314N31J231GY31DJ31LL31D231GH31EB31GI31CU24V31IP2LI2Q721H31E7314O31LL315A31H831J124V31LO31EP22L31GI31J031HC2LI317631HJ31GI31K531F426C22922B31I431KE31652VZ22931KL31KI22831KF27D22A1H22D27D31KT31MS31EP23622E27D31MW2H931I525O2IG27D31N931KK31I523622G27D22F31MR317G22731NL275311R2LI31KH31FN31KJ314F27531FF1U31EK31GL31JC31J92TB31LQ24V31HR31M12C731LA31JZ31EZ316D314U31DF31GL31F0314S22O21D314O31M431DU31DJ31JM31GM31ON31OQ31JE24V315V31JK31OX24V31G13170316D315J316Z31JJ314P31G8229316I314L31MC31HS31E431OM31IU31FW316X31GX31PH314L31GZ31HN22931J831GU24V316Z31FI31F731HW31KJ314G31FF31EJ316V314O31O731JQ22931DF316Z31K331DY22931IT31K4314O31JX31J9314U31J831PA31M0316D22I31GL31J031OO31J91U31F031DN31PS315231M931O431HH31JK31GE31LL31PC314S1931HR31QA31J331J922O31PQ31LZ31LZ315A31P131DN31FX2LI22L31O431PF24V31PM31J9317631GG31RK31M731NU31PU31NX31NW31CE31CG31JA31J031GE31L631JF22931LV31J831RK31DR31HJ31EK31QH315A31DL31GO31GA314S316S314O31QW31P731L431HM31LW31HQ31P322931O731LZ31Q7316M31O431DN31F231IQ315K31Q031HG31DD31RZ31PR314O31PJ31J923231F231HJ31LG314S22L31DF31LV31MM317522931GG31IJ31RP27E31K7314S31MZ31KK31FD31KC31I131J931NV31PV2LI31CD31I831CH23231GO31LG31Q2315231QD31DP31J031R131JU31OZ31TD27E1U31R531LG31HR31Q831ES31SG31IJ31SV31M931F231OR31OK31DF31K331MH2C72TB31GL31JU31KY315I22931M931HA31U131OB31P131DL31V027E1I31GO31R531QN31T931GG31DP31U927D317631GA31QD31VD27831F631K831HY31TO31NZ31TQ31PT31I631RS27D31CB22822N31JA31OR31LZ31LV31SD31QN31QA31S42LI1I31PQ31J031QD31SV31P131HR31V4315Y22931OZ31DP31UE2LI22I31OZ31W731SM31PC31LZ31JU315A31DF31O431T3315A31HA31LG31GO31OK31GI31HR31GI31R131LZ31QA31U531RF31IJ31LB24V31W031MI22931JU31DF31RI314S22731TJ31VS31TS31RS25W277314U31QA31O731IC31Q331J831LZ31UV315R31GE31IJ31SQ2C72Q731OR31J831DN31FY31RI31O731V9315231O731EK31GG31OK31P631LL31VI2LJ31O431P131SG315A31PC31OR31Y027E31US31EN314O31M931DR31GL31QH31PQ31T931XQ31T231MT21Q31VL31HU25E31CE31NO31TM2781H2BT31N531MY316D23631MQ31MX31NT22A22Y31NB31ZH31ZE31EP21431N331NI31NX22A22H31NH22823531VP2LI1Q31NN31WJ31FM22A31MO31NR27831ZZ31TJ22H22H27D21V320927E23A32022ZD27D320C317G3205229320722J320F31NS320B31TP31N631J9320H27D3207320L314S320N320721Z320R278320T2752213215228320X275320Z3204320627D225321531ZU321031VW320V314S321C320J275321031K6321G275222321J3217316E321A321P321E320M321U228317I321N31F4321Y31NB31Z9321B320I322232113224317E31Z9321K320K3220322D322K3223320O27D234321X321031XI32272C73221322N322F322P27521W322S27D31CH322V320G322M321R321F3230310U323327531ZW322B322X323931FM1Q320731VR32111F321031ZN322B2173207320I321S2LI22131ZW320731ZJ22T31ZW27E322B214320I31VS22E26G31MP27D23131RS31KB275324C323627D21431ZM324D31VN2282163215324E2281H321A323K314S31TT275323S27D22431VS21431ZN323L31I523A317E2BT31ZN31K61G3207223323D31ZX321A21422I320Y31VS1Q320Q31TU32041F22K31NG321A217325M321Q323C31FM1P3210325U324W322J27531ZY324H275325H31NA325K325U323M31K6325P31N0325S325U3207325Q325X325Z31NO31K6321Y326431ZO31J91Q325I31VS27D325L314S31NB326C326I311B326F325J275326Z326Y27D31ZR326P314S325T27D31ZN327431F4326D321D3271275320I327D31TJ327F2QJ327H31EQ27D327K27E221326K31NS320431XN326S228322U32782LI214325U327Y31I531ZU326Z325D326522821422L27D328531I52Q9326Z2BT31KD326W324M21N321X21T27D21U325G328R31FQ31VS22Q328P327V328Y317G21A27E328X22822631FM324Q328N326531ZU3293326O3244328T31I9325K320E325N320M1F323231MX323R329H325V329L317G1P3293329O324W22E14327R31NT324Q21C321J25I229326Z237321X328D3263325G328K327R314S1Q321M2C732611F323531F8316D21732AF320732AJ314S1P32A831VV326L2LI2NF31N43272317G32AW27521Y322Y327931ZN220327Q31I521424T32B731RS21424Q32B332B831FA325431FM1827E31ZD31OZ314S317631PQ31ES31XS3228317E3293322B283326T323E25Q324A27525U324L27E32C3328A21J31ZN324W2C731NE31ZN31ZN327732AQ317E32C931I531XL31NX23H31I431BG2LE2LG2FQ1O1T22U1S1U290319F319H2X9319L31DS1M1V22X1S1K22W1N22S1A2KH2KJ2QJ28N28P2RP151H1922U1M22P31KP2DJ21I2EE31382BX296319122P1K22S2EQ1R2RE1F2RG2RI31AE31AD2C725S32E02R72TZ2US31BY319L22H22W1L22R317M1231BR2QA2QC2EQ1S2TJ2RL2RN2VB2112VD2VF2H931AO2H831BU210310Y31BX31BE2SC2HW31AC2ET2CA318E2TV311B1422R1N181T22O22R2EQ2SE31962TR2TT32FA319A1U2UH1I1I1P2MF2IP31BG31AL32E62C72ZX311O2EJ318B3196318J32G42TO1R131S27O2EV31901J2DJ319N2O922D152F01M28K2QJ318N2QD31BI2FD2FF2U42FJ2FL2CF2342702CJ22A22X2O232EC31BE314D22H31NB31KN31KN31KP31KR22831KT2TB31RO31Q131OF22931R531LL31YY31WJ31GE31DN32HN2C71931P131PC31XB2C723231RI31SG31P131OK31RK31RK31YP31GQ31JU31GG31X231W531HA31GE31R031M222931DL31OR31UM2LI315J31K331IC31X9315A31F031LL31R531T931GI31DN31S831XC31M932IT31MT31MO32CI329931Z632H9321J31N23268328A31N832J731NC31FM31NE320I31ZW326X317H323T32AU2C731NQ326E31RS32CK31KJ31TV31RV315J31LL31T332II32HX31GO31M931SJ31Q821G31LS31LC31J431PQ31HA31UQ31YQ22931RK31QD32I527522I31O731RI31WU31LJ31Q931G732K331R631LL31J831UI31W531GG31DN32K727D1931SG31PC31TI31UA31LV31M931SC31RF316Z31QA31WI31TE31P631F031RE31TJ31VK31TL31VM31I0328A32JO31I532JQ328U314U31PC316Z32BS31OB31T331HA32L232HX31OZ31HR31SU32IE31DN31LV32LA27E311H314O31P632K131EP31QP31IE31OT31L431LZ31T031W932IJ31K131L824V32IR31KZ31WF31HL32M931T431X931T032LW2C71I31OZ31LV32I131RF31P131HJ32MV31TE31O431O432KP32LB31TT31Z9324Q328K322B32LH31RS31PX31KU31JB314O31QA31YH1I31T031OR32L632M131G0314O31T0315A31SG31ES32MD32HX31T031O432LS27E31OG314O31EK31X631UR31UX31OD24V31QA31SD31UY315W31L931GE31T332KC2281931PQ31PQ31Y532IE31OZ31F031XW27D31RG314O31QH32ID31TE31HJ32KX317C31RR32BY32NC2TB31T031RI32HR27E315J31HJ31T331YU31WJ31GG31GE32OE31TY31OV31OJ2LI31GR31SL314L32LO315R31K332KW31DJ31DP31HA32M531J91I31GE32PQ31EB31F231QN32M027D314U32P132M831EP2Q731M931PC31P631T931IJ31IC31GL32BO22932NR32O032OW326B31FM32LJ329F315J32LU316P31G431JU31RI32NX328E31RI31U431DD32IL314O31XG32IE31M931QN32KH2C7314U31O431HA32PK31WE31IJ31LZ32JV31UA31GG31GO31JP315231P631GI32MI32HX31PQ31GE32MZ315R31V832ML31MD31J831HJ32ON275317631K331PQ31O431K632LC2LI32N6324M32N832QH32JJ324V31I731RV23231K331P132IV2C722O31OR31DN31YD31W531OR31SJ32HW27E22I31SJ31IJ32S032MJ31GE31GE31OA315R31LG31GI32PZ32C222931RI31IJ32OS32P422931T631YT31DJ32RE32OQ32HJ31QA31QN32QS31D631T331J032RK27E31TA31LD314L32PR32QD316Z31F231YL31F432S232AK31D532N7321A32NA317G32QK31CH32FU31OV32KT32KD32TK314Z31P831KW314X31EB31J831HR32SO31CY22931J031QH32T132OF31GE31DP31WD32TI32NO32UD31J431QN31QL31DJ31IC31F232BN32MJ31RK31IC32V032R431TF32KK24V32UQ31EQ31X931GO31GE32QD31J831O432V431N032TW324332LE320U328131KG32OX326T31VU31VW22O31DN31LG32Q832KI31GL31DN32R832KD31LZ31HA32OJ32HX31OR31DF32IN2LI315S32US31EG31DJ31GI31RK32VH31WE31QN31HJ32P831UW31O731J832MQ31V531PC31HR32W02LJ31GI31SG32NP32IE31OR31U8316X31HR31IJ31WY31XC31OR31O432TL27D3280320832JN32VP31I525N2771I31DN31O432W82C71U31UH31H031J922I31JU31J031LI32HX31P631OZ32O732IE32VV314O32TQ315231HR31PC32SK32O331LG31DF32W432T731IJ31O732Y032HS31QD31QH32RC32Q022931PC31PQ32WK32M131LV31X5316X32PR31HR32O231N031Z332LD31Z531Z7329M31MT31ZB32JA322B31ZG31NO31ZJ31ZL327B325G327732JG320M31ZV27D32B6328A320131DR323A320723A325E3214328A323H319F32ZI3276325E32BV316D32ZO323V31TJ3224323Q31MT321Y323F32ZU323832ZP322O320723G325E322R32ZN330432ZW31N032243207322I321Y238322L32AY330D31NS322423C325E322A3303330L32ZQ275325U330H3210329O323G330C330U2IQ325E329C330S327G323I322Z320732503299321Y32B2330B330T330632X8325E23B330K33173305317G324U329I323N330D323R325C32BF2C7323X32AY32403242325G324631RS324832C1228324G31KJ324Q33273244324K31NX324Q324O3265324Q324S32ZF32BI31NW3279322E31KJ325232AY31KJ325632JM31843204325B27D328932VN31N0321Y32ZE332Z324I327Y332K32AD326A32S831NS327M2BT323R325U23932BB329R327U332L3228321033323244327Y32ZA331O333831MX3275323E327O333F327331I5325Y27D326032043331324T328F31RS326V2LI333P333A326Z320I333D27D333W325W323N326Z330R31EP327A27532AS32AC278327M330G32AL325U332Y334O22A327M32ZZ334K325U3295333X31FM327T3340332T31K6327X331I328A3283328E31RS328732AX335A32AS3345317G328H332T328K3348328M328O332T329D3234328V32932BT31NT228329127D329332CM317G3297335P275333M316D214329E32AP31I51Q329O32QI327L329Q322H32AL329O334F329Q32AQ329T333931A4329X32113296324M32A1329932A332A532A732ZD32AA333G31KJ32AE32S9329J32AJ3277323R32AF334F336A2C732AR27D32AF32CA32B0228321W331M32B432VM330M324X31ZN3226334G314S32B9337132B832BE3318332O32BH31VS32BK335F22831YH317631OZ31RK32YL27D21J32BY27D31NE317G332232CB31TT23E334231CD321A31NE338K328U31FM220338N32XA317G32AF32AG338J27D23D338L32YX31NW335I32762ID23F31I52O9328Z31ZJ22H2BT338Y328A31NE335V335C31FM22S325927D339531FM22D32CD321H3396339F328Z314S32C8336O2C721J31NB335W27E31NE31NB31NB321931FM21J3277339Z338C22932773277334O328B31ZW32CA27E21J320I33A827532JD31NM337E32B8323Z31VS21J321033AK22831NE32103210336L2LI22R33AB331V330E22931ZW32A6328A1P31ZN33AF32CJ32XC329631KM32HB32E72CI32HD31KT23231DN31T032RO32UI31O731DP32JZ315231PQ31SG32XW32V532PV314L31Y932XK31LL31GA32T627D2Q731IC31DP32Y432M131T331QA32NT32K831DL31F033C0315R31GG33BY32XO31SJ31DL32WG316631M931X932RV31EQ31RK31SP31K031R531O732I932ZX3325336H32YW32J4329932J6328Z32Z232JF32ZR32JC31NF333U31ZS317G31NK33AN333S2LI32JL339S33BC336E314S334F28L1S1J1H2O922C22T314232GG2H91U22R142BH32F72SC32EP2BX2JW22W31AT1A1332FZ2TJ32GI31AW32ES319X2KI31A322E31812RI32CP319L2RQ32G832FW2EQ2TI27T318I27Y2RS2X53138319I319K2O62CL32GP2QC27T1427P1V27P181Q22T172F222Q1V29322P22X22R1931BT310W32F131BW311032E52G032DF21D2ZW2ZV33BH2HX319C32EW22D318Q31A42QF1A2Z833DY22I32D922T1T32GC22X22Q1M1833EV319732FO318F2U021R2U22U42U62U82UA31BH22J31AA1N1R1A1022S1I22S1V31BS311B32F933GM32EX21H2TM2H822A22V1631BC32H631CC32SA32LK317732V732SX27D31CR31Z1314L33CZ31UA33CX317B32Q432NE33BZ31SF31QJ31LZ32JU31EB31SJ31M932V923231DP316Z33C927D1I31QA31GE33CS1931OZ31HA33BS31UW31HJ31QH32XJ32K831JU31JU32TH31EQ31HJ31P633CH31VE22931LG31LL32TU32N431Z431IK32TZ32LG33BD32U233HJ329F1U31GE31DL32SF315R31DP31X932YS27D32SH314O32OL31SM31PQ31RI32WO31WE31J831O731WQ33BT32XZ32Q331J931G931G632PJ32HJ32L832RR32XO31GA31O731T832RH32XN32Y833IB31LL31X933C4334M31F031P132X331TE31OZ31SG33IA31VJ32N532VL31VO33J533DN331Q31RU328U31M332MG32ST31UW31LG31GL33J032M131RK31T032OE2TB31DP31U331DJ31OI314O33JH275314U32QF32TP316R31M931EK32RG32HX31T332YQ31DD31QN31P132YC315R31HR31HA33BW32SP31RK33JO316X31JU31SG32UH32RW32KJ31JN31PG31IK31TK32S333KP314H33KR339V31NO33KU329F23231DF31F233JP27522O31HA31QH33LD28932XR31SX33JX33HL33M632O631E431SJ31GG33CO32ND31F231GI33K732V531IJ31F232PF31OB31QH31GA33CS2TB31ES32MO31DJ31GA31IC32V932CW32OA24V33KY32TM31SJ31QA32QZ31TE31J633JK31MT32VJ324P32S532U033J633742C831TW31JA32QV32PI31QO31EK31M931YH31OL32XN32X72752TB31HJ32WJ31DD31HJ31GO33NS32T731PQ31OZ33MQ22I31QH31GL33N133BL33NM33IV31IL31GG31OR33IN33HO31T031GA33JD32YH31QA31P633MQ22L31F231IX31K031LZ32PR33NO31NS33NX332G33NZ33MD33DI31NX32VR22832SC31CT32QG31J431ES31QH31QS32XK31OZ31IC32WW31UW31O431LL33N532C532IF314O31OR32VW32SG31IJ31W331E431LG32PR32R331V531GE31GA31RA32KI31P631JU33HN32KD32SV33NM314S2TB31DF31HA32XS32TM31OR31IJ32QC31XC31GE31LG32P3335933DL31FM32U1326W33BF31KO33FZ33BJ33PP31GA31P633KA31IL31J031X932U732ND31S333HV31T431O432YB31P831O731T333Q932NY31CJ33MT33L231WE31GE31M933P531D631LZ31GE33ML22822O31O731LL33JT32MR31ES31J033LS328E31QD33OA316X31RI32PM31K031HA31OR33QG330N33D1321J32J331Z832YZ3277334Y31J932J933DE32CF2LI33AM33DD327N31FM33DG327I339V33DK338S31KJ33R831I532NC22I32HV32MG33QS22931ES32PU31DJ31P631OR32V932R531L731PB32UE32NF32M331E431K331LG33QO33PP31RK31GI33KM2LJ31IJ31J832KY33IB31P631T031W431Y122931OR31M933MQ315J31GO31DN33CD32OO31PC31SJ33RV33IW31J831M932N327E33TE31FM32NC315J33P333TW33HW31SG31HR33QW328E32XM316133LP33JV31OE31G431HJ31DP33U927523231GI31GI33IR1931X93386316R31R933V131QE31SW314L31J033ND22931HR32OH31DJ31QA31GO33VF32VA32V733OX228317632PR31RK33M322833UW27E260277315J31DP31F033R431D631RI31R532YG31IL31QD31LG33N931CQ31X931F033N12TB31OR31HA33N131C033Q733HZ31H122932OM33VA31T431LZ31DP33SG316633OO317231EB31DP31RI33P132T231HR31LL33WN31EQ31LG31RI33KE22A32YU33MA32YW338R322I32Z027533SY314S32Z331ZI320432Z633XX32Z832JA328632ZC32B1324T338F321Z331H32A9331C3210332Y3310331G33193382330X32VM33YI331M337N3212325R33YF334E331L325V33YQ322G32ZS33YV332N31MN323B33XY333K320D33Z033B333SR3207329Q33YM275329E33YO33YW3312335133333216321033B733ZJ322C33YJ321T323B330J33YT334M33Z7337X33Z23207321I33ZT325V33ZF33Z133D033AQ3400327Y340233Z8275331P338V329J32103302334K3207337Q337N228331X331M331Z32YV31J93245338B332431ZN332731I53329325G332C3328324M332F33ZJ332H324T332K337G3207337J31NX332P337K3255325732Z7320M332W27533YH33003210331E33ZN3267341B323J333R333J327L326Z33D231J9334L329F3352333H335533PM3330341K325G333O326933O2333T32TX341V325U32AJ33AD333Z330V336O3262228341L322B326R338B228334731KA325O326Z33Z42C7341W342C342Q33DH33ZN341W325U334V327M3377334S27D337Q3431326Z334R334Z33R533AD3354342F33R631N03358275328032443284335D22H326Z32103244335H31VS335K328Z335M31KA335O331C3293326Z335R338O31NX328W332T335W335Y2753293331B328L27E329833ZJ329A27D342J33673369329G3427327E329Q334J341V329O32AJ33AZ337C336N3421323E336Q31K6336S27E336U344E336W27D33ZM330H32AS344H31ZP32AB325K338U342G32AI335Q32AL32AF32AJ337B27E337D275337F31I5337H31NB3336337O27D32ZM331N337L33T9341Y337S32BA345Y337V34092C7214337Z31RS338131KS33IB31K031DN31PC33S3228338A342M2H8344V33T33390317E33T2339W2BT33AG33A9339R32AT33A531ZN33AU32CC341E2ER31ND332531ZN330A317G25S229346S339J33D031ZN33A433ZN1P27E32J1317G33WC33MF33O422O31LG31SJ33QK32XK31O431PQ33PW32T731X931LV33IR33VH31H6314L33IJ315R31F0316Z33XL314U31RK31EK33KI31V531GL31M93487328E31R532I831P831F031M933R032HX31LV31OZ33W533NE33RO33BO334M31LZ31W231K031GT33XD31HU33PI341233PK33ZN347H27533ZS2ZC33G332ED2O6131633ED2CM22Q1K33H52DK31AX31BH2TK33HA31AP32G633EX2EK33F331BH22H12317U1A31JL1M1K1232DO31A4318K27I33FM31A91431AA2UP2EQ2342CJ319G33F032D033HG31BZ27V32FN319932F733EO29G1619101O2Z722R1M1O1M319522F33H72CD2EQ2362G031AR1022W32FW32EM318O31A421L1Z319U319W22G2FL2EG34BA33EP33EM31832RU2HD2O922E1V22O1422T1634BL182H214181R32DC31A332F032F233G4319B32EU319D2RP1222O15161U22V33FT29G1T31BO1T22W2FV132ZH1T32H727E33PO1931T331JU33PG31D631R533U432HJ31O7338733JM33JZ31LH31EB31X932OD31QJ31P131O231LP32V732VD315233UC32UT31T431QN31GO33V533OF22931HA31J833WR33C534DK33PR33K031MD31QA347U31K031QN33PU316D32X933AU349131RT33O422I31L134DQ31QO31P631EK33IR314U32PR31HJ33LL33Q531J031LV33XL1933MZ31FU31EI31Q4314O32IM31DJ31K331LZ33OE33PP33SI33QR32ME32HZ32WB31R631DF33LU31DD31GG33JR316X32YK33K332QD32PR31LZ34DI33M93429335N32LF349033O133KT33O41U32X234DE31R131GO31HJ347R33UA33NM33WJ316E31EK31LG347N31CQ31QD31SG33XA32ND31OZ31F2347Z32YH31IC31IJ34FU2Q732T033HQ31O531XD348V24V33W522O33BV314O34ET33MI32MM33SQ334M31XR33NV31PN31UL315M33NW33KO32TY348Z32N934FI340C33O331RV1931P631DP33S731Y234GG33IR31R734GV314L33CS23231T331EU32HJ31SS31LF31QJ31QH31HA33U1315J33TN34DR34GE31GL31T333U11U31LZ31M933UD31CQ31K331DF348P28931PC31O733S722L31HJ31OZ34I432BP33MT34FC348X32S434FG34H033KS34H233MG31FR22931QN32IP31DD32LQ31YS31J432O134HD32XO31DL31J834GP31JA31DN31J8348B33VG31GE31DF32WS31C931GS33PS33VR31LV33V731QO32PR31IC34DB31UW31T334EH31E433VJ34JA34DS31EE34EW31TE31EK32UY34GW33J234FF33YN32S7346J317G32OZ34DP33HY314L33RH316E33U033JW31Q832W733X631Q331RI31M933WA22O31DP31GI32WS314U32L031M532M633QY32K231T431P631R534FR316632W634FN31QT33JW33SC315R31J031O733Q032TM31QN31RK34G2317631J831LG33W534E131NY314H22O34F432XN31Q333QZ34HL31J431LL34DW34EM32KR33X232XO31RK32IC32HJ31HR32OC316R31GI32O931L433SF32HI33HW31LL31LZ34I41I31SG31HJ33W223231PC31T333Q432OO31DN32VB31K031IJ31ES32NL27D34E132U333S831X932Y632HJ33VP34HE32UX32MG346E1931J831DF33U12Q731TG34IW31FY33L534KN31J9315J32PR31GO34L033HO31PC31PC33HS328E31P131X934EE31WE31T031JU32WS1U316Z31ES33CS22L31QN31IC338833M431HR32MT34JV340O34JX33KQ34FH34IK31FB33RA347633RC346923231LZ31J034J428931OZ31P634I033HO31GO31O433UQ32T231PP34JQ31S031SJ31HJ34JI32T731HA34ER31E431PC31EK33W231O134E634KU33S831QH34OM34HM33LC34D131UJ32UA314L33XH31EQ31F232HP31K034JT33TJ33Z2347F322I33SU32YY31HU33D6314E32J833D9275346N33A033DC31A433Y632JH342X32CA33TB34E034H127E2NQ2LJ31VH34PK34JJ34OQ24V34PE314U32OU34E6315A31ES32I731QJ31O431QD34FU2TB32PR31JU34MM31IL34IY32TO31T431GA31GO33UM32T231RI31J034NH33MM31QD31DL33RL1I31RK31QH34OU32OO31O432PR34R433XQ34JW31F431Z633XU32YZ2BT33ZB31ZF347F32Z5340Y324432Z9343M31ZW3473342K33YB33922783224349333ZC325F331F33YP3312333C341J32AY340833ZW3404333G34S4341U321O331133YD33T6344E321Y345U34SC345V33ZX3435325E330W331633ZG34SK33ZZ34SM3210344A34SP33YX323B345833M8321Y343J34SV340333B4322E34S4340F320W34SJ33YK27533ZI34S4336631EP32ZV3312330Z34SA34O434T2336B3415325O32103439341V33ZA3463340L325V340N33XS340P33YB31I5340S324B32C434U9335A340Y340V341033NY27E332I33ZN340B34O6324Y32KD3251325331VS332S328Z347831N0341G228341I31HU321Y34RX336733353426331Q3428344O3279325U327J333Y333I326134UZ342434Q0341P344L341S33SV343A345X337R2LI342E31BI342G34VD32ZF34S034VG3348342W33D7343434VL343733DA342Y334T337U34VI34U434V727D329Q34W033T5334D3442343C333I31ZJ343H327Z325G343L31ZT343N34W1343Q339G31NX343T338S343V31FB343X34SM329333ZE344I335S31RS3444339831I534472283293345C34WU344C336422834V031ZP344J3346336D345D329Q342S27E217329O320I344S345K344U341R31NG344X31F4344Z27D3451322I34532753455330032AS34XD340P345A334634X834XS333A32AJ334C345G342X345J27D345L346T34YA345S3448332Q32AV31ZN33ZM340J337H327C32B8346034VM31FM32BD346327E346534YN32BJ32BL27D33S7317631T031T033XA31ZU327S321A346I32BY22Q31XJ343F323E324927E25X34UA27534ZM331C27E341832BW346Q2LI1T34O627E2OP342M346F34ZX3389341D31RS338M31NO32AS314S330P332T32CA346G34ZI346K317G31ZD314S1Z23N32JA33IR23424227D32T4316D210350K275350O343I31I51826M27D350T22833KE332L34Q535022C733PO33I731HF31XA31P831K331P633VK31L2351A31SV31T031GL34ET22O31GI316Z32UM1U31T031LV32WS22I31P631V231DJ31R534JL31S031F234R731DD31HR32PR34DI32ND31O731J033U122L31O732YN348T33X133MW31XH34ZH31NX34LD27D32NC1I31IC34G1316R32WQ34JR32SP31GA31HR34ON33PP31SG33XN31P834LZ34GS34GE31MF34KX33IK34M331QI31G433R334JB31SV31HJ31J832UM23231LG31GA34NX32OF34OP33HR316X31LV31ES352W317631SJ33JL31I234Q632Z42LI2HH314G320E352N33NM32V92TB31QD31IC34MB31T331X932UM1932PR33JN31QJ31SJ31YK32HJ33N8314O34P4315J31QA31T0353J23232NW347X31QO31JU351R31EB31GO31X933OM34DO31P631IC354Y334M31LV32PB31K031OZ31GA34K6350D32BY21O33J731FM3308346H3516331333MF33DM33ME31MX34IM33PP33QE32O531Q831OZ31GO348I31V531GG348234EM31LG31IJ33U131OC314L32XU32HJ31ES31GG34HB31JU33X934LY33K334ND31IL31T031O734QT32ND31J032HQ31DJ31QD31LZ352A31QN31J0353J317631EK31GI33CO34FD32VK34GY34II34JZ34YK27E350A2ZC33EQ33EY31Z722B1Z2112CQ349Z32G834CD2781T33XW27D31AM34AD31A031A228L22P14111O34AI31BI22O1233FC1L141Q171U31AA34B521K357E22A1129B357T1U1322X2FV16171R31BL2RP1I1H22V2S333H522C1422S17319522H1I318S22T31BK191134AU34AW319A33G1319E22E1832GC31A72QI349I33HB2HG2HI349531BE349O349Y34BJ319O2TP32G72RS311R33FO31BV310Z34962QJ21F21K21D319E349F33EH34AA2X734AC31842M533GJ34AG32FP2ZB2CM22W22V28A31A434BH33EO31KR321S34K231QA32BR31DJ34OD34GG31FY31T332YF31QJ31IJ32U931G431ES352531DJ31O431J034G627532QM34N834L432KU31IC32SJ32HJ31P131LL34NP34M031F131P831R533QN316X316Z31IJ346E31MJ33TT32V8357034ZU34CO345M2282TB31LV31GI33UU32UI34R234LR31WR34EL33TU31JK31F232SS32HJ31QH31J834G234GJ32TD314L34CT316E33VE34F8315231SG31DL34OJ34CU34LL32MH31E431DL31GE356H2Q731SJ31X933W522L31ST33MT32QD31EK34J234DY352I33TD353V355M33O433OG33K332PC353P314O3513347W31H434N5316M32Q631QC31QJ31LG31GG356H1I31GL34JU33HW31R531X9356H314U31OZ316Z32V932HT33JW33N134HQ34DE33RL2LK33NM34G234NU34IW32WS317631GE31QH34MF33KN34RI34X934JY353U351632H932HA34O931B031KQ346932M2314L31DF35132Q731IJ34N134EM31X931J834R032ND31QH31T033LW31GQ31EK31F235CJ33PP32PR355431QJ31JU31LZ35F01931ES34CZ33PT34IW353J314U31GL31RK34R831DF32PR34NT34GC31OP31PN31PC31T032T1320N34PM31MT34PO31NW33XV327734T533XZ34PU32JB317G33T434PZ33DE33XZ32JI34K034Q431XK35D434E231RV2JW34JO31O832HJ31GI31F033MQ23231OR31EK31YH2TB31DN31GL31J831DR32PR33PV32UB31OV35B3316634JE35ED32OF31O731GA356D33PP31J831P635AZ32ND31T331R533RL33JJ314L31GG352W22L31QH31T334K6317631ES31OZ33KM356W34UG35EH31TR35GJ34LE31FF347K34D135F822I33BU34KC315231QA31UO31DJ31Y434QB32T7351J34K932PG316Z31GL35DT33VW35DI314L355233MR33RO34G21931LL32HH34OR32O534G22Q731F033UG316X31M931DF352634ID314L31T034RC27534MO33J831IA31SA35DF32V531OZ33OT316R31IH34GD31R131HJ31LN34D334JB34FY33HO31GA31SJ35HH315J35FB34MV33HW31LZ31J835JB35BR32K933X634OF315B34DE35CC1I31T332LN316X31K331ES355U33IW31O734I634O134W6343W356Z35EI355L35GK33HK33C734IT31J91931K331HJ35F832Q535JS31EB31J031LL34DN33WK32O535DM33CF353231S931OV33U523235JK31PL31SM31LL31GI33VV32PR31X934K622I32NK34LI31RF31DN31RK3384314V33VQ32W035HY33PJ35KP35I1351634MP1I31QH31QA34G223235AP35ER32HJ31OR35HV316R31SG31EK352631QK33TX32WC33HW33BN35IG34NE34P9314L34I41931RI316Z33OB31P135J234EM31JU32KO31SM31GE34F531MD31JU34LX31PN33TZ34EZ32S134GX33J334GZ35BN31RS27227722O31HJ33VY31L431QN31QN34ET35E4356334QI32OK35KV32OE33LF352F24V34J035M532O535H032MJ31QA31M933WZ35KG34PC31T431LV31PC353J354L32TA31JY31J431T033IZ32YP34LR33RZ27833XR34FE34RJ346L32J52BT35G6317H34RQ33Y234RS336734RU34WL31ZW34T831EP32ZG320334SK32ZK340034TX34SI33ZP34SR27534TP34UY321034SO34T9340933YR34UN340034V62LI34TN34SK34WY35PF345433ZV34SQ34SE34YM340034ZS35PI34SD34TB344G325E343P35Q035PV35Q2341Y34S4337Q34TS34SK32AJ34S434T135Q634T3320734TE326M321031ZD35QC34TH34YJ34S432AS35QO32AD34TU340D346Y331T34W834U0323Y335631F4324134O2328234U631FM34U8324F34ZN3326340X346Y34UE27E341134IH27D34UI342K35QV32AZ331U32BC34UP31RS34UR338S34UT31NS34UV34UX34T6322T34VE341O333Q34VH31N0327M34YD34VK22834SY342D34VB334235RZ335A34253346341Q32AH328I327O35S934VA342034YK342H35P2326Q34VT35S234VV329J326Z35QK32AV325U35SL35SV35R5342T325U331K346134W535G334VY34PS34YW35S4326Z343335S7349334WE35SN34WG229327Y35SQ337S34WK31KJ335E33YE341M343R31RS34WR328J34XW275344D330H329335733441341X3443335U35R22C734X53293347B34O322835TZ3300329335TM328234XF31NX336C35S3333A329Q35P932AV329O34SY34XP34YH34XR329V34XU35D235KO34XX32A232A435PT331C32AS35UH346434Y735UK34Y932AH32AJ35PN342T32AF34SY34YG27534YI345N31FM337H326G345O32CE3463337H34V934YX34YV33AD34Z0337W35Q7337S346631NX346832HE27D35J722934LU35LH31HU1G34UT32Z2340Y329V324931NB25T35RB35WH328A227339Y335D31MO3277334F330H33BB339D33B533YS332U32ZB320I34SH346K320I320I347335QU338B320N321034TJ32IZ35TK35I033ZQ325U34TL33J321S321025C325G32AS35R735V734W4317G22Q32AS346S321O326H32OO32553207334N32962732293210263325G340J322Z327Y35XE314S21R334131ZT31MO326Z35Y731KA21S327Y26Y321A21Y328K32AS3332314S211328K328K335W21O35YQ336Z34YX32AF34PW339T35VH34YX3293332034YX329E35BO214329O350832B8329Q35Z933533293329Q335W236329332073293337S329E35Z3317G35Z734YZ324I329Q34WT35ZO31ZD35ZT314S221329E31ZD35ZG329E3207329E35ZX32AJ329E35ZG32AJ32AO31I534753277345H35XY35XA27525I3220347F35YY343I33A735GI351633ZM2RP1M101K22P1O32H42TP35A533H8359Z33F12TR2CM31EC33GI310U33FP34C132ED2ID32E132E331833575349N2CK349H33EF33EI32DD22B1P1Q1T27I13111N31CA1S1422V1M33EO349A33H933HB2F21222Q111H22O1R1U2HF2C731AF357K358328L1L33HE358834C332EV2TG33FZ357K357S34AV318D33H822G1A1222U1V1K22Q31R72CM34AT33HF2H932ER31AY33GJ359L311Q33J722G32DA362W2UI22X2ZA319F22U1534AS1N2UK361V359C32FW12345V33UY35LW31LR314L35BV33VG31DL32TT31QJ35JJ353733TK31LZ32I031EB33QB32QY31E433NG33LH31J431R531EK34P432XG35OE31EL31P831UU31M632HJ32UP34QD31SD31K332PR32UM31JW35GN34PE317635GR35AM31RQ35M335JE35K531GG31F234KK363T351B31JD31L931K335W732PS31SG34JN31J431SG31F034NL33MM32UL35LR32XK31GA31RI35H91934DG35NS34QC35HN355Q31YA364H33W52Q731HJ35MY34JP314L31GE35F433M431SJ31J8366535LZ348Y35M131VQ35KR35BP32AT22I31HA356M33NH34JB34GA22931T331GI34J0358A34GD35L631CI31QA31GA35KI316631T031LZ32V9315J31M931PQ34J034AM34D1366X33S832Y335DB34EM33PE35IP34QX34QW35HD22L31T0353H346B35CL33S734DZ360O35KR34MP23231IJ33C331QJ33LQ35C035KW35AO364O316M35C7364Y32XK31IJ33LJ31SM32QA35KV33TK31HA31ES33WA2Q731QA32YJ32HJ31QD31DF352W353G34GD33S732MS34GL33RO31T933CN35NA31XC31SO365S32VI35NC35UC32S635KQ34K0347I32SB354635O834FO364835DE31JK31GO31J0363W32ND31HJ31S231EB31HA31HR35HH314U31R531DL35IR1U31HJ352Y354E34LR35K832WZ314L34OF34H9365U35J934EM31PQ31K333U522L35O7363U31RL33X4353732TH366A35RI34TR35NF332D34O832HC34691I31LZ31GG33TR35K6314L31PQ3526315J31IJ31X134EM31QH33WI316R31K333WU31E43644364231WJ31J032TF31DJ34OL368Q32IE31T031OZ34HF31GA31YO31EB34QO368P31MD368G317931K031SG34N035X935G033D334VJ33M834PR35PH31N735G8360L33AV34PY35G835GE34Q231I535GH32XB355H352L31VO2I332MG36AR229364R33VQ31SD31O431HR35IR1931M9316Z33IR2Q734QS3689315231OZ34MI35OG35BL369D34QQ32O53678316F35O835JT316631K3316Z365I31CI31LL35AR35BG367X369D35J834D2369935M2367Q36512Q732PR31F0366T22I35CE36DF31SD31HR31RC32HJ31J031SG34PE31KV34D131YH35GT33K3352622O31SJ352V31DD31RI31RK34P435IV367X35HH2TB31K331RI34I423231GE348D33M034EZ35H9317631GL32SM35KM35OO35EG36AE36913571369333KV33HX31OW34EO316R31IJ31SG35K422O31X931IC33XL31J535O835IR315J35EY35JN31W531DF31T3356H1931Y8365L33RW31QN32LY31DJ31IJ31GE35GW22931PQ34NC31QJ31EK367J316X31OZ31OR34P4317631JU3686348W368Y35UZ36ET36DG369227534ZZ32FT34IW35F8315J31ES31GI34QP31S132MG33OU36FQ368T32HX34L635BY32W933KL36GP31UA348L31OV31DR348635IA32V533UO36H133Q531RI31IC34FU22O31P131DF36A431RK35CT31Z235EF31N034RK36BS31K6357H36BV33SZ35OV320M33Y335WW341M35OZ35TP33Y835G934RY32ZH34SK35WZ320A342334S634SW35QP35QN34TQ346Z36I334TA33Z934SF36I734XK27D35PP35QP35QG35PS34Y135PU35QI332X325E340735QH331232ZT36IJ331N35QT35PC34S534SZ34SB36IQ34SK35QS36I734RO34TM34TG33ZQ320734Y535QL35SN36IV35PW34SL34S435QE36J0331O35RM326C321035TE34TY27D3418340J34U13405321135R435KN346435XL314S35R935RC332D324M332A336734UD35TX324N35HZ27535RK316D34UK339V34UM228345U332O35RQ31NX35RS3258332V35RO36IY34PV35S0325V337235SH34VW35T835S733ZI35SA35SN34VC36JL36KQ3349320036KT35T134VL34WC329435XN34YH35SB32ZB36L134VS342M342O34O736L636HR36L836KX36KU35SX35T3342X34WA338S36L8341836LR356X342A332T35TH343E33TC31F434WH35V634Z035TO33Y7326Z34SY34WO35PL34WQ35V2343U36K635UE34UY32933690340P35UJ31KJ34X2338S3446329233Z6336234WV35U034WN34WZ3442337234XH346J334W344N325S329O33ZI35UT35VI35UV35R835UX35U731NA336T35V1336X35V436MV345936LA320035VA325O3609325S32AF33ZI35Z035VJ36KD347A34Z234XL31ZN329E34YR31ZN32AF33AD337T35T635ZO35VX35Y4324I35W031KJ35W231ZD35OL33W622931P131T333XP31MO2BT35QB36BP33R531Z922E21L328026735RB36OS326536OP36OR336O324Q36OU33ZN22S333P35ZN27D22S3277317E36P427525V339031NB360L324Q25Z321A347136NB337E35ZN36L32H931ZW36PO31I522N35WY34W1314S22D35X135WV314S25P35EM338S36P9328B317E36JX324I27E36Q236NC27E344736OO21I27E25E36OY324M36QF335A351636OW27D25P35RB36QN328A36P236JY35R836OQ27D25K34VF36Q936QV36PH339O350E31VV34PW36PM22D33B233T536PY36Q02BT36Q221427E36BY36QY27536QI33ZN227346V367P36GB35KS329F22I31T0316Z35HH22O35H2352S31GQ33W834PA31W532IG36CF32MJ31LG31HA31YH315J35AL35MR36FP35BL35F0314U34HN34KQ31R131F0356731DJ36DK364L33HW31RI31GG35HH22L31GA33HU35FV33K333XP34IG33MB36MJ366D36RN339C357435AD316E2Z61L31O122S22V1J1O34992LI23I2W41U32GN1U1V1O1K1N31C82EQ23A32F8362R32FB31852MG3617359P32F32UV33ED2EQ23E2G031A22EQ23C2G032GQ32GH2RV362B27E2FO31AG32FH22X32ET362L349Y361F32G5359K349M32G522J22S33FL2K81O1P33GZ32D9357E359A349K22H1O22W1K151822V22P1932DY2LI23G36U2319Z362E316E1A2UK171Q22W22U22S2FW2O622S317V22F36VL1Q1422O22V361P311B3113311521J311734922ZY359R22A2S82CM1I1032GO360Y319835A63634361D33EZ35A0319J3613361H28L2QL2QN3634349G31CB22I367R33JB353531UA31T0366034JM34GG34ET348431OV33WV36A9369W36FL328E348E31H931P831PQ31PC34M731PC31J033N122O34QY36RZ31UW31R531RK352623231JU31F031YH22L36EI36H433IW31DL33N036EQ36LW368Z33O0365031FO31RV33OR367X33U535GX364H367834R933JW33CS22O31IJ31DN356H36DX316U31G231DJ31RI31P633CS31H23537367835J133NM35GS31HJ33VX316R31J031LZ352W1931JU316Z34I431ME34QW34Z632MK363V36X635EE35T236RG33MC34O535KR35EK32HA36AI35W333HP31SY36Z931GV33VS31LM36CQ347O35GN34FU34MZ364H364F31PC35EB32HJ31T334N733HW31GL33VD31QJ368S33VB31R636BF31DW31LT33VQ35F82TB31F233WY316X34KT354R32QD31IJ31IJ35CJ35FZ36HJ35OP33D4344E34PR35PR33SZ36BX347032JE36QX343535GF357136C5352J35GJ34MP34P236A7364F31DP33CU31EB33IP35MO32T236F735MQ34N936CD367X33RL36F936DF346E31JG35GN34EI31LV31T034J0314U31QD31EK33OU31EK34DM36FW354R34NT31RK36AX31PN31LL33SM36G636HG31TN366C364Z366E31VT35BQ2TB316Z33RQ31P835KZ35MK31QO348U34K531QJ35FA32QO35KW35LJ368W33IB352D31PK33X733OW31DJ31DF31RK356H35HM24V31P6354K36OF372N36X036GL36YJ24V369D22L33P035CL32QD32MB35CA31J9367O36C6372F27532NC23231HJ33PB34EM31DN372031DJ31QH354T316R33NQ35NX31DR32WI35GN31Q331P631LG32UM1I31LV367031P835OA36GV32KU31F031LZ34R431CI31GL31QN34P422O31OZ31GE32WS22L31PQ31QH36Z732TC347Y36AF31KJ326O362P3591349Y2EU32FF22V1A1536UF2QJ1I1N29329G2QF1T34BV1V181L2ZI22U359O33FQ359Q359F3621349K22G191U358R1L358W31AV357C33EY349L34A02H933GC33GG33DY319G21K2U621N3105310736VD22F1I1122X36VF2UH33EG3636311B375Z31FZ22R1Q36332EU22U171T121V317Z31BI22S22Q22P181I171J111A33MN362032CO32CY34AB36WI33EP35932O61N33DY36TT2IP359I32GJ34C236T331A133EJ357E36WB33GL32FB31A136VC33F52FF34CN372G32AT375D354R36D627U353235CC31PZ33MW36YD32PR31GG32OE2Q731LV316Z35H9371N36DE31GF316R31QD31OZ346E314U31HR31T036D636Z134GD369D315J31RK35GY31DJ354N36XJ32TM31ES31O435HH317634H63698373N35UY33R737163651376I35O835F0358134LR35L036ZP31DP36F831T331GE36781932L536B332SG31TC372W32KD356F367X31Q331LZ370M31DJ347M34N833TK36CP369Z33VR31GE31Y7316X35GZ370K31XC354Q314L34R036AC36SX36Y136ZG36AH34OA36ZK31T034KS31SM35DR369632MJ31T031QN33RL34QG36BI24V369O31ES33KC3793367X35DX31P631O735HH22I31F234KB31G433PZ374H32T231GL32L431DD31SJ31LG351322L31R531DP35HT32O431E9374434PL370Q31TJ35G236I031N034PR35PE370W32JA36BY35GB36C134Q134VL34Q336JS35D336Y234H336EX31F233NB31E431SG35LT34EM31J831GG35H922I31GI374131G436HA373J315231DP31M936YO365631LY31GD34D134OF315J32OR371F32WT32V736D61I31P131OZ32OE22L31LZ374V31K0354X35CF33J136ZC372C35XB372E36RN35I331CI355736RW34DJ33TI35IQ31E431LV31F035H922O31F031GI35E331O731GO356133NJ37AX32HX31DN31HJ34K61I31PC34DX36ZO370N351H32IE31RK37EI31DJ31QN31T034PE2JS34KQ35E9371K370B3663375032LI36DI36AO31RJ379532YH35MA31DG31SM31LV373835FC354R33IR1I33C237F533VG35HJ36FE32O331LZ31HJ35DX31F036XP31EB32HL37CX32XK32QR368032RL33JW32V922L31RI32VG31K031O734NR36XY36K836ZE34IJ36DH36Y3328U22I31DL370431DD34GK353M364C33X635F023231X931RK373C31F234Z831E433XK379C31OK31V3379W32K831GI34IV33HW34JK34QW31SD31LV355Z31SM378U35LB31RF31GI34NF31K031GO31LV356D37AM356Y37DQ32VO37CG355N33KW35NR32KL33TK31LG32R631EB34QH314L33S735I834E634MB31PQ373U36AY33K335OC34GF34K431GB31JK353E35JH33RW33RJ32MM31R133WL36B932HX31XE37GX32OO34ME35BL32QD31IC31R534QT37HH35ND372D37HK373Q22833TG37AW364B371J31LZ31QH32WS2TB37G132V731UF35BL34FU1U33UH36WU33HO31DF31SG32UM34LG373M351333TS36DF34R831T031GO33S7354B372T35GS374O371I31T931K237A231XC31X931PQ35H633WB35GJ25Y33WF31P934JB33N11I31O937GU32PG33IL37BX31OB33SJ36A731WV36SL353835KW37IY31PD31G4356N37J632KI36B537ID33K835MB35W833MU31R537JE34EM31OZ31J833IR36SQ31OV33S334RH37DO27836HI34PP36BT2BT37C533XZ36HO321136HQ36IE326636HT33Y731ZW35S6326Q34RZ36IR325E36SY35PO36J636IW35Q536IT331536J535PB36JD35YE36I135Q336I935PJ322436JM36JA321V36IL331236LO342227D347B36JC35Q836JE36I735UP322W37LV36JD37LE33Z536MB37MI36IB35Q936I736I637M034S734SK32AF34S436HM35PA37MZ35QP370V37MA35S837MC323J36JJ327E33AT325S36JS36JQ35R1350E22A36JU36ER34Z036Q52C736JZ340U36K636K331ZP36K536MS35RG37G736KA35P337NC342T320735RU328236KI332R350436HR325A36KN34S437LO337S34V235SG35UM334P341T327O343035SM36M036L0342X333N371036L437OH334W35SW37OK36NJ22834VO35YA3211321Y37OD320035SS333733R936LJ37P336LP36M036LR35VD34XL325U344A36LV327O2BT36LR37MM37PE343B31I5343D34VP37NJ36M334WJ34WP36M734X035TS37PU328G36MD34WS36MF34XB36J935UI37PW36MM35U636R235U936IN37NW27D36MG34T6329337P934Z036ML336B36MZ35SO329K35QX336I35SN36N637OY36N8317G329W329Y36K634XY31MT34Y022834Y234UY35XK337036O432AD36NL337536NH341V32AF342B333Y32AS35VK32AZ347F345R228337H33ZI36NZ35QZ37R6326635VU325136O6325136O9350X34Z4275351334L9353735F8355A326T338D31T931I534ZE35BO1Z23Y32JA33W226L22923K27D31PQ34G221037SB285338037SG27537SL37OY316D1T25B366E34ZZ342M352K373R31VO36GH371I33U131FZ371I33MQ2Q731HR316Z36OD36RQ32XN35FF31X931LZ367834EB35O136B734LR36H831K331O433XL2TB31YG31JO31DJ37BC353B32PG31PC31DP33WA22L31R4372T32QD31S636GS37IU36RN371731F231T3378Z37I524V31SG33W22Q731GO31IJ34I422O31QN364A34GE33SA37D931DS36SU32HJ31LL34H73732354J37EM32HS31OZ33UT36E635O835HH367S373M366T22L31SJ367437DK37TR37GI33M836SW37HI36G936SZ36EV35D531RV2TB33UK36GY32W931HR35HK31P831QH31GG353J374C35BL37V231HA37IC31L931LL31SJ366T37D7367B316H31DJ34PJ37W533X331IJ366J32M631SJ31GO34GI31LL31O7346E37EU36DF35W533TM37VA37VC36G736ES37G837F031FM26S35NI31DL31DL34PE37FF34IW34ET35OD37EZ37BW33X331DP31ES35O232HX34NJ37KE32K831TZ35IJ32HX31O734I2364935GN33IR32FR35GN379N31DL31SJ35K432SQ33X635K422L372637KN33M835ON36XZ35OP34RL34PQ2BT37N735OU353W36HP35OX31ZP37LL334237NI34UJ37LQ34SK37MX35RY345T37NA35QP36OL36IT35T533ZN36IG36J7324Z325E37QH36IF37MO37MJ35X837LY37YJ37YQ36IK340036IS34TF37M137MJ37M337MF35PD37YZ36IW36JG36IT37LT37MN37Z537MU37N9340034SU37MY36I437Z036LS36I735P737YO37YV37ZH37PD320S321036J237ZL36IA340A37O135S437NE328A36KE31ZW37NH331Y320437NL37XZ36JW340R3249340T35RB37NT340P37NV344B27D35RH33MB37NZ326Q380127D36KE360432B837O6341C332T37O422A35RW325E37PL333436NV37P634V4327E327R36L834W937OM37PQ35SO321Y3812326635SF35UK36L5334H37BZ37PM323137OX37OZ34VQ34TW334436LG341Q36L337OU37QO35S7381A37P8327O317E37PC327O31ZW36LR37M935SY27D35TG37PO34WF327W360G34WI335A36M63342326Z36T136MA33YC36MC35SJ34O435UC37QE326M329335PZ34XE37Q6339637Q836M135U836MQ341H37Q2343Y36IZ382V36MX37QK37OT37QN3318329N37RO35TA336M36MR34YK37QV336R37QC27537QY31HU37R037R234T632AS381F328B35V8337237R8323N36NN380432AF329Q36NR37RF36NT33AO35S1380R31ZN341L37RN331836O237RR32BC37RT32BC37RV34Z33382366T353R31OV33WN332432C535RB32C633ZN34ZE37S435OQ27535X32LI21H355D380K275262324T31PV335W32BX338B339E332T36BY217317E3573385633AU34PX346S33AD385C33R5335W22737O833Y7317E35WQ316522E26D36Q031ZW3856355H36RD342M2Q937O831NT22E37K4317E25L36QG27E386732ZF34UT385636PM35GA31MV32JA34VT337H357336PM339X342M33A132JA35UB34YO33R536PM36RK36PJ346K36RL2753573339T386E314S386O33DE37O4228384Z346Y36L3324Q26Q34ZD386X341938712LI23C387D34Q335XR36C4387K379F3516332Y2BX36W02102VE21Q212359N375T2H822F387R28121I21R32G337632QK359U359W34C22QL21Q2RG2IP22K387R3619375S22E1Y21D213387R27I27Z21D21F33HA388P3125353X2HI362Q319935A436WC33H822C213359U2IP22B1S2G32QO2NT2EI21O319K2CC319U2TR310T22J389B389F319T389C2DP21K31382DU1Z1Y21F2CM1B1J1D29G2U71Y2FL2DN389I319L2DK36WF31A421J318N359T2F2363832G522F22Y23C23921G23E23D22Y38AA2UA21121P21E33G238A821K314D22B36P73762361G22D38AR2NR349J2H822H388O388Q21E388S2CM38AG23F314G32B233GA34JB36SC32QE34D135HH1937WA365V31UW31RI31SJ34P435DD31SH378O31J431F2364D31EB31DF368534EM31DL31P132WS33IC33RO35HH1U31GG36SK33HW354F37IM31RF31X931P6356R32UJ37W437B43300323M322B37S5344Y32ZB32CH338Z338R36PM338Q37Y6322Z2BT38272C734ZW386V2C737SW338B34E1346P38AW32G528M38AN1W314G3232314J38CH33MQ31R231OV373531P131QD369K33IX37KJ35F8366R37W835CM34LM372N356H35LP372T37X122931LZ31O435LE33L835CX32MJ31DL31HR37DC379234HS31T933K237AB32QD31QD378G38CJ381L33A9320M37S735BO33AH38D531RS236338R335W386Z38EN347G35GJ32J422C21E1Y2113584388U361B2DJ359T28121D314G328R31D736F035K031T4367337DM315R31QH35KK36AV34D138C231HJ31T0378S373D37I724V37K1378932KL353J22O31LL31ES34J032JS351A34H832V636YK35FU31T433UP37EC33NP353737RZ32T834KQ353J326X38ET314S26Z31TT387532CX33DE385M385O355K36RN385U31JA37U8374731W531GL31LV34K635EQ378N34I432XP3787378P32V7346E315J35EW352G32KI32RM37UW315R31RH38G833HO31DL33CV31J431DF31QD34P4372I354R35H922L36E538G436A831ES31P1355234ZB38EH34S1339034S931EP34ZG344531I533DY36R8334236KL35WT346S381V22H35VP35WT36R135GC37P131NB37YT33AL386G33DE345R31ZU33SX338Z36R735VY321631ZW36IP34UY320I37LJ36BZ36PW36M0314S25X339035WS317G1J38I936HU31ZN38IK31ZU37Y834T638IS322B38J438J932AH35WB316D22037LG33ZQ31NB3440316D21R360N35YB35WU37MV32TY21S31NB1S321A33T8338S35R7342H37LJ386435Y027D22P386838KA34ZD36O72LI21O33AX37OX23G38KF339W321035BO21U38KN381Q381X31J933AW322Y340J341N36KR33963803382Z31NG3249321038K136K127E38L534SM327Y38IW340P325U38KF320N326Z37ZX31J9221327Y382O36JY37K4327Y1J38KC27538LP331C38LA37PT35Q133ZQ326Z37ZE327S38LK386V3324327Y347D38L634YH34ZD37P538KG38LU37RP22823G38M9339W327Y38KO38MH38LQ22838L832BW327Y33AU21O38MB35TB27D38ME38D031NA35XZ31NB35U235X938JQ321A38JT35KR320N3825324P38JZ27D26638K2320736Q435SC38KS387238K9331836PM38KX37RJ27E22Q38L0335W31NE327Y321L31I521B317E327Y35VH324Q387733ZN38NQ322Y35ZK37NP34CC27D38NZ34S038NY338Z38NR328Q35R838O527538O736K638NZ38CL382E330Y34X432SP383D35UC38OI316D38O13318350H37NP21L2BT344D38O836MT316D21J38MF27E38MQ34WP33AD38MU338B38P2366E21U38MJ346J324Q33XR38MN38MV27D38P536MB38P738MO31VS236335I37RJ21J325U387527E236325U35VN31FM36PB38NV35SN35UC21538M8342M38PK382M38PM346H38PD31NX38PC355J383K22827432C738PN31RS38Q738M1355E38QJ36HU327Y35OT36Q7385U37P0335W385Z3846328227E37NO2282Q938QO341Q34ZJ382E26135RB38R732C735VV314S21O326Z38RE31I523G38RB2LI21J37OJ31RS21U38RL34YK324Q26434ZD38LL31KJ38RD333G38P738RT31I5265323B326T38S038R038MW38IM3383321X31NB38QR35S438JU33ZN2Q935WM36KP32ZB31ZW38CX34PX36PP27536KG3228320I37Z7324I320736RF27D22Q33AJ386V35PK340K321A36JR38D022038J63399320I382U340P35QJ328V38SW37NJ22H38SS338Z320736KN37N838IZ38KU331838R4336538KQ37NJ31MO327Y37MH316D221320738QO314S38NZ325V37O4324Q26Z321X341735Y335RE339636JS335W38Q0342X345R324Q26934ZD38NL38RC38TG38KJ38UG38RJ38NC31VS21U38UM38PE324M26C38UF38PI27521O38UI38MC23G37CE38GP37VH3501317F22H18376K36TB22X1J376I2EQ23233FY27E31AF2XB36W332F42LI2382G01U2TY36W122822Q38VE31UA2CJ22G1P2UB28P388B34BG32E231822JA1I388S21J35A0318E1J21R2EE1Y22R34AK22X1K1322V22Q22Q22U1333FH2EQ36VA2SC21I34A91P32EG34CK1H1J22W1A2EQ22P2TJ151K2R82O922H151J1U32DW1836TG35AB22E38W938WB32FJ2LI22V2HX1L1V38WT10122BX38W921Q2TR21F388D38W91Y2TR1Y122EG21L21131BH34C033FR361A362C21M31AG31862LI22S38VS27525S1B2402EQ27G33O3387X28L38X32R82EQ22Y34A936VU1A22V29436V2363322I38VW1W2FE1I21H2TX21Q33E431W536U632EN362C32G0345K2ET21I2X721P123582316E2IN210132TF21221L388Q2EQ2ZU33E7181K1K1R36VI2EQ22X2W433EW376522C1M2UA2102SC1G38YF2751E31AG32FN2O61R361622N102NT388Q389N21O2CC1Y142CD2IP361132D02EQ22O390C2ER2G01321L216319L22K38Z12FE1J359U28221H21G2EQ22Z38VU1027A2HC2U938Z72C724021F38VI31BZ1N33GO359U21P1I38WA391D33B0390Z1K38YJ2LI22W2CJ21Y38W421F21N38W62X8318E14388J2UB2RL38A021F3108377T29E363O31VV391V1Y390Q391239141021L2U5361E377J319X319Z387W358O390T2EQ21L390C23421E390Z21G392135EN28L32GA1036TC27E31AM2EQ22S24038XR313821H1N21138OW2C71G122HX161V1L1N2JV362G21Q38AN388Y377X318G377P2JA1J2UV359V390S2142101V21Q39072U731BH36UJ33HC33F422E391R2FF2TY2EQ22U390Z22T390C25S21N32EQ349G2RP10359V21H2DN2TW38VO2F2394A38ZN391332D1395638XG313838XI32HS36TQ34AH2LI210390Z34A8314D32AP32NC1935CZ37VM31OB33BQ37IG33Q536DL37UV31G431DN31LL33N1314U32HU37AH32MR31XF38CH31RB32V733W2367232XN35K436TG364H35K431L0364H354O31R531ES37K122L34DH37IA33IW31QA31OR34G235JD37GB329F2TB31U038HF32T2373X37JC33LE33RX33MW36S622931K337G432PO34E6366533S837VS37D931BQ38CH33I631SG31GO35DX31LV374631JK31DL31PC33RL22I33L4396332TM355536AP31K033XJ373M35NB372B2QJ35NE36EU34ZU34MP2Q734HO37A8316M379B34PD34EM36GU37HP32ME397P38HC31GQ365E378N315A31LV33LZ31L4352O37H932V536B237IZ315A31OZ37IP31DD316Z31OZ38FS363Z38G531T931IC31GI34L834K3373F397137IR36Y033PL38V237YN34AJ2H938YP21P36UA2UX311A38Y6375R319W22B1I22P38WD32FM388Z32FB22H361X1O22T1O1R1K375D318C388X35A236TU317736WG3612319L22J11151M33FL111K14358032FV31A41V2VD33FP36VD22B390G38YN311B181P31B5393U3588358T11375M1Q1O1236VO33DQ36XH33FN35AC38W133EN36WK319F1H122M8191736XH36VW22D1332E338A333G422G1234AM22V22V131L361Y2C839BA22A34CI357S359X376O36UL37653945361K31A322G391H1Z391J2UA38843639393F311A318M33F631A4392W22H393X39BJ36W91Q362633FT31CB35AG31VO31T5379C33WA378C24V374K31P836HB38FB37KL372T38BP33WX395W31R631RD37B331FY33M2395Q33RW31GG37CU33K433X637K133NL314L31JU3513315J31JU34DT316X31GG31RI399731HJ31MG37WS31NX33TG31DL31DF35GS31P131J032OE32OG373M37X833Q5354W397T33HO31LZ38E631SM33WP37KB32V531GL365N31DD31IC31QD35F022O36FR36XU34DJ31EK36F6316R31VY38FF32OO35KY36S231TE36XT365836GA38V234MP315J31QD31RK33MQ37XL36DF33W21I35BU364H31Q831SJ31EK36OD2TB37GW37KV32XO3521395T33HO31T336F331H733VQ35IR22O35J537IJ397231HJ37HS31J435JG36A031MD37GE39D737U233JW33VF399B36G837WR3984324D37AQ35EN33RD36EH34EZ34OF378X37AB39FF31PC39DY32HJ31IC31P133W538BQ379431G437XD38HS31DR33JC38GU33UE31QD31JU32V9377734JB353J38HN314L32L131SM37BL37FH31EQ31DF33US31K031GG31T334CT370P37LB31K637C132J5327738LH35G737C7370Y35WV36PM38K336PS31FM371437CF37GA37CH33J931F231J839DS38CG34HS371P365631HA374L22I31SG36SR32WD34KQ37K135M934DE379N32PR364E31DD31R531K337K134HC35OF24V36D635DU32MM353J35KX33NM37BQ35BI37D932RX34E634IF37WP36ZD38LZ34MN379G396U31CH32PH33NN396632KI31LV32LZ37BN32MM34I436CO37T531DJ34FX37FK33CA367E33IF398X37X332XO31RI37E634EM36EJ314L38FZ33TL38DN31OU34HS36A437DJ39DQ33SN34N835ED39GH37WQ39JI35JC39JK39IB31CH315J31OR31GO34J8374D38BL33RW34ED36ZR34EF39J931DD31RK34QZ31E431QD33SE31QJ31SG31OR35DC37XP39FV31D632WV39DI31WE31ML37KT348J367X35F022L31OZ31LZ379935W6371I33M339KN39JH37AO37DS378431VW33PQ38FC366T362832XN37JJ36X4364I38H931OB39KI38DR32PS31IJ32PR379K31GA352Z31S031RN36SF32W931OR31QN36D231JA31LV31J036EG31JU37J231SM31IC39MH316X368235CB367L37VB34P4373O371537HL33O434GB32MM33WA23231SJ31HA33U51937KS38DQ31SV31R531IJ366T38DP39ME37EG31HR36EO37AV32XN34J023231LV31UZ34EM31O734HI31G431SG31QD35IR22I31J034Z9316X31HA34D53727396H37G635M037HJ33UV35GJ32XE33PP36YF398937FX38HS35F8351M39D734FU1I31F031HR35H935E133M736X339HK36X531L431HA31SG39MR351U353734J02Q736FU37KQ32XK36OG37H332KI33LR39LJ334M31OR348936HF37L831MU37Y137LC35XU32J838JO31F437LI33Y535GD37YB32Z136KB37YE35QP35RX37N836M437YU37ZG38HZ38TE340034S336JH37ZN37ZQ36JF37ZA36JD38SA37ZV36JB39QC36IW37Z337N837Q437ZF37N537ZN37MQ37M4275385R37ZY37M7323B38TS36IT38SQ27537YP36IW38JC321Y37LX37Z439QR36IW38JR36IT37YG37N437ZM36IW37Y439QU322539QG27E36KC36N0323O38NF32AV38UX38IT340K37YC34U337NM324I38S438R5380F38M635RA34UC38U638QF380M37VE324R341437OH37RK37O334UO381435PO37O8380Y381035PM36KQ38UK342N381J342838I136LX34TI381O36LC37P1321037ZU381G37OR2C736LH345D334I327O36LM326J36KZ38NE33DE342K38P3326U381U36LN39T436NJ381W39HU3828381N37RP39TH3270380438PY38MS37OI37L837RK325U38N63353382C320M37PS382G37PY32ZB36M835XJ39U1335J37Q035TW38QF382R3228329337C2324I37QJ31FM36MN387M36QA383136ZE382Q34XB39SX328B39UF331O37QL32AH35UO36N327D36N5333Y37QT36JY36NA350E32A036NE35V334SM32AS39UO214383U336B383W326C337636NO39UW382W337C384334K0337H344A37RJ337H37YN384A37R137OX36O339TQ3464384F3419384H317G36OB27D34J036G3371I356H35062LI326O339T385G337E38EQ37S738GG3342387D38OJ38IG34Y9338938SF31NX387334SL34VT39WN31NB38SN339W38SC31KJ31NE38IS39WP33AA34W135ZC38SK31NO34VT1Z350V38IH34K637SE24927D31LG35H91D24B27D31DF33XL21039X639XA38SG317G39XJ27D39XF39XM314S350Y39XP27D367831TT36Q221J385W31VS31NE38SL337I347039Y339WS33AH38TB39WM34PY38T639I234VL39X133A938UP39Y432QJ38J138KY331W38JB38D02172BT326O387534E137ZQ393Z38AN3620399X33E122S1K35KX22P3134311B38XN111722U22V2UR390V377H349Y22L15310W1Y39172101437802M7391A36W0310T22H22S1122U1H22T22Q1N317P39CH32G539C531BH22B181J399T22G22U2YY2UO1Q22R34BX376433ER31841T38ZY399G377E22H38ZY34BO362U1S102I439BB38A5377N2CM1H33EB375P388G319W359E34BB39CD39CF21Q36UG34C532H536TY2C736UC357E22H171334B2191235A936VW392J31A339CL34B636UX387Y38XS38XU2M6359128L35801A349E361J377W39A622K1T2X8310W1I2FE27X21Q22P36WQ336136M125S311A377N357S22B2O4376N31BH22C22P3A1F375B22E39Z314101S36162IG36U834BK3A172TF2BT28628835AB3A1236W1357J399U394329G111I36TG1222T1839Z81A2VA2ZD2ZF2ZH2ZJ2Y7377F36WH33F22H92UI39A238XQ36TV375Q36TX38A332EY387W22E1T1822S31C732DB3A0F3763377E22M39ZG2TF39ZJ13310Z31A01L394021P2TC21R2TE319E22B121O3A3P394I27I1M1A39BJ1J34CH375I2W236VB32CQ39CA36UW33G43A1O32GR388W36WD2G12G3211313A281377O193A2B360U36VN2QI22B3A4J310T22G22P39B61L39A31Q32CX33EL39BC361E318K314D22J38GO228353Y37Z9314U37KG24V37T637EX34GH3683352T35CL36Y736ZP34RE31E431QH39H737KO36CY31DD32HM39PI2LJ38CA373E315A31DN31QN39ED32UI37CP37U1315231EK34MU31JV38HL37FW27E317636XF38CB339W3500355C39SB355F38P9355H3604338R37VG38EL37SZ314H368E34GD3A6X34DJ367T37DW32OF31JU31P639ET31O731PQ356H37V337AK39FL37KR31OV374B31K331DL33WA1U31OR31PQ37BD34OW39EM34OV33X632WS3A8131QB39H531RF31O731QA364V36FT37WN35H9396T39KS33S831R531QH38BF31EK38HE31L432PR31QN35IR1I32TS3A6D31GQ36AL37TU31UW33NU39F831YM32O536CW38DM3708366M37A4398I33VG34F137KJ31DR39O237F831MD32KG39DF31XC31GO32PR36SV39JG37DP37VF37DR39FA36512TB31GG35CI35GP34GG37K1379I370835F836FJ33K339M539OC24V33XL1U31WL396Y316E31DN396R31DJ36XW3A7033UE367W36DP32ME31X931GL34FU23237UK3A9O31X735O833W5317631QN36G039OF366B39OH39JJ387O31I4387Z2IO387T387V33J73A1Q387Q2IO3881388338D6318L359T359V36VD22E388A388C31BT388F38Y7388H388J388L2IO388N388J38B5388S392L3A5A33H83A213A5B389228O2CM389628Q31VV389921038A2389D389L31BI3ACL389K389F389M389O2SI389R389T389V389X211389Z39513ACK3A3S38A438W238A638AZ2ZD38AB387Y38AE38AG38AI38AK3AD838AM38AO38AQ28O359T38AT38AV3A4U2H93AD73ABK319F38B4388R392738B821G38BA33Y9379032V736782TB367Z38FC31R131O434IZ32HJ32PR36RR31EB3AAL35C132PS31GA31SG35E338FM3AB232HX31QH31QH33CS365Z38CH378L32I3372N31DR38DK36ZA31EQ31HR31T3384K22933RG37XE333038CK38OR31TT339938CP35WT38CR31I538CT33Y1322O38CW321A38CZ36R234ZY3A7L3ABC38N431I43ADN38D821P38DA381N314U31T332OI31P837KP3A6T316M33LK396O34DJ31OZ31OZ35IR39IS372Z3A7Q28934JG3A9731D639IW3AED31Q331P131GL33RL1931LV31LL352W22I31QA31UD31DJ31PC32PR36D637G0367E35BJ37BV365724V3A7Q38HX39TI338G38EJ33A53AFK346F39WE33T739WC31FM38ES339V34E138EW38EY38F0359C38F32H938F521Q38F733ZD2LJ31LV33JG32HJ36BE39KZ33JI31JU37B034EM34G9397133PP316Z32VU369S36S939N331L4396K3A9L28931JU35LM35AW32V7352631DZ37KJ36YH37UB31OR34ET33PA38CH38CF31LV31K334ET38GF339V38GI317G38GK317E39WL31XH3A6338EU351638GR378M31RI39NO31LV32X132HJ39EO39L233HO32JT3A7T36F539DC3AII3A9W3A8F328E31GL3A7W34EM353D37BJ28931K331K3365Y37F339PK31E431T332MX316X31GO316Z35K4317631LU39G43AH136KV33M831MO37O8322B38I334X331FM38I638IH33Y738J938OJ38IB39WF37RA38NG38IG36P938JD37OP3AF533A239SF38IP39RQ338G38IS33YQ36HV38LB326M38IY338Z39YK38TM22838J436P8339V38J839S537P139YN331C38JE326M38JG316D38JI346Y38JK39TS38JN38CU38JP36IC31EP38N33AFI33SR39TV341238N827538MM31ZF36JS38K5321Y38K737K4321038KB38UQ27E3AM8384S38KL38P438KI38UY3AMD338938TO38QC3AMJ37OO33Y435WT3AMF39RT38NK328V38NO35R838L339XV35RB3AM034UY38MR343K35ZQ38HZ38LG38T038QM38L1323E38LN27D38LS38RP324M3ANB330H3AN0336738LD35WN37Q039KP340K3AN63863324938M435RB38M5384S39TB38UV38MR38Q938P938QB31KJ38QD355M36K63AMY31J938PA3ALU3ANV38P638RG38TW360F38MY321J31MO38N1328A3ALT38V238N53ALR35XF31NB38NA32J839YH3AM3323P338Z3AMP38NJ37OF34433AMT33DB38OB35BQ31FM38NU34WP38NX324M38OQ31EP38OS331N38O336Q738OE387639U53AA03APE35WT3AP0355I36JY3APD38OG38QF3AP738KT38OK383G314S34X5327Y36N638O93API322Y38OU36Q7393P35TY3APF398234XA38QI38Q63ANW3AOA38QA38PB38QB324W38PF38Q53AO722838QL38KJ3AOB33T738PQ37S738PT38PO38PX39SF22838UA36MB38TM324Q38Q43AQ7338B3AQJ38UY3ANU346F3ANZ31I53AO131RT36K638QH3ANT38UU3AQI3AQ938QN38UU31ZU38QQ3215385T22938QU32B827E39SM38QW39TN36MC38R33AMU38R638R838RS38Q638RF38UY38RI339W38RO3AO038RO3AQE324M38RR38RA3ARC38RV341Y38RX3ARC38S039SM27E38S3338B22C38MX378434SM38S9321J1F38SC322B38SE385A39PY39XM38OJ39Y6334238SP325G39Q9344339Y931ZJ322439R038LI39RV3AFB38T43ASZ36JO3AT136PX33963AT433423AT238OJ39RS332Y38TI3AOT322Y3AL62203AMJ3AT5382E3AT735ZX38TV38D038TY39SD38QF38U2331C38U4335A3AOS34X138U831I53AQU3ARR38UC324M38UE32C73ASG38PJ39RS38P73AUG27521J39YH3AO039YH3AS627E38US3AUF3ASA3AUI38RG38V0387N39IA355N32PT34DE35K4314U35LQ36X931G437CZ37JU32W931M931DP33IR31O633RO34J031B2367X397B373T34QW3A8I31QH31WP31SM31J831QN353J39JW37HO35BM32M631IJ31R536XR31QN34E831K031O437EP372A37L833J436ZF36RN36ZH33BG39GN346932LL371I33W236Y8372Z35CC396A398C397W31J434MS370831Q831RI32IB31E4356P3AAS32M137DL372Z31FY31O43AJ733I033VQ36D636TI34QW378L31EK31T336XR31QA31IC38GB31QD31GO35HX32J038HY31MU370S35G43AOL39I033T139YD38IH39I4371237CD3ARC37SY37IW39CY31EK36RY31L435II37I631Q335AS24V34HB34OI37XB31WE34JH3AY83972316Z34OE316R39OB3AWV328E35C639MN33UE31PC31LG37EG31DN31DL35CC23236Z339F2334M31J031DF34OF317633CR39PF37U53AA339JL35K531LZ31LG38C231QH39NN316R374Y31MA31Q331R531T332UM314U31O739PE31L9374W3AI9232371X3A9A315R31GA31T035HH2Q739GW33V831J435K2397Z316M32SW3AYK32TM31OZ31LL356H3176316Z37H23AW536JV39LY399D3AFK33PO36YE364H374L2Q736FO37KW31SD37AZ39LM32SP3A9239EG33VG31K331LV35CC314U31P631X933U136ED373M35F01I31M934HZ37F932MM32PC36673AGB32OF32UW399331RF31RI3AE731PN3A9C35NY35D13AXU39KR3AV034QN37WN31SV31OR31LG33XL22I31QN37GT31L43AV839J233TK3AGA37EY31QO37XA398F32SG36D43B1B315J37CN3A8236SM32MG36F831P134K831J432SR39PC32TM31PQ37CT31K03AEU3A9D32TV3A9Z3AQ53ABB39KQ351626U2773AB035GN37BD31F0368V32M6372V3AVU31OK32RF3B2935IO372Z35NZ31QN33O932HJ31R5396J31P831DP31LZ366T3AA534DE36E939PB39KB31DJ34DL37D937WJ39D33A9U31TJ37XY33ST384V370T37PJ38K239PT31TJ39PV335A37YA38SH383G36HX35P535QP38MZ36IT3A2D37MT39Q83AKR39R139RL37ZH37N136I739QN37LU39Q738SY36II37YH39TK37ZR3B4R322439RI37Z836IX3B4H38SY37ME39QJ34923B4L3B4I33Y9340039RC39R939RG36JD382K36I739SQ39RF37ZZ38SY339L36KO36IU39QL36JD37YX3B4U382M3B4H342N380Q334P340E37NF33YU38LW32183AT9320M380A3321380D332537NR38QF380H337S380J35UC25M37NY39SA381637O2366E341A39YL317G36KK3ALC35RV37OB36I739QT34Z03AOW36KS383938LL36L8345U36KY37ON39T82283B6S381339PX34VU34H2342838IZ341W3B6Z381B37P037N83B74340A3AR339T13B7635TC3AKM39TJ36KF39TG327M39UD324X325U3A7F36LR39R834W739QV3B7P334B327O39VA331W39TX321139TZ341M382H39U23B7M346435TT382N335L383334WW322Q328S39VH35XO382Y36MP335Z39V539UM383437Z9335A39UQ32AD39US325O329Q3AL135UQ37YI3B4V383F3B8R383H39V13AN73B2T383L39V437Z139V63B4A33673B82331O39VC327E383Y342Y32AF345U38423845357134YS3AQS337H340I35VO39PR39VU328C37OX34Z0328K38KL21432AN3ANJ32AJ39RE33Z232933BA533D035ZZ3ARJ385U37QL38QV27E380T34YX27E37QL2LI3ARK36N23B7K36Q63B8N32BC3BAI325127E35Z034Z038QZ343M31ZD36M93AF531ZD31ZD3ATM3228341L37ZC31J922Q360038D03AP3346939R336K63B6E335A31ZD37QR3BAF31ZD3A7J2LI34X532AJ32X939GI25D321A3BBB34X633823B6D325G31ZD3BAJ2LI21U3BBK34VQ31ZD37YN322I31MO341L383S3BB838I431FM21E3BB137OR320N34YV37ZK31J91P35VX24S36QG31FA386A33ZN35W2333234ET3A7835KV35F037S339Y131TT386Q320A317E38T738NG338R3BD034PX338R338I31FM38TY34IK324Q26T321A1535003A7F38V237K236C73A7M31O031PC31O435H932NZ3B2337JG33U83AJP1I31J035IL36SJ34EZ39MR37TP39D735E033MV24V34FP31E43B1S3AEV35K93708397B366H351A3AEN3A9H3AGY3AGT3B1T3A8331TE31GL31IJ34P43A8T3AV031RI31HR3AZH36ZP39HI32QP33VQ32OE32P537XJ31P83AVQ37U4315R35LG24V35F037BE32MG35M83AYD3AJB33VG31J031GG33U51U3AGL39GD32MJ31GO366834F634QW36G222931X934P73B0B39RX3B9739GJ39F9398536513AAE39HH3A6Q36YS33O733S7315J31PC31SG33N138FA3AV63AY532HJ31DL31R5367836H938CH36FS32PR31GL353F35JA3B3W31V531M937I931L937DF3AYB3AI1372T35E63AVX3BF433IW31DF31QN39JF39813AW737G939M027533PO33WG34QD36Z031DP31DF36D639GP37KW366Q31LG31QA35HD23232NS3AI03AGN367E33MQ314U31K331QH37T331P631HA34P42Q731K331DN33VV31HA31LV351L34QL39NK31RF31OR31QH36OD35BK3B23352639N739I937U636511U38BU3BH033VG352C3AZQ328E31JU32WY31P839DX3AES32KI31IC35KH33QD372N367833OV370836OD35DN35GN35433A8Q372Q3AY2316M35JQ3AWM371J355S37FT38G9373E3678317631DN3A793BFU380B3B0D3AW838V23AWA33RB3AWC35W33A9539D734I4315J31EK31RI38GY31O4397V32XO32UV3BEL315R33QV3BIP33VG36XL3B0032O3316Z3B2P33MU39E63BEA3B2837X433VR35GU38E332XK31ES31DF36SP3BET3AI9317631LG3BGR36OM3AH236HH38S63B7R31N132773BCI3AXN34SL37C836C039SZ39I533TA3AUX3AJ13AUZ33O433UJ33VQ35HL32K639F531CQ35JM37DZ31L431R5368I316R31DL37IL31JK3AG03AGE32XX33X635133B3M38G53AYR35FO3AYU316E36ZY3B0P32YH31SJ31GI352622L37CQ3BFD36OE32V33BJG33PH3B2S3BH639E231PW31VO36EA3AI639JO31JK31QN31GG366T2Q731QD35EZ31EB35513BIM34K7354231LE37HV3AF233HO33P83AG139OL364H39FP39IG38FQ36GG3BND31GG34QF37D23BN9316Y35NX3AGW31VG3BKO39OI39N935GL34E53AAV32HS31LZ3AI231QJ354D36BL31S031QA3BI4366K34HS3BHS22931T039FY31JK39O43BGV3A8J356J31SM31EK397833HW353A3BNU32M13BHX3B0332OO395S3B3631XC31GA3BMB3AB936AD3BFX3A7K31RS25C2773BMW371I396C347Q3AZN32P73AI919396X3BGC31FY348S3B2C31R635CP3AAM22I31F031YX32HJ36B037KH315231JU3AWO371J31P631K334OF2TB37UZ3BKL31T937E23A7A32YT398139PO3AXI357H3BL537Y53AFD37LH3ALG32823B4837P131ZW39QI340A39Q137ZN3B7W37MR39YI3B4W39RA36JD383P37N83B4P39QQ3B5D37MJ3BAZ36IT38SJ39Q63BQM37MJ3B5B37N836J43B5C3B5J322439HZ3BQJ3ATV3B4Q3BQY37ZH3BA83B503B5Q3B5I39QY3AU03B5M39Q539R337ZS3B583APK34S439QB39QX3B6038SY39SX342H39QP32373B4X323B3B4N36IT3B8Y3BQR37ZZ3B5U38393B5X3804340H35R038083B6335ZN324439RZ31A4380E34UB340Z27E3B6A32823B6C39GI39S737IS35RJ3B6G3B7839RR3ATF34YX380V31FM3B6N3AMN321139SJ3B5M3BQE328B3B6U336B39SO3817345F35S73B9E36LB39T736LD37M5341M381H3B6V3B6H3B7L3ASW35T93BTB35VI39SU37N83BT3342L338B3B7J34SL34283BQI37PA36ZE37PK327O329O382339TO34SS39TL3B7Q333V37OX37PP325U35TJ35TL38LV382M37PV36M0382L38MF35TV32VM3B8P3B8G344235U33BAU38SU3B8L38OM3BAP3B7O39U934XB3BT333683B8J3B8U3839329Q38IK37RK329O328K37QR329S383G35UW37QW38QF383M33M8383O336Y3B59341M3BTN39T03B9G327L32AJ3B7A32AF328K3B9M3AP13B9O31ZN332Y39VN31ZN344A39VQ3B4235VT3B9X324I39VW337Y3AQS27E39W03ALZ34MJ373M36OD39W62C73AM338ET3AKJ332T35XL3859328Z37ZQ38TX323M329Z324M36P0322B2QI37DS23G3AH63BWE27E35YN36V93BBL3AH53B6O346K338R3BX02C73BWW3ARC3BWY3AQS357B31MX39W837NP385U386C3ARN355G342M39AM3BSZ32CA3AHE39GM399L35EO35W32Q731LG3A6K3BE833RO31YH1U32PR32RI34EM316Z39FR31T431JU31GI36YA35IW3BN938BQ33LN31SM3B2G3BNP33JI37293BF731QJ39K438BS33VR31QN31JU373G31LV31DL38CF34J737DW39HT3AK739HV3BL139HX383537C63AXO33DB370Z3BAN2753BLB35GG3BLD3BOX32OY31VO2Q735BE3BMI32KD32Q73BKA32ND31QN35OB31DJ31RK3AA631EB31K336BH31L431RK31JU34I42TB31IJ378R34HJ35NX37FE31J031LG396C31J837D331J43A873BK732OO32Q23BOK33UR34QD39MR3BEQ33O4314U31F03AE931P831EK31GE39MR315J31R532PR39EA39LR37D91I35EV39EW35K531TB3A7633JI31ES364N32M631LZ3AB835FJ39F832OE34E437KJ37GL34FW3BN634GQ34N83BJJ3AF034DE34RG37VD3BSP3AA13AZ23BFZ3AZ43BHB39GA38CI33X337B63BM538BD373E3AG82CU3AIN31P831RX37D92TB3AVO37VB31X334D13AYR31HA31LL34G21U31DL39EP31JK31R531GA33OU374G33M731T931GA31O439MR34Z734DE33WN39LX3APG3ANL3AXV33PO37T439FS33CS3AX538G534FU36D033MW39ND33I43AJP31JR35GN35K42Q731VZ39H831CQ31IC31JU367531O731X934PE33WW34GD352W314U31RI31DL374P31DL3C1339DW373M32UM3BID37XW35H93BIG38V13C1Q3A8U390Y32V736OD36YI31MA35133C3037KK3C1A31SJ31T33526365Q34QD397B38DD34HS352632Q1367X353F31K333MS32M631IC3BLT34EM32MP3C0A33VG3BYF36ZN31JV31ES3BIL39OD35ML31P03BOU37AN3B0E31RS360Q311B3AGJ22S1039BX32CX39C9377E399N3A3Z2RP22S1H1O36263A483ACB318F359H33FS38ZC2HX22U376K191I363339ZC3AD33635349H32EY31803A5Y34B43ABP34BY394Y33FM22U34A63A1B38ZD2753A3822A36V339A536WD3C6N2UR31ME3A2521H3A2421221H2R93952392X3A5422C3A4J39412H93A5V358J375B36VQ1333GX22U22U32GO3906133A1F3A30319E39ZF39ZH39ZJ39ZL3A5439BN38XA1J33DY3A36362F3A492EK39CW37DT351Q34QD37GL3BMX3BPG32MY3AI9354133MW38DL31OR31F236ZU37JW3C5731Q831OR33KH31SM31QH31K334J02TB31J031F233U123237D03B0S33S831YF39HL36A539DC3AGW31GL39DV39GK36AG31FO36ZI37AR32HF3BJ835BC3AI532PS31Q63BOC37B73C5231DR31GA31T3366Q31R531IC39NW35DV37JX32HS33IU3AI92Q731T031IC3B0W22939HA3BYG35B039KD3C5235HL31OR31DP35CC22L3AY434FU31VF354R35FY3AXH3BKZ31NS39HW33D532773BS138PV370X3BZ439I331NJ3AXS36C43BZA3AA23C45355N354P32MG3B103BFR34GG366T23233TP39LG31JA31O431F234K633JA34JB33WA37EH39D734EI3BOM3C9E3BJB353737CR39FX3BN93C0J33NM37W23AGX3A8N316X31O734LH31PN356A3BMQ39803AW639833BFY338B3B0G31ES33NR31DJ31P136BB39F034IW34EA39LU3BJD33WA36Y538DQ34G239FQ34GG34M731GG34MA31E435FI24V378L31DN398T33MU33Q33A6Q315J31SJ31R535IR37BR34GG3C3Z33Q636ZM3AGZ3B1L3AQH3C0H37VJ399831GO3BGA3C3I3CB138GZ33I831DD31GE31QN33WA379U33NM34PE23232NV3BN136E03C1T3BMV37F33AZC31Q337JF3BMF32KE33NM397B314U37GN3B3T3AZG3BLL33IW31O431GL35AZ3C2V3BFW3C2X35I236C8314H3B2A33NM3BFH31QH31DF37UE3C9V32XN35F823235AI3BKD32SY32O53BDQ3BNG3C9N31V533CC3C0Y2323BG9367E31OK3BIX3AYH34DJ36HD39JP31OB31RI34HR3A7435GN33WA31763A6I3BLX3C1P31RS34MP3BF933VT3CB12TB31GI32P2316R32YO3CBT3AVA34GG378L31HJ39O531DJ36DV37D93BI0367X34FU36YP38HS35HD36AK34DE36OD39EU33K33C493BND31QN373G31JU3BZU31K036YM39ON368X3BH53CBW3BZB32JP36513C3B38DQ33S731DK364H39JV3AGX35DP31R63B1J34ET35MT351A3BED31J031J83AG832NI37V1352Q34LR36F831DF3B3P33VR35N03AJP3BM137KK36Z437023BYM32QD31P139LL3BJN37G73CE93BNR328U39NX364H35DM33IH39DC3A9P32O5374L314U3CFM3C9X32ND33ID3BMF1931OR36FY31S03CDZ3AZX31R631QH34EK33HW3AB13BLO31QO31RI3A9K31J437U33B2031RF351V3AHU33M431DN31JU31VI3CE73BML3C9131KJ31XN33S831K331HR346E3AYS32MG38FS31P631HR34OF38W434GD38BF31DL32PR38BI367U39P2371J31QN37XG316R34HU3BON3C5035GN36OD2Q73BDP3CF532K831P138G739GB353734ON37L73B0C3CAD3B4033XV2BT3CAH34353B4431N03B4636HS39SZ333035G83B4B31OB33123B4Z3B55327P37M63BRR37M8325E3BB63BRF3CKN323B3BRC3CKK3B5H3BR93BQS37ZH3BQU3B5R38IZ39R436JD3B4T37N83BRZ3BR33BRG3B903B5M3BRE3CKX3BR4323B3BL2321Y3BQQ3BRW3BRA3BRM3CK733ZK39QK3BRQ38IT38SY39Q33BQJ383S3CL337MJ3BRV3CKK37YL3CL83B603BS43BTJ333A3AMJ35QY3BVI3807340M38093BSC33673BSE37NQ380G35RD3BSZ35RF380L3B6F332J39SB36KE38R03B6K39SM3BSY37O931F43BT134S439V83BT53B7734IK39TM39UO341W33ZM3B70381C3AMM37MK31ZP3BTH3BT63B6W35WV36L83CN33B7D38KR39T936KB3B7I39TD36LJ383S3CN23B7Z3B8A381M3BTZ36KU3B7A325U341L37PH3BU433T536LZ381C3BUC36ON3ANH3AQ4320A3ARZ37PX36MB31KJ3BUK382P39GI39UA320A35UA3B8I383739UG3BUS31FM37QA35TR3BUM36MU3CNH383635U436MY3BV23B4J344P39V53BV839UZ3BAK3B953BWQ34503B9939VR36NG3COP34Y63BW3340A3BVM35S432AJ3CKW35VE39V53BVS34YJ337G31ZN329O3BVX38KV3B9T3B4V384C3CP8328B3BW532BG3BW727D3BW938ML31K03CE13BPM338G31PV3BBP320A2BT3BD3346K346S3CQ3385H332T3BX727E38TY3AJ03APG25V321A3BDI326T34E13AKC361Z33J7377E3A1M2SC3BDW2O61H399T3C652XA3C6J31AN38B1394239A63A5Q1M22W32DM32D822S3A0Z3ABZ3A1A2C72HH2EQ39NI33FT36TZ3C5Y3C7V27J27L27N27P27R3C6E31A436TL1432D71Q2EQ3CQS2H93A4W1L1R318Y31BI1U22S22S1R1J36TM22R22P22T319522J1K1722R362X3A051R1P33MN3C6P33H822A375E3C7J36VD31BJ1222P13362U22Q357Y1R3A3W22F38ZG21R38ZI38ZK3AFO21J357921E2SC1H2G036WM32D139043A0G3C5K363J33F7390T395B38WC357N1J1L399K38YG311A3C7U3A0T3AD53930394B3A2L2EQ3CTB3C6C22F36VY311638B02NT310838XF38WA395C314D36WR365122I3BLU31HB3AAQ39DC32UM2Q737F733I631F031F238DF31QA33N3316R31OZ38E031SM37BB3AI93BE23BG23A8L32SG31P131HA3C9U3AW03CI33C6333X6373G3AEX3CF236OE39MX3CIC3CBU3CK23CE839LZ3AZ33A8U35623BGD39KJ36ZO3C8D399931J431RK36CH34EM39JR3AEJ315R34I33CGI31GQ36BO3AWL33VR351E39K033IB31HJ31IJ34KG35HF3CVW34DO32PR37CW31J431J83BPS316X34G53CHX32IW39DC3CE63C1M399C3BJQ3AFK32NC3AZI34N839FI37FG3C0D33VG3BOT38EC315239HR3CEZ32PG34NK3CEO32KU31SJ31SG39P939M931RK3BJY22931GO34HH34EM31GI354U31L931LV35I939H332MM35F835E73BJD36DC3C97365A3BMM31I53C2Z3CIU3CVZ31IL31J831HA3BZW3CC83737398R32T731SG38HB33X33CI83CWB33VG35IC3AZN31P631RI3AJT31PQ31DP34OF39OR37KW34NP39963CXZ316E3BFS3CVB22L31JU37TM37HD35GN36783C433AUY3BII3AZ422I32PR31OR33W231C732V735F03B0K367E39MR34OC32O533U539FJ34EZ39ET31LV32PR35GS36SI3BJA32XK31QD31O434P4314U3BK03AZ132T731SJ32PP34EM38C83CY531MD37253BFK31TE36CT3AZD3B2R3CGK37IT3BNQ37IV395N31SJ31J03BO631IC3A9N31L93BFN39K531OK36AZ3BIV33UE39P53CE233VG3B1Z3BE6356L34LR37XK31J833L134EM3BZS31HK31JK32QU3B2K32UI31T031PC37V535FE3AV931TE31JS3D1B3D0B3CZ23C4631X93C0X31J43CA23CWK32MR33VU3D1E34DO356T3C0Y2TB31PQ356931SM36XQ3CZV3CW038CH32UM31WK353735DX31DN31GE37GL34ML3C8S3961367X353J22L31EK31DP3CXS3BIB3CX636ZB3CVG3CIX3CBX3C9233O33C943BJU31KT314U33WQ3AEV33JY3CIC33MQ3C3O37KW33W53CH63BO03A9R31QO31F2350Q3C0834N83C4I3CH43BZG32ND37983B1Q316M31DL31IC356131O431HJ3AVJ31UG3CW5334M3CF835F8317633XF3B0S3BYW3BL23CAE370T32773ANL33T03BL73AXP37CA2C73BZ837133CAP3CFF31NX398632YI34QW33U522I3B093D3E32MR3CJ93D2I32ND351K3CYC33PP31DP3A6W31E435K3397E31GG31R53CZD3AFV3CD033TK3CXM3B3V33X331PQ32SZ31EB35F23BGP32OO32UZ3CB1317639MP3D153D2J3BFV3D2L3CGM31NJ31I439C93CTT3C5M33G422D22S1S36T9363G22H2O827Q22R22W2NX33H522G393W32XL1A317X375O39A739093CRI319F1L1622V113CS522U22O39Z43ADQ3C5U32FB3ADN3A5X38A53CTT22E22X22U1K36US2UR22A2Z2318R21H2RR21R310822J22V362A39AH36TB358Y3A0E377E39C73A0G3AC9377Y319Y2LG36UI37792I31A3C5T3D5W395O1H2Z933E93761362K319D39C43C6739AA35A13A1M2SF2EF21G2SI2DR31032IP2HY1R2FT1Q39AM3A5833ED32H7367R3C9H3AEV39KU3AV231EB3BKW3AEV39D232RZ39IX34GG34MY374S3CX331OB35C33D5C31CI3B0O3CIO32XK365B3CDP3CIQ3CFQ32HX37U03C2N38CC36DY31K039NY3CIR3CIW3CGL3CAQ3CBY35BQ3BMP3D5036ZQ36ZO3BEW24V3AZU22931GI3AK433X337ER3BN13BY0371R32TB354R34J8398K352W358J34E638DU34MR3D0O31CQ31LZ347T34EM34R33D4J22L3DA63C2831XC353S379Z382F3CD33CEA3BDM316E37IO3C4Z31VX371I33N139BJ35BL3AG83C8Q364H3CYL35FR3AI031P435BL36OD368L3CVN3A6C33X3351W3BJD31SD39E53CJU33IB3C243CWX35K536BK3D0U3CJY3BGC33N13BJK372N3A8S38EV3BXQ3CTR3BXS31KT316738CH35K831F234LQ31G431J73BYB3CZK3AJP34EJ33NM3CC7379739G432ND348H3BG338BG3BKL38FS31YC3BM539DP37F43CQ032K83CVD3CVQ31JV356K314L3AG8317637013D3T3CAB3BYX370R3BQ3360D38K23CAJ386F3BZ53BTV37CB3ARR3AXT3DAH3CHR329F3CZB34HS34K6314U316Z31T039NH31PQ35JZ34GE31R531P635KB3AEG3BGV32IK35CL353F33II3BN9316N34GD37V235FX3BPZ328E39L63CYQ35GM3D32373G31ES369I352E38HS38HW3CWO39GI3CHQ3BLF36Y431LV3C1E31L431GG37G2369A32MM39NO36E83D1P33MM31PC374N372L353234K63AG639MA39J332HJ35KL3BPW32ME31DP31QH35IR2TB3AXB3AZN31QH31R537BQ31QA31GL39973A7Y3AJJ3D5D3BJO3C2W3CVI3CAR35D6365631LV3B1338EB3D9H3BYN37KJ3BEG31EK3550316R31SB3BMF34HG35BL3DAP32MU37D93BHN39D734PE22O31LZ31F23C0P34EN3C9937HW31RI31OR37V53CXF3DC531763BGG3C113DFD3CHP3DFG3CFG379H3C2K3B1B2Q731P637V831S035AX3CVB3A1I353732PC31J831X935K4315J36S53CY632QT39DC39OQ3BYI3A8939LD3B1B3CHT33O7365531QH31OZ373G33CB3CJO36OE31DL33BM3C5939S83DE93BH83AXW3A7N39733CD13C1T31Q3368B3AAM314U3AB73CB1371837UC3DH433MM3BPP3C4I351D3DFC316E3CFP3D1234GE33IT3D4G31CQ3D8L3DHV31W5374939HL34MC39D734J037TZ367X35HD317631GI354M3CXV2C736PB2LJ35HO3D4J3AJ43CFK38G33DCJ3AYR33CJ3DEL3AJQ37KJ397Q35MG3DGV39DE3B2632T73BNW3AI03D2A37IZ33RL2Q73CGF3CX032SG31R531PQ352A31O731P636693B3Y32J23CK434RM3B9N32Z23CK931NS3CKB34RT3CKD320S31ZW38IZ35P43CKH34SK3BQW3CLN3C1O3CLJ3CKY3BRM3BR839RJ3CLC3BS23CL93CP637N83CL03CKR3CLQ3B4Y36IO3B5738SY3CL737N83BV43CLV37ZH3B543DKD334G3B5232243CLX3DL23CQ63DKL3CKS360A34003B7G33ZO3CLK38SY3BTX3B5037LZ3CM03DKR323B39R2342H3B7R3DLE3DKG3CM23BSS327L3AU6342Y320731ZD3CM834U23CMA39TS340Q32BY3CME39S236K0341M3BSM37WQ3BSO35UC380O35X43CM3324X321339SE38QX322W39SH36KM37QB3B5M38IZ3AMR37OG3DMF39TM3DKC39TT383D3CN43B7E3BQJ3DMP3CN93CMY39T23COU3B7X35TA3DMX3CNG36LK3CNI381T37P7381K34WB35T9381Z3DND37ZO35S735XX36LJ3DLP341W31ZD3BU03CNX381C3CNZ3BUB382D3BUD39U03CO8382I37YR335G3CO427E3COA39UL3COC3BUX3COG3COR382X3BCB329039UK3CP137QD34XB3DMP3B8T32003B8V329J3BAM342Y329O329Q3COX3BVA36N93BVC38512283BVE31K63BVG3CP53DN936NI38MC39RM3CPA34YB39TS32AM383D3CPG37RG345W34UW3B9Q36KI39VQ343634YU3CPQ34YY3CM134Z039VY39XS37RX2283AK23DC93BYJ3D9133AH350021E317G3APB3572352I350C355H38CM32JK3AR6323M3BXO35GJ38GR3CI7367E35HD37TB374Z398U32IE379R3D5633XB373M3CGR31PQ374J370035O83CB531F23DDF37HQ34KQ34G23C1S3BMR33MX31J431QY3DDV33MM31T033VI37AF39D737L63DJV344E37LA3DCS31TJ357H3D3Z3DK12783DK335OY3DK538IU3AXM32003BQG36IW39QE36I73CL53CLD3DKM3DPB34003DKY3BRL38SY3B4E3B5R3CKJ3BRK3BRX32073DLN321Y23J3DKU32243DL1342H3BD93BQL3DKG38SY37N33BQJ3BR23DKQ36IM3BBC3B5M3DL63DLQ3CLE32073DKI3B503CL23DRW32243DKK3B503DLH3BQX3DSD32243BQ539RJ39QW3DLK340J39RN37QM32103BV436KE36JP37PO3B6236JT3CMB31ZP3CMD3BSG39S33BSI3BSH332B3BX43DMA3CMK34UJ3B5V39SC338X3DMI3B6L321O3DML341F3B6Q36IT3BR032823CMX35ST3DLT3BTK340135T9382A39T63B713BTE38JX340P3DN13DU43CMZ327M3CN1325U3DU9341Z3DUB39SV3DRK39T03CNJ3DNC34283DNM3DUK3CNO3BTL35S73B5L36LR3CNT3ATD3BU63B6X35T93AN635ZX3B843357382E3BRJ328B3B8837P1326Z3B4G33673B8C3CO939U73BUL3DO53B8Q3DRA37QI3BV02LI39UH38D03COL37ZI3DOT3COD3330343Z3DO73BUQ340A3DOJ323N329Q3DL13BV5382938OO34VN3COY37NP3CP037QX3CP33BQO32283DNK3BVJ3CPQ33733DMS345E3CVG37RK32AF34933DP83844331M3CPL35PX39RT337H342V3BW23DP13BW43AN2328B3DPL2LI3CPW34IC3CY436H738P135003DQ227E3CQJ2C73DPV314S3BXF346O366E3BWL338S23I37S7347F39WV36PI3BZ737PO347E38D034ZE33AU38573BDJ3DXM35OS345O317E3A7F38563AF8341939WA275339736MO347038ET33ZM339T3DXQ347038IG36BY38TY38J935UC26S34ZD39UI3DYG3DRI36BZ38IG3BBZ37RK2BT3A7F38753DXZ33AK31ZU31ZN3AKC39WH346Y3CQ933SR39WL3BC639WZ3BVT3DZA39Y0328A22133BA39YO2BT37YN380Y339A39PZ3AP836RA38KD322O31ZN3BR638QS38S638L0339T36RE33AR36Q731VS2FX32JA3AUQ27D3AUS384S3DYQ38RJ31ZN387F36BZ370S3DYF3BQ636HR36L338K831ZN3AU23ANC27E3E0K3DZ531MX22O345O3DYX3DTN3DZ0343M3DZ3338Z38IG3DZ738HZ31NB3DKW33Z23D3Y3AOE38JW3BOW323W3DZH36R239YP27D3DZK3C4431RS34932O622R32GO3A022RP399Z362Y31A73CRP3D7Q3A312LI390B3A2Y319O22G31A71M31W632EH363G3D6L3AD522E22Q377822Q1536WA39A032FE375K36VL1P33DY22C1J39A039BZ3D5L359R3CTT3CTT3A582DJ376T1R1R317V22H132BH32FG22Q1O1V3A3K3D7937633ADQ3CQW36W1362D3C7136W136UC27T317U34CK1P1634BP1J358832F021F389B1W21E2EF392O3A002TO34AF399V2CE362N2QJ39562EQ2BP359G393Q39CK31413D5W3CU135913D8B36513DES31GG3DB031J036DR31EB3AGS39HL2Q731LL31GE374L315J3CYJ3CI3396W379C33W522I3CFV3DPS32YH372Y3AGY31R13A883D1Y39LH34KQ374L34M8364H3AGT31IC3B3D3CYX3BN53DII37DN3D2K3D9B3D48326T3CWS3976372N374L36ZL35GO3CJI31SD31P63DQG31L433QU3D8T2Q737U93DGI35K531RK31QA33W237HX3C5239OQ3A683AAZ31RK31OR397B3DQV31WX39L534E63CXP31HR34L731K035IM3DQH3BDK3D0C39CY31QA3A7Z37E033VQ352W1U3E4D3C99315A3AWX3DEU31JK31IC3D0336ZO31F233QM31P83CCT3CET328E3BKF3E7433MM31GG3C3W352039DC3BNI36G43B1B22L33SO3BM53D3R34LR34K63CD433HK31HJ31IC3AG82Q736GI3DHJ1932W23BM833VG31GG36DS31L93BP93DQX31QO3CY93C5831JK3AW13E5M316M33I93DC523237VP3B1E31UW34PG3DB934DJ31DP3DFR316X3BPR3DAF317631IJ31DL3C1L3BMK3E5D3D1F3CVJ3CAS36FN3E4Z37DA37I633WA314U37BO3D8T39HD3E5939ME31OK31LZ3CVY31L43CYV3D0R32ND31GG3D9833HW372J3BOC31F0352231S0353L3DHU32XO33V43D8T22L32IQ3E5V317631P135583DHN3C1N3E173E5E31VS33PO396G3C993C3Q38FP395Z31EB3BPC38FQ3AZE35NX378H2293CGW33OU37UY3BGV364G3DCM3D1M32SP31F037FB31J43CFN3DB632W935293CI338C634GD3DIO31QH32KN3DE438FR3AI93CZ03BLE3D1G355N39FC33JW36RT31PC39NM31DJ31JU3E9T3AVW354R3C1A39G33D8W37IB372N37FE3AEM3D1S3DHT378F31DJ38GT38E932W935603C3G34DO31F23B3J316X3B2H24V3CA73E5H39J23CIV3DE739KO3DGL3D49379H3BK13AAM38BQ31JT34EM3BZI3B233DB733RO34K63BJZ379C34K63AGJ35NX35CC34N334QW35IR3C4P38FC37E331PQ3DIZ31L931SJ31PC3DAS31SG37BS316X39OV3D3B3CA83CW2363W3D9A3D0A3AFL3AW93DBN2283A2F3DBP35K537WB3E6V31T43AJX3BM53DD73DCF3DQW315A37A5314L35H939NP32R231DD3E873CHK316M3D173CBI229351O3D3N316E31J831J03AWJ3BO739DC33W535FG35KV37L331DN3DF631K03C553D013AK833SS3DJW3AXK33SW37PW33D839I13CAK33T53AXR36C339I73D473E8U34ZU38J431JA32KB3D3B3DQC3BYM365P38CD3EBX33MM34853D8T3E4L34QW3CB831QN31PQ3CEL3CEH3ECE32KF3D9R373V3EAL33X33E4C3E7735K531K33A723DR43CIC32U73CK13BFV3BQ23CAC31ZA2BT3CKQ3E0F3CQF3DRF3BQ934643BQB326M31ZW3DZT39RM3DRM36JD3DU139RJ3DMU3DKZ3BRM3DT13B503CKU3DS13DLF32243CLI3CKK3ANL3EGN38SY3CLZ39QO3DS7323B381F342H39UO3EGY3AT6325E3DSH3DRR3DLA38OC34003DWG3DL93DLL39YH39QF3CKM3EHH34WP34S43CLS3EHG3DSJ3DOZ3B5R3DRV39Q73DLS3DUH381R3BS73DW83CM138T137NJ3B64335A3DTH3B673CMF39S43CMH36K63DMB39GI3DMD32003DTR36KE34SY36KH3CPU39R33DTX3BT03DTZ3B5R3EGG3B753DTV37OS3DWM37OV3DNQ3BU23CNF36N0321Y3EIP39SY3BZ639T03BT735T73DT9325U3EIW3DUA3CN53B723EJ0342N3DUR35SU3DNH3DFE3B7S383G36LR3CPD3CNQ32103826327O3DUL3DUT327O37PG382B35TI3DNU3CO231ZP3DVD326M3DV431ZP3DVI37PZ38LL35ZW3BFW3DVX320S32933DSF34643DOH2C73DVS37Q939UK39WJ3EK734XB3EJC3BUZ3COH39UR3COT3DKN3B8Z3B933DOP3B933BVB383J3DOT3DOV31F43DOX3B9B33ZU335A3BVK3DP238393BVO39VF3B933DWS39VK32B53DPC3BTF39VQ326O3CPP3DX132663CPS34YX3DX52C73CPW32V9317633LV3D043AF33DV2384S3BWX3B403E0Z2283AHC34K0355A35BO384T3BCY338R36Q221727E33ZI3DQ6351623235R22UY393J33H636TR3E3U2C723138YB36TU3E1Q319E3E2G3A5T38WZ3D673ADQ3E2K375S2M72UA3A1T2O61Q3CR8316E16183A4W16362W1R32SH2CM39AT3AFO3C743A4L311B3CT23CT431AB2LI2302W4394M391T391V390P3CRH3D1N3A423E2Y3E2538XA36VD3E2O2QJ33FM39AK3C6A38A521S3926392838W721G3CTL3A0738VW2EI21D38VZ3955390T392Q32EE32CZ377H28L3EOH27T32DL1S2961N36TG183CTQ3EDI21D390327W36UM2TO2NY22V1Q133D7M1622X1R2EQ2ES2QO392N392P3958392S392U38WO2W4395A3CU93CTM31A4394Z38A032FX394K3EO9357E3D7W2QJ399I357S22K38XX38XZ38Y121G38Y3361I36U928L39073C7032GK38X4399J27I1H38XV21L21228O391C38YK2HI22J1622S3A2T1J395O101Q34C82F23A14319J39CG36WO33EH3CTW377O1V1S32GA3ALB393A3A19357L37803D6I318G22G38WX22Q3E6Q39A02K2345V33PO3CUE353234HF37BI3EBU32MR31GA33WH31DJ3D3K3E5V3DGQ364H39OX33UF34LR3AX43CGH3CUZ34GE34KP3B3Q3C1V34D134HB31F231HR3EEF39EV3DCG32OO31HA31GO3BIC31CF353235133EB43D5G32QJ3AA432T3372N36H831Y33C1F28931PQ31DF36AN31RK31O73AX43B0Z3CB13E5T35KV37TA31K331GI39H031OZ31JU38DX3ED03D0737X935BL31YH3DQ933MW35CU31O731GL35W531P135N33E9Y3CWP3BH73E8V3BLG366N33VQ378L34FB3C0Y3C363EB23CBD32MR31JU31GO39OQ31IJ32QQ316R31DP3CUW32UU31OV36E934D43D8T3C2635O83E913AGX31PQ32WS35L13AVU37WI31F031GO32OE317631O732L93ETO3DE83ECA3CGN3C1R3B3A24V3D2H31L93CV53BPD3EDU34QD356H2TB31OZ3BPP31FY31F031QA34P432XL35CL33VK347P3BGV314U367D3CV031CQ36X831MB37FR33RO36CN34IO39LO353N3CDI31K035MX3AYU3EDD3B2U3E6I3DHQ32NC34BO35BL3A6A352P3CFJ3E9B37313D373BJ93D333EAC373E3CDX3DHT36SS31T431QA34D831JK35F33E7W316E37AA31P232M63BOH3EV03D1033MT3AGT39OM3CZO3A7722931GL37DE3DIV36LI3D2O3AWB3BXR33RD315J31QN3CI23EUA3CD039J031O73DQZ33HW31HR37FM31QJ31F031HA36ZU31QD32OV3E6W39DC3AG537F739II3AEA3EU031UA34G83B1B3DHZ33JW37DG3BDU3E5A3EX139E83DEL3D3U3B3Z3EER34PQ32773EGV3BZ73DCX38NG3DCZ3EEY37CC3CAO3B1M3DD531CH3CDY34QD369D38VD3EAX35303C4Q3979372Z346E22O31P63BZP31L933Q23DIF32UI33L93EV431W537AJ3B1K3DGT34QD35DX31RK371B316R31J83C0N316X36883CVE31XC3E9Q3D323CVF3D5E3E8T3EDF3ETR31RV3AIG39F836D634C832MM3CJ43AY13CCL3DQN3AVU33IR31GW35O83EVE348A3BGV36ZV33M735I731SG3BHF31DD35AJ39MB3DA432O533L632MF3EW93EWE31RF379Y3BPA31XC31K339HO3CHO39OG3DKE3EZT3CWR36C931LG31J8373936YG3DAF314U3AIB3E6H38FT3EWV3DBC370F379C33MQ3DBR36A7397B3CB634HS33N12Q731SG3AIQ31DJ39MU3AI023232PR35DH31L437TN3DI93BMD35323ESG3DDB3C8S34E131MO2LJ37EE3DC035DL3AJP3CJ53CJI36YA3AYE33O731Q839PH3DB233TK31DP3EWR31Q336953AWY31523E4I3ELS328E3CJH37XW31OK34IP3DJ736X13EFR3DPR31JV3EFO3EZM3B3X3BQ13DR93BL2357H3EYF32253DRE31ZK3EGB34Z03EGD3228380633YA36HY35QP3EMD34003EGX3DST323B22T32ZL3EH2320722X325E3B5F3CLP3EHQ3EGP3CKK3CLU3F3N3DSP325E3A7F3DL4323B3DS9321Y3E0Q3EHK3EHQ3DL6342H39R23DSN3DRS3EGK3B503EGM3F4139V53CMV3F3R3BTF34S43DSV3DSY3BS33DT632AH36LE3DLW332T3DLZ3CAP37NK3DTF34U53B6639S13DTK3DTJ3DTM3EI939S63DTP35RL3CMM320722Y3DTU3CMQ3EIL37OA3DMN34S43DSX3EJ13EIR3EJ33CNB3EG43DMV3DXT38MC381P3EIY3AMP37OQ3EJ239RM3EJ43DU63DW6341W3DPF3EJ93DMY39RJ3F5L3EJD3DNB3EJF3B79327O3F643DNH3CNM325U36LU36KU3EJH3F5R338S3BU334W23BSH3DNS38SX3B863AN13DNX3B8927522V39U43F6U39U63EK53B8F3COO2282303DW0335T3DOA3APT39UK22Z3F7235UF322Y3BUP344K3DWM3BV339UV3F5S383E3DWA3DOQ37QU3DWD3BVD3DWF3BVH3B5N3DP039VU3EL53DWM3CPC3EL839RK3EKN34YH39VJ3BVU27D3DXO3DMJ337H3B5L39VQ3EJ835ZO384D34193ELK35ZO3ELM3BW83DPN353Q3CEJ3DQD3DET326M31NB3DRQ338G3AKT3EL2317G33A6386N3DZB35G93DPX38SU39WL339932773DZ43AF538IS39YF38HZ31ZW3EGR320N320I3DLJ37ZN3F9A31MO33AY38T032773DZW32AV31NB3280360L3AKV3DYA38IR39X0323A31ZW22S3E1539I6344E32243EGR328B3AMJ31KJ2213F9J39YO31NB22U36PT3F9L34Z533AR38AV31RS2173AOD39XR3FAA383238TC32773DSB38OJ38IS35VH3AOK36L735X939YK3DZA3712322B3FA43BSA32AZ31NB37YN36BY32XE31NB334F3AQ033303DCV35WT38IS3AMB38NG38IS3BAG34XL31NB3AMB3FB238S634SY3BWN322832773F8Q34PX3F9637S736Q838NG39Y3387522Q38SC339931ZW3DVG3DZO39Y33F973F9B33YL35X932073BRP3AT83FAY327932773DS638I7342T3277386K39Y532JA22R31I521E39Y334VT2143BRH31KJ1P37YC34Q33AIY3E1E31NX34733CR13A5B36U7318439Z737613EPT3E2239BD22B22R34KH28L1T31673D643ADN22D1122T22P1R38X63EOJ3A3S31IB36VU1637K91A34AO2UR377Z3C7P361J3ADQ3D6N392W22D35961I2YY349O3C6C3A023CRG3E412ET3CI7361R22P314231KP3EPW36183CRA39AC2PP22P37741O1532SH360T3CSM399W32SH22R2QF1J22Q22W375B3E3238AX3D5M101P101M358Y33HI3AZ43A8A37T231E435J63E4N3D4B3CW23BG636ZP3B2J31J431P63ETN31JK3BHK3E8H31JA31IJ31OR3AV33CY438HU31QJ31PC37BG31T437VL3EAS32SG37HU3E9731RF33XC3DJE33IW31SJ3E6E3F0W3ABA3F0Y3B2V3E6J314H2TB31QH3C8H32M633XG3EWP3E4R35O83CAY31DF31GA3AG8314U31ES39L731G435HR3A7T3ADZ37AB39HC3A993EZP315231K335FD31E431GL31T035CQ3BE53BLQ316X32IH3DAM356S34IW3C0G3B1N33O43EAK3E9O351P3CHW3BI835JI33K3396F3ESH36DF378L31IC34IQ36ZO31T335CS3E72367E33VK3DH33F3232M132PR31DN3EYS31J831RI3BED3C2M3EDN31T937343BMF3C2S3C5733WJ3EW03FGD3EW23EZU37GC31OH3E6H33C632XN3BHM31IJ31RI379K31QD39N036ZO3DC439FS315A3E6L3EWP1931F231O43CAV3FJ13C1U31R631T03BY531SV31DP3EZI34IR367E33W2364T3BPD3CXS3D9Q3EBK3BMJ3D093EW13BXP3C933EX83DBO33RD39FG3E5L3A6931DD3C8Z3BMF374Q33JW3C9U35DO3C8S3EA43DFN368K31J831LV36D63DAY36DF3BED31DN31GA379N31T332YE35IE379J31E439KA3EZB31JV366Z3DR036OE3ED23DFC3EYA3EEQ3DCU3F7E31ZF3EYH35X03CAL33T73CAN3EF03EYN37IV351831EK31P13DG731LG3AYQ31E431J03D1X32M631GA32PR33S72TB31R539H232PS3ESX3EFU32HY33X63CI0373A3C5733XL22O31QA33IM35H43CIC34PE3BHQ3EWD367832OP3EWD33W23E9V35GN33MQ3ESK3D9C3BZC3DHS39LA3FG732KD31O731M935LE31LZ3B1X33VR31ES3D2531DD3BPV3F1B31R63CZQ3D3B315J37HR3AI91U38FI3ERN31CQ33U73BN934CQ32V735HD3D2Y3A8K3FG42C722L3BN03AFY31TE3B3S3ESC3FGE3EB63DFI31LL31DL32NH31DP3FH83CC53CD036DZ32LM3E8Y378T3F0L31EB3D903DIC31R131LG369R31J437UL351T378J3CYQ3F0737I63BHZ22931LL31GO33RL3FJL3D9K3D4J379A39D739GG3EC83BJP3ETQ3DFH31RV37E4372N3C4C3A6Z3E4T31IL3DEC3EWP39JN31PC37UA31OZ3FFX3BGE34JB346E3DJL378Y367C3EBM31DJ3BP63EZ831OB3EDV31SK31T431OR3BGF316X34KJ3EFU31763C903FMW3EZQ3EJH3D5F3FMG31KJ37K432OF31X03CYQ22I36H63F2Q33VG32XV3EE822O3BM73EX031GQ3E8A3F8M32K0372N368N37US37D93CWT34HS3BJ732VC3FKU3DH23ERV37W635KV36A43E9C3FQD31F43DR734PN3DJX37Y23FL131N73F3A3DRG37Y93DRI31ZU31ZW3DL83EGH3F3I37ZN3EKB3B503E123EHP331239R638OL3F4A33123F4C321Y3DS03F4F3EHC3DWW34S43CLM3FRO3EHL2753DKP3BQJ3EG73FRF34SK37LJ3EH53F4N3FAJ3B5M3F403DS23FR03B5R3EJL3F4R3DRS3F4732103F3M3FS73BUH36I73EJC3EGN3EHV345D39SW3B5Y2753BVZ3DTC3FCA35R33F51337S3EI53F543CMI3F5636K43DTN36ZD3EIB37WQ3EID39T03EIF3DS33F5F34UQ3F5H3CMT3EIN37N83FR83EIQ39SM3BTU35SI3DN43B7N39T53DUM3EJA3DUC3BQK3F5X3DD03DN239RO342R39TF3F5T3BTP3BQJ3FTF3B7H3F6A342P3CNL3FTW39TQ39TM3F62325U33AC36KU3DMU341W3EJT3DNL38213BU93DV836M23DVA3BUE38M935TQ35TA3BUI343S3DVK3COB37WQ3EK832163DVZ3B8S3DVQ3EKE3COJ3DOB3BUU3E0Z33633DVN3FU039UP3FUY39RM3DW3326C35ZF3F7J36L93B913F7M3EKU3DOR3EKW35UC3EKY31TJ3EL034563ELU32443EL4326U3DP3334P345J337839VG3F8135VI3F833CPI37MG3ELD3DSK39VQ3CNV3DPG3ELI3CPR3DX334Z13DMJ3F8I33823DIR3D9M39D735263EM431RS3BDB38MK34ZP3ELV35KR3324317E3FWN3FSY3AL734ZD3EG934643DY93ELZ37O83EMB35KR24U27C193F1W3D0L32PG3E5R3E963AET32MM36XN31ES39XC31SM3CGE3CFY3EAF367E34G23FHL3EBT31R637BT3DI92TB32YR3DHJ34GN3E9635F83BDR3FJB34I83DA23B2Q3F3339PN3F3535OR3BZ137LF3ALP39PU3F3C324I3F3E320A31ZW3DSQ326U3EGI37MJ3BQE342H1A3FS33B73325E3EHO3DKF3DSO27D14325E3F3K3DSC3FYR2753F9V3400173FYM1V331J3FYM3EHF3B50193FYM3CLG32101N3FYM3FRY3B503FA83FRJ36J1325E1K3FYM3FC03B5R3DSM3FSK3F4T34TV3CNP380R320738NZ3F4Y38SX3EI3341M3FSW3BSH3FWT3BSK34643DM93FT23F5A36KB3FT731GQ3FT935RR3FTB31TJ3CMU36I73FYF3F5M3FTH3F60334A3BT939SR2283FCD39VU3F5U381D32103G0H3BT43DYS3FTI36KU3F6G27D3G0P3DN73F5V3FW236LF3BTT3CNK3DNH3FRS341W3G113F6J37OW3DV33FS83DN538NZ36LR3FU827D163FUH3EJV39TY3FUK3DNW3BUF3DNY2751F3F6Y3G1R31FM3DO33EK63FV43BUN2281O3F7634X13FV03F793BUU36PE38P036MH3G14341M3EKD3FV93EKP3ARR383C2753G0P3EKT3FYN346J383I38CN3EKX3F7R3DOY3G0U39V93DWK3FVT334W32AJ3DNM32AF3G0P3ELA3F843B7Y3F8731ZN357339VQ314G3B9V3F8D332O3F8F35VZ3EIJ2283CPW3AGW3E6R3DCJ326M38ON35WT317G3FCK3BX338583B403F6X39UG352I3DY63F8W338R3F8Z324X3BAW3EIY317E21D38CQ31NO363Q35VL3CP23G423EHM3AF5338R3G3P3F8U3FWY3DY13AQS3DYB3E0831ZU37Y3338Z346S3G4E33ZQ31ZN3ANS3DZA31NB36QD329935WO38M73G4W3E161E38T036RB39YO317E3F3T38TC3G4M38IA332T3G4P37BY39SS3G4Z31NB3AFH3DZA32773F4Q3F98339P3DZF3G533E1A317E3F753G57383D3BWI328Z3DSB3G4Q3DZN3EEO3F8S3F9Y3F8X39UO2213AFF3G5O333G335W32XE317E1M3G4Y32AZ317E34513AKH3G4B3DZO3G4O3DXP3F8W38IG1G339Q3F78322831ZN3F9D386W346Y3G5B33D031NB3G4S35X93277350D3FAW38IE3B963DYW35YV3CMS342T2BT345134VC31ZN3FRS346X3BSZ3G6U33AH3E0B34PX3G5Z344A314S22Q387D339931NB3FRN39WQ27D3G7F33SR32771L3E1531ZW31VU3G60320I3G6X31HU32243FSA3218345Q39YO31ZN3G563FTS33303G7P338Z3G5Z3G7T38HZ32773G823EEO39Y33DZA3G813E1538T93DZF3G873E1A31ZN3G5Q3G8B39WK3F8W3G5Z1D3CPN342N3BCF32H83G5S3AKS32JA3G5V3E133AKW33B43DK73F9W3G9937MG38IJ3G8827D21F39SZ32XE31ZN3ANB3G7W31FM3G9K27D3DXH3EIR3AKQ2753BDG35WT3G5Z3F49386F3G5Z2333G903G9Y36PM337H3G79334231NB3G7C38S631NB3G8G346F38ST346K38IS1C33963F91334232773G7Q3F8X32773G8G3FAQ2283G9N3G803ASM3FAU3G6B3DZA34T03F9I322Y335W3FAF27D3G8A3F9O22H3GAL3F9R39XM3GAP31MO31ZW3G8J33ZQ3DCZ3GAV35VI3E1538NS3DZF3FA53E1A31NB3G8U36BY3F8V3G3R38IS3FB6380R31NB1Q3FA9320A32773EHA3AKX34W13G9733D031ZW1R3G9C2753GC63G4Z32073GC933ZN3FAX3CM935VL31NB3G9I3FAH2C73FB33ANA39XG32XD38S63G9R3EK63F9P2283G9V38O03GAN33JI347038IS1B345O31NB3G9Y385B31NB3GA632ZB3CAG3GB835G93GAC39XZ3F8W39Y31I33963FBX3ASV3BRN3AF539Y33GBA34PY3GAS3GBG39S93G4Z32103GBD33Z2327Y3DRO31EP34U13AQL34XL32773G8A3AKP36HV3GAM3GDL323A3G8N3GCA3DNZ3G603GDS3E15327Y3F3V3FC936MB3GB132773G8U39XY3FBS346K39Y33F8632AZ32773GBW3FCE33AH3GEM338G39Y3337Q3FCB27D3F3P3GET380R32773GD63BQC3G943FC135WV3GC333B4323U3G8O3G1F33Z23F5W38TT3F3G3E1A3FUA3GF23DRJ3B4V3ASX3GF93GE73G9D3BRM3FS13F9G3GFR39RU3GB0345O32773GCI3AKG2LI32XE32773G6A3GBH3B493G9U338Z39Y33G9Y3FBT35WV3GD035VL32773G9Y36Q23GG33G9Q3DVL3GCK3F8X34683E0Z3FR63G6G3APQ3GE633A53BSE38J0342X3F7B39UG3DZE3B9631ZU3F9C3AL4342X3GDM32073GDT33D0321022W38T03GFC3E1A31ZW333235XL21731ZW3451360L3ARK320I35YR37S735003ARQ35Z6371231KJ33AS3F8W3AMP3ATT327Y21G321X325U3GC034PX3AQR2753GFA33SR326Z3GH833B432AS3F943G83229328K3FV6221325U3GHO37QU385U3AN436R23BCX3BAQ3DYS1P35XT34K03FCP342X3GHU3AMH38IL3AMP3FBB3GDU3AMW331C3GI2338Z3GI52283GI73AN33GAW35X932AS3G0333B4328K32HD3GCD3GIJ38M23GIM333G35XL3ARQ3GAE38V3338B3ARQ3E0B3EM23DZZ3ARC3ARQ326T355A38PU34YH3GIT357118320P33233GJL3BSZ38753ARQ38MF3GHR3BAS38Q2347032AS317E3493314S21E32AS32AS39Y7323E385U32AF3G5Z337S3ARO3GKD3F6Z3GKS3GKE3BAH366E36NS34K031NE3GKG27D3F5E3BCC3GKL3CLA3BAK3GKP3BTD35ZO27E38KL3GL0381D32AS3G44328A3GKK3B9U3B5L339T3EKI33DB32AF32AF3DXF327S3F8338NP2293GL72753GL5317G3GLK3F8T3GKN31A43GLA3BVT3GK93GLD3GKU3F5N3BAV3CPQ3GLF34Q3379E3EB53FIO329F3C8736EZ3FX731UW31M9364K35NM367X356H3EVF3C8837HT33RO36CZ31OZ39FO39IP3B2337TO31PO39DC3FFT36F23E9D2Q733VN3FMK33PP39G93EEN31T931QD3AJA3C5624V35N93FGB3BOV3DHP38V23FZ833R61L390Z1M3CQZ36223AEW2TE39513EQU391K362P3ENH38ZJ35AB22C38VN32EB3D7B3EMJ27E34A834BY2SC1X3EOX3AD939322G03ENE27I1A32GC39AG22X1N27O35833EPH393H3EMG3906390833DQ319T38941M1732GO3EMX2FL393N21L3E3Q393H38X23EQ93EOU22814390Z38VL3EQI3CU52NU3ENR3ARO38VU3EOB38VY388Q2BX379U22R133A0C3A4T3FE03C5X38VF311A392538W53EO7392C3EOD1Z392F3951392H38W33GPY392A3EO83EPK3A0722Q103FEU11316S3EN23A2H32E72XC392L3E2N3E3X2LI39022RP3EPR32E73GNR390X2CJ3EPX31383EPZ38Y238Y43EOL39583D7U3EOK2ZD39563EOM316E3EPJ38XH3FCZ3C5V32E73GNP27T3ENN2TY3ENP310T22C3EPV2LI1O391Z3A5338VP317F22G3GOY3FF53FEY1J3771377P357E22J395617388J1W2LG310T39AS2TS3CR9399O36W125S162TJ1Q37791M2O922G3EN432OG1N10182QI22C2TX2R92C832GY1Y3EMG22E3EPN3AD12RP3GRG3ENF22C1N317N32GO22M3956181H389B21J21Q3C6Z2IP3EPT22B33DT32DN32E73CTB2SC1N394W33EH22N3EPC2TF3EOH3EPF21H21O2EQ3GTN3EQT391I3EQV391L3ER5377E22D22T2ZG103A3K3FD621O31KR3CUC3AZ43DG137KW3CAV31HA3FFL31DD33WT3C0Y3C4734HS379N31O431QN3ERW3DDU3F0S32XK31GI35N133X333IE3DJ035MN3C8E32W931HJ3GMO32XO36GX3FPG32TM3AZZ3FHP3EX139MD33OX3FIL3EA03EF239GL3FJU3BJT3EX93AWD3BND35AV3E9H32MG39KC3AXF3A7T3FLU39F8369D22I32T5397E35CW3EY633HO3D4Z34EI31GE31F03A9G39PL3GUU31V53D353BM53C2132KL34FU373H34IW3FMB22931HJ31DL33QO3FKY3DR83BYZ3CAF3FZS3EYG3EEV3DCY3FL533DF3FL731NP3EF13F0Z3DGM3GUE366I3A7T3FGN38G53CJ431SJ31GL36D636DJ34GD34MY31GI31QD3CXD3CZR3CUX32HK34JB35HD39JN3AAP3D5137B339FI3C4T3EWS31R63AG33D8Q32TM3BYR3AEV384L37VB3DE63E8S3EDE3FNM38V23A7F2DJ399I377Q38Y82RB3GRN2BX22V1L1O3D5P31BQ36373EOZ3GR33A3S22C2MB3E273GRB34AX3FE9357S38HQ3GNV21Q3GNX3EQW3ADN3EMV399P39AT22J171836US22R2M81A3CSZ1U2SC3GSD3FE53EQX376O3CTT3GO6399G3D5S32DW1722V34BW34AO36UW361J3GUA2O6357P3C6C3EQK22U3C5R39Z127L163D6238B0359B38YD390Z27G36UI392W3EPT39CC1V2EZ38ZW22W34B3357T1H31BA31B8151N1T22X3C7F32GQ2EQ2RD3GOA388U2O62QH3A42143D6A3FEU363G349I3CU63CUB37DT39J83C993DAS31GL3CF73CFO33RO37GL3C0C3EAB316M33S53BMF36CX3BMQ3BNI37UL35DM3FLF3AJP39NB3BGC39IL3E5X3EFU3FGZ3BYM35CU3B1W3E9D3AYZ33X633XL3E7M32QL3ESO3CIC3DAS316Z3D2E3FO133JW351P371U3FNY3FOF379C39IL3DFK3DJ2316Z31HA3BHG3CB43DHJ3CB9373E34ET3F1M35GN39MR3DGW38G536OD22L3CW83FFP3FII3EC33AYB3GVF3GNL3FOS36EX33U33AJE3CJX3FJZ36DQ379C33XL38Z43AGV373Z33X633W537T13AED34K62TB31F03C4Y31L934F23FN532KU3ESE3E6H3F2A3F2Z369D314U3BK43FJK3FN73GW933IW3AJY3BOQ3E5B3EZR3GY33FIN34ZU337Q2DJ349V17362527T1M36XH31901M360S102QI22J374C1L1P36VK22R1638ZX362J37653GZS3A3X3A1031BF33F422I31B61P36261Q377L34C737551K3D6X27Z3D6Z3CSQ3EMH3CR238VA360T1J36VS33FF319M3EQ431BI3GSF1L358Q1131R2173FEQ378138F13CRC3EQJ3D5T34AR27P103EQO349E3C673A1D3FDM36WJ3E2N357M3A3939A63FDV319L3A0V31BI36VV3627358Q1922R3FD93A3P3FF03A013GPU27D3E3A2QJ1P1R3EP736203A5N32CS3H032TN32H73BJS36Q03FJW34693D223D3238C23D0I3F2Z315A3DIT3E9D3H3K38FQ35FL3GXJ39J2369D3GXB3CJI38GY3C833ES431T431F035N431QO397Y3CFE315R31T331GA3CAV31LV31T336A437AU3FJ23F0T351A39KM3DCR3D3V3GWP3D3X3FTK3D443FL3338G3EYJ3CAM3EEZ3GWY3FL93EW336C93D9N3DHJ2TB3BOB3DEX31OB31RK31J834833ERX3AED33RL315J3CYG3E6H27M34QD3CB831P131DP3AIF3DHT31IJ351P31DP35CH37TS3FON39JY372N3D2C3AK13FQ436OE31EK3DQL3EX536EW329F3FK43BKL378L3A8B3DHJ31QF37KJ33OQ31DN31K337VT3BKK3FNE31CQ32R13H9M315J3AE63A6Q3CHG3CWA3EWT353734MY3AJD3H4639EE39M7316X3FLL3E9U3BEH3AZM3GNJ3C5A3CWQ3GX13CVK3AWS3ES131R131IJ3E7934EM31HA38DZ32TE34LR35LE33RU3FFP315J31DL3ET531P83CDL3FQU32SG3D1V3GML31UA31DF3CDC31JK31X931OR39ND38GX3DHJ22L3H833EFC36OE34NN3FQ43H343EUW37F13GUE31QD34MK31QJ37TT3F2N32V53C9B3H3S31663BN83FG131CQ31T033N73FXG35323BJ731DL3FIV31EB31GG31IC3EVS3EV13EE237UX3DFP316R3BNZ3E8231VA35BL3EUQ3CXE35CL33RH3HBW3C5B3FMH31FF22I31M931P6369D1I3DGU3B0M32ME34MH3EE82Q73BY5374L3H1J3E9O34HF3BY534PE34H533RO37D132XY3H8U31UA3H2L3DI93CDK367E34J0318X34D1367H36FX39HL35EA32MM35133H233EYP3H8Z31OS3HAI33HO3D1R3FQA31IL3BYA3EDW3EVQ33O73ERW33UB3BYB3FQC3FK031JK31QD3DQQ31P831M93BGO32M63FLS3F2E31WJ3AWR3EE831YR39F8374T31HA3E6Y36A83CDE3EZ53DGJ3F0X3GVG3GX03ECB3AZ43C623DDS34LP34QW3C8P3E933F2H32KI34DD3HEV33C133VQ36CZ3H7D347V3CJW3EAM32UI35DW3C0V3FIA3FKU3CJS354R34KG34EY3HFJ3FNF37FQ3HC43EX13EZF3AG13HD03HAS32BY3C2Z3BMU3BN13BPU351A35HD3H2V3AVV3C983FPK34LR37UI31W83DI42LJ33M13DAF2Q73GW53E9D3CAZ354R32V922I31P13HCS351I34LR35F0315J31P135C431MD3D0Z3E6S31XC3CBQ3E9O352H3H8N38V23DIX315J32UK3HGT3HCX3C5734ET3B113C1T36CJ31DF31UK31EB3AHT3E8E32SP3CJL3H7S31SD37WM3HCA33HO31RK31GA3AVJ3HHK3DJN31V53FJA33W2314U31PQ3GN531MD31O43FH539PM3CVG3EG33DVO31NS357H3BV433Y031NW34RR3GFV31ZQ3FR536HV3DW63DK93G3M35QP3EH437P23FYM3G6R39RJ3F3Y3EGS3DSZ3BRY325E3FV63EH7323B3FYP3CLY3FYM3G85342H3FZE3FSB3FRP3CKL3BT23FYM3BRJ342H3FRC3HJJ3FRU3HIL3DL23EH63F4K3BSZ34S43FSF3EGT323B3DS0342H3FA03FZP3B5V334W331S32AL3GK23FZW3EI23FSU35R63F533G0137NS3CMG3G763DOT3FT336ZD3FT539RM3G093DPJ324I3BSW3B6M3G0D34UU3FTD3BQJ3DW63DMQ381I3F5P3DNI3G0N3FUE3FTN3F663B503HKY3DUF38153DU53G0L3DNE35S73HL432AQ3FTY39RJ3HIW3EJE3FU33DNH3DV13FSP3DUW36HW35T93GFK3F6F327O3CO63EJR3DNQ33323F6Q37PR3G1P3B873DO1320S326Z3DLD3B9W3GKV2LI3G1Y3F7C3G2B32183G2435U53G6O38303BUU3EIH3DVM3G213HKY3G2E326U3FVA344M3H8F34XL329O344A3G2L329U3FVI3G2P3FVK3G2R3EL138IH3FVQ3G2V3EL63G5X327932AF344A3G323FW13G5D3F5N337H329Q39VQ34733ELH3F7V3DX23HKQ32663F8H3CPV3DPN3BFQ37EB3F0J33893DPU317G34VT3EM035713GJU31RS341L2C73G3Z38MD355H3AXV373S31GO3EXR3CID37WN36EG37I03DC5348N33M73E6P3HAZ3HDA31UW3A6P3FJP32T23DH03E5V367639J237883H9O3BN13A6737B336YA31GE3GUQ3HAL33JW3DPP31EK36EP3CIY3HBY3A8U315J3F313CVM32XO3ET63E5V3FXX3EUP355Y38CH35NP34KE3E8Y3DHC38FQ3DER31PC33P438BW33VQ3AVS39M93F2D35KW36A23CVB1I32RT3AI9367I33VQ3DBI3AGX3CY23EUU3EC93HD132VQ3D9E31K331IJ33W53CBJ3E9636RT31HJ32PR3AVD36563CHM3D1W35NU352337WN39IL37KD3ECJ32PG3E4V3BHM3E8X3H7Y34DO3FPL3CI33E8C34GD37L331SJ33RR31PN33IY3B1B3FMF3EA13ESM3AZ43H1Q37KK3BHM3DDE3ESS3CGS39F83ETF31O73AZF31SM31RK3CC0367V35KA32HJ39LC3A7T1I31LG3BFC32M631SG31O73BNC356G3CDA31HJ39KV316X31QN39XH31K03CZL3BFD3HGA3FOR3HAT355N22I31HJ31RI34HW31M933LG35KW31GA31LV3FFH35CO3DJ736RU37WN37B13HE731DP3F1L37K63AVU35K43GMJ3F0233TK3C4H3FKU3DFW39FS34MB3BZF3GN92WH33K335LV31GO3BHE3HQ63FOQ3H9Q33DE35EL3H773EDI33BI3GVM31J031RK3AJT31DP31IC39753H9L3E8833LM35373AAA33X83GWC35OI3HOJ32SP31M933QQ32M634D73FFP3CZ8372Z3DER3CVT3FOY35K53AFU3EE822L38C03D4M31763FIY3HG93H8B3EYB3FL03HLD3BZ23D413EEW3AXQ3H8K3EYL3FL83DD435KR25H35NI31DP398H3DEH37AB351339GS38H031QJ37H83FNL2LJ32KA3HGQ314U38EF3HFM32T73C8K3DFV31DP3DEZ31P831OZ3DJD34GE3HEE3GXS315A35HS3HF631EQ31QA33I13HII3EG23FY433D53G5N33ZN3HIP3EG93F3B3HIS3FYC3CKE3B9U3CKG3HIY37ZN3FBO3CKK3HJ33FYQ3DRS3FU0342H3F4H3HJR3EHQ3FRH3G5L3FYW3DRS3GEF37N83F4E3HJB32073FZ63HJE3FZH35QP3FRE3B503DT33DSI33123B5L34TD3FYM3FYJ321Y3HJD3HJ63FYX3CN73B5R3DLD3HWX3EHZ3B5M3F383HK53BS53GFE3B6I3B4V3HKB3GH13FZY3BSD3HKF3DTJ3G023HKI3GK03BFW3HKL3APG3HKN326U3HKP34XC3G0B36KJ3HKU3B6P3F5J3FSI39SL34V33HLB39TR3FAR35S73HLS3HLG3GLB37N83EKL3HL93EIS3HYG3DMT327O3HYK34VN3HLH3B503EJC3BTS32BY3BTU381V333B3HYT3HLP3F6K341W347B3G1I327O3DNG34V5327O3GK23DV73G1N3B853HM13F6T3G1W3DVE3EHD3CO73HZK314S3HMA3BUW3DVN3FA03EKM3DO83COI3HMG39UJ3BUU3DOD3AQ33DVN3EKL3HMN3DW23G2G3DNM329O3GBZ39UY3F7N39V03DOS3HMZ336V37Q03HWZ32163GLX3DWJ3FW83DWL3HYR3DWN3DU7334K35YX3FUY3GMD3G903DU338473CLA39VQ3EJN3FW73HNJ3ELJ3FWA3HNN2753CPW3EC43BNX3HBD3DPT342M3G9R2C738TM3G4L38HY36BZ346S3GCR3DCR3DRY3ALQ3HNC3G5H27D3FAM38P138J631KJ36PZ39Y335Z02DI31ZW33ZI36Q23G6335WV3856387D3DXR38IG3DYZ3FCV33DB3G5Z3FBL33D032773DVB3ANS35G934VC27E3BC53AF5317G3GLS33SR317E3BRJ3ARK38J9385X3FT13HNT3GIR3DPZ3FCW3EUX3A8U35NQ3GNH3HGW3HU53BM53C0Q33MT3DAS3FGX3D9432O33CIF34QE39EQ379C3H7N3A6B31DF36XG3BIO3HDQ32YH3BFM3FGM34KF3FJ5355T3HBS3E9S371I3AB536EY3GN837WO3FJR3FIM3HO631VO3AFT34QD34N2365631IC34NP31RI32QN31J431IJ31GI3FHS3DA53H3V39MD3BJ436E737D937UJ33OD31E436YW3EWD31Q331OR31SG3DQB31GL31GL37DG31QD3BNT36A83HUG3FXA3FPW31VS32NC3C803F8M35CC37XR37AB3FFH31GI3H8635KW33XO3AAM3D2V3DQW37VT31SJ31GA36F43BFF3D8J3EED3HEF3AE432KI31F039KY3EAQ32MG353F3I5B37FZ31QN3FI731K037A13HVC3HE533S831GO38C134F331OV36EC3F8L3AAI3EE53BKC3GV232HX3CFX3DBC3CZ438CH3D4V35KV346E369P34E63DQU36Z83EVP3HG333Q534NB3AEV3HUA3E853GMK31JV3H7V36EM36EY37FV3HAQ3DHO3HBX3HRB3A8U37WZ3C5735NV3CY43F1Q32M63DDI3A6Q3HGJ3C3S31QJ3HGV3CII31Q831JU3EFK31SM31X933OI31G431QQ3D3B3B2Z3C1T39ND397O3CIR35K53EZ13HFT334M31QN31SJ35F03E8O366L3HTG3DFF3HQ83EA235BQ3FXU24V32PR3CEI31WC3FQN3F0N378N35C831F23B2231QO31IC31GG35GS34M53BMF3FHL31IJ37K13FXR34GG35DX31K33CJN3CYA354R37XQ31P631DL38HP37TQ3F2Y32QD31ES31PC35HD3HR93GVH31NX26827C37VK373M38DU37KM3FXW3CAW3CII34ET31DE34IW3EYZ31PC3E5Y36B134KQ39NO37HE3HDT31HR3HGE3CIG367E34GM3D4T3H1U3EC53I6Y397B3GWG3H7S3GVE3FQW35G13FQY39PQ3DUX36HN3FY83B453FYA37LK3HIU31ZW3ANE39Q03FRA36IW3F9A321Y3EH03EHB3HJS3FYV34S43I1L3IAY3EHQ3FZ334003GA13HX137ZN3HX33CKK3G4E3F4532073AO437N83HJQ3HXE3DRS3GDO36I73HX83B5O37MJ3I2J36IT3FZ13IB836IW3GG53B5M1U3HJ23CKP3FYM346834S43DSS3EHU3FZQ35QW3F5Q36KE3BS33EI13HXT3HKD380C3DM43DTI3DM73HXY3EI83HKJ35UC3HY23BFW3HY438003F5C3G1K3HY837O7380X3DMM3FS434S43IAR3CN83G3F3G0X36LJ3HZ637OL3FTX3HYM3BQJ3ICW3DUE3G0W3G0K3HYH3G2H35T93HLV3HYV3ID439RJ3ID632AD3HLK3EX63HZC3DNQ3IDD35T73FUC325U3GNN3FU6327M3F68341W3HZE3BT83HUR3DN53FZG39VU3BUA3F6R3HZI3CO33HM83CO535W43G1V3BUJ3FUR3DO43FUT34XB3G8U3F7F3G253HZX27D3DVU3E0E3IED3DVN3IDH37Q53FVY39T03HMP336F3FY63EKR334G3HMV336O3G2O34XV3F7Q3I0F36NF3HN13IEO35XM3I0L3G2W3I0O3G853DWP333G3HNA3G9032773DWV2CG35VQ31ZN3FTM345Z3DPH3G3D32823I143G3G3DPN33U53I8738G534R038K82BT21B38MK3IFY3G4Z2BT3DVB339U38P93G7H38PJ3G5Z3GJ938MD3IG6321631NB3DSM3G7R316637S73FAD39YA38IS36T13G7L3GAJ33A53IGI3DXR38IS32CA2143G9B31RS360C34W13EM73G9F3GCJ3FB727D3FZC3FB934W13HO13FAI3G913IH0320S32773IGE3GCW3IGG33A53I1S3FCI33T53G3T35XO3GDH3GG738SZ35WT3GDE3GFQ3FSZ3GIE3GK53GDR3DTL35X9327Y3GIH38IV39YO3F933BSU3HWB3HMD3IHO35WV3GDF322O320I3I1Q3IHS3GJB3GIE32103GJE36QM382E31ZN3FZK31FM2DI35Y63CO43GDY3II039W13II23DK63F853GG935WV3AKP31MO320I3GGY3G6032073IIZ3GAX27D3IJ23GFH3GFX3GGF36IF3IIR2753GGJ2753GJH3B683GE0326U3G9234RW3IIU33T53II73F8U3F9X3DXR39YK335W22Q3GH038T53GB33GH434VL3IJM37ZN3IIF38HZ3GFG3GDX3GHD3G733GHI3DZQ3ARR327931ZW3GES35G93AL23B8H35WT39YK3IJY38UL3DXL3EH33G103ATG3IEI32163F4235WT39RS3IKH3GH93I1P3GED3HZM3DZA325U3IK038LF27D3FZM3ATW3G66345O320I3AKC38IO38TD3G2C3ATK32AY3IKS33B43IIE3IKV3ICU35X93IKY3E15328838T03GK23GB1320I3GCU39VN320I3I2M322832073GEP3ILB331M3IIW38NH2283FC833ZQ327Y3IM233Z23DUV3DZF3IHT3IK5320I3GF13F5N32XE320I334F3IG93IME36P53GCX32ZB32073ANL31NE39RS3DYV3IMO32AY3GHB35VL320I3CPK3ATI3EW13IMR331M3AFH38NG39RS37QR29Z27D3AFH3ILR3IJH3IH93IKO3IKE3GCV3IKR37S73FA234703AMP3FYT39UG3AU83FTP3G0U38TK331N3ILD33SR327Y3IIA3EEO325U3HK235YC3IHV3GIE32AS3G393FAW37ZW39YO32073AKC3AKZ3G0T3ATO33183INQ38HZ327Y3IKZ31MO34W33G4Z326Z3IOE3GLW3CEB3GCD3IO33E1A32073GCU34YR33073DN83ILW3AF53AMP3ILZ327Y3EJ0320N325U3IOZ3INX3F8T3IO23IL435VL32073IMC340J32XE32073IMG3GCO32073FYZ3BBU3FTP3IMN3IM03FRI386F3AMP3GCC332M383G3IO73IMY3IPK3IN63INH322Y3IN432073AFH3IPA323B34UI3G233IP73IN93IKC3BR73IO93INP323A3INS3E1535XD3ILK3INY31J936PZ32AS3III31I52DI35YM3B9U3HZF3F8T3GEI3IIQ3CM121E3F4V38IC325U3INN3ARL35SN3IOB3IL03GI63E1532AS3GIA33SR328K3IK022836PZ32AF3IQJ3IIK22932AF33323GLO3GII3B9N38563AS334703CO63G7Z339T3GL335053IOK3F8T3GLZ33ZQ328K3HWG3BTO32VM3CN63GA93AMP3HMJ34643GDZ3GL93IQY3BSZ36BY3GJO3GM93HY03GJQ3BDJ3GJS3GJV338B3G0R3FCU3HHG3H363H2431IC31LG36FS3H2I3HC731JA31T031J035DC3AHW3D4J31IM35NX34OF38VN3CC631DD31QA31SG39H031LL31QA37JG3H383HBG32YH31GL31ES33IR3D4E364H33P933BR3C8S3DGG354R37HG3FOP3I8A3HGB31KJ23S31KL3BGI36DF356135M63ESS37VU3EWD3BNC3BZL3EE83EYQ3F0O38DF31J03I4T31SM39E93D4J1U32VZ3EFU3ECT38FC3DB031GL3HDP31T43HDS3ISR37L43BJD37AL3IAF33XT3BQ3346S3DK03IAL3CKA3IAN328B3HWA3IIS27531VN3HWD3AQ438SY3FRL32103GI03IBS36JD3IB73B5M3DLP3HXJ383B36I721P3FYM3G8A34S43IBW3IV937MJ3G7036I73IIJ3HWS3HJK3GGE3B5M3G1L3IVM37ZH3IKZ321Y3G5G3IBN37ZH3IRX342H3FRS3IVE2283HWU3BQJ3G1U3IVW3BRM3IBK36IT3GLZ3B5T3IC4331R3GFV36KE32AJ3HXS39RW3F6K3DM3326T3DM53F553DM73F573ICI39GI3BBF3FGC3GDQ3DTQ3ICO32663ICQ380W34US3ICT3DRT3B5M3IV234V13ICY3ID93HYS3DNQ3AOG3HL53DN83IX93ICX3F5Y39TC3HL13DLD341W3IXF3HYL3DUN37N83IXI35SR3FU23IDK3IDX3B5S35T93IXP3IXX3G0Z3GC83HLP3EJ637PW3CNW3F6O2753IBR3IE13FUI31TJ3F6S3IE53HZO3228326Z3IBF32823EK33G1X3IEB3G1Z3G2A37QF3GF03HME37Q73IKN335X39UK3GAH3HZR3G213IXT35ZL3FV83HMO3G2G3EJC34XM32JA3IEX3G2N3F7P3G2Q3IF23F4L34Y327D3IZ032823FVR3CP93HN53FRQ34YE33DE3IFD35VL31ZN32803IFG1Y3IFI3BUU36O23DWI332O3B9Z32513BA238JV32AJ3IBA38HZ34X73E15329E3J043ARK329O3F9K34643BAF3GM93DYV31NG385U329Q3GKQ3BXJ3DWW332O3BAR3GIQ3IEQ3GMB34VL33Y731ZD211338Z3BCE2753INJ37P1341L21L321A3BCA3AKD317G3BBT31ZD3GEY3IWW3BBX3DW931FM3BC138QE3FV134423GLI3DOT3BBR328A3BBT3J0638QF3IWX32443BBY38UN3BC23EIY3J0X3G60341L3F44316D3J143DYC3BCC3J1V3FYV33ZQ34YV3DMU3BCK27D3BCM38UQ3BCO321A3BCR27D3A8P31X93CUO38EG2753IMT33ZJ384O27D26R35RB3J2P34ZQ3FAB3G3N314S34113BAK3FPY315Y38MK26W321X27E3HX537NP34ZK3J2Z3DM63J313J2S3G343GCV317G3J2W37NP32C0317E3E0K3FWT3E0N31MT1F38223BAB36Q03HL63BAO37DS1J347232513I28322Z3HLS3DZD33IB3GC72283G8Z3G8Q342X38QV39WU3F9T3DUP3GFB27D3AQY3IJ027D3J433GCD3IFF38D03IGT3ARG3IIX3J4937ZH3HJ535X63J4E38T03GFI3G733IWP3DZ132243HWN3IK13G9H3ILG3J423GHC34WP38QV3GWZ3J4Y3DUD3IM327D3G4V3G60325U3J4F3FAW3IM938QV3J0C35Y53J4M38HZ325U3FVL33B4326Z3J5D38TT3I0Z36R238KX3J4V3IS73DL335X9326Z21K3IR33J4Q3DZF3IOY3J4I3DNT38JV3CO63DZA32AS3J5Z3G4Z328K3J5P3GDX3GJJ3J5S38RY322O3DWI3DZA328K3J6A3G6032AF3J6D38LI326Z32AF38QV35XQ3ANJ35V83DZA32AF3J6M3DZA32AJ3J6P35ZX32AS3F7Y34YX3GIK35TP31MO36O13E1532AJ3AMB3DZA32933J72323W328K382Y337S3J6S3BA33J5J320N32933IPG3DZA329E3J7G331W32AF360732B83J753J782293FUW3G60329E3I0H320N329O3J7T327S32AJ329O38QV3J7J323A329E3J4X3J853HXK3DZA329Q3J8737MG35ZE3J4I3J7W38JV3F8B3J8I3CLA3DZA31ZD3J8K32183BAA3J5S3J8A3ANJ3DNG3J8T3G7S3E15341L3J8V340K329O341L38QV3FVC38JV3DNO3J943CNC35X9345U3J96221329Q345U38QV3BB938JV3FW63G4Z345U3DLN31MO33323J9I31ZD333238QV3J993ANJ3B7C3G4Z33323FRW33D0347B3J9I341L347B38QV3J9L3ANJ3HLY3E15347B21M3E1534183J9I345U341838QV3J9X3ANJ3HZ83JAH357I3E15332Y3J9I3332332Y38QV3JA93ANJ3F6I3G4Z332Y3JAG3G4Z344A3J9I347B344A38QV3JAL3ANJ334U3E153HMU3E1534SY3J9I341834SY38QV3JAW3ANJ3HL43DZA34SY39KP320N33ZI3J9I332Y33ZI38QV3JB83ANJ35T03G6033ZI3J6Z35X932803J9I344A328038QV3JBJ3ANJ3FTM3DZA32803IBP3EEO34733J9I34SY347338QV3JBV3ANJ32803J8F31MO34733JA433B4326O3J9I33ZI375232B83JC73ANJ3HNH3E15326O3G9R3DZA337Q3J9I3280337Q38QV3JCJ3ANJ3ELG3E15337Q3JCR33SR33ZM3J9I347333ZM38QV3JCW38JV3F6E3DZA33ZM1Z3E1534933J9I326O349338QV3JD83ANJ3CNE3G4Z34933IJ53GIE334F3J9I337Q334F38QV3JDK3ANJ3DUL3DZA334F3GJH3DZA37ZQ3J9I33ZM37ZQ38QV3JDW3ANJ334F3JCO22937ZQ3EH431MO37YN3J9I349337YN38QV3JE83ANJ37ZQ3JEP37YN3B7G320N35733J9I334F385E32B83JEK3ANJ37YN3JEP35733JC23GIE36T13J9I37ZQ36T138QV3JEX3ANJ35733JEP36T12133E153DSB3J9I37YN3DSB38QV3JF938JV36T13JEP3DSB3IBH320N3B5L3J9I35733B5L38QV3JFL3ANJ3DSB3JEP3B5L3G0P3DZA3A7F3J9I36T13DY532B83JFX3ANJ3DUZ3E153A7F3JFG3EEO3A2D3J9I3DSB3A2D38QV3JG93ANJ3B7U3E153A2D3JG431MO3GEP3J9I3B5L3GEP38QV3JGL38JV3A2D3JEP3GEP3IBC35X93G0P3J9I3A7F3G0P38QV3JGX3ANJ3GEP3JEP3G0P3IH33G603G9Y3J9I3A2D3G9Y38QV3JH93ANJ3G1B3G4Z3G9Y3J9S2293AMB3J9I3GEP3AMB38QV3JHL3ANJ3G9Y3JEP3AMB3JDF38HZ3AKC3J9I3G0P3AKC38QV3JHX3ANJ3AMB3JEP3AKC3JB33G603G4E3J9I3G9Y3G4E38QV3JI93ANJ3AKC3JEP3G4E3JIS3DZA3IPG3J9I3AMB3IPG38QV3JIL3ANJ3G4E3JEP3IPG3HWL31MO3IMC3J9I3AKC3IMC38QV3JIX3ANJ3IPG3JEP3IMC3IQ33G603IE03J9I3G4E3IE038QV3JJ93ANJ3IMC3JEP3IE03JJG2293IHJ3J9I3IPG3IHJ38QV3JJL3ANJ3IE03JEP3IHJ3JJS3DZA3J2L3J9I3IMC3J2L335W38J43E0W3GIU3J3W33ZQ3J3Y35X931ZW2103J413J9I3IGZ3J4T3J47322O3ALW3G8M27D3ARA3GDP3J9I3J4H3J5S3GH032863J4L3J5736IW3IHJ3IJ32753J9I3J4S38QV39Y93JLB323B3JEP32103ICM320N327Y3J9I320I3IS532663J553J4P3JLD33D0327Y3IB53J5B3J613GCD3J5F32B83J5H3J583JLZ33B4325U3IF53J5N3JM43IP5341Y38QV3JLV33D03ID23G60326Z3G513G4Z32AS3J9I3J633J5S3J653J7Z3J673GJC3IIT3J6B3JMF38TT3J6F3J4T3J6H322Z3J6J35X9328K21R3E153J6O38T03J6R3J4I3J6U38JV3J6W35X932AF3INT33ZQ3J7138T03J743J4I3J773JLM3J7A3G4Z32AJ3IOU3GIE3J7F38T03J7I3J4I3J7L3J023J7N31MO32933JGS33ZQ3J7S38T03J7V38D026133253JN4320S33A3321X32773IC0316D21E38IS3A2D3EYI346Y3I2B27E230327738R026T38S63GMF32ZD370S3GLV38IQ2753GLM3IH7341L36BY1C38IS3DXR3IGU36IX32AD33YB38753IMZ36HR3A7D32AZ3AL33DMJ3JPF3DZS3IL53IOL37RJ3JPL3DMN3279320I3G9Y345R3ARK39YH3BAE3IJA3J0D3I2T3GM43IM03JPA3GKW3GFL3JQ03FWC3J3R3IWV3DZU327Y328K3GM73JQ1328B3IXW3GKY3JQ83JQ237RD3EJ23ARQ3ISC3GKA3GM93CMO3JQH35ZO343O31VS22038RO3ANO37Q01533A8324Q3JR035WT3IQI3DOE38PZ33903GIN3DOT3JR33HZN3GKB3IZI38VQ3JNF3G7331NE35YL37SH34703IRB38O631I538TY328K3EKI324Q3CRU3JMZ2752123J3O3JOA3J5S34FG3J0N3JQF2143J033BCY329331ZN3IKB38NG329E3G36323A329O3HWI34YH3J8934VQ32AJ3GID3APQ345I27D3G8U33ZQ382Y36OO385U3J8O3JQA3ARQ3F973JQ734YJ3JS13F58329R36063JSH38SU338Z3JSL2753JSN3BA63IJ936OV3JSR32JA3JQE3BVT3JSY3JQA3J0R3HJL3FCR3JT13EIY32AJ3EM835WT3JS63IQR386F329E37R433DB329E329E33ZI326M329O3GAM329O329O3I2F2LI2203HMW36R222N3JTV3APS346K329O31ZN3IE0314S22R329334XR35093J7Y34VC3JTM338Z3JTP3BH934703JTS3GIW346K3JU931IL360B3J803BUU3FBE27D23C3JUK35R832C032AJ1L2843G2927E3JV636OV3JV439XG284334O324Q3JVA3GCV3EL72753FYL320M23332AJ38PG3AF535VC3IE83J1D3G2Y339V38S03EK638QF33EC331C328K3JTN3GCV32AF32AS3IBU33XZ32AF320I3EKI38K832AF2ZS3AM9352L28438OJ3JW427D1X31I523C3J773IGS328K3AL63BAF328K3BX23ASH3IRS326T324Q173JWG3DVH3GKX317G21U3IRQ357134E1',string.byte,string.char,string.sub,table.concat,math.ldexp,(getfenv or function()return _ENV end),setmetatable,select,(unpack or table.unpack),tonumber,next,table.insert,math.floor,((bit and bit.bxor)or(bit32 and bit32.bxor)),((bit and bit.bor)or(bit32 and bit32.bor)),((bit and bit.band))or((bit32 and bit32.band)),string.gsub,math.abs,((bit and bit.rshift))or((bit32 and bit32.rshift)),((bit and bit.lshift)or(bit32 and bit32.lshift)));
+-- Packed using RedlinePack v1.1.1
+setclipboard("https://discord.gg/fartsaken")
+local RayfieldLib = (function(...) -- ../Libraries/Rayfield.lua
+    --[[
+    
+    	Rayfield Interface Suite
+    	by Sirius
+    	edited by SadLeaf for LeafHub
+    
+    	shlex | Designing + Programming
+    	iRay  | Programming
+    	Max   | Programming
+    
+    ]]
+    
+    if debugX then
+    	warn('Initialising Rayfield')
+    end
+    
+    local function getService(name)
+        local service = game:GetService(name)
+        return if cloneref then cloneref(service) else service
+    end
+    
+    local requestsDisabled = getgenv and getgenv().DISABLE_RAYFIELD_REQUESTS
+    local InterfaceBuild = '3K3W'
+    local Release = "Build 1.672"
+    local RayfieldFolder = "Rayfield"
+    local ConfigurationFolder = RayfieldFolder.."/Configurations"
+    local ConfigurationExtension = ".rfld"
+    local settingsTable = {
+    	General = {
+    		-- if needs be in order just make getSetting(name)
+    		rayfieldOpen = {Type = 'bind', Value = 'K', Name = 'Rayfield Keybind'},
+    		-- buildwarnings
+    		-- rayfieldprompts
+    
+    	},
+    	System = {
+    		usageAnalytics = {Type = 'toggle', Value = true, Name = 'Anonymised Analytics'},
+    	}
+    }
+    
+    local HttpService = getService('HttpService')
+    local RunService = getService('RunService')
+    
+    -- Environment Check
+    local useStudio = RunService:IsStudio() or false
+    
+    local settingsCreated = false
+    local cachedSettings
+    local prompt = (function(...) -- ../Libraries/RayfieldPrompt.lua
+        local promptRet = {}
+        
+        local useStudio
+        
+        local runService = game:GetService("RunService")
+        local coreGui = game:GetService('CoreGui')
+        local fin
+        local tweenService = game:GetService('TweenService')
+        
+        if runService:IsStudio() then
+        	useStudio = true
+        end
+        
+        local debounce = false
+        
+        local function open(prompt)
+        	debounce = true
+        	prompt.Policy.Size = UDim2.new(0, 450, 0, 120)
+        
+        	prompt.Policy.BackgroundTransparency = 1
+        	prompt.Policy.Shadow.Image.ImageTransparency = 1
+        	prompt.Policy.Title.TextTransparency = 1
+        	prompt.Policy.Notice.TextTransparency = 1
+        	prompt.Policy.Actions.Primary.BackgroundTransparency = 1
+        	prompt.Policy.Actions.Primary.Shadow.ImageTransparency = 1
+        	prompt.Policy.Actions.Primary.Title.TextTransparency = 1
+        	prompt.Policy.Actions.Secondary.Title.TextTransparency = 1
+        	
+        	-- Show the prompt
+        	prompt.Policy.Visible = true
+        	prompt.Enabled = true
+        	
+        	tweenService:Create(prompt.Policy, TweenInfo.new(0.4, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {BackgroundTransparency = 0}):Play()
+        	tweenService:Create(prompt.Policy.Shadow.Image, TweenInfo.new(0.25, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {ImageTransparency = 0.6}):Play()
+        
+        	tweenService:Create(prompt.Policy, TweenInfo.new(0.6, Enum.EasingStyle.Quint, Enum.EasingDirection.Out), {Size = UDim2.new(0, 520, 0, 150)}):Play()
+        
+        	task.wait(0.15)
+        
+        	tweenService:Create(prompt.Policy.Title, TweenInfo.new(0.35, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {TextTransparency = 0}):Play()
+        	task.wait(0.03)
+        	tweenService:Create(prompt.Policy.Notice, TweenInfo.new(0.25, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {TextTransparency = 0.5}):Play()
+        	
+        	task.wait(0.15)
+        
+        	tweenService:Create(prompt.Policy.Actions.Primary, TweenInfo.new(0.6, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {BackgroundTransparency = 0.3}):Play()
+        	tweenService:Create(prompt.Policy.Actions.Primary.Title, TweenInfo.new(0.25, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {TextTransparency = 0.2}):Play()
+        	tweenService:Create(prompt.Policy.Actions.Primary.Shadow, TweenInfo.new(0.25, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {ImageTransparency = 0.7}):Play()
+        
+        	task.wait(5)
+        	
+        	if not fin then
+        		tweenService:Create(prompt.Policy.Actions.Secondary.Title, TweenInfo.new(0.25, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {TextTransparency = 0.6}):Play()
+        		debounce = false
+        	end
+        end
+        
+        local function close(prompt)
+        	debounce = true
+        	tweenService:Create(prompt.Policy, TweenInfo.new(0.3, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Size = UDim2.new(0, 430, 0, 110)}):Play()
+        
+        	tweenService:Create(prompt.Policy.Title, TweenInfo.new(0.35, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {TextTransparency = 1}):Play()
+        	tweenService:Create(prompt.Policy.Notice, TweenInfo.new(0.25, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {TextTransparency = 1}):Play()
+        
+        	tweenService:Create(prompt.Policy.Actions.Secondary.Title, TweenInfo.new(0.25, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {TextTransparency = 1}):Play()
+        
+        	tweenService:Create(prompt.Policy.Actions.Primary, TweenInfo.new(0.4, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {BackgroundTransparency = 1}):Play()
+        	tweenService:Create(prompt.Policy.Actions.Primary.Title, TweenInfo.new(0.25, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {TextTransparency = 1}):Play()
+        	tweenService:Create(prompt.Policy.Actions.Primary.Shadow, TweenInfo.new(0.25, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {ImageTransparency = 1}):Play()
+        	
+        	tweenService:Create(prompt.Policy, TweenInfo.new(0.2, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {BackgroundTransparency = 1}):Play()
+        	tweenService:Create(prompt.Policy.Shadow.Image, TweenInfo.new(0.25, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {ImageTransparency = 1}):Play()
+        	
+        	task.wait(1)
+        	
+        	prompt:Destroy()
+        	fin = true
+        end
+        
+        
+        function promptRet.create(title, description, primary, secondary, callback)
+        	local prompt = useStudio and script.Parent:FindFirstChild('Prompt') or game:GetObjects("rbxassetid://97206084643256")[1]
+        
+        	prompt.Enabled = false
+        
+        	if gethui then
+        		prompt.Parent = gethui()
+        	elseif syn and syn.protect_gui then 
+        		syn.protect_gui(prompt)
+        		prompt.Parent = coreGui
+        	elseif not useStudio and coreGui:FindFirstChild("RobloxGui") then
+        		prompt.Parent = coreGui:FindFirstChild("RobloxGui")
+        	elseif not useStudio then
+        		prompt.Parent = coreGui
+        	end
+        
+        	-- Disable other instances of the prompt
+        	if gethui then
+        		for _, Interface in ipairs(gethui():GetChildren()) do
+        			if Interface.Name == prompt.Name and Interface ~= prompt then
+        				Interface.Enabled = false
+        				Interface.Name = "Prompt-Old"
+        			end
+        		end
+        	elseif not useStudio then
+        		for _, Interface in ipairs(coreGui:GetChildren()) do
+        			if Interface.Name == prompt.Name and Interface ~= prompt then
+        				Interface.Enabled = false
+        				Interface.Name = "Prompt-Old"
+        			end
+        		end
+        	end
+        
+        	-- Set the prompt text
+        	prompt.Policy.Title.Text = title
+        	prompt.Policy.Notice.Text = description
+        	prompt.Policy.Actions.Primary.Title.Text = primary
+        	prompt.Policy.Actions.Secondary.Title.Text = secondary
+        	
+        	-- Handle the button clicks and trigger the callback
+        	prompt.Policy.Actions.Primary.Interact.MouseButton1Click:Connect(function()
+        		close(prompt)
+        		if callback then callback(true) end
+        	end)
+        
+        	prompt.Policy.Actions.Secondary.Interact.MouseButton1Click:Connect(function()
+        		close(prompt)
+        		if callback then callback(false) end
+        	end)
+        	
+        	prompt.Policy.Actions.Primary.Interact.MouseEnter:Connect(function()
+        		if debounce then return end
+        		tweenService:Create(prompt.Policy.Actions.Primary, TweenInfo.new(0.4, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {BackgroundTransparency = 0}):Play()
+        		tweenService:Create(prompt.Policy.Actions.Primary.Title, TweenInfo.new(0.4, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {TextTransparency = 0}):Play()
+        		tweenService:Create(prompt.Policy.Actions.Primary.Shadow, TweenInfo.new(0.4, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {ImageTransparency = 0.45}):Play()
+        	end)
+        	
+        	prompt.Policy.Actions.Primary.Interact.MouseLeave:Connect(function()
+        		if debounce then return end
+        		tweenService:Create(prompt.Policy.Actions.Primary, TweenInfo.new(0.4, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {BackgroundTransparency = 0.2}):Play()
+        		tweenService:Create(prompt.Policy.Actions.Primary.Title, TweenInfo.new(0.4, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {TextTransparency = 0.2}):Play()
+        		tweenService:Create(prompt.Policy.Actions.Primary.Shadow, TweenInfo.new(0.4, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {ImageTransparency = 0.7}):Play()
+        	end)
+        
+        	prompt.Policy.Actions.Secondary.Interact.MouseEnter:Connect(function()
+        		if debounce then return end
+        		tweenService:Create(prompt.Policy.Actions.Secondary.Title, TweenInfo.new(0.4, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {TextTransparency = 0.3}):Play()
+        	end)
+        	
+        	prompt.Policy.Actions.Secondary.Interact.MouseLeave:Connect(function()
+        		if debounce then return end
+        		tweenService:Create(prompt.Policy.Actions.Secondary.Title, TweenInfo.new(0.4, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {TextTransparency = 0.6}):Play()
+        	end)
+        	
+        	task.wait(0.5)
+        
+        	task.spawn(open, prompt)
+        end
+        
+        return promptRet
+    end)()
+    local request = (syn and syn.request) or (fluxus and fluxus.request) or (http and http.request) or http_request or request
+    
+    
+    
+    local function loadSettings()
+    	local file = nil
+    
+    	local success, result =	pcall(function()
+    		task.spawn(function()
+    			if isfolder and isfolder(RayfieldFolder) then
+    				if isfile and isfile(RayfieldFolder..'/settings'..ConfigurationExtension) then
+    					file = readfile(RayfieldFolder..'/settings'..ConfigurationExtension)
+    				end
+    			end
+    
+    			-- for debug in studio
+    			if useStudio then
+    				file = [[
+    		{"General":{"rayfieldOpen":{"Value":"K","Type":"bind","Name":"Rayfield Keybind","Element":{"HoldToInteract":false,"Ext":true,"Name":"Rayfield Keybind","Set":null,"CallOnChange":true,"Callback":null,"CurrentKeybind":"K"}}},"System":{"usageAnalytics":{"Value":false,"Type":"toggle","Name":"Anonymised Analytics","Element":{"Ext":true,"Name":"Anonymised Analytics","Set":null,"CurrentValue":false,"Callback":null}}}}
+    	]]
+    			end
+    
+    
+    			if file then
+    				local success, decodedFile = pcall(function() return HttpService:JSONDecode(file) end)
+    				if success then
+    					file = decodedFile
+    				else
+    					file = {}
+    				end
+    			else
+    				file = {}
+    			end
+    
+    
+    			if not settingsCreated then
+    				cachedSettings = file
+    				return
+    			end
+    
+    			if file ~= {} then
+    				for categoryName, settingCategory in pairs(settingsTable) do
+    					if file[categoryName] then
+    						for settingName, setting in pairs(settingCategory) do
+    							if file[categoryName][settingName] then
+    								setting.Value = file[categoryName][settingName].Value
+    								setting.Element:Set(setting.Value)
+    							end
+    						end
+    					end
+    				end
+    			end
+    		end)
+    	end)
+    
+    	if not success then
+    		if writefile then
+    			warn('Rayfield had an issue accessing configuration saving capability.')
+    		end
+    	end
+    end
+    
+    if debugX then
+    	warn('Now Loading Settings Configuration')
+    end
+    
+    loadSettings()
+    
+    if debugX then
+    	warn('Settings Loaded')
+    end
+    
+    --if not cachedSettings or not cachedSettings.System or not cachedSettings.System.usageAnalytics then
+    --	local fileFunctionsAvailable = isfile and writefile and readfile
+    
+    --	if not fileFunctionsAvailable and not useStudio then
+    --		warn('Rayfield Interface Suite | Sirius Analytics:\n\n\nAs you don\'t have file functionality with your executor, we are unable to save whether you want to opt in or out to analytics.\nIf you do not want to take part in anonymised usage statistics, let us know in our Discord at sirius.menu/discord and we will manually opt you out.')
+    --		analytics = true
+    --	else
+    --		prompt.create(
+    --			'Help us improve',
+    --	            [[Would you like to allow Sirius to collect usage statistics?
+    
+    --<font transparency='0.4'>No data is linked to you or your personal activity.</font>]],
+    --			'Continue',
+    --			'Cancel',
+    --			function(result)
+    --				settingsTable.System.usageAnalytics.Value = result
+    --				analytics = result
+    --			end
+    --		)
+    --	end
+    
+    --	repeat task.wait() until analytics ~= nil
+    --end
+    
+    if not requestsDisabled then
+    
+    end
+    
+    if debugX then
+    	warn('Moving on to continue initialisation')
+    end
+    
+    local RayfieldLibrary = {
+    	Flags = {},
+    	Theme = {
+    		Default = {
+    			TextColor = Color3.fromRGB(240, 240, 240),
+    
+    			Background = Color3.fromRGB(25, 25, 25),
+    			Topbar = Color3.fromRGB(34, 34, 34),
+    			Shadow = Color3.fromRGB(20, 20, 20),
+    
+    			NotificationBackground = Color3.fromRGB(20, 20, 20),
+    			NotificationActionsBackground = Color3.fromRGB(230, 230, 230),
+    
+    			TabBackground = Color3.fromRGB(80, 80, 80),
+    			TabStroke = Color3.fromRGB(85, 85, 85),
+    			TabBackgroundSelected = Color3.fromRGB(210, 210, 210),
+    			TabTextColor = Color3.fromRGB(240, 240, 240),
+    			SelectedTabTextColor = Color3.fromRGB(50, 50, 50),
+    
+    			ElementBackground = Color3.fromRGB(35, 35, 35),
+    			ElementBackgroundHover = Color3.fromRGB(40, 40, 40),
+    			SecondaryElementBackground = Color3.fromRGB(25, 25, 25),
+    			ElementStroke = Color3.fromRGB(50, 50, 50),
+    			SecondaryElementStroke = Color3.fromRGB(40, 40, 40),
+    
+    			SliderBackground = Color3.fromRGB(50, 138, 220),
+    			SliderProgress = Color3.fromRGB(50, 138, 220),
+    			SliderStroke = Color3.fromRGB(58, 163, 255),
+    
+    			ToggleBackground = Color3.fromRGB(30, 30, 30),
+    			ToggleEnabled = Color3.fromRGB(0, 146, 214),
+    			ToggleDisabled = Color3.fromRGB(100, 100, 100),
+    			ToggleEnabledStroke = Color3.fromRGB(0, 170, 255),
+    			ToggleDisabledStroke = Color3.fromRGB(125, 125, 125),
+    			ToggleEnabledOuterStroke = Color3.fromRGB(100, 100, 100),
+    			ToggleDisabledOuterStroke = Color3.fromRGB(65, 65, 65),
+    
+    			DropdownSelected = Color3.fromRGB(40, 40, 40),
+    			DropdownUnselected = Color3.fromRGB(30, 30, 30),
+    
+    			InputBackground = Color3.fromRGB(30, 30, 30),
+    			InputStroke = Color3.fromRGB(65, 65, 65),
+    			PlaceholderColor = Color3.fromRGB(178, 178, 178)
+    		},
+    
+    		Ocean = {
+    			TextColor = Color3.fromRGB(230, 240, 240),
+    
+    			Background = Color3.fromRGB(20, 30, 30),
+    			Topbar = Color3.fromRGB(25, 40, 40),
+    			Shadow = Color3.fromRGB(15, 20, 20),
+    
+    			NotificationBackground = Color3.fromRGB(25, 35, 35),
+    			NotificationActionsBackground = Color3.fromRGB(230, 240, 240),
+    
+    			TabBackground = Color3.fromRGB(40, 60, 60),
+    			TabStroke = Color3.fromRGB(50, 70, 70),
+    			TabBackgroundSelected = Color3.fromRGB(100, 180, 180),
+    			TabTextColor = Color3.fromRGB(210, 230, 230),
+    			SelectedTabTextColor = Color3.fromRGB(20, 50, 50),
+    
+    			ElementBackground = Color3.fromRGB(30, 50, 50),
+    			ElementBackgroundHover = Color3.fromRGB(40, 60, 60),
+    			SecondaryElementBackground = Color3.fromRGB(30, 45, 45),
+    			ElementStroke = Color3.fromRGB(45, 70, 70),
+    			SecondaryElementStroke = Color3.fromRGB(40, 65, 65),
+    
+    			SliderBackground = Color3.fromRGB(0, 110, 110),
+    			SliderProgress = Color3.fromRGB(0, 140, 140),
+    			SliderStroke = Color3.fromRGB(0, 160, 160),
+    
+    			ToggleBackground = Color3.fromRGB(30, 50, 50),
+    			ToggleEnabled = Color3.fromRGB(0, 130, 130),
+    			ToggleDisabled = Color3.fromRGB(70, 90, 90),
+    			ToggleEnabledStroke = Color3.fromRGB(0, 160, 160),
+    			ToggleDisabledStroke = Color3.fromRGB(85, 105, 105),
+    			ToggleEnabledOuterStroke = Color3.fromRGB(50, 100, 100),
+    			ToggleDisabledOuterStroke = Color3.fromRGB(45, 65, 65),
+    
+    			DropdownSelected = Color3.fromRGB(30, 60, 60),
+    			DropdownUnselected = Color3.fromRGB(25, 40, 40),
+    
+    			InputBackground = Color3.fromRGB(30, 50, 50),
+    			InputStroke = Color3.fromRGB(50, 70, 70),
+    			PlaceholderColor = Color3.fromRGB(140, 160, 160)
+    		},
+    
+    		AmberGlow = {
+    			TextColor = Color3.fromRGB(255, 245, 230),
+    
+    			Background = Color3.fromRGB(45, 30, 20),
+    			Topbar = Color3.fromRGB(55, 40, 25),
+    			Shadow = Color3.fromRGB(35, 25, 15),
+    
+    			NotificationBackground = Color3.fromRGB(50, 35, 25),
+    			NotificationActionsBackground = Color3.fromRGB(245, 230, 215),
+    
+    			TabBackground = Color3.fromRGB(75, 50, 35),
+    			TabStroke = Color3.fromRGB(90, 60, 45),
+    			TabBackgroundSelected = Color3.fromRGB(230, 180, 100),
+    			TabTextColor = Color3.fromRGB(250, 220, 200),
+    			SelectedTabTextColor = Color3.fromRGB(50, 30, 10),
+    
+    			ElementBackground = Color3.fromRGB(60, 45, 35),
+    			ElementBackgroundHover = Color3.fromRGB(70, 50, 40),
+    			SecondaryElementBackground = Color3.fromRGB(55, 40, 30),
+    			ElementStroke = Color3.fromRGB(85, 60, 45),
+    			SecondaryElementStroke = Color3.fromRGB(75, 50, 35),
+    
+    			SliderBackground = Color3.fromRGB(220, 130, 60),
+    			SliderProgress = Color3.fromRGB(250, 150, 75),
+    			SliderStroke = Color3.fromRGB(255, 170, 85),
+    
+    			ToggleBackground = Color3.fromRGB(55, 40, 30),
+    			ToggleEnabled = Color3.fromRGB(240, 130, 30),
+    			ToggleDisabled = Color3.fromRGB(90, 70, 60),
+    			ToggleEnabledStroke = Color3.fromRGB(255, 160, 50),
+    			ToggleDisabledStroke = Color3.fromRGB(110, 85, 75),
+    			ToggleEnabledOuterStroke = Color3.fromRGB(200, 100, 50),
+    			ToggleDisabledOuterStroke = Color3.fromRGB(75, 60, 55),
+    
+    			DropdownSelected = Color3.fromRGB(70, 50, 40),
+    			DropdownUnselected = Color3.fromRGB(55, 40, 30),
+    
+    			InputBackground = Color3.fromRGB(60, 45, 35),
+    			InputStroke = Color3.fromRGB(90, 65, 50),
+    			PlaceholderColor = Color3.fromRGB(190, 150, 130)
+    		},
+    
+    		Light = {
+    			TextColor = Color3.fromRGB(40, 40, 40),
+    
+    			Background = Color3.fromRGB(245, 245, 245),
+    			Topbar = Color3.fromRGB(230, 230, 230),
+    			Shadow = Color3.fromRGB(200, 200, 200),
+    
+    			NotificationBackground = Color3.fromRGB(250, 250, 250),
+    			NotificationActionsBackground = Color3.fromRGB(240, 240, 240),
+    
+    			TabBackground = Color3.fromRGB(235, 235, 235),
+    			TabStroke = Color3.fromRGB(215, 215, 215),
+    			TabBackgroundSelected = Color3.fromRGB(255, 255, 255),
+    			TabTextColor = Color3.fromRGB(80, 80, 80),
+    			SelectedTabTextColor = Color3.fromRGB(0, 0, 0),
+    
+    			ElementBackground = Color3.fromRGB(240, 240, 240),
+    			ElementBackgroundHover = Color3.fromRGB(225, 225, 225),
+    			SecondaryElementBackground = Color3.fromRGB(235, 235, 235),
+    			ElementStroke = Color3.fromRGB(210, 210, 210),
+    			SecondaryElementStroke = Color3.fromRGB(210, 210, 210),
+    
+    			SliderBackground = Color3.fromRGB(150, 180, 220),
+    			SliderProgress = Color3.fromRGB(100, 150, 200),
+    			SliderStroke = Color3.fromRGB(120, 170, 220),
+    
+    			ToggleBackground = Color3.fromRGB(220, 220, 220),
+    			ToggleEnabled = Color3.fromRGB(0, 146, 214),
+    			ToggleDisabled = Color3.fromRGB(150, 150, 150),
+    			ToggleEnabledStroke = Color3.fromRGB(0, 170, 255),
+    			ToggleDisabledStroke = Color3.fromRGB(170, 170, 170),
+    			ToggleEnabledOuterStroke = Color3.fromRGB(100, 100, 100),
+    			ToggleDisabledOuterStroke = Color3.fromRGB(180, 180, 180),
+    
+    			DropdownSelected = Color3.fromRGB(230, 230, 230),
+    			DropdownUnselected = Color3.fromRGB(220, 220, 220),
+    
+    			InputBackground = Color3.fromRGB(240, 240, 240),
+    			InputStroke = Color3.fromRGB(180, 180, 180),
+    			PlaceholderColor = Color3.fromRGB(140, 140, 140)
+    		},
+    
+    		Amethyst = {
+    			TextColor = Color3.fromRGB(240, 240, 240),
+    
+    			Background = Color3.fromRGB(30, 20, 40),
+    			Topbar = Color3.fromRGB(40, 25, 50),
+    			Shadow = Color3.fromRGB(20, 15, 30),
+    
+    			NotificationBackground = Color3.fromRGB(35, 20, 40),
+    			NotificationActionsBackground = Color3.fromRGB(240, 240, 250),
+    
+    			TabBackground = Color3.fromRGB(60, 40, 80),
+    			TabStroke = Color3.fromRGB(70, 45, 90),
+    			TabBackgroundSelected = Color3.fromRGB(180, 140, 200),
+    			TabTextColor = Color3.fromRGB(230, 230, 240),
+    			SelectedTabTextColor = Color3.fromRGB(50, 20, 50),
+    
+    			ElementBackground = Color3.fromRGB(45, 30, 60),
+    			ElementBackgroundHover = Color3.fromRGB(50, 35, 70),
+    			SecondaryElementBackground = Color3.fromRGB(40, 30, 55),
+    			ElementStroke = Color3.fromRGB(70, 50, 85),
+    			SecondaryElementStroke = Color3.fromRGB(65, 45, 80),
+    
+    			SliderBackground = Color3.fromRGB(100, 60, 150),
+    			SliderProgress = Color3.fromRGB(130, 80, 180),
+    			SliderStroke = Color3.fromRGB(150, 100, 200),
+    
+    			ToggleBackground = Color3.fromRGB(45, 30, 55),
+    			ToggleEnabled = Color3.fromRGB(120, 60, 150),
+    			ToggleDisabled = Color3.fromRGB(94, 47, 117),
+    			ToggleEnabledStroke = Color3.fromRGB(140, 80, 170),
+    			ToggleDisabledStroke = Color3.fromRGB(124, 71, 150),
+    			ToggleEnabledOuterStroke = Color3.fromRGB(90, 40, 120),
+    			ToggleDisabledOuterStroke = Color3.fromRGB(80, 50, 110),
+    
+    			DropdownSelected = Color3.fromRGB(50, 35, 70),
+    			DropdownUnselected = Color3.fromRGB(35, 25, 50),
+    
+    			InputBackground = Color3.fromRGB(45, 30, 60),
+    			InputStroke = Color3.fromRGB(80, 50, 110),
+    			PlaceholderColor = Color3.fromRGB(178, 150, 200)
+    		},
+    
+    		Green = {
+    			TextColor = Color3.fromRGB(30, 60, 30),
+    
+    			Background = Color3.fromRGB(235, 245, 235),
+    			Topbar = Color3.fromRGB(210, 230, 210),
+    			Shadow = Color3.fromRGB(200, 220, 200),
+    
+    			NotificationBackground = Color3.fromRGB(240, 250, 240),
+    			NotificationActionsBackground = Color3.fromRGB(220, 235, 220),
+    
+    			TabBackground = Color3.fromRGB(215, 235, 215),
+    			TabStroke = Color3.fromRGB(190, 210, 190),
+    			TabBackgroundSelected = Color3.fromRGB(245, 255, 245),
+    			TabTextColor = Color3.fromRGB(50, 80, 50),
+    			SelectedTabTextColor = Color3.fromRGB(20, 60, 20),
+    
+    			ElementBackground = Color3.fromRGB(225, 240, 225),
+    			ElementBackgroundHover = Color3.fromRGB(210, 225, 210),
+    			SecondaryElementBackground = Color3.fromRGB(235, 245, 235),
+    			ElementStroke = Color3.fromRGB(180, 200, 180),
+    			SecondaryElementStroke = Color3.fromRGB(180, 200, 180),
+    
+    			SliderBackground = Color3.fromRGB(90, 160, 90),
+    			SliderProgress = Color3.fromRGB(70, 130, 70),
+    			SliderStroke = Color3.fromRGB(100, 180, 100),
+    
+    			ToggleBackground = Color3.fromRGB(215, 235, 215),
+    			ToggleEnabled = Color3.fromRGB(60, 130, 60),
+    			ToggleDisabled = Color3.fromRGB(150, 175, 150),
+    			ToggleEnabledStroke = Color3.fromRGB(80, 150, 80),
+    			ToggleDisabledStroke = Color3.fromRGB(130, 150, 130),
+    			ToggleEnabledOuterStroke = Color3.fromRGB(100, 160, 100),
+    			ToggleDisabledOuterStroke = Color3.fromRGB(160, 180, 160),
+    
+    			DropdownSelected = Color3.fromRGB(225, 240, 225),
+    			DropdownUnselected = Color3.fromRGB(210, 225, 210),
+    
+    			InputBackground = Color3.fromRGB(235, 245, 235),
+    			InputStroke = Color3.fromRGB(180, 200, 180),
+    			PlaceholderColor = Color3.fromRGB(120, 140, 120)
+    		},
+    
+    		Bloom = {
+    			TextColor = Color3.fromRGB(60, 40, 50),
+    
+    			Background = Color3.fromRGB(255, 240, 245),
+    			Topbar = Color3.fromRGB(250, 220, 225),
+    			Shadow = Color3.fromRGB(230, 190, 195),
+    
+    			NotificationBackground = Color3.fromRGB(255, 235, 240),
+    			NotificationActionsBackground = Color3.fromRGB(245, 215, 225),
+    
+    			TabBackground = Color3.fromRGB(240, 210, 220),
+    			TabStroke = Color3.fromRGB(230, 200, 210),
+    			TabBackgroundSelected = Color3.fromRGB(255, 225, 235),
+    			TabTextColor = Color3.fromRGB(80, 40, 60),
+    			SelectedTabTextColor = Color3.fromRGB(50, 30, 50),
+    
+    			ElementBackground = Color3.fromRGB(255, 235, 240),
+    			ElementBackgroundHover = Color3.fromRGB(245, 220, 230),
+    			SecondaryElementBackground = Color3.fromRGB(255, 235, 240),
+    			ElementStroke = Color3.fromRGB(230, 200, 210),
+    			SecondaryElementStroke = Color3.fromRGB(230, 200, 210),
+    
+    			SliderBackground = Color3.fromRGB(240, 130, 160),
+    			SliderProgress = Color3.fromRGB(250, 160, 180),
+    			SliderStroke = Color3.fromRGB(255, 180, 200),
+    
+    			ToggleBackground = Color3.fromRGB(240, 210, 220),
+    			ToggleEnabled = Color3.fromRGB(255, 140, 170),
+    			ToggleDisabled = Color3.fromRGB(200, 180, 185),
+    			ToggleEnabledStroke = Color3.fromRGB(250, 160, 190),
+    			ToggleDisabledStroke = Color3.fromRGB(210, 180, 190),
+    			ToggleEnabledOuterStroke = Color3.fromRGB(220, 160, 180),
+    			ToggleDisabledOuterStroke = Color3.fromRGB(190, 170, 180),
+    
+    			DropdownSelected = Color3.fromRGB(250, 220, 225),
+    			DropdownUnselected = Color3.fromRGB(240, 210, 220),
+    
+    			InputBackground = Color3.fromRGB(255, 235, 240),
+    			InputStroke = Color3.fromRGB(220, 190, 200),
+    			PlaceholderColor = Color3.fromRGB(170, 130, 140)
+    		},
+    
+    		DarkBlue = {
+    			TextColor = Color3.fromRGB(230, 230, 230),
+    
+    			Background = Color3.fromRGB(20, 25, 30),
+    			Topbar = Color3.fromRGB(30, 35, 40),
+    			Shadow = Color3.fromRGB(15, 20, 25),
+    
+    			NotificationBackground = Color3.fromRGB(25, 30, 35),
+    			NotificationActionsBackground = Color3.fromRGB(45, 50, 55),
+    
+    			TabBackground = Color3.fromRGB(35, 40, 45),
+    			TabStroke = Color3.fromRGB(45, 50, 60),
+    			TabBackgroundSelected = Color3.fromRGB(40, 70, 100),
+    			TabTextColor = Color3.fromRGB(200, 200, 200),
+    			SelectedTabTextColor = Color3.fromRGB(255, 255, 255),
+    
+    			ElementBackground = Color3.fromRGB(30, 35, 40),
+    			ElementBackgroundHover = Color3.fromRGB(40, 45, 50),
+    			SecondaryElementBackground = Color3.fromRGB(35, 40, 45),
+    			ElementStroke = Color3.fromRGB(45, 50, 60),
+    			SecondaryElementStroke = Color3.fromRGB(40, 45, 55),
+    
+    			SliderBackground = Color3.fromRGB(0, 90, 180),
+    			SliderProgress = Color3.fromRGB(0, 120, 210),
+    			SliderStroke = Color3.fromRGB(0, 150, 240),
+    
+    			ToggleBackground = Color3.fromRGB(35, 40, 45),
+    			ToggleEnabled = Color3.fromRGB(0, 120, 210),
+    			ToggleDisabled = Color3.fromRGB(70, 70, 80),
+    			ToggleEnabledStroke = Color3.fromRGB(0, 150, 240),
+    			ToggleDisabledStroke = Color3.fromRGB(75, 75, 85),
+    			ToggleEnabledOuterStroke = Color3.fromRGB(20, 100, 180),
+    			ToggleDisabledOuterStroke = Color3.fromRGB(55, 55, 65),
+    
+    			DropdownSelected = Color3.fromRGB(30, 70, 90),
+    			DropdownUnselected = Color3.fromRGB(25, 30, 35),
+    
+    			InputBackground = Color3.fromRGB(25, 30, 35),
+    			InputStroke = Color3.fromRGB(45, 50, 60),
+    			PlaceholderColor = Color3.fromRGB(150, 150, 160)
+    		},
+    
+    		Serenity = {
+    			TextColor = Color3.fromRGB(50, 55, 60),
+    			Background = Color3.fromRGB(240, 245, 250),
+    			Topbar = Color3.fromRGB(215, 225, 235),
+    			Shadow = Color3.fromRGB(200, 210, 220),
+    
+    			NotificationBackground = Color3.fromRGB(210, 220, 230),
+    			NotificationActionsBackground = Color3.fromRGB(225, 230, 240),
+    
+    			TabBackground = Color3.fromRGB(200, 210, 220),
+    			TabStroke = Color3.fromRGB(180, 190, 200),
+    			TabBackgroundSelected = Color3.fromRGB(175, 185, 200),
+    			TabTextColor = Color3.fromRGB(50, 55, 60),
+    			SelectedTabTextColor = Color3.fromRGB(30, 35, 40),
+    
+    			ElementBackground = Color3.fromRGB(210, 220, 230),
+    			ElementBackgroundHover = Color3.fromRGB(220, 230, 240),
+    			SecondaryElementBackground = Color3.fromRGB(200, 210, 220),
+    			ElementStroke = Color3.fromRGB(190, 200, 210),
+    			SecondaryElementStroke = Color3.fromRGB(180, 190, 200),
+    
+    			SliderBackground = Color3.fromRGB(200, 220, 235),  -- Lighter shade
+    			SliderProgress = Color3.fromRGB(70, 130, 180),
+    			SliderStroke = Color3.fromRGB(150, 180, 220),
+    
+    			ToggleBackground = Color3.fromRGB(210, 220, 230),
+    			ToggleEnabled = Color3.fromRGB(70, 160, 210),
+    			ToggleDisabled = Color3.fromRGB(180, 180, 180),
+    			ToggleEnabledStroke = Color3.fromRGB(60, 150, 200),
+    			ToggleDisabledStroke = Color3.fromRGB(140, 140, 140),
+    			ToggleEnabledOuterStroke = Color3.fromRGB(100, 120, 140),
+    			ToggleDisabledOuterStroke = Color3.fromRGB(120, 120, 130),
+    
+    			DropdownSelected = Color3.fromRGB(220, 230, 240),
+    			DropdownUnselected = Color3.fromRGB(200, 210, 220),
+    
+    			InputBackground = Color3.fromRGB(220, 230, 240),
+    			InputStroke = Color3.fromRGB(180, 190, 200),
+    			PlaceholderColor = Color3.fromRGB(150, 150, 150)
+    		},
+    	}
+    }
+    
+    
+    -- Services
+    local UserInputService = getService("UserInputService")
+    local TweenService = getService("TweenService")
+    local Players = getService("Players")
+    local CoreGui = getService("CoreGui")
+    
+    -- Interface Management
+    
+    local Rayfield = useStudio and script.Parent:FindFirstChild('Rayfield') or game:GetObjects("rbxassetid://10804731440")[1]
+    local buildAttempts = 0
+    local correctBuild = false
+    local warned
+    local globalLoaded
+    
+    repeat
+    	if Rayfield:FindFirstChild('Build') and Rayfield.Build.Value == InterfaceBuild then
+    		correctBuild = true
+    		break
+    	end
+    
+    	correctBuild = false
+    
+    	if not warned then
+    		warn('Rayfield | Build Mismatch')
+    		print('Rayfield may encounter issues as you are running an incompatible interface version ('.. ((Rayfield:FindFirstChild('Build') and Rayfield.Build.Value) or 'No Build') ..').\n\nThis version of Rayfield is intended for interface build '..InterfaceBuild..'.')
+    		warned = true
+    	end
+    
+    	toDestroy, Rayfield = Rayfield, useStudio and script.Parent:FindFirstChild('Rayfield') or game:GetObjects("rbxassetid://10804731440")[1]
+    	if toDestroy and not useStudio then toDestroy:Destroy() end
+    
+    	buildAttempts = buildAttempts + 1
+    until buildAttempts >= 2
+    
+    Rayfield.Enabled = false
+    
+    if gethui then
+    	Rayfield.Parent = gethui()
+    elseif syn and syn.protect_gui then
+    	syn.protect_gui(Rayfield)
+    	Rayfield.Parent = CoreGui
+    elseif not useStudio and CoreGui:FindFirstChild("RobloxGui") then
+    	Rayfield.Parent = CoreGui:FindFirstChild("RobloxGui")
+    elseif not useStudio then
+    	Rayfield.Parent = CoreGui
+    end
+    
+    if gethui then
+    	for _, Interface in ipairs(gethui():GetChildren()) do
+    		if Interface.Name == Rayfield.Name and Interface ~= Rayfield then
+    			Interface.Enabled = false
+    			Interface.Name = "Rayfield-Old"
+    		end
+    	end
+    elseif not useStudio then
+    	for _, Interface in ipairs(CoreGui:GetChildren()) do
+    		if Interface.Name == Rayfield.Name and Interface ~= Rayfield then
+    			Interface.Enabled = false
+    			Interface.Name = "Rayfield-Old"
+    		end
+    	end
+    end
+    
+    
+    local minSize = Vector2.new(1024, 768)
+    local useMobileSizing
+    
+    if Rayfield.AbsoluteSize.X < minSize.X and Rayfield.AbsoluteSize.Y < minSize.Y then
+    	useMobileSizing = true
+    end
+    
+    if UserInputService.TouchEnabled then
+    	useMobilePrompt = true
+    end
+    
+    
+    -- Object Variables
+    
+    local Main = Rayfield.Main
+    local updateDragBar
+    local MPrompt = Rayfield:FindFirstChild('Prompt')
+    local Topbar = Main.Topbar
+    local Elements = Main.Elements
+    local LoadingFrame = Main.LoadingFrame
+    local TabList = Main.TabList
+    local dragBar = Rayfield:FindFirstChild('Drag')
+    local dragInteract = dragBar and dragBar.Interact or nil
+    local dragBarCosmetic = dragBar and dragBar.Drag or nil
+    
+    local dragOffset = 255
+    local dragOffsetMobile = 150
+    
+    Rayfield.DisplayOrder = 100
+    LoadingFrame.Version.Text = Release
+    
+    -- Thanks to Latte Softworks for the Lucide integration for Roblox
+    local Icons = (function(...) -- ../Libraries/RayfieldIcons.lua
+        --!nocheck
+        return {["48px"]={rewind={16898613699,{48,48},{563,967}},fuel={16898613353,{48,48},{196,967}},["square-arrow-out-up-right"]={16898613777,{48,48},{967,514}},["table-cells-split"]={16898613777,{48,48},{771,955}},gavel={16898613353,{48,48},{967,808}},["dna-off"]={16898613044,{48,48},{453,967}},["refresh-ccw-dot"]={16898613699,{48,48},{869,404}},bean={16898612629,{48,48},{967,906}},["arrow-up-right-from-circle"]={16898612629,{48,48},{563,967}},["table-columns-split"]={16898613777,{48,48},{967,808}},bolt={16898612819,{48,48},{306,820}},["square-asterisk"]={16898613777,{48,48},{710,771}},feather={16898613353,{48,48},{771,98}},["align-horizontal-distribute-center"]={16898612629,{48,48},{771,355}},["align-center"]={16898612629,{48,48},{0,869}},["grip-vertical"]={16898613509,{48,48},{0,869}},["person-standing"]={16898613699,{48,48},{563,771}},["badge-swiss-franc"]={16898612629,{48,48},{771,857}},["between-horizontal-end"]={16898612819,{48,48},{771,306}},["rotate-cw"]={16898613699,{48,48},{869,453}},framer={16898613353,{48,48},{661,967}},["bus-front"]={16898612819,{48,48},{869,612}},["shield-ellipsis"]={16898613777,{48,48},{771,306}},["file-lock-2"]={16898613353,{48,48},{257,918}},["between-vertical-end"]={16898612819,{48,48},{257,820}},["globe-lock"]={16898613509,{48,48},{820,514}},["toggle-left"]={16898613869,{48,48},{869,49}},["concierge-bell"]={16898613044,{48,48},{869,147}},video={16898613869,{48,48},{355,967}},["arrow-left-square"]={16898612629,{48,48},{196,820}},["file-down"]={16898613353,{48,48},{98,820}},["picture-in-picture"]={16898613699,{48,48},{257,869}},["messages-square"]={16898613613,{48,48},{306,869}},grab={16898613509,{48,48},{514,820}},["phone-call"]={16898613699,{48,48},{514,820}},["chevron-up-circle"]={16898612819,{48,48},{820,808}},["server-crash"]={16898613699,{48,48},{918,955}},["heading-3"]={16898613509,{48,48},{869,306}},squircle={16898613777,{48,48},{820,759}},["wifi-off"]={16898613869,{48,48},{918,759}},["sun-medium"]={16898613777,{48,48},{661,967}},ungroup={16898613869,{48,48},{257,967}},["cloud-download"]={16898613044,{48,48},{612,820}},["sigma-square"]={16898613777,{48,48},{869,514}},["folder-plus"]={16898613353,{48,48},{661,918}},["hard-drive-download"]={16898613509,{48,48},{918,0}},["scatter-chart"]={16898613699,{48,48},{196,967}},pointer={16898613699,{48,48},{661,771}},ligature={16898613509,{48,48},{612,967}},["chevrons-up-down"]={16898612819,{48,48},{918,759}},["iteration-cw"]={16898613509,{48,48},{869,147}},["rail-symbol"]={16898613699,{48,48},{967,514}},["square-stack"]={16898613777,{48,48},{453,869}},parentheses={16898613613,{48,48},{869,906}},["book-up-2"]={16898612819,{48,48},{306,869}},flame={16898613353,{48,48},{967,306}},["chevrons-up"]={16898612819,{48,48},{869,808}},["chevron-right-square"]={16898612819,{48,48},{918,710}},["square-mouse-pointer"]={16898613777,{48,48},{869,661}},superscript={16898613777,{48,48},{918,759}},signal={16898613777,{48,48},{918,0}},["file-warning"]={16898613353,{48,48},{967,514}},hexagon={16898613509,{48,48},{967,0}},["navigation-2-off"]={16898613613,{48,48},{918,612}},unlock={16898613869,{48,48},{771,710}},["arrows-up-from-line"]={16898612629,{48,48},{918,404}},["square-gantt-chart"]={16898613777,{48,48},{453,820}},["square-chevron-left"]={16898613777,{48,48},{967,49}},scaling={16898613699,{48,48},{967,661}},["inspection-panel"]={16898613509,{48,48},{563,918}},["arrow-left-from-line"]={16898612629,{48,48},{869,147}},ship={16898613777,{48,48},{771,98}},["ticket-percent"]={16898613869,{48,48},{257,869}},["arrow-right-square"]={16898612629,{48,48},{869,404}},["calendar-clock"]={16898612819,{48,48},{918,98}},x={16898613869,{48,48},{869,906}},voicemail={16898613869,{48,48},{869,710}},presentation={16898613699,{48,48},{771,196}},["tree-palm"]={16898613869,{48,48},{820,612}},popsicle={16898613699,{48,48},{563,869}},["captions-off"]={16898612819,{48,48},{661,869}},["align-vertical-justify-center"]={16898612629,{48,48},{49,869}},theater={16898613869,{48,48},{98,771}},tent={16898613869,{48,48},{49,771}},["repeat-1"]={16898613699,{48,48},{918,612}},stethoscope={16898613777,{48,48},{147,967}},["screen-share-off"]={16898613699,{48,48},{771,906}},["arrow-big-up"]={16898612629,{48,48},{918,306}},["volume-x"]={16898613869,{48,48},{710,869}},["mouse-pointer-click"]={16898613613,{48,48},{771,710}},["square-m"]={16898613777,{48,48},{306,967}},["hard-drive"]={16898613509,{48,48},{820,98}},["package-minus"]={16898613613,{48,48},{771,808}},cloud={16898613044,{48,48},{918,306}},["mouse-pointer-square-dashed"]={16898613613,{48,48},{710,771}},["flip-horizontal"]={16898613353,{48,48},{306,967}},["alert-circle"]={16898612629,{48,48},{869,0}},unplug={16898613869,{48,48},{710,771}},["badge-cent"]={16898612629,{48,48},{612,967}},["check-square-2"]={16898612819,{48,48},{820,759}},["monitor-check"]={16898613613,{48,48},{196,771}},trello={16898613869,{48,48},{612,820}},["paintbrush-2"]={16898613613,{48,48},{967,404}},["bar-chart-horizontal"]={16898612629,{48,48},{710,967}},["book-plus"]={16898612819,{48,48},{771,404}},torus={16898613869,{48,48},{147,771}},["panel-right-close"]={16898613613,{48,48},{453,967}},["heart-handshake"]={16898613509,{48,48},{869,563}},trees={16898613869,{48,48},{661,771}},ham={16898613509,{48,48},{355,771}},text={16898613869,{48,48},{771,98}},["nut-off"]={16898613613,{48,48},{98,967}},["bean-off"]={16898612629,{48,48},{869,955}},rat={16898613699,{48,48},{869,612}},["separator-horizontal"]={16898613699,{48,48},{918,906}},["square-arrow-up-right"]={16898613777,{48,48},{820,661}},["signal-zero"]={16898613777,{48,48},{514,869}},citrus={16898613044,{48,48},{306,820}},["phone-missed"]={16898613699,{48,48},{771,98}},["user-round-check"]={16898613869,{48,48},{869,404}},["battery-medium"]={16898612629,{48,48},{869,906}},["square-minus"]={16898613777,{48,48},{918,612}},hotel={16898613509,{48,48},{98,869}},["folder-output"]={16898613353,{48,48},{771,808}},["ice-cream"]={16898613509,{48,48},{869,355}},menu={16898613613,{48,48},{49,820}},["arrow-up-left-square"]={16898612629,{48,48},{710,820}},lightbulb={16898613509,{48,48},{918,196}},["badge-help"]={16898612629,{48,48},{147,967}},angry={16898612629,{48,48},{257,918}},outdent={16898613613,{48,48},{918,661}},["circle-dot-dashed"]={16898613044,{48,48},{771,514}},speech={16898613777,{48,48},{820,147}},["cake-slice"]={16898612819,{48,48},{661,820}},["git-graph"]={16898613509,{48,48},{0,771}},armchair={16898612629,{48,48},{820,147}},["qr-code"]={16898613699,{48,48},{967,257}},copy={16898613044,{48,48},{918,612}},goal={16898613509,{48,48},{563,771}},["trending-down"]={16898613869,{48,48},{563,869}},haze={16898613509,{48,48},{98,820}},nfc={16898613613,{48,48},{612,918}},["receipt-russian-ruble"]={16898613699,{48,48},{514,967}},disc={16898613044,{48,48},{661,967}},["notebook-tabs"]={16898613613,{48,48},{967,98}},["panels-left-bottom"]={16898613613,{48,48},{820,906}},videotape={16898613869,{48,48},{967,612}},["sun-moon"]={16898613777,{48,48},{967,196}},calendar={16898612819,{48,48},{355,918}},["minus-circle"]={16898613613,{48,48},{869,98}},sunset={16898613777,{48,48},{967,710}},["navigation-2"]={16898613613,{48,48},{869,661}},["message-square-heart"]={16898613613,{48,48},{771,147}},["rectangle-ellipsis"]={16898613699,{48,48},{820,196}},["badge-plus"]={16898612629,{48,48},{918,710}},["indian-rupee"]={16898613509,{48,48},{710,771}},["monitor-dot"]={16898613613,{48,48},{147,820}},delete={16898613044,{48,48},{661,918}},["clipboard-pen-line"]={16898613044,{48,48},{918,0}},["folder-search"]={16898613353,{48,48},{918,196}},["utensils-crossed"]={16898613869,{48,48},{918,147}},dices={16898613044,{48,48},{918,710}},reply={16898613699,{48,48},{612,918}},["flask-round"]={16898613353,{48,48},{404,869}},pause={16898613699,{48,48},{0,771}},shrub={16898613777,{48,48},{306,820}},flag={16898613353,{48,48},{98,918}},underline={16898613869,{48,48},{820,404}},["align-horizontal-distribute-end"]={16898612629,{48,48},{355,771}},newspaper={16898613613,{48,48},{661,869}},table={16898613777,{48,48},{820,955}},["move-vertical"]={16898613613,{48,48},{820,453}},["file-pen-line"]={16898613353,{48,48},{612,820}},["badge-russian-ruble"]={16898612629,{48,48},{820,808}},radius={16898613699,{48,48},{257,967}},["loader-2"]={16898613509,{48,48},{820,857}},pilcrow={16898613699,{48,48},{612,771}},["scan-face"]={16898613699,{48,48},{820,808}},spade={16898613777,{48,48},{514,918}},["book-user"]={16898612819,{48,48},{918,514}},["flip-vertical"]={16898613353,{48,48},{918,612}},["square-arrow-down"]={16898613777,{48,48},{453,771}},["circle-plus"]={16898613044,{48,48},{869,0}},view={16898613869,{48,48},{918,661}},cctv={16898612819,{48,48},{355,967}},["more-horizontal"]={16898613613,{48,48},{257,967}},["file-key-2"]={16898613353,{48,48},{404,771}},["pause-octagon"]={16898613699,{48,48},{771,0}},["circle-arrow-out-down-left"]={16898612819,{48,48},{771,955}},volume={16898613869,{48,48},{661,918}},facebook={16898613353,{48,48},{563,771}},["octagon-alert"]={16898613613,{48,48},{918,404}},["panel-bottom-dashed"]={16898613613,{48,48},{918,710}},["book-a"]={16898612819,{48,48},{820,563}},["align-end-vertical"]={16898612629,{48,48},{820,306}},["user-x-2"]={16898613869,{48,48},{771,759}},chrome={16898612819,{48,48},{820,857}},["receipt-japanese-yen"]={16898613699,{48,48},{612,869}},rabbit={16898613699,{48,48},{869,355}},["scissors-square"]={16898613699,{48,48},{869,808}},["check-square"]={16898612819,{48,48},{771,808}},["train-front-tunnel"]={16898613869,{48,48},{771,404}},["panel-left-dashed"]={16898613613,{48,48},{661,967}},fish={16898613353,{48,48},{869,147}},slack={16898613777,{48,48},{0,918}},sliders={16898613777,{48,48},{404,771}},["message-circle-warning"]={16898613613,{48,48},{771,612}},map={16898613613,{48,48},{306,771}},route={16898613699,{48,48},{404,918}},["arrow-up-left"]={16898612629,{48,48},{661,869}},award={16898612629,{48,48},{918,661}},["message-square-plus"]={16898613613,{48,48},{49,869}},["unfold-horizontal"]={16898613869,{48,48},{355,869}},["area-chart"]={16898612629,{48,48},{869,98}},["music-4"]={16898613613,{48,48},{306,967}},["shield-x"]={16898613777,{48,48},{514,820}},["plane-landing"]={16898613699,{48,48},{771,147}},["disc-3"]={16898613044,{48,48},{771,857}},["columns-4"]={16898613044,{48,48},{710,771}},["archive-x"]={16898612629,{48,48},{967,0}},["square-dashed-kanban"]={16898613777,{48,48},{98,918}},["users-2"]={16898613869,{48,48},{612,918}},["shield-off"]={16898613777,{48,48},{820,514}},compass={16898613044,{48,48},{514,967}},vegan={16898613869,{48,48},{967,355}},["message-circle-plus"]={16898613613,{48,48},{257,869}},["stop-circle"]={16898613777,{48,48},{453,918}},nut={16898613613,{48,48},{967,355}},search={16898613699,{48,48},{918,857}},files={16898613353,{48,48},{771,710}},["send-to-back"]={16898613699,{48,48},{820,955}},["alarm-clock"]={16898612629,{48,48},{257,820}},["shopping-basket"]={16898613777,{48,48},{0,869}},send={16898613699,{48,48},{967,857}},["chevron-left-square"]={16898612819,{48,48},{453,918}},["terminal-square"]={16898613869,{48,48},{0,820}},wifi={16898613869,{48,48},{869,808}},["skip-back"]={16898613777,{48,48},{147,771}},["wrap-text"]={16898613869,{48,48},{869,857}},["file-scan"]={16898613353,{48,48},{820,147}},["message-square-dashed"]={16898613613,{48,48},{918,0}},trophy={16898613869,{48,48},{820,147}},umbrella={16898613869,{48,48},{869,355}},touchpad={16898613869,{48,48},{49,869}},["clipboard-copy"]={16898613044,{48,48},{820,563}},pentagon={16898613699,{48,48},{771,306}},["arrow-up-from-line"]={16898612629,{48,48},{820,710}},["circle-chevron-up"]={16898613044,{48,48},{771,0}},worm={16898613869,{48,48},{918,808}},["lamp-desk"]={16898613509,{48,48},{355,918}},["circle-arrow-up"]={16898612819,{48,48},{967,857}},zap={16898613869,{48,48},{918,906}},boxes={16898612819,{48,48},{196,771}},["swiss-franc"]={16898613777,{48,48},{820,857}},["move-left"]={16898613613,{48,48},{98,918}},["chevron-up"]={16898612819,{48,48},{710,918}},instagram={16898613509,{48,48},{514,967}},["pen-tool"]={16898613699,{48,48},{820,0}},["pencil-ruler"]={16898613699,{48,48},{0,820}},["grid-2x2"]={16898613509,{48,48},{771,98}},["arrow-big-down-dash"]={16898612629,{48,48},{771,196}},["clipboard-edit"]={16898613044,{48,48},{771,612}},mic={16898613613,{48,48},{820,612}},["file-minus-2"]={16898613353,{48,48},{869,563}},gitlab={16898613509,{48,48},{820,257}},["rotate-3d"]={16898613699,{48,48},{147,918}},["spell-check"]={16898613777,{48,48},{196,771}},popcorn={16898613699,{48,48},{612,820}},blocks={16898612819,{48,48},{49,820}},["washing-machine"]={16898613869,{48,48},{918,710}},siren={16898613777,{48,48},{771,147}},["cloud-sun"]={16898613044,{48,48},{0,967}},circle={16898613044,{48,48},{771,355}},["shield-alert"]={16898613777,{48,48},{49,771}},rainbow={16898613699,{48,48},{918,563}},["separator-vertical"]={16898613699,{48,48},{869,955}},ampersands={16898612629,{48,48},{355,820}},["user-search"]={16898613869,{48,48},{918,612}},fence={16898613353,{48,48},{98,771}},["square-user-round"]={16898613777,{48,48},{355,967}},sunrise={16898613777,{48,48},{453,967}},strikethrough={16898613777,{48,48},{869,759}},["calendar-days"]={16898612819,{48,48},{869,147}},["dollar-sign"]={16898613044,{48,48},{820,857}},["message-square-quote"]={16898613613,{48,48},{0,918}},["list-minus"]={16898613509,{48,48},{820,808}},["cloud-hail"]={16898613044,{48,48},{967,0}},upload={16898613869,{48,48},{612,869}},["app-window-mac"]={16898612629,{48,48},{661,771}},ellipsis={16898613353,{48,48},{771,49}},["copy-check"]={16898613044,{48,48},{453,820}},history={16898613509,{48,48},{869,98}},satellite={16898613699,{48,48},{147,967}},["bookmark-plus"]={16898612819,{48,48},{612,820}},["folder-key"]={16898613353,{48,48},{355,967}},["lamp-ceiling"]={16898613509,{48,48},{404,869}},["circle-power"]={16898613044,{48,48},{820,49}},hourglass={16898613509,{48,48},{49,918}},keyboard={16898613509,{48,48},{453,820}},triangle={16898613869,{48,48},{869,98}},["layers-2"]={16898613509,{48,48},{196,869}},["battery-full"]={16898612629,{48,48},{967,808}},["user-minus"]={16898613869,{48,48},{49,967}},["x-octagon"]={16898613869,{48,48},{967,808}},["folder-tree"]={16898613353,{48,48},{967,404}},command={16898613044,{48,48},{563,918}},["badge-dollar-sign"]={16898612629,{48,48},{918,196}},["align-start-vertical"]={16898612629,{48,48},{820,98}},["chevrons-down"]={16898612819,{48,48},{967,196}},["bluetooth-off"]={16898612819,{48,48},{869,257}},cannabis={16898612819,{48,48},{710,820}},book={16898612819,{48,48},{820,612}},hammer={16898613509,{48,48},{306,820}},["circle-minus"]={16898613044,{48,48},{771,306}},["audio-waveform"]={16898612629,{48,48},{967,612}},["moon-star"]={16898613613,{48,48},{355,869}},["arrow-right"]={16898612629,{48,48},{453,820}},sparkle={16898613777,{48,48},{967,0}},wand={16898613869,{48,48},{404,967}},["calendar-minus-2"]={16898612819,{48,48},{147,869}},["copy-minus"]={16898613044,{48,48},{404,869}},["folder-input"]={16898613353,{48,48},{453,869}},["book-image"]={16898612819,{48,48},{771,147}},shirt={16898613777,{48,48},{98,771}},["server-off"]={16898613699,{48,48},{967,955}},["move-up"]={16898613613,{48,48},{869,404}},["plug-2"]={16898613699,{48,48},{869,306}},radio={16898613699,{48,48},{306,918}},brackets={16898612819,{48,48},{98,869}},["calendar-heart"]={16898612819,{48,48},{196,820}},["list-ordered"]={16898613509,{48,48},{710,918}},["mic-off"]={16898613613,{48,48},{918,514}},["arrow-big-left"]={16898612629,{48,48},{98,869}},["square-split-horizontal"]={16898613777,{48,48},{918,404}},["tree-deciduous"]={16898613869,{48,48},{869,563}},["sun-snow"]={16898613777,{48,48},{196,967}},["user-2"]={16898613869,{48,48},{514,967}},["help-circle"]={16898613509,{48,48},{563,869}},["clock-2"]={16898613044,{48,48},{771,404}},["calendar-fold"]={16898612819,{48,48},{820,196}},["fish-off"]={16898613353,{48,48},{967,49}},baby={16898612629,{48,48},{771,808}},leaf={16898613509,{48,48},{918,661}},["fold-vertical"]={16898613353,{48,48},{661,869}},hop={16898613509,{48,48},{196,771}},paperclip={16898613613,{48,48},{918,857}},cigarette={16898612819,{48,48},{967,759}},minus={16898613613,{48,48},{771,196}},["smile-plus"]={16898613777,{48,48},{918,514}},["chevron-right-circle"]={16898612819,{48,48},{967,661}},["star-off"]={16898613777,{48,48},{612,967}},["git-pull-request-closed"]={16898613509,{48,48},{771,514}},["badge-check"]={16898612629,{48,48},{967,147}},["test-tube-2"]={16898613869,{48,48},{771,306}},["kanban-square"]={16898613509,{48,48},{98,918}},["plug-zap"]={16898613699,{48,48},{771,404}},["heading-4"]={16898613509,{48,48},{820,355}},["git-pull-request-create"]={16898613509,{48,48},{820,0}},["replace-all"]={16898613699,{48,48},{771,759}},["receipt-swiss-franc"]={16898613699,{48,48},{967,49}},["square-dashed-bottom-code"]={16898613777,{48,48},{196,820}},["clock-7"]={16898613044,{48,48},{918,514}},["scan-text"]={16898613699,{48,48},{661,967}},["shower-head"]={16898613777,{48,48},{771,355}},["equal-not"]={16898613353,{48,48},{49,771}},["move-down"]={16898613613,{48,48},{196,820}},["ticket-slash"]={16898613869,{48,48},{820,563}},ruler={16898613699,{48,48},{710,869}},["circle-user-round"]={16898613044,{48,48},{0,869}},subscript={16898613777,{48,48},{820,808}},["alarm-minus"]={16898612629,{48,48},{820,514}},["layout-grid"]={16898613509,{48,48},{918,404}},cog={16898613044,{48,48},{918,563}},dog={16898613044,{48,48},{869,808}},swords={16898613777,{48,48},{967,759}},["panel-right-dashed"]={16898613613,{48,48},{967,710}},["ship-wheel"]={16898613777,{48,48},{820,49}},bot={16898612819,{48,48},{869,98}},["trash-2"]={16898613869,{48,48},{257,918}},["chevron-down-square"]={16898612819,{48,48},{918,196}},dot={16898613044,{48,48},{918,808}},["file-symlink"]={16898613353,{48,48},{967,257}},["clipboard-paste"]={16898613044,{48,48},{514,869}},plug={16898613699,{48,48},{404,771}},["book-heart"]={16898612819,{48,48},{820,98}},["circle-parking"]={16898613044,{48,48},{820,514}},["volume-1"]={16898613869,{48,48},{820,759}},["circle-chevron-right"]={16898612819,{48,48},{967,955}},speaker={16898613777,{48,48},{869,98}},timer={16898613869,{48,48},{918,0}},forward={16898613353,{48,48},{771,857}},["file-up"]={16898613353,{48,48},{453,771}},["between-vertical-start"]={16898612819,{48,48},{820,514}},database={16898613044,{48,48},{710,869}},["panel-right"]={16898613613,{48,48},{820,857}},["log-out"]={16898613509,{48,48},{820,955}},["git-branch-plus"]={16898613353,{48,48},{967,857}},["clipboard-minus"]={16898613044,{48,48},{563,820}},["file-text"]={16898613353,{48,48},{869,355}},["arrow-right-circle"]={16898612629,{48,48},{49,967}},["table-rows-split"]={16898613777,{48,48},{869,906}},watch={16898613869,{48,48},{869,759}},["cloud-upload"]={16898613044,{48,48},{967,257}},banknote={16898612629,{48,48},{453,967}},["folder-up"]={16898613353,{48,48},{918,453}},["list-checks"]={16898613509,{48,48},{404,967}},bug={16898612819,{48,48},{257,967}},["circle-chevron-left"]={16898612819,{48,48},{918,955}},["arrow-down"]={16898612629,{48,48},{967,49}},["arrow-up-down"]={16898612629,{48,48},{918,612}},["file-audio"]={16898613353,{48,48},{771,355}},["whole-word"]={16898613869,{48,48},{967,710}},monitor={16898613613,{48,48},{404,820}},["flag-off"]={16898613353,{48,48},{820,196}},["align-right"]={16898612629,{48,48},{918,0}},["circle-stop"]={16898613044,{48,48},{49,820}},infinity={16898613509,{48,48},{661,820}},["arrow-big-down"]={16898612629,{48,48},{196,771}},["circle-parking-off"]={16898613044,{48,48},{257,820}},["calendar-x-2"]={16898612819,{48,48},{453,820}},["user-plus"]={16898613869,{48,48},{918,355}},["move-diagonal-2"]={16898613613,{48,48},{967,49}},["gallery-horizontal-end"]={16898613353,{48,48},{967,710}},["panel-top-dashed"]={16898613613,{48,48},{710,967}},["tram-front"]={16898613869,{48,48},{306,869}},podcast={16898613699,{48,48},{820,612}},["image-minus"]={16898613509,{48,48},{771,453}},["flip-vertical-2"]={16898613353,{48,48},{967,563}},github={16898613509,{48,48},{0,820}},pocket={16898613699,{48,48},{869,563}},printer={16898613699,{48,48},{196,771}},["megaphone-off"]={16898613613,{48,48},{514,820}},["file-bar-chart-2"]={16898613353,{48,48},{869,514}},["arrow-big-right"]={16898612629,{48,48},{0,967}},replace={16898613699,{48,48},{710,820}},["toy-brick"]={16898613869,{48,48},{918,257}},["square-chevron-down"]={16898613777,{48,48},{514,967}},["dice-1"]={16898613044,{48,48},{147,967}},["scan-search"]={16898613699,{48,48},{710,918}},["sticky-note"]={16898613777,{48,48},{918,453}},["shield-check"]={16898613777,{48,48},{820,257}},["hand-metal"]={16898613509,{48,48},{771,612}},["x-circle"]={16898613869,{48,48},{771,955}},["spell-check-2"]={16898613777,{48,48},{771,196}},["minus-square"]={16898613613,{48,48},{820,147}},["box-select"]={16898612819,{48,48},{820,147}},sprout={16898613777,{48,48},{918,306}},waypoints={16898613869,{48,48},{771,857}},["ice-cream-cone"]={16898613509,{48,48},{918,306}},["text-quote"]={16898613869,{48,48},{514,820}},wind={16898613869,{48,48},{820,857}},["layout-panel-left"]={16898613509,{48,48},{453,869}},["circle-percent"]={16898613044,{48,48},{563,771}},["circle-arrow-out-down-right"]={16898612819,{48,48},{967,808}},["square-x"]={16898613777,{48,48},{918,661}},italic={16898613509,{48,48},{967,49}},["step-forward"]={16898613777,{48,48},{196,918}},["a-arrow-down"]={16898612629,{48,48},{771,0}},container={16898613044,{48,48},{967,306}},sticker={16898613777,{48,48},{967,404}},["parking-circle-off"]={16898613613,{48,48},{820,955}},import={16898613509,{48,48},{967,514}},vault={16898613869,{48,48},{98,967}},["square-terminal"]={16898613777,{48,48},{404,918}},["file-music"]={16898613353,{48,48},{771,661}},beef={16898612819,{48,48},{0,771}},["route-off"]={16898613699,{48,48},{453,869}},["timer-reset"]={16898613869,{48,48},{514,869}},["monitor-stop"]={16898613613,{48,48},{820,404}},smile={16898613777,{48,48},{869,563}},["signpost-big"]={16898613777,{48,48},{869,49}},["folder-lock"]={16898613353,{48,48},{967,612}},["square-percent"]={16898613777,{48,48},{661,869}},["navigation-off"]={16898613613,{48,48},{820,710}},["arrow-left"]={16898612629,{48,48},{98,918}},["car-taxi-front"]={16898612819,{48,48},{967,98}},laugh={16898613509,{48,48},{869,196}},["x-square"]={16898613869,{48,48},{918,857}},["step-back"]={16898613777,{48,48},{918,196}},equal={16898613353,{48,48},{0,820}},megaphone={16898613613,{48,48},{869,0}},["calendar-x"]={16898612819,{48,48},{404,869}},egg={16898613353,{48,48},{514,771}},["video-off"]={16898613869,{48,48},{404,918}},["japanese-yen"]={16898613509,{48,48},{820,196}},library={16898613509,{48,48},{710,869}},["file-terminal"]={16898613353,{48,48},{918,306}},quote={16898613699,{48,48},{918,306}},accessibility={16898612629,{48,48},{257,771}},["square-library"]={16898613777,{48,48},{355,918}},salad={16898613699,{48,48},{967,147}},["tally-2"]={16898613869,{48,48},{771,0}},sheet={16898613777,{48,48},{820,0}},["circle-check-big"]={16898612819,{48,48},{918,906}},["map-pinned"]={16898613613,{48,48},{771,306}},["corner-down-left"]={16898613044,{48,48},{771,759}},dribbble={16898613044,{48,48},{918,857}},["pilcrow-square"]={16898613699,{48,48},{771,612}},["lamp-wall-up"]={16898613509,{48,48},{918,612}},["book-dashed"]={16898612819,{48,48},{514,869}},["unfold-vertical"]={16898613869,{48,48},{306,918}},["tree-pine"]={16898613869,{48,48},{771,661}},["receipt-indian-rupee"]={16898613699,{48,48},{661,820}},["check-circle-2"]={16898612819,{48,48},{918,661}},["flask-conical"]={16898613353,{48,48},{453,820}},["package-search"]={16898613613,{48,48},{612,967}},columns={16898613044,{48,48},{661,820}},["folder-sync"]={16898613353,{48,48},{147,967}},fingerprint={16898613353,{48,48},{563,918}},["arrow-up-narrow-wide"]={16898612629,{48,48},{612,918}},frame={16898613353,{48,48},{710,918}},["clock-12"]={16898613044,{48,48},{820,355}},images={16898613509,{48,48},{257,967}},lollipop={16898613509,{48,48},{967,857}},["folder-root"]={16898613353,{48,48},{612,967}},["arrow-left-circle"]={16898612629,{48,48},{918,98}},["lamp-floor"]={16898613509,{48,48},{306,967}},image={16898613509,{48,48},{306,918}},["baggage-claim"]={16898612629,{48,48},{967,196}},bike={16898612819,{48,48},{771,563}},option={16898613613,{48,48},{355,967}},["scroll-text"]={16898613699,{48,48},{967,759}},["toggle-right"]={16898613869,{48,48},{820,98}},["ferris-wheel"]={16898613353,{48,48},{49,820}},["camera-off"]={16898612819,{48,48},{306,967}},["function-square"]={16898613353,{48,48},{453,967}},group={16898613509,{48,48},{820,306}},codesandbox={16898613044,{48,48},{257,967}},["message-circle-question"]={16898613613,{48,48},{869,514}},["tent-tree"]={16898613869,{48,48},{771,49}},["rectangle-horizontal"]={16898613699,{48,48},{196,820}},subtitles={16898613777,{48,48},{771,857}},mail={16898613613,{48,48},{820,0}},["brain-cog"]={16898612819,{48,48},{0,967}},["hand-platter"]={16898613509,{48,48},{612,771}},club={16898613044,{48,48},{771,453}},twitch={16898613869,{48,48},{49,918}},pipette={16898613699,{48,48},{869,49}},user={16898613869,{48,48},{661,869}},["align-vertical-space-around"]={16898612629,{48,48},{869,306}},["test-tubes"]={16898613869,{48,48},{820,514}},wheat={16898613869,{48,48},{453,967}},["axis-3d"]={16898612629,{48,48},{820,759}},folders={16898613353,{48,48},{967,661}},diff={16898613044,{48,48},{869,759}},puzzle={16898613699,{48,48},{49,918}},["package-2"]={16898613613,{48,48},{869,710}},indent={16898613509,{48,48},{771,710}},tangent={16898613869,{48,48},{771,514}},["power-circle"]={16898613699,{48,48},{967,0}},["badge-pound-sterling"]={16898612629,{48,48},{869,759}},["mail-minus"]={16898613509,{48,48},{967,955}},["circle-slash"]={16898613044,{48,48},{98,771}},["app-window"]={16898612629,{48,48},{612,820}},["move-down-right"]={16898613613,{48,48},{820,196}},["parking-square-off"]={16898613613,{48,48},{869,955}},["clipboard-pen"]={16898613044,{48,48},{869,49}},["notepad-text"]={16898613613,{48,48},{147,918}},["signal-low"]={16898613777,{48,48},{612,771}},home={16898613509,{48,48},{820,147}},list={16898613509,{48,48},{869,808}},plus={16898613699,{48,48},{257,918}},["square-arrow-right"]={16898613777,{48,48},{918,563}},["scissors-square-dashed-bottom"]={16898613699,{48,48},{918,759}},["remove-formatting"]={16898613699,{48,48},{967,563}},["bookmark-check"]={16898612819,{48,48},{771,661}},["send-horizontal"]={16898613699,{48,48},{869,906}},["chevrons-left-right"]={16898612819,{48,48},{196,967}},["folder-kanban"]={16898613353,{48,48},{404,918}},["a-arrow-up"]={16898612629,{48,48},{0,771}},["list-restart"]={16898613509,{48,48},{967,196}},["cloud-moon"]={16898613044,{48,48},{820,147}},["book-audio"]={16898612819,{48,48},{771,612}},["vibrate-off"]={16898613869,{48,48},{869,453}},["mail-check"]={16898613509,{48,48},{918,955}},["panel-top-inactive"]={16898613613,{48,48},{967,759}},["file-type-2"]={16898613353,{48,48},{820,404}},["file-code"]={16898613353,{48,48},{869,49}},donut={16898613044,{48,48},{771,906}},["list-todo"]={16898613509,{48,48},{967,453}},dna={16898613044,{48,48},{967,710}},["monitor-down"]={16898613613,{48,48},{98,869}},["cassette-tape"]={16898612819,{48,48},{918,404}},["battery-low"]={16898612629,{48,48},{918,857}},flashlight={16898613353,{48,48},{869,404}},wine={16898613869,{48,48},{710,967}},signpost={16898613777,{48,48},{820,98}},["creative-commons"]={16898613044,{48,48},{147,918}},["globe-2"]={16898613509,{48,48},{257,820}},landmark={16898613509,{48,48},{771,759}},["map-pin"]={16898613613,{48,48},{820,257}},["clipboard-x"]={16898613044,{48,48},{98,820}},loader={16898613509,{48,48},{710,967}},bold={16898612819,{48,48},{355,771}},["dice-2"]={16898613044,{48,48},{967,404}},["file-type"]={16898613353,{48,48},{771,453}},utensils={16898613869,{48,48},{869,196}},beer={16898612819,{48,48},{257,771}},["file-video-2"]={16898613353,{48,48},{404,820}},["chef-hat"]={16898612819,{48,48},{661,918}},rocket={16898613699,{48,48},{918,147}},bird={16898612819,{48,48},{869,0}},["file-x"]={16898613353,{48,48},{869,612}},["move-diagonal"]={16898613613,{48,48},{918,98}},["folder-minus"]={16898613353,{48,48},{918,661}},["door-closed"]={16898613044,{48,48},{710,967}},["bluetooth-connected"]={16898612819,{48,48},{0,869}},["layout-template"]={16898613509,{48,48},{355,967}},["air-vent"]={16898612629,{48,48},{820,0}},["rows-2"]={16898613699,{48,48},{967,612}},["pen-square"]={16898613699,{48,48},{514,771}},["panel-bottom-close"]={16898613613,{48,48},{967,661}},["hand-heart"]={16898613509,{48,48},{869,514}},["file-code-2"]={16898613353,{48,48},{918,0}},["arrow-down-wide-narrow"]={16898612629,{48,48},{563,918}},["clock-10"]={16898613044,{48,48},{918,257}},drumstick={16898613044,{48,48},{869,955}},["disc-2"]={16898613044,{48,48},{820,808}},["skip-forward"]={16898613777,{48,48},{98,820}},skull={16898613777,{48,48},{49,869}},["chevron-left"]={16898612819,{48,48},{404,967}},["split-square-vertical"]={16898613777,{48,48},{49,918}},snowflake={16898613777,{48,48},{771,661}},key={16898613509,{48,48},{869,404}},["clock-11"]={16898613044,{48,48},{869,306}},["sliders-horizontal"]={16898613777,{48,48},{820,355}},["ticket-plus"]={16898613869,{48,48},{869,514}},["square-dashed-bottom"]={16898613777,{48,48},{147,869}},["mic-vocal"]={16898613613,{48,48},{869,563}},["activity-square"]={16898612629,{48,48},{771,514}},["monitor-pause"]={16898613613,{48,48},{0,967}},["book-open-check"]={16898612819,{48,48},{918,257}},projector={16898613699,{48,48},{147,820}},["lasso-select"]={16898613509,{48,48},{967,98}},["folder-open-dot"]={16898613353,{48,48},{869,710}},["align-justify"]={16898612629,{48,48},{563,820}},["log-in"]={16898613509,{48,48},{869,906}},tag={16898613777,{48,48},{967,906}},bus={16898612819,{48,48},{820,661}},["locate-fixed"]={16898613509,{48,48},{967,759}},["bed-single"]={16898612629,{48,48},{967,955}},["dice-4"]={16898613044,{48,48},{453,918}},["file-spreadsheet"]={16898613353,{48,48},{49,918}},["sun-dim"]={16898613777,{48,48},{710,918}},["clipboard-list"]={16898613044,{48,48},{612,771}},gamepad={16898613353,{48,48},{967,759}},["contact-round"]={16898613044,{48,48},{98,918}},["align-horizontal-space-around"]={16898612629,{48,48},{771,612}},["music-2"]={16898613613,{48,48},{404,869}},["hard-hat"]={16898613509,{48,48},{771,147}},["file-badge"]={16898613353,{48,48},{257,869}},["battery-warning"]={16898612629,{48,48},{820,955}},rows={16898613699,{48,48},{820,759}},["arrow-down-from-line"]={16898612629,{48,48},{404,820}},["rows-4"]={16898613699,{48,48},{869,710}},biohazard={16898612819,{48,48},{514,820}},["book-up"]={16898612819,{48,48},{257,918}},["heading-6"]={16898613509,{48,48},{404,771}},["scale-3d"]={16898613699,{48,48},{453,918}},["chevron-down-circle"]={16898612819,{48,48},{967,147}},["mail-x"]={16898613613,{48,48},{514,771}},["square-dashed-mouse-pointer"]={16898613777,{48,48},{49,967}},["user-cog"]={16898613869,{48,48},{147,869}},["satellite-dish"]={16898613699,{48,48},{196,918}},["alarm-clock-minus"]={16898612629,{48,48},{820,257}},pizza={16898613699,{48,48},{820,98}},["pc-case"]={16898613699,{48,48},{257,771}},["move-down-left"]={16898613613,{48,48},{869,147}},school={16898613699,{48,48},{453,967}},orbit={16898613613,{48,48},{967,612}},["file-minus"]={16898613353,{48,48},{820,612}},["rotate-ccw"]={16898613699,{48,48},{967,355}},["align-horizontal-justify-center"]={16898612629,{48,48},{257,869}},["phone-incoming"]={16898613699,{48,48},{820,49}},antenna={16898612629,{48,48},{869,563}},["memory-stick"]={16898613613,{48,48},{771,98}},["scan-eye"]={16898613699,{48,48},{869,759}},["align-center-vertical"]={16898612629,{48,48},{49,820}},["square-check"]={16898613777,{48,48},{563,918}},["align-end-horizontal"]={16898612629,{48,48},{869,257}},["message-square-off"]={16898613613,{48,48},{98,820}},["folder-open"]={16898613353,{48,48},{820,759}},["contact-2"]={16898613044,{48,48},{147,869}},["parking-circle"]={16898613613,{48,48},{967,857}},["menu-square"]={16898613613,{48,48},{98,771}},["hand-coins"]={16898613509,{48,48},{257,869}},["message-circle-code"]={16898613613,{48,48},{869,257}},["arrow-up-wide-narrow"]={16898612629,{48,48},{147,918}},["copy-x"]={16898613044,{48,48},{967,563}},clock={16898613044,{48,48},{771,661}},["file-pen"]={16898613353,{48,48},{563,869}},["git-compare-arrows"]={16898613353,{48,48},{918,955}},["square-arrow-down-right"]={16898613777,{48,48},{771,453}},joystick={16898613509,{48,48},{196,820}},["align-vertical-space-between"]={16898612629,{48,48},{820,355}},["file-pie-chart"]={16898613353,{48,48},{514,918}},gem={16898613353,{48,48},{918,857}},["calendar-plus"]={16898612819,{48,48},{918,355}},["bell-electric"]={16898612819,{48,48},{514,771}},["arrow-down-z-a"]={16898612629,{48,48},{514,967}},bath={16898612629,{48,48},{820,906}},anvil={16898612629,{48,48},{820,612}},["unlink-2"]={16898613869,{48,48},{918,563}},["archive-restore"]={16898612629,{48,48},{514,918}},archive={16898612629,{48,48},{918,49}},["folder-check"]={16898613353,{48,48},{563,967}},["arrow-big-left-dash"]={16898612629,{48,48},{147,820}},["book-key"]={16898612819,{48,48},{147,771}},ribbon={16898613699,{48,48},{967,98}},["package-open"]={16898613613,{48,48},{710,869}},["arrow-down-0-1"]={16898612629,{48,48},{869,355}},["library-big"]={16898613509,{48,48},{820,759}},["file-json"]={16898613353,{48,48},{771,404}},["arrow-down-a-z"]={16898612629,{48,48},{771,453}},["arrow-down-left"]={16898612629,{48,48},{257,967}},["square-scissors"]={16898613777,{48,48},{147,918}},["move-up-left"]={16898613613,{48,48},{967,306}},["arrow-down-up"]={16898612629,{48,48},{612,869}},["folder-heart"]={16898613353,{48,48},{869,453}},["gauge-circle"]={16898613353,{48,48},{820,906}},percent={16898613699,{48,48},{771,563}},["arrow-up-1-0"]={16898612629,{48,48},{355,918}},["arrow-up-a-z"]={16898612629,{48,48},{306,967}},["circle-arrow-right"]={16898612819,{48,48},{820,955}},["panel-bottom-inactive"]={16898613613,{48,48},{869,759}},["arrow-up"]={16898612629,{48,48},{967,355}},asterisk={16898612629,{48,48},{869,453}},["gallery-vertical"]={16898613353,{48,48},{771,906}},["swatch-book"]={16898613777,{48,48},{869,808}},["receipt-cent"]={16898613699,{48,48},{771,710}},["audio-lines"]={16898612629,{48,48},{355,967}},["folder-archive"]={16898613353,{48,48},{612,918}},["folder-symlink"]={16898613353,{48,48},{196,918}},["columns-3"]={16898613044,{48,48},{771,710}},ban={16898612629,{48,48},{196,967}},["message-square-x"]={16898613613,{48,48},{404,771}},["paint-roller"]={16898613613,{48,48},{147,967}},["folder-search-2"]={16898613353,{48,48},{967,147}},fan={16898613353,{48,48},{869,0}},["badge-euro"]={16898612629,{48,48},{196,918}},["badge-info"]={16898612629,{48,48},{918,453}},["building-2"]={16898612819,{48,48},{967,514}},square={16898613777,{48,48},{869,710}},medal={16898613613,{48,48},{563,771}},cake={16898612819,{48,48},{612,869}},["cloud-rain"]={16898613044,{48,48},{147,820}},["maximize-2"]={16898613613,{48,48},{820,514}},shell={16898613777,{48,48},{771,49}},wrench={16898613869,{48,48},{820,906}},badge={16898612629,{48,48},{661,967}},codepen={16898613044,{48,48},{306,918}},["corner-right-down"]={16898613044,{48,48},{563,967}},["flag-triangle-right"]={16898613353,{48,48},{147,869}},network={16898613613,{48,48},{710,820}},["bar-chart-3"]={16898612629,{48,48},{918,759}},bell={16898612819,{48,48},{820,257}},["bar-chart"]={16898612629,{48,48},{967,759}},ratio={16898613699,{48,48},{820,661}},["square-chevron-up"]={16898613777,{48,48},{869,147}},["brick-wall"]={16898612819,{48,48},{918,306}},["user-check"]={16898613869,{48,48},{918,98}},proportions={16898613699,{48,48},{98,869}},["alert-octagon"]={16898612629,{48,48},{820,49}},plane={16898613699,{48,48},{98,820}},["webhook-off"]={16898613869,{48,48},{661,967}},["thermometer-sun"]={16898613869,{48,48},{0,869}},["square-arrow-left"]={16898613777,{48,48},{404,820}},["mouse-pointer"]={16898613613,{48,48},{612,869}},heart={16898613509,{48,48},{661,771}},["test-tube-diagonal"]={16898613869,{48,48},{306,771}},["briefcase-medical"]={16898612819,{48,48},{820,404}},["align-vertical-distribute-start"]={16898612629,{48,48},{98,820}},mailbox={16898613613,{48,48},{771,49}},["bell-off"]={16898612819,{48,48},{771,49}},binary={16898612819,{48,48},{563,771}},["book-open-text"]={16898612819,{48,48},{869,306}},split={16898613777,{48,48},{0,967}},twitter={16898613869,{48,48},{0,967}},calculator={16898612819,{48,48},{563,918}},forklift={16898613353,{48,48},{869,759}},bluetooth={16898612819,{48,48},{771,355}},folder={16898613353,{48,48},{404,967}},["square-kanban"]={16898613777,{48,48},{404,869}},["message-square-diff"]={16898613613,{48,48},{869,49}},["square-sigma"]={16898613777,{48,48},{98,967}},["alarm-plus"]={16898612629,{48,48},{771,563}},star={16898613777,{48,48},{967,147}},["rotate-ccw-square"]={16898613699,{48,48},{98,967}},castle={16898612819,{48,48},{453,869}},["book-down"]={16898612819,{48,48},{918,0}},["file-volume-2"]={16898613353,{48,48},{306,918}},["book-headphones"]={16898612819,{48,48},{869,49}},power={16898613699,{48,48},{820,147}},album={16898612629,{48,48},{514,820}},["book-marked"]={16898612819,{48,48},{49,869}},["book-open"]={16898612819,{48,48},{820,355}},["file-box"]={16898613353,{48,48},{771,612}},["book-text"]={16898612819,{48,48},{404,771}},telescope={16898613869,{48,48},{820,0}},["glass-water"]={16898613509,{48,48},{771,306}},filter={16898613353,{48,48},{612,869}},glasses={16898613509,{48,48},{306,771}},["piggy-bank"]={16898613699,{48,48},{820,563}},["book-type"]={16898612819,{48,48},{355,820}},cuboid={16898613044,{48,48},{355,967}},["cloud-off"]={16898613044,{48,48},{771,196}},["check-check"]={16898612819,{48,48},{967,612}},activity={16898612629,{48,48},{514,771}},axe={16898612629,{48,48},{869,710}},["plane-takeoff"]={16898613699,{48,48},{147,771}},["book-x"]={16898612819,{48,48},{869,563}},["cloud-rain-wind"]={16898613044,{48,48},{196,771}},bookmark={16898612819,{48,48},{514,918}},["zoom-in"]={16898613869,{48,48},{869,955}},["square-pilcrow"]={16898613777,{48,48},{563,967}},["file-axis-3d"]={16898613353,{48,48},{355,771}},["receipt-euro"]={16898613699,{48,48},{710,771}},["brain-circuit"]={16898612819,{48,48},{49,918}},["briefcase-business"]={16898612819,{48,48},{869,355}},["bug-play"]={16898612819,{48,48},{306,918}},["tally-3"]={16898613869,{48,48},{0,771}},["clipboard-type"]={16898613044,{48,48},{147,771}},brush={16898612819,{48,48},{404,820}},["tally-5"]={16898613869,{48,48},{257,771}},["cable-car"]={16898612819,{48,48},{771,710}},cable={16898612819,{48,48},{710,771}},["calendar-check"]={16898612819,{48,48},{967,49}},["user-square-2"]={16898613869,{48,48},{869,661}},["calendar-minus"]={16898612819,{48,48},{98,918}},["calendar-plus-2"]={16898612819,{48,48},{967,306}},linkedin={16898613509,{48,48},{453,918}},["life-buoy"]={16898613509,{48,48},{661,918}},["calendar-search"]={16898612819,{48,48},{820,453}},["circle-chevron-down"]={16898612819,{48,48},{967,906}},["volume-2"]={16898613869,{48,48},{771,808}},["battery-charging"]={16898612629,{48,48},{771,955}},["russian-ruble"]={16898613699,{48,48},{661,918}},["square-arrow-up-left"]={16898613777,{48,48},{869,612}},["earth-lock"]={16898613353,{48,48},{771,0}},footprints={16898613353,{48,48},{918,710}},hash={16898613509,{48,48},{147,771}},building={16898612819,{48,48},{918,563}},ear={16898613044,{48,48},{967,955}},caravan={16898612819,{48,48},{869,196}},carrot={16898612819,{48,48},{196,869}},cherry={16898612819,{48,48},{612,967}},["user-check-2"]={16898613869,{48,48},{967,49}},["shield-plus"]={16898613777,{48,48},{771,563}},moon={16898613613,{48,48},{306,918}},["bell-minus"]={16898612819,{48,48},{820,0}},["image-up"]={16898613509,{48,48},{355,869}},["case-sensitive"]={16898612819,{48,48},{98,967}},drum={16898613044,{48,48},{918,906}},["arrow-up-z-a"]={16898612629,{48,48},{98,967}},sun={16898613777,{48,48},{967,453}},["gantt-chart-square"]={16898613353,{48,48},{918,808}},["align-horizontal-justify-start"]={16898612629,{48,48},{820,563}},["file-key"]={16898613353,{48,48},{355,820}},["monitor-smartphone"]={16898613613,{48,48},{918,306}},["move-3d"]={16898613613,{48,48},{514,967}},["scissors-line-dashed"]={16898613699,{48,48},{967,710}},["text-select"]={16898613869,{48,48},{820,49}},["case-lower"]={16898612819,{48,48},{147,918}},["plus-circle"]={16898613699,{48,48},{355,820}},["ticket-check"]={16898613869,{48,48},{355,771}},pyramid={16898613699,{48,48},{0,967}},["chevron-last"]={16898612819,{48,48},{967,404}},["user-cog-2"]={16898613869,{48,48},{196,820}},["refresh-cw-off"]={16898613699,{48,48},{453,820}},piano={16898613699,{48,48},{771,355}},["picture-in-picture-2"]={16898613699,{48,48},{306,820}},["user-round"]={16898613869,{48,48},{967,563}},["flower-2"]={16898613353,{48,48},{869,661}},["chevron-up-square"]={16898612819,{48,48},{771,857}},["chevrons-left"]={16898612819,{48,48},{967,453}},["chevrons-right-left"]={16898612819,{48,48},{453,967}},car={16898612819,{48,48},{918,147}},["keyboard-music"]={16898613509,{48,48},{820,453}},["star-half"]={16898613777,{48,48},{661,918}},mouse={16898613613,{48,48},{563,918}},lock={16898613509,{48,48},{918,857}},["pencil-line"]={16898613699,{48,48},{49,771}},mails={16898613613,{48,48},{49,771}},film={16898613353,{48,48},{710,771}},tablet={16898613777,{48,48},{918,906}},["circle-arrow-left"]={16898612819,{48,48},{820,906}},pi={16898613699,{48,48},{820,306}},trash={16898613869,{48,48},{918,514}},dock={16898613044,{48,48},{918,759}},["hdmi-port"]={16898613509,{48,48},{49,869}},["circle-arrow-out-up-left"]={16898612819,{48,48},{918,857}},["case-upper"]={16898612819,{48,48},{967,355}},["circle-arrow-out-up-right"]={16898612819,{48,48},{869,906}},tags={16898613777,{48,48},{918,955}},croissant={16898613044,{48,48},{967,355}},["circle-check"]={16898612819,{48,48},{869,955}},bomb={16898612819,{48,48},{257,869}},diameter={16898613044,{48,48},{967,147}},["circle-dashed"]={16898613044,{48,48},{0,771}},["bar-chart-big"]={16898612629,{48,48},{820,857}},["upload-cloud"]={16898613869,{48,48},{661,820}},["code-xml"]={16898613044,{48,48},{404,820}},divide={16898613044,{48,48},{967,453}},grape={16898613509,{48,48},{820,49}},["play-square"]={16898613699,{48,48},{0,918}},["party-popper"]={16898613613,{48,48},{918,955}},["circle-ellipsis"]={16898613044,{48,48},{820,0}},file={16898613353,{48,48},{820,661}},["user-circle-2"]={16898613869,{48,48},{869,147}},truck={16898613869,{48,48},{771,196}},["cloud-sun-rain"]={16898613044,{48,48},{49,918}},["calendar-range"]={16898612819,{48,48},{869,404}},contact={16898613044,{48,48},{49,967}},["zap-off"]={16898613869,{48,48},{967,857}},["square-check-big"]={16898613777,{48,48},{612,869}},["circle-user"]={16898613044,{48,48},{869,257}},["layout-panel-top"]={16898613509,{48,48},{404,918}},["roller-coaster"]={16898613699,{48,48},{196,869}},["laptop-minimal"]={16898613509,{48,48},{612,918}},["table-properties"]={16898613777,{48,48},{918,857}},["clipboard-check"]={16898613044,{48,48},{869,514}},layout={16898613509,{48,48},{967,612}},["indent-decrease"]={16898613509,{48,48},{869,612}},cookie={16898613044,{48,48},{869,404}},["message-square-more"]={16898613613,{48,48},{147,771}},clipboard={16898613044,{48,48},{49,869}},euro={16898613353,{48,48},{771,306}},sparkles={16898613777,{48,48},{918,49}},["heart-off"]={16898613509,{48,48},{820,612}},vibrate={16898613869,{48,48},{453,869}},["clock-3"]={16898613044,{48,48},{404,771}},["move-horizontal"]={16898613613,{48,48},{147,869}},["file-sliders"]={16898613353,{48,48},{98,869}},frown={16898613353,{48,48},{967,196}},["move-up-right"]={16898613613,{48,48},{918,355}},["cup-soda"]={16898613044,{48,48},{967,612}},["stretch-vertical"]={16898613777,{48,48},{918,710}},["refresh-cw"]={16898613699,{48,48},{404,869}},sword={16898613777,{48,48},{710,967}},["cloud-drizzle"]={16898613044,{48,48},{563,869}},["laptop-2"]={16898613509,{48,48},{661,869}},earth={16898613353,{48,48},{0,771}},slice={16898613777,{48,48},{869,306}},["land-plot"]={16898613509,{48,48},{820,710}},milk={16898613613,{48,48},{514,918}},["git-pull-request-draft"]={16898613509,{48,48},{771,49}},crown={16898613044,{48,48},{404,918}},["wallet-2"]={16898613869,{48,48},{967,147}},settings={16898613777,{48,48},{771,257}},["rotate-cw-square"]={16898613699,{48,48},{918,404}},atom={16898612629,{48,48},{404,918}},["package-x"]={16898613613,{48,48},{967,147}},["bed-double"]={16898612629,{48,48},{918,955}},["ice-cream-bowl"]={16898613509,{48,48},{967,257}},["circle-dot"]={16898613044,{48,48},{514,771}},["grip-horizontal"]={16898613509,{48,48},{49,820}},cloudy={16898613044,{48,48},{869,355}},["text-cursor-input"]={16898613869,{48,48},{771,563}},["folder-git-2"]={16898613353,{48,48},{967,355}},["message-square-code"]={16898613613,{48,48},{514,869}},clover={16898613044,{48,48},{820,404}},["arrow-down-narrow-wide"]={16898612629,{48,48},{967,514}},code={16898613044,{48,48},{355,869}},["user-x"]={16898613869,{48,48},{710,820}},coins={16898613044,{48,48},{869,612}},dumbbell={16898613044,{48,48},{967,906}},weight={16898613869,{48,48},{196,967}},["alert-triangle"]={16898612629,{48,48},{771,98}},expand={16898613353,{48,48},{306,771}},scale={16898613699,{48,48},{404,967}},component={16898613044,{48,48},{967,49}},["flashlight-off"]={16898613353,{48,48},{918,355}},["panel-top-open"]={16898613613,{48,48},{918,808}},computer={16898613044,{48,48},{918,98}},construction={16898613044,{48,48},{196,820}},notebook={16898613613,{48,48},{869,196}},["power-square"]={16898613699,{48,48},{869,98}},["copy-slash"]={16898613044,{48,48},{306,967}},["square-menu"]={16898613777,{48,48},{967,563}},["circle-play"]={16898613044,{48,48},{514,820}},wallet={16898613869,{48,48},{147,967}},laptop={16898613509,{48,48},{563,967}},["scan-line"]={16898613699,{48,48},{771,857}},["clock-4"]={16898613044,{48,48},{355,820}},["square-arrow-up"]={16898613777,{48,48},{771,710}},copyright={16898613044,{48,48},{820,710}},["chevron-down"]={16898612819,{48,48},{196,918}},["unlock-keyhole"]={16898613869,{48,48},{820,661}},["clock-1"]={16898613044,{48,48},{0,918}},["align-horizontal-distribute-start"]={16898612629,{48,48},{306,820}},["arrow-down-to-line"]={16898612629,{48,48},{661,820}},["mouse-pointer-2"]={16898613613,{48,48},{820,661}},["refresh-ccw"]={16898613699,{48,48},{820,453}},["venetian-mask"]={16898613869,{48,48},{918,404}},["calendar-check-2"]={16898612819,{48,48},{514,967}},["arrow-down-square"]={16898612629,{48,48},{771,710}},spline={16898613777,{48,48},{147,820}},banana={16898612629,{48,48},{967,453}},["git-pull-request-create-arrow"]={16898613509,{48,48},{514,771}},crosshair={16898613044,{48,48},{453,869}},["list-video"]={16898613509,{48,48},{967,710}},["arrow-right-left"]={16898612629,{48,48},{918,355}},["bar-chart-4"]={16898612629,{48,48},{869,808}},["dice-3"]={16898613044,{48,48},{918,453}},["dice-5"]={16898613044,{48,48},{404,967}},["dice-6"]={16898613044,{48,48},{967,661}},["square-plus"]={16898613777,{48,48},{918,147}},["timer-off"]={16898613869,{48,48},{563,820}},["arrow-big-right-dash"]={16898612629,{48,48},{49,918}},["radio-receiver"]={16898613699,{48,48},{404,820}},shield={16898613777,{48,48},{869,0}},["square-equal"]={16898613777,{48,48},{869,404}},backpack={16898612629,{48,48},{710,869}},download={16898613044,{48,48},{820,906}},["drafting-compass"]={16898613044,{48,48},{771,955}},youtube={16898613869,{48,48},{820,955}},["file-plus-2"]={16898613353,{48,48},{967,0}},["message-circle-more"]={16898613613,{48,48},{355,771}},["arrow-down-right"]={16898612629,{48,48},{820,661}},["loader-circle"]={16898613509,{48,48},{771,906}},receipt={16898613699,{48,48},{869,147}},["egg-off"]={16898613353,{48,48},{771,514}},bitcoin={16898612819,{48,48},{820,49}},["eye-off"]={16898613353,{48,48},{820,514}},factory={16898613353,{48,48},{514,820}},["fast-forward"]={16898613353,{48,48},{820,49}},["image-off"]={16898613509,{48,48},{453,771}},["file-audio-2"]={16898613353,{48,48},{820,306}},braces={16898612819,{48,48},{147,820}},cone={16898613044,{48,48},{820,196}},["wand-sparkles"]={16898613869,{48,48},{453,918}},["square-chevron-right"]={16898613777,{48,48},{918,98}},navigation={16898613613,{48,48},{771,759}},["file-check"]={16898613353,{48,48},{563,820}},["file-cog"]={16898613353,{48,48},{820,98}},["file-diff"]={16898613353,{48,48},{771,147}},["file-digit"]={16898613353,{48,48},{147,771}},["power-off"]={16898613699,{48,48},{918,49}},["align-vertical-distribute-center"]={16898612629,{48,48},{771,147}},["tally-1"]={16898613777,{48,48},{967,955}},ampersand={16898612629,{48,48},{404,771}},["line-chart"]={16898613509,{48,48},{196,918}},["shopping-cart"]={16898613777,{48,48},{869,257}},["align-vertical-justify-end"]={16898612629,{48,48},{0,918}},eraser={16898613353,{48,48},{820,257}},["alarm-smoke"]={16898612629,{48,48},{563,771}},["file-line-chart"]={16898613353,{48,48},{306,869}},["file-input"]={16898613353,{48,48},{869,306}},["clock-8"]={16898613044,{48,48},{869,563}},["server-cog"]={16898613699,{48,48},{967,906}},["cloud-cog"]={16898613044,{48,48},{661,771}},blend={16898612819,{48,48},{771,98}},["search-x"]={16898613699,{48,48},{967,808}},["radio-tower"]={16898613699,{48,48},{355,869}},["list-tree"]={16898613509,{48,48},{453,967}},droplet={16898613044,{48,48},{820,955}},heater={16898613509,{48,48},{612,820}},eye={16898613353,{48,48},{771,563}},battery={16898612629,{48,48},{967,857}},lamp={16898613509,{48,48},{869,661}},["link-2-off"]={16898613509,{48,48},{147,967}},["panel-top"]={16898613613,{48,48},{869,857}},["file-volume"]={16898613353,{48,48},{257,967}},["file-x-2"]={16898613353,{48,48},{918,563}},["circle-equal"]={16898613044,{48,48},{771,49}},["flag-triangle-left"]={16898613353,{48,48},{196,820}},flower={16898613353,{48,48},{820,710}},["fold-horizontal"]={16898613353,{48,48},{710,820}},["folder-closed"]={16898613353,{48,48},{918,147}},["folder-dot"]={16898613353,{48,48},{196,869}},["arrow-up-right"]={16898612629,{48,48},{918,147}},router={16898613699,{48,48},{355,967}},["leafy-green"]={16898613509,{48,48},{869,710}},["message-square-dot"]={16898613613,{48,48},{820,98}},focus={16898613353,{48,48},{771,759}},copyleft={16898613044,{48,48},{869,661}},["folder-x"]={16898613353,{48,48},{453,918}},["form-input"]={16898613353,{48,48},{820,808}},["minimize-2"]={16898613613,{48,48},{967,0}},regex={16898613699,{48,48},{306,967}},["gallery-horizontal"]={16898613353,{48,48},{918,759}},university={16898613869,{48,48},{967,514}},["gallery-vertical-end"]={16898613353,{48,48},{820,857}},["file-image"]={16898613353,{48,48},{918,257}},["at-sign"]={16898612629,{48,48},{453,869}},palette={16898613613,{48,48},{453,918}},["user-plus-2"]={16898613869,{48,48},{967,306}},["gallery-thumbnails"]={16898613353,{48,48},{869,808}},["arrow-down-right-from-circle"]={16898612629,{48,48},{918,563}},cpu={16898613044,{48,48},{196,869}},["split-square-horizontal"]={16898613777,{48,48},{98,869}},["thumbs-down"]={16898613869,{48,48},{820,306}},merge={16898613613,{48,48},{0,869}},ghost={16898613353,{48,48},{869,906}},["git-compare"]={16898613353,{48,48},{967,955}},["git-fork"]={16898613509,{48,48},{771,0}},hospital={16898613509,{48,48},{147,820}},["git-merge"]={16898613509,{48,48},{771,257}},["folder-edit"]={16898613353,{48,48},{98,967}},["thumbs-up"]={16898613869,{48,48},{771,355}},globe={16898613509,{48,48},{771,563}},palmtree={16898613613,{48,48},{404,967}},["bug-off"]={16898612819,{48,48},{355,869}},kanban={16898613509,{48,48},{49,967}},["thermometer-snowflake"]={16898613869,{48,48},{49,820}},apple={16898612629,{48,48},{563,869}},["wine-off"]={16898613869,{48,48},{771,906}},["graduation-cap"]={16898613509,{48,48},{869,0}},["hand-helping"]={16898613509,{48,48},{820,563}},hand={16898613509,{48,48},{563,820}},["square-bottom-dashed-scissors"]={16898613777,{48,48},{661,820}},stamp={16898613777,{48,48},{710,869}},["candy-off"]={16898612819,{48,48},{820,710}},["plug-zap-2"]={16898613699,{48,48},{820,355}},["heading-2"]={16898613509,{48,48},{918,257}},["square-activity"]={16898613777,{48,48},{869,355}},["circle-gauge"]={16898613044,{48,48},{0,820}},["cigarette-off"]={16898612819,{48,48},{710,967}},["arrow-up-0-1"]={16898612629,{48,48},{404,869}},["message-circle"]={16898613613,{48,48},{563,820}},["undo-2"]={16898613869,{48,48},{771,453}},headset={16898613509,{48,48},{257,918}},["heart-crack"]={16898613509,{48,48},{918,514}},["git-branch"]={16898613353,{48,48},{918,906}},shovel={16898613777,{48,48},{820,306}},share={16898613777,{48,48},{514,771}},["wallet-cards"]={16898613869,{48,48},{918,196}},["square-arrow-out-down-right"]={16898613777,{48,48},{306,918}},grip={16898613509,{48,48},{869,257}},["monitor-speaker"]={16898613613,{48,48},{869,355}},save={16898613699,{48,48},{918,453}},["cloud-snow"]={16898613044,{48,48},{98,869}},["file-question"]={16898613353,{48,48},{869,98}},["arrow-big-up-dash"]={16898612629,{48,48},{967,257}},coffee={16898613044,{48,48},{967,514}},["image-down"]={16898613509,{48,48},{820,404}},["beer-off"]={16898612819,{48,48},{771,257}},["file-bar-chart"]={16898613353,{48,48},{820,563}},["bar-chart-2"]={16898612629,{48,48},{967,710}},["lock-keyhole-open"]={16898613509,{48,48},{820,906}},["chevrons-down-up"]={16898612819,{48,48},{661,967}},["clipboard-plus"]={16898613044,{48,48},{820,98}},["monitor-up"]={16898613613,{48,48},{771,453}},["list-end"]={16898613509,{48,48},{918,710}},["square-radical"]={16898613777,{48,48},{196,869}},play={16898613699,{48,48},{918,257}},["chevrons-right"]={16898612819,{48,48},{967,710}},["file-badge-2"]={16898613353,{48,48},{306,820}},["message-square-reply"]={16898613613,{48,48},{918,257}},["corner-down-right"]={16898613044,{48,48},{710,820}},phone={16898613699,{48,48},{0,869}},["arrow-left-to-line"]={16898612629,{48,48},{147,869}},["lamp-wall-down"]={16898613509,{48,48},{967,563}},["link-2"]={16898613509,{48,48},{967,404}},["repeat"]={16898613699,{48,48},{820,710}},["ellipsis-vertical"]={16898613353,{48,48},{820,0}},snail={16898613777,{48,48},{820,612}},["paint-bucket"]={16898613613,{48,48},{196,918}},["square-parking"]={16898613777,{48,48},{771,759}},["align-horizontal-justify-end"]={16898612629,{48,48},{869,514}},lasso={16898613509,{48,48},{918,147}},["align-vertical-distribute-end"]={16898612629,{48,48},{147,771}},soup={16898613777,{48,48},{612,820}},airplay={16898612629,{48,48},{771,49}},["layout-dashboard"]={16898613509,{48,48},{967,355}},["heading-1"]={16898613509,{48,48},{0,918}},["circle-x"]={16898613044,{48,48},{820,306}},["monitor-x"]={16898613613,{48,48},{453,771}},["octagon-pause"]={16898613613,{48,48},{869,453}},["library-square"]={16898613509,{48,48},{771,808}},["square-pen"]={16898613777,{48,48},{710,820}},["heart-pulse"]={16898613509,{48,48},{771,661}},["database-backup"]={16898613044,{48,48},{820,759}},["gantt-chart"]={16898613353,{48,48},{869,857}},octagon={16898613613,{48,48},{404,918}},ticket={16898613869,{48,48},{612,771}},["message-square"]={16898613613,{48,48},{355,820}},["list-filter"]={16898613509,{48,48},{869,759}},["train-front"]={16898613869,{48,48},{404,771}},["spray-can"]={16898613777,{48,48},{967,257}},["list-music"]={16898613509,{48,48},{771,857}},["utility-pole"]={16898613869,{48,48},{196,869}},["list-plus"]={16898613509,{48,48},{661,967}},["screen-share"]={16898613699,{48,48},{710,967}},["file-clock"]={16898613353,{48,48},{514,869}},["list-collapse"]={16898613509,{48,48},{967,661}},gauge={16898613353,{48,48},{771,955}},store={16898613777,{48,48},{404,967}},["circle-arrow-down"]={16898612819,{48,48},{869,857}},["notebook-pen"]={16898613613,{48,48},{563,967}},["egg-fried"]={16898613353,{48,48},{257,771}},["calendar-off"]={16898612819,{48,48},{49,967}},["locate-off"]={16898613509,{48,48},{918,808}},["corner-right-up"]={16898613044,{48,48},{967,98}},locate={16898613509,{48,48},{869,857}},["ticket-x"]={16898613869,{48,48},{771,612}},["user-round-plus"]={16898613869,{48,48},{404,869}},["panel-left-close"]={16898613613,{48,48},{710,918}},["lock-keyhole"]={16898613509,{48,48},{771,955}},["lock-open"]={16898613509,{48,48},{967,808}},["user-round-minus"]={16898613869,{48,48},{453,820}},["m-square"]={16898613509,{48,48},{869,955}},magnet={16898613509,{48,48},{967,906}},["message-square-text"]={16898613613,{48,48},{820,355}},["mail-plus"]={16898613613,{48,48},{0,771}},["mail-search"]={16898613613,{48,48},{257,771}},move={16898613613,{48,48},{453,820}},["play-circle"]={16898613699,{48,48},{49,869}},["git-commit-vertical"]={16898613353,{48,48},{967,906}},slash={16898613777,{48,48},{918,257}},["map-pin-off"]={16898613613,{48,48},{0,820}},aperture={16898612629,{48,48},{771,661}},["image-plus"]={16898613509,{48,48},{404,820}},["message-circle-heart"]={16898613613,{48,48},{771,355}},syringe={16898613777,{48,48},{918,808}},info={16898613509,{48,48},{612,869}},["rows-3"]={16898613699,{48,48},{918,661}},check={16898612819,{48,48},{710,869}},["text-search"]={16898613869,{48,48},{869,0}},["square-slash"]={16898613777,{48,48},{967,355}},sandwich={16898613699,{48,48},{918,196}},["settings-2"]={16898613777,{48,48},{0,771}},["file-stack"]={16898613353,{48,48},{0,967}},["external-link"]={16898613353,{48,48},{257,820}},["ice-cream-2"]={16898613509,{48,48},{0,967}},["file-archive"]={16898613353,{48,48},{869,257}},["signal-high"]={16898613777,{48,48},{771,612}},inbox={16898613509,{48,48},{918,563}},["flip-horizontal-2"]={16898613353,{48,48},{355,918}},["traffic-cone"]={16898613869,{48,48},{820,355}},["file-signature"]={16898613353,{48,48},{147,820}},["align-horizontal-space-between"]={16898612629,{48,48},{612,771}},["message-circle-dashed"]={16898613613,{48,48},{820,306}},maximize={16898613613,{48,48},{771,563}},["database-zap"]={16898613044,{48,48},{771,808}},droplets={16898613044,{48,48},{967,857}},["fish-symbol"]={16898613353,{48,48},{918,98}},["message-circle-off"]={16898613613,{48,48},{306,820}},["wheat-off"]={16898613869,{48,48},{967,453}},["layout-list"]={16898613509,{48,48},{869,453}},["file-search"]={16898613353,{48,48},{196,771}},["download-cloud"]={16898613044,{48,48},{869,857}},["alarm-clock-plus"]={16898612629,{48,48},{306,771}},["circle-dollar-sign"]={16898613044,{48,48},{257,771}},usb={16898613869,{48,48},{563,918}},["arrow-up-square"]={16898612629,{48,48},{869,196}},["receipt-pound-sterling"]={16898613699,{48,48},{563,918}},scan={16898613699,{48,48},{967,196}},["heading-5"]={16898613509,{48,48},{771,404}},undo={16898613869,{48,48},{404,820}},["file-search-2"]={16898613353,{48,48},{771,196}},minimize={16898613613,{48,48},{918,49}},["redo-2"]={16898613699,{48,48},{49,967}},thermometer={16898613869,{48,48},{869,257}},["filter-x"]={16898613353,{48,48},{661,820}},["sliders-vertical"]={16898613777,{48,48},{771,404}},["boom-box"]={16898612819,{48,48},{967,0}},["table-2"]={16898613777,{48,48},{869,857}},["touchpad-off"]={16898613869,{48,48},{98,820}},["diamond-percent"]={16898613044,{48,48},{918,196}},brain={16898612819,{48,48},{967,257}},microwave={16898613613,{48,48},{661,771}},["arrow-down-left-square"]={16898612629,{48,48},{306,918}},["user-round-cog"]={16898613869,{48,48},{820,453}},["octagon-x"]={16898613613,{48,48},{453,869}},languages={16898613509,{48,48},{710,820}},["file-json-2"]={16898613353,{48,48},{820,355}},["alarm-clock-check"]={16898612629,{48,48},{0,820}},guitar={16898613509,{48,48},{771,355}},anchor={16898612629,{48,48},{306,869}},["text-cursor"]={16898613869,{48,48},{563,771}},["search-code"]={16898613699,{48,48},{820,906}},["square-parking-off"]={16898613777,{48,48},{820,710}},["notebook-text"]={16898613613,{48,48},{918,147}},["arrow-right-to-line"]={16898612629,{48,48},{820,453}},["ticket-minus"]={16898613869,{48,48},{306,820}},["tally-4"]={16898613869,{48,48},{771,257}},heading={16898613509,{48,48},{355,820}},wallpaper={16898613869,{48,48},{967,404}},["door-open"]={16898613044,{48,48},{967,759}},["arrow-down-circle"]={16898612629,{48,48},{453,771}},["monitor-play"]={16898613613,{48,48},{967,257}},["key-square"]={16898613509,{48,48},{918,355}},["monitor-off"]={16898613613,{48,48},{49,918}},["pocket-knife"]={16898613699,{48,48},{918,514}},["book-copy"]={16898612819,{48,48},{563,820}},["panel-left-inactive"]={16898613613,{48,48},{967,196}},["car-front"]={16898612819,{48,48},{563,967}},["file-video"]={16898613353,{48,48},{355,869}},["reply-all"]={16898613699,{48,48},{661,869}},["cloud-moon-rain"]={16898613044,{48,48},{869,98}},["zoom-out"]={16898613869,{48,48},{967,906}},["search-slash"]={16898613699,{48,48},{771,955}},["notepad-text-dashed"]={16898613613,{48,48},{196,869}},["circle-alert"]={16898612819,{48,48},{918,808}},briefcase={16898612819,{48,48},{771,453}},["list-start"]={16898613509,{48,48},{196,967}},["more-vertical"]={16898613613,{48,48},{967,514}},["a-large-small"]={16898612629,{48,48},{771,257}},tractor={16898613869,{48,48},{869,306}},waves={16898613869,{48,48},{820,808}},["folder-cog"]={16898613353,{48,48},{869,196}},["code-2"]={16898613044,{48,48},{453,771}},["clock-5"]={16898613044,{48,48},{306,869}},vote={16898613869,{48,48},{612,967}},["shield-question"]={16898613777,{48,48},{563,771}},["arrow-right-from-line"]={16898612629,{48,48},{967,306}},["flame-kindling"]={16898613353,{48,48},{49,967}},["square-power"]={16898613777,{48,48},{869,196}},["circle-help"]={16898613044,{48,48},{820,257}},["bring-to-front"]={16898612819,{48,48},{453,771}},["move-right"]={16898613613,{48,48},{49,967}},figma={16898613353,{48,48},{0,869}},["bell-plus"]={16898612819,{48,48},{49,771}},sailboat={16898613699,{48,48},{612,967}},["hard-drive-upload"]={16898613509,{48,48},{869,49}},["pie-chart"]={16898613699,{48,48},{869,514}},meh={16898613613,{48,48},{820,49}},["mail-warning"]={16898613613,{48,48},{771,514}},["music-3"]={16898613613,{48,48},{355,918}},["pause-circle"]={16898613613,{48,48},{967,955}},["panels-right-bottom"]={16898613613,{48,48},{771,955}},["file-edit"]={16898613353,{48,48},{49,869}},redo={16898613699,{48,48},{918,355}},["file-lock"]={16898613353,{48,48},{918,514}},["square-user"]={16898613777,{48,48},{967,612}},["circle-fading-plus"]={16898613044,{48,48},{49,771}},workflow={16898613869,{48,48},{967,759}},["undo-dot"]={16898613869,{48,48},{453,771}},target={16898613869,{48,48},{514,771}},tablets={16898613777,{48,48},{869,955}},radar={16898613699,{48,48},{820,404}},drama={16898613044,{48,48},{967,808}},["signal-medium"]={16898613777,{48,48},{563,820}},baseline={16898612629,{48,48},{869,857}},martini={16898613613,{48,48},{257,820}},contrast={16898613044,{48,48},{918,355}},pickaxe={16898613699,{48,48},{355,771}},["square-divide"]={16898613777,{48,48},{967,306}},["chevron-left-circle"]={16898612819,{48,48},{918,453}},["book-check"]={16898612819,{48,48},{612,771}},["scan-barcode"]={16898613699,{48,48},{918,710}},["book-lock"]={16898612819,{48,48},{98,820}},["panel-right-inactive"]={16898613613,{48,48},{918,759}},refrigerator={16898613699,{48,48},{355,918}},["divide-circle"]={16898613044,{48,48},{967,196}},["package-plus"]={16898613613,{48,48},{661,918}},["mic-2"]={16898613613,{48,48},{257,918}},["hop-off"]={16898613509,{48,48},{771,196}},warehouse={16898613869,{48,48},{967,661}},["plus-square"]={16898613699,{48,48},{306,869}},["square-arrow-out-up-left"]={16898613777,{48,48},{257,967}},["save-all"]={16898613699,{48,48},{967,404}},candy={16898612819,{48,48},{771,759}},["iteration-ccw"]={16898613509,{48,48},{918,98}},["corner-left-down"]={16898613044,{48,48},{661,869}},paintbrush={16898613613,{48,48},{918,453}},["cloud-lightning"]={16898613044,{48,48},{918,49}},["circle-slash-2"]={16898613044,{48,48},{771,98}},["layers-3"]={16898613509,{48,48},{147,918}},["credit-card"]={16898613044,{48,48},{98,967}},["ear-off"]={16898613044,{48,48},{918,955}},["git-commit-horizontal"]={16898613353,{48,48},{869,955}},["panel-bottom"]={16898613613,{48,48},{771,857}},["square-code"]={16898613777,{48,48},{820,196}},["panel-bottom-open"]={16898613613,{48,48},{820,808}},["kanban-square-dashed"]={16898613509,{48,48},{147,869}},["circle-pause"]={16898613044,{48,48},{771,563}},["panel-top-close"]={16898613613,{48,48},{771,906}},ambulance={16898612629,{48,48},{771,404}},["trending-up"]={16898613869,{48,48},{514,918}},["bookmark-x"]={16898612819,{48,48},{563,869}},["clock-9"]={16898613044,{48,48},{820,612}},pen={16898613699,{48,48},{771,49}},["smartphone-nfc"]={16898613777,{48,48},{306,869}},["candy-cane"]={16898612819,{48,48},{869,661}},unlink={16898613869,{48,48},{869,612}},["parking-meter"]={16898613613,{48,48},{918,906}},["gamepad-2"]={16898613353,{48,48},{710,967}},["user-round-search"]={16898613869,{48,48},{355,918}},["parking-square"]={16898613613,{48,48},{967,906}},["paw-print"]={16898613699,{48,48},{771,257}},["arrow-down-right-square"]={16898612629,{48,48},{869,612}},["square-split-vertical"]={16898613777,{48,48},{869,453}},["circle-off"]={16898613044,{48,48},{306,771}},dessert={16898613044,{48,48},{612,967}},eclipse={16898613353,{48,48},{771,257}},squirrel={16898613777,{48,48},{771,808}},["percent-circle"]={16898613699,{48,48},{306,771}},cylinder={16898613044,{48,48},{869,710}},["badge-japanese-yen"]={16898612629,{48,48},{453,918}},["circle-divide"]={16898613044,{48,48},{771,257}},["receipt-text"]={16898613699,{48,48},{918,98}},["square-pi"]={16898613777,{48,48},{612,918}},["align-center-horizontal"]={16898612629,{48,48},{98,771}},["phone-off"]={16898613699,{48,48},{98,771}},["pi-square"]={16898613699,{48,48},{869,257}},["file-output"]={16898613353,{48,48},{661,771}},["disc-album"]={16898613044,{48,48},{710,918}},["percent-square"]={16898613699,{48,48},{820,514}},clapperboard={16898613044,{48,48},{257,869}},captions={16898612819,{48,48},{612,918}},["wallet-minimal"]={16898613869,{48,48},{196,918}},layers={16898613509,{48,48},{98,967}},["umbrella-off"]={16898613869,{48,48},{918,306}},["badge-alert"]={16898612629,{48,48},{661,918}},["arrow-down-left-from-circle"]={16898612629,{48,48},{355,869}},["folder-pen"]={16898613353,{48,48},{710,869}},cross={16898613044,{48,48},{869,453}},["alarm-check"]={16898612629,{48,48},{49,771}},["chevron-right"]={16898612819,{48,48},{869,759}},pill={16898613699,{48,48},{563,820}},["square-arrow-down-left"]={16898613777,{48,48},{820,404}},["share-2"]={16898613777,{48,48},{771,514}},["arrow-up-from-dot"]={16898612629,{48,48},{869,661}},["pin-off"]={16898613699,{48,48},{514,869}},["align-vertical-justify-start"]={16898612629,{48,48},{918,257}},combine={16898613044,{48,48},{612,869}},["tv-2"]={16898613869,{48,48},{147,820}},mountain={16898613613,{48,48},{869,612}},cast={16898612819,{48,48},{869,453}},["indent-increase"]={16898613509,{48,48},{820,661}},currency={16898613044,{48,48},{918,661}},["shield-ban"]={16898613777,{48,48},{0,820}},["message-circle-reply"]={16898613613,{48,48},{820,563}},["corner-left-up"]={16898613044,{48,48},{612,918}},["triangle-right"]={16898613869,{48,48},{918,49}},["folder-clock"]={16898613353,{48,48},{967,98}},link={16898613509,{48,48},{918,453}},["pound-sterling"]={16898613699,{48,48},{514,918}},type={16898613869,{48,48},{967,257}},webhook={16898613869,{48,48},{967,196}},barcode={16898612629,{48,48},{918,808}},["shopping-bag"]={16898613777,{48,48},{49,820}},bed={16898612819,{48,48},{771,0}},["panel-right-open"]={16898613613,{48,48},{869,808}},["pointer-off"]={16898613699,{48,48},{771,661}},turtle={16898613869,{48,48},{196,771}},camera={16898612819,{48,48},{967,563}},scissors={16898613699,{48,48},{820,857}},["user-minus-2"]={16898613869,{48,48},{98,918}},["git-pull-request"]={16898613509,{48,48},{49,771}},["bluetooth-searching"]={16898612819,{48,48},{820,306}},["arrow-up-to-line"]={16898612629,{48,48},{196,869}},drill={16898613044,{48,48},{869,906}},["file-check-2"]={16898613353,{48,48},{612,771}},["badge-percent"]={16898612629,{48,48},{967,661}},shuffle={16898613777,{48,48},{257,869}},radiation={16898613699,{48,48},{771,453}},radical={16898613699,{48,48},{453,771}},microscope={16898613613,{48,48},{771,661}},["message-circle-x"]={16898613613,{48,48},{612,771}},box={16898612819,{48,48},{771,196}},["align-left"]={16898612629,{48,48},{514,869}},["switch-camera"]={16898613777,{48,48},{771,906}},["file-heart"]={16898613353,{48,48},{0,918}},cat={16898612819,{48,48},{404,918}},space={16898613777,{48,48},{563,869}},["rectangle-vertical"]={16898613699,{48,48},{147,869}},["clipboard-signature"]={16898613044,{48,48},{771,147}},["arrow-up-circle"]={16898612629,{48,48},{967,563}},["corner-up-left"]={16898613044,{48,48},{918,147}},["clock-6"]={16898613044,{48,48},{257,918}},["candlestick-chart"]={16898612819,{48,48},{918,612}},["key-round"]={16898613509,{48,48},{967,306}},headphones={16898613509,{48,48},{306,869}},tv={16898613869,{48,48},{98,869}},["book-minus"]={16898612819,{48,48},{0,918}},["bar-chart-horizontal-big"]={16898612629,{48,48},{771,906}},rss={16898613699,{48,48},{771,808}},["user-round-x"]={16898613869,{48,48},{306,967}},highlighter={16898613509,{48,48},{918,49}},["rocking-chair"]={16898613699,{48,48},{869,196}},["square-arrow-out-down-left"]={16898613777,{48,48},{355,869}},music={16898613613,{48,48},{967,563}},handshake={16898613509,{48,48},{514,869}},["check-circle"]={16898612819,{48,48},{869,710}},tornado={16898613869,{48,48},{771,147}},["copy-plus"]={16898613044,{48,48},{355,918}},["folder-git"]={16898613353,{48,48},{918,404}},["triangle-alert"]={16898613869,{48,48},{967,0}},shrink={16898613777,{48,48},{355,771}},sofa={16898613777,{48,48},{661,771}},["school-2"]={16898613699,{48,48},{967,453}},["search-check"]={16898613699,{48,48},{869,857}},crop={16898613044,{48,48},{918,404}},["columns-2"]={16898613044,{48,48},{820,661}},["mouse-pointer-square"]={16898613613,{48,48},{661,820}},["flask-conical-off"]={16898613353,{48,48},{820,453}},milestone={16898613613,{48,48},{612,820}},["wand-2"]={16898613869,{48,48},{918,453}},["square-dot"]={16898613777,{48,48},{918,355}},["badge-minus"]={16898612629,{48,48},{404,967}},["cloud-fog"]={16898613044,{48,48},{514,918}},["milk-off"]={16898613613,{48,48},{563,869}},bone={16898612819,{48,48},{869,514}},["percent-diamond"]={16898613699,{48,48},{257,820}},["package-check"]={16898613613,{48,48},{820,759}},["chevron-first"]={16898612819,{48,48},{147,967}},pencil={16898613699,{48,48},{820,257}},["shield-minus"]={16898613777,{48,48},{257,820}},["list-x"]={16898613509,{48,48},{918,759}},["stretch-horizontal"]={16898613777,{48,48},{967,661}},["panel-left-open"]={16898613613,{48,48},{196,967}},["corner-up-right"]={16898613044,{48,48},{869,196}},["repeat-2"]={16898613699,{48,48},{869,661}},pin={16898613699,{48,48},{918,0}},["mail-question"]={16898613613,{48,48},{771,257}},gift={16898613353,{48,48},{820,955}},["badge-indian-rupee"]={16898612629,{48,48},{967,404}},smartphone={16898613777,{48,48},{257,918}},["redo-dot"]={16898613699,{48,48},{967,306}},["users-round"]={16898613869,{48,48},{563,967}},["align-start-horizontal"]={16898612629,{48,48},{869,49}},["message-square-warning"]={16898613613,{48,48},{771,404}},["file-plus"]={16898613353,{48,48},{918,49}},["git-pull-request-arrow"]={16898613509,{48,48},{257,771}},webcam={16898613869,{48,48},{710,918}},["arrow-down-to-dot"]={16898612629,{48,48},{710,771}},["bell-dot"]={16898612819,{48,48},{771,514}},["folder-down"]={16898613353,{48,48},{147,918}},church={16898612819,{48,48},{771,906}},["square-play"]={16898613777,{48,48},{967,98}},["badge-x"]={16898612629,{48,48},{710,918}},server={16898613777,{48,48},{771,0}},["phone-forwarded"]={16898613699,{48,48},{869,0}},diamond={16898613044,{48,48},{196,918}},blinds={16898612819,{48,48},{98,771}},["user-square"]={16898613869,{48,48},{820,710}},package={16898613613,{48,48},{918,196}},["alarm-clock-off"]={16898612629,{48,48},{771,306}},["table-cells-merge"]={16898613777,{48,48},{820,906}},["helping-hand"]={16898613509,{48,48},{514,918}},recycle={16898613699,{48,48},{98,918}},["mountain-snow"]={16898613613,{48,48},{918,563}},luggage={16898613509,{48,48},{918,906}},["divide-square"]={16898613044,{48,48},{196,967}},["bot-message-square"]={16898612819,{48,48},{918,49}},["phone-outgoing"]={16898613699,{48,48},{49,820}},["smartphone-charging"]={16898613777,{48,48},{355,820}},["panel-left"]={16898613613,{48,48},{967,453}},["train-track"]={16898613869,{48,48},{355,820}},["bookmark-minus"]={16898612819,{48,48},{661,771}},["tablet-smartphone"]={16898613777,{48,48},{967,857}},["fire-extinguisher"]={16898613353,{48,48},{514,967}},sigma={16898613777,{48,48},{820,563}},["shield-half"]={16898613777,{48,48},{306,771}},terminal={16898613869,{48,48},{820,257}},shapes={16898613777,{48,48},{257,771}},["bell-ring"]={16898612819,{48,48},{0,820}},["tower-control"]={16898613869,{48,48},{0,918}},["arrow-down-1-0"]={16898612629,{48,48},{820,404}},users={16898613869,{48,48},{967,98}},scroll={16898613699,{48,48},{918,808}},["arrow-left-right"]={16898612629,{48,48},{820,196}},["lightbulb-off"]={16898613509,{48,48},{967,147}},["panels-top-left"]={16898613613,{48,48},{967,808}},beaker={16898612629,{48,48},{918,906}},["message-square-share"]={16898613613,{48,48},{869,306}},annoyed={16898612629,{48,48},{918,514}},["test-tube"]={16898613869,{48,48},{257,820}},["user-circle"]={16898613869,{48,48},{820,196}},["cooking-pot"]={16898613044,{48,48},{820,453}},["between-horizontal-start"]={16898612819,{48,48},{306,771}},fullscreen={16898613353,{48,48},{967,453}},["circuit-board"]={16898613044,{48,48},{355,771}},["grid-3x3"]={16898613509,{48,48},{98,771}},["mail-open"]={16898613613,{48,48},{771,0}},["square-function"]={16898613777,{48,48},{820,453}},["arrow-up-left-from-circle"]={16898612629,{48,48},{771,759}},variable={16898613869,{48,48},{147,918}},["arrow-up-right-square"]={16898612629,{48,48},{967,98}},["pen-line"]={16898613699,{48,48},{771,514}}},["256px"]={["align-vertical-distribute-center"]={16898613509,{256,256},{514,0}},["chevron-down"]={16898617411,{256,256},{514,257}},["list-restart"]={16898674572,{256,256},{257,257}},["table-cells-split"]={16898787819,{256,256},{514,0}},gavel={16898672166,{256,256},{514,257}},["dna-off"]={16898669271,{256,256},{514,514}},["refresh-ccw-dot"]={16898733036,{256,256},{257,514}},bean={16898615374,{256,256},{257,0}},["arrow-up-right-from-circle"]={16898614410,{256,256},{514,257}},["table-columns-split"]={16898787819,{256,256},{257,257}},bolt={16898615799,{256,256},{0,514}},heater={16898673271,{256,256},{257,0}},feather={16898669897,{256,256},{0,514}},["align-horizontal-distribute-center"]={16898613044,{256,256},{514,514}},["align-center"]={16898613044,{256,256},{0,514}},["grip-vertical"]={16898672700,{256,256},{514,0}},["person-standing"]={16898731539,{256,256},{257,257}},["badge-swiss-franc"]={16898615022,{256,256},{514,0}},["between-horizontal-end"]={16898615428,{256,256},{514,257}},["rotate-cw"]={16898733415,{256,256},{514,0}},framer={16898671684,{256,256},{514,514}},["bus-front"]={16898616879,{256,256},{0,514}},["shield-ellipsis"]={16898734564,{256,256},{514,0}},["file-lock-2"]={16898670241,{256,256},{0,0}},["between-vertical-end"]={16898615428,{256,256},{514,514}},["globe-lock"]={16898672599,{256,256},{514,0}},tags={16898788033,{256,256},{514,0}},["concierge-bell"]={16898619347,{256,256},{257,0}},["user-square"]={16898790047,{256,256},{514,257}},["arrow-left-square"]={16898614166,{256,256},{257,257}},["file-down"]={16898670072,{256,256},{514,514}},["picture-in-picture"]={16898731683,{256,256},{514,514}},["messages-square"]={16898728402,{256,256},{257,514}},["touchpad-off"]={16898788908,{256,256},{257,0}},["user-round-cog"]={16898789825,{256,256},{257,514}},["chevron-up-circle"]={16898617509,{256,256},{514,257}},["server-crash"]={16898734242,{256,256},{514,514}},["heading-3"]={16898672954,{256,256},{257,514}},squircle={16898736597,{256,256},{0,514}},["wifi-off"]={16898790996,{256,256},{257,514}},["sun-medium"]={16898736967,{256,256},{514,257}},["message-square"]={16898728402,{256,256},{514,257}},["cloud-download"]={16898618763,{256,256},{0,257}},["sigma-square"]={16898734792,{256,256},{257,257}},["folder-plus"]={16898671463,{256,256},{257,0}},["hard-drive-download"]={16898672829,{256,256},{257,514}},["scatter-chart"]={16898733817,{256,256},{257,257}},pointer={16898732061,{256,256},{514,514}},["circle-alert"]={16898617705,{256,256},{514,0}},["chevrons-up-down"]={16898617626,{256,256},{514,257}},["iteration-cw"]={16898673616,{256,256},{0,0}},["rail-symbol"]={16898732665,{256,256},{0,514}},["message-circle-more"]={16898675752,{256,256},{0,257}},parentheses={16898731166,{256,256},{257,514}},["book-up-2"]={16898616524,{256,256},{0,0}},flame={16898670919,{256,256},{0,257}},["chevrons-up"]={16898617626,{256,256},{257,514}},["chevron-right-square"]={16898617509,{256,256},{257,257}},["square-mouse-pointer"]={16898736237,{256,256},{257,0}},superscript={16898787671,{256,256},{514,0}},tag={16898788033,{256,256},{0,257}},["file-warning"]={16898670620,{256,256},{0,257}},hexagon={16898673271,{256,256},{257,257}},["navigation-2-off"]={16898730065,{256,256},{257,0}},["eye-off"]={16898669772,{256,256},{514,514}},["arrows-up-from-line"]={16898614574,{256,256},{0,514}},["square-gantt-chart"]={16898736072,{256,256},{257,257}},["square-chevron-left"]={16898735845,{256,256},{257,0}},scaling={16898733674,{256,256},{0,514}},["inspection-panel"]={16898673523,{256,256},{0,514}},["arrow-left-from-line"]={16898614166,{256,256},{0,257}},["signal-medium"]={16898734792,{256,256},{514,514}},["ticket-percent"]={16898788660,{256,256},{257,514}},["arrow-right-square"]={16898614275,{256,256},{257,0}},["calendar-clock"]={16898616953,{256,256},{0,514}},x={16898791349,{256,256},{257,0}},voicemail={16898790439,{256,256},{514,514}},presentation={16898732262,{256,256},{257,514}},["tree-palm"]={16898789012,{256,256},{0,514}},badge={16898615022,{256,256},{0,514}},["captions-off"]={16898617146,{256,256},{514,514}},["align-vertical-justify-center"]={16898613509,{256,256},{514,257}},theater={16898788479,{256,256},{514,514}},tent={16898788248,{256,256},{257,257}},["repeat-1"]={16898733146,{256,256},{0,514}},stethoscope={16898736776,{256,256},{257,257}},["screen-share-off"]={16898734065,{256,256},{0,257}},["arrow-big-up"]={16898613777,{256,256},{514,514}},["volume-x"]={16898790615,{256,256},{0,257}},["mouse-pointer-click"]={16898729337,{256,256},{0,514}},["square-m"]={16898736072,{256,256},{257,514}},["hard-hat"]={16898672954,{256,256},{257,0}},["package-minus"]={16898730417,{256,256},{257,514}},["iteration-ccw"]={16898673523,{256,256},{514,514}},pipette={16898731819,{256,256},{257,514}},["flip-horizontal"]={16898671019,{256,256},{0,0}},["alert-circle"]={16898613044,{256,256},{0,0}},unplug={16898789644,{256,256},{0,0}},["badge-cent"]={16898614755,{256,256},{514,514}},["check-square-2"]={16898617325,{256,256},{514,514}},["monitor-check"]={16898728878,{256,256},{257,257}},trello={16898789012,{256,256},{514,514}},["paintbrush-2"]={16898730641,{256,256},{514,257}},["bar-chart-horizontal"]={16898615143,{256,256},{514,257}},["book-open-text"]={16898616322,{256,256},{257,257}},["parking-meter"]={16898731301,{256,256},{257,0}},cat={16898617325,{256,256},{514,0}},["heart-handshake"]={16898673115,{256,256},{514,257}},trees={16898789012,{256,256},{257,514}},ham={16898672700,{256,256},{257,514}},text={16898788479,{256,256},{257,514}},["circle-pause"]={16898617944,{256,256},{0,514}},["chevron-up-square"]={16898617509,{256,256},{257,514}},rat={16898732665,{256,256},{257,514}},["separator-horizontal"]={16898734242,{256,256},{0,514}},ambulance={16898613613,{256,256},{0,257}},["signal-zero"]={16898734905,{256,256},{0,0}},citrus={16898618228,{256,256},{0,0}},["phone-missed"]={16898731539,{256,256},{514,514}},["calendar-off"]={16898617053,{256,256},{0,257}},["battery-medium"]={16898615240,{256,256},{0,514}},["square-minus"]={16898736237,{256,256},{0,0}},hotel={16898673358,{256,256},{0,257}},["folder-output"]={16898671263,{256,256},{514,514}},["ice-cream"]={16898673358,{256,256},{257,514}},menu={16898675673,{256,256},{514,257}},["arrow-up-left-square"]={16898614410,{256,256},{514,0}},["image-down"]={16898673358,{256,256},{514,514}},terminal={16898788248,{256,256},{514,257}},angry={16898613613,{256,256},{514,257}},outdent={16898730417,{256,256},{257,257}},["circle-dot-dashed"]={16898617884,{256,256},{514,0}},speech={16898735455,{256,256},{257,0}},["cake-slice"]={16898616953,{256,256},{0,0}},["git-graph"]={16898672316,{256,256},{514,514}},armchair={16898613777,{256,256},{0,0}},["qr-code"]={16898732504,{256,256},{257,257}},copy={16898619423,{256,256},{257,514}},goal={16898672599,{256,256},{0,514}},["trending-down"]={16898789153,{256,256},{0,0}},["creative-commons"]={16898668482,{256,256},{257,0}},nfc={16898730065,{256,256},{257,514}},pickaxe={16898731683,{256,256},{514,257}},car={16898617249,{256,256},{514,0}},["notebook-tabs"]={16898730298,{256,256},{0,0}},ear={16898669689,{256,256},{0,257}},videotape={16898790439,{256,256},{514,257}},["sun-moon"]={16898736967,{256,256},{257,514}},calendar={16898617146,{256,256},{0,0}},["minus-circle"]={16898728878,{256,256},{257,0}},["arrow-down-left-from-circle"]={16898613869,{256,256},{0,514}},gift={16898672316,{256,256},{0,0}},["message-square-heart"]={16898675863,{256,256},{0,514}},["rectangle-ellipsis"]={16898733036,{256,256},{0,0}},["badge-plus"]={16898615022,{256,256},{0,0}},["indian-rupee"]={16898673523,{256,256},{0,257}},["monitor-dot"]={16898728878,{256,256},{0,514}},delete={16898668755,{256,256},{514,257}},["clipboard-pen-line"]={16898618228,{256,256},{514,514}},["folder-search"]={16898671463,{256,256},{257,257}},["utensils-crossed"]={16898790259,{256,256},{257,257}},["arrow-up"]={16898614574,{256,256},{257,257}},["arrow-up-from-dot"]={16898614410,{256,256},{0,0}},["flask-round"]={16898670919,{256,256},{257,514}},pause={16898731301,{256,256},{257,514}},shrub={16898734792,{256,256},{0,257}},flag={16898670919,{256,256},{0,0}},underline={16898789303,{256,256},{514,257}},["align-horizontal-distribute-end"]={16898613353,{256,256},{0,0}},newspaper={16898730065,{256,256},{514,257}},table={16898787819,{256,256},{257,514}},["move-vertical"]={16898729752,{256,256},{257,257}},["file-pen-line"]={16898670241,{256,256},{514,257}},["badge-russian-ruble"]={16898615022,{256,256},{0,257}},radius={16898732665,{256,256},{257,257}},["loader-2"]={16898674684,{256,256},{0,257}},pilcrow={16898731819,{256,256},{514,0}},["corner-left-up"]={16898668288,{256,256},{257,257}},spade={16898735175,{256,256},{514,257}},["folder-cog"]={16898671139,{256,256},{514,0}},["flip-vertical"]={16898671019,{256,256},{0,257}},["square-arrow-down"]={16898735593,{256,256},{257,257}},["circle-plus"]={16898617944,{256,256},{514,514}},view={16898790439,{256,256},{257,514}},cctv={16898617325,{256,256},{257,257}},["more-horizontal"]={16898729337,{256,256},{0,0}},rows={16898733534,{256,256},{257,0}},["pause-octagon"]={16898731301,{256,256},{514,257}},["circle-arrow-left"]={16898617705,{256,256},{0,514}},volume={16898790615,{256,256},{514,0}},facebook={16898669897,{256,256},{257,0}},["octagon-alert"]={16898730298,{256,256},{257,514}},["panel-bottom-dashed"]={16898730821,{256,256},{0,257}},["book-a"]={16898615799,{256,256},{514,514}},["align-end-vertical"]={16898613044,{256,256},{257,514}},["user-x-2"]={16898790047,{256,256},{257,514}},chrome={16898617626,{256,256},{514,514}},["receipt-japanese-yen"]={16898732855,{256,256},{514,0}},rabbit={16898732504,{256,256},{514,257}},["scissors-square"]={16898734065,{256,256},{0,0}},["check-square"]={16898617411,{256,256},{0,0}},["train-front-tunnel"]={16898788908,{256,256},{257,514}},["panel-left-dashed"]={16898730821,{256,256},{257,514}},["dice-4"]={16898669042,{256,256},{0,514}},["message-circle-x"]={16898675752,{256,256},{514,514}},["folder-x"]={16898671684,{256,256},{0,0}},["message-circle-warning"]={16898675752,{256,256},{257,514}},map={16898675359,{256,256},{0,514}},move={16898729752,{256,256},{0,514}},["arrow-up-left"]={16898614410,{256,256},{257,257}},award={16898614755,{256,256},{0,257}},["arrow-down-wide-narrow"]={16898614020,{256,256},{257,514}},["unfold-horizontal"]={16898789451,{256,256},{257,0}},["area-chart"]={16898613699,{256,256},{514,514}},["music-4"]={16898729752,{256,256},{514,514}},["shield-x"]={16898734664,{256,256},{0,0}},["plane-landing"]={16898731919,{256,256},{0,0}},["disc-3"]={16898669271,{256,256},{0,257}},["columns-4"]={16898619182,{256,256},{514,0}},["archive-x"]={16898613699,{256,256},{514,257}},["square-dashed-kanban"]={16898735845,{256,256},{257,514}},["mouse-pointer-2"]={16898729337,{256,256},{257,257}},["shield-off"]={16898734564,{256,256},{514,257}},compass={16898619182,{256,256},{257,514}},vegan={16898790439,{256,256},{0,0}},["message-circle-plus"]={16898675752,{256,256},{257,257}},["stop-circle"]={16898736776,{256,256},{257,514}},nut={16898730298,{256,256},{514,257}},search={16898734242,{256,256},{257,0}},files={16898670620,{256,256},{514,257}},["send-to-back"]={16898734242,{256,256},{514,0}},["alarm-clock"]={16898612819,{256,256},{257,257}},["shopping-basket"]={16898734664,{256,256},{514,257}},send={16898734242,{256,256},{257,257}},["chevron-left-square"]={16898617509,{256,256},{257,0}},["terminal-square"]={16898788248,{256,256},{0,514}},["square-arrow-out-down-left"]={16898735593,{256,256},{514,257}},["skip-back"]={16898734905,{256,256},{0,514}},["zoom-in"]={16898791349,{256,256},{0,514}},["file-scan"]={16898670367,{256,256},{514,0}},["message-square-dashed"]={16898675863,{256,256},{0,257}},trophy={16898789153,{256,256},{0,514}},umbrella={16898789303,{256,256},{0,514}},touchpad={16898788908,{256,256},{0,257}},["clipboard-copy"]={16898618228,{256,256},{514,0}},["map-pin-off"]={16898675359,{256,256},{0,257}},headset={16898673115,{256,256},{257,257}},["circle-chevron-up"]={16898617803,{256,256},{514,514}},["align-vertical-space-between"]={16898613613,{256,256},{257,0}},["lamp-desk"]={16898673794,{256,256},{514,0}},["circle-arrow-up"]={16898617803,{256,256},{0,257}},zap={16898791349,{256,256},{257,257}},["triangle-alert"]={16898789153,{256,256},{0,257}},["swiss-franc"]={16898787671,{256,256},{0,514}},["move-left"]={16898729572,{256,256},{514,514}},["chevron-up"]={16898617509,{256,256},{514,514}},instagram={16898673523,{256,256},{514,257}},["pen-tool"]={16898731419,{256,256},{514,0}},["pencil-ruler"]={16898731419,{256,256},{514,257}},dna={16898669433,{256,256},{0,0}},["arrow-big-down-dash"]={16898613777,{256,256},{257,0}},["clipboard-edit"]={16898618228,{256,256},{257,257}},mic={16898728659,{256,256},{0,257}},["folder-search-2"]={16898671463,{256,256},{514,0}},gitlab={16898672450,{256,256},{514,514}},["rotate-3d"]={16898733317,{256,256},{514,514}},["spell-check"]={16898735455,{256,256},{514,0}},popcorn={16898732262,{256,256},{0,0}},blocks={16898615570,{256,256},{514,514}},["washing-machine"]={16898790791,{256,256},{0,514}},["badge-minus"]={16898614945,{256,256},{257,514}},["cloud-sun"]={16898618899,{256,256},{0,514}},circle={16898618049,{256,256},{257,514}},["shield-alert"]={16898734564,{256,256},{0,0}},rainbow={16898732665,{256,256},{514,257}},["separator-vertical"]={16898734242,{256,256},{514,257}},ampersands={16898613613,{256,256},{257,257}},["user-search"]={16898790047,{256,256},{257,257}},fence={16898669897,{256,256},{514,257}},["square-user-round"]={16898736597,{256,256},{257,0}},sunrise={16898787671,{256,256},{257,0}},strikethrough={16898736967,{256,256},{0,257}},["calendar-days"]={16898616953,{256,256},{514,257}},["dollar-sign"]={16898669433,{256,256},{514,0}},puzzle={16898732504,{256,256},{0,257}},["list-minus"]={16898674572,{256,256},{0,0}},["sun-dim"]={16898736967,{256,256},{0,514}},upload={16898789644,{256,256},{0,257}},["app-window-mac"]={16898613699,{256,256},{0,257}},ellipsis={16898669772,{256,256},{257,0}},["copy-check"]={16898619423,{256,256},{0,257}},history={16898673271,{256,256},{514,257}},satellite={16898733674,{256,256},{0,0}},["bookmark-plus"]={16898616524,{256,256},{257,514}},["folder-key"]={16898671263,{256,256},{514,0}},["lamp-ceiling"]={16898673794,{256,256},{0,257}},["circle-power"]={16898618049,{256,256},{0,0}},hourglass={16898673358,{256,256},{514,0}},["folder-git"]={16898671139,{256,256},{514,514}},bomb={16898615799,{256,256},{514,257}},["layers-2"]={16898673999,{256,256},{514,514}},["battery-full"]={16898615240,{256,256},{514,0}},["user-minus"]={16898789825,{256,256},{514,0}},["x-octagon"]={16898791187,{256,256},{514,514}},["folder-tree"]={16898671463,{256,256},{257,514}},command={16898619182,{256,256},{514,257}},regex={16898733146,{256,256},{514,0}},hand={16898672829,{256,256},{0,514}},["chevrons-down"]={16898617626,{256,256},{257,0}},["bluetooth-off"]={16898615799,{256,256},{257,0}},["music-2"]={16898729752,{256,256},{514,257}},book={16898616524,{256,256},{257,257}},hammer={16898672700,{256,256},{514,514}},["circle-minus"]={16898617944,{256,256},{257,0}},["audio-waveform"]={16898614755,{256,256},{257,0}},["moon-star"]={16898729141,{256,256},{257,514}},["arrow-down-narrow-wide"]={16898613869,{256,256},{514,514}},sparkle={16898735175,{256,256},{257,514}},wand={16898790791,{256,256},{514,0}},["calendar-minus-2"]={16898617053,{256,256},{0,0}},["copy-minus"]={16898619423,{256,256},{514,0}},["folder-input"]={16898671263,{256,256},{257,0}},["book-image"]={16898616080,{256,256},{257,514}},shirt={16898734664,{256,256},{257,257}},["server-off"]={16898734421,{256,256},{0,0}},["move-up"]={16898729752,{256,256},{514,0}},["plug-2"]={16898731919,{256,256},{514,257}},radio={16898732665,{256,256},{514,0}},brackets={16898616650,{256,256},{514,514}},["calendar-heart"]={16898616953,{256,256},{514,514}},["list-ordered"]={16898674572,{256,256},{0,257}},["mic-off"]={16898728659,{256,256},{0,0}},["arrow-big-left"]={16898613777,{256,256},{257,257}},["square-split-horizontal"]={16898736398,{256,256},{514,257}},clover={16898619015,{256,256},{0,0}},["sun-snow"]={16898736967,{256,256},{514,514}},["user-2"]={16898789644,{256,256},{257,257}},["help-circle"]={16898673271,{256,256},{0,257}},["clock-2"]={16898618583,{256,256},{257,0}},["calendar-fold"]={16898616953,{256,256},{257,514}},["fish-off"]={16898670775,{256,256},{514,0}},baby={16898614755,{256,256},{0,514}},leaf={16898674337,{256,256},{0,0}},["fold-vertical"]={16898671019,{256,256},{257,514}},hop={16898673358,{256,256},{0,0}},["phone-incoming"]={16898731539,{256,256},{257,514}},cigarette={16898617705,{256,256},{0,257}},minus={16898728878,{256,256},{514,0}},["smile-plus"]={16898735040,{256,256},{514,514}},["folder-edit"]={16898671139,{256,256},{514,257}},["star-off"]={16898736776,{256,256},{0,0}},["git-pull-request-closed"]={16898672450,{256,256},{0,257}},["badge-check"]={16898614945,{256,256},{0,0}},["test-tube-2"]={16898788248,{256,256},{257,514}},["kanban-square"]={16898673616,{256,256},{257,257}},["plug-zap"]={16898731919,{256,256},{514,514}},["heading-4"]={16898672954,{256,256},{514,514}},["git-pull-request-create"]={16898672450,{256,256},{257,257}},["replace-all"]={16898733146,{256,256},{514,514}},["receipt-swiss-franc"]={16898732855,{256,256},{514,257}},["square-dashed-bottom-code"]={16898735845,{256,256},{0,514}},["clock-7"]={16898618583,{256,256},{514,257}},["scan-text"]={16898733817,{256,256},{0,257}},["shower-head"]={16898734792,{256,256},{0,0}},["equal-not"]={16898669772,{256,256},{0,257}},["sliders-horizontal"]={16898735040,{256,256},{0,257}},["ticket-slash"]={16898788789,{256,256},{0,0}},ruler={16898733534,{256,256},{514,0}},["circle-user-round"]={16898618049,{256,256},{257,257}},["list-filter"]={16898674482,{256,256},{514,514}},["alarm-minus"]={16898612819,{256,256},{0,514}},["egg-off"]={16898669689,{256,256},{257,514}},cog={16898619015,{256,256},{514,514}},dog={16898669433,{256,256},{0,257}},swords={16898787671,{256,256},{514,514}},["panel-right-dashed"]={16898731024,{256,256},{514,0}},["ship-wheel"]={16898734664,{256,256},{0,257}},bot={16898616650,{256,256},{514,0}},["trash-2"]={16898789012,{256,256},{0,257}},["chevron-down-square"]={16898617411,{256,256},{0,514}},["panel-left-open"]={16898731024,{256,256},{0,0}},["file-symlink"]={16898670469,{256,256},{257,0}},["clipboard-paste"]={16898618228,{256,256},{257,514}},["chevron-last"]={16898617411,{256,256},{514,514}},["book-heart"]={16898616080,{256,256},{514,257}},["circle-parking"]={16898617944,{256,256},{257,257}},["panel-left"]={16898731024,{256,256},{257,0}},["message-circle-off"]={16898675752,{256,256},{514,0}},speaker={16898735455,{256,256},{0,0}},timer={16898788789,{256,256},{0,514}},forward={16898671684,{256,256},{514,257}},["file-up"]={16898670469,{256,256},{514,257}},["between-vertical-start"]={16898615570,{256,256},{0,0}},database={16898668755,{256,256},{0,514}},["panel-right"]={16898731024,{256,256},{514,257}},["log-out"]={16898674825,{256,256},{257,257}},["git-branch-plus"]={16898672316,{256,256},{257,0}},["shield-half"]={16898734564,{256,256},{257,257}},["square-dot"]={16898736072,{256,256},{257,0}},["arrow-right-circle"]={16898614166,{256,256},{257,514}},["table-rows-split"]={16898787819,{256,256},{514,257}},watch={16898790791,{256,256},{514,257}},["cloud-upload"]={16898618899,{256,256},{514,257}},["screen-share"]={16898734065,{256,256},{514,0}},drumstick={16898669562,{256,256},{514,514}},["list-checks"]={16898674482,{256,256},{0,514}},bug={16898616879,{256,256},{0,257}},["circle-chevron-left"]={16898617803,{256,256},{514,257}},["arrow-down"]={16898614166,{256,256},{0,0}},["arrow-up-down"]={16898614275,{256,256},{514,514}},["folder-dot"]={16898671139,{256,256},{257,257}},["whole-word"]={16898790996,{256,256},{514,257}},monitor={16898729141,{256,256},{514,257}},["flag-off"]={16898670775,{256,256},{514,257}},["align-right"]={16898613509,{256,256},{0,0}},["circle-stop"]={16898618049,{256,256},{514,0}},infinity={16898673523,{256,256},{514,0}},["arrow-big-down"]={16898613777,{256,256},{0,257}},["circle-parking-off"]={16898617944,{256,256},{514,0}},["calendar-x-2"]={16898617053,{256,256},{257,514}},["user-plus"]={16898789825,{256,256},{0,514}},["move-diagonal-2"]={16898729572,{256,256},{0,257}},["gallery-horizontal-end"]={16898672004,{256,256},{257,257}},["panel-top-dashed"]={16898731024,{256,256},{514,514}},["tram-front"]={16898789012,{256,256},{257,0}},podcast={16898732061,{256,256},{514,257}},["audio-lines"]={16898614755,{256,256},{0,0}},["flip-vertical-2"]={16898671019,{256,256},{257,0}},github={16898672450,{256,256},{257,514}},["rows-2"]={16898733415,{256,256},{257,514}},printer={16898732262,{256,256},{514,514}},["megaphone-off"]={16898675673,{256,256},{257,0}},["file-bar-chart-2"]={16898669984,{256,256},{514,257}},["arrow-big-right"]={16898613777,{256,256},{514,257}},["file-clock"]={16898670072,{256,256},{0,257}},["toy-brick"]={16898788908,{256,256},{257,257}},["square-chevron-down"]={16898735845,{256,256},{0,0}},smartphone={16898735040,{256,256},{257,514}},drill={16898669562,{256,256},{257,257}},["app-window"]={16898613699,{256,256},{514,0}},["shield-check"]={16898734564,{256,256},{0,257}},["hand-metal"]={16898672829,{256,256},{514,0}},["x-circle"]={16898791187,{256,256},{257,514}},["spell-check-2"]={16898735455,{256,256},{0,257}},["minus-square"]={16898728878,{256,256},{0,257}},["box-select"]={16898616650,{256,256},{257,257}},["list-plus"]={16898674572,{256,256},{514,0}},waypoints={16898790791,{256,256},{514,514}},["ice-cream-cone"]={16898673358,{256,256},{514,257}},["copy-slash"]={16898619423,{256,256},{0,514}},wind={16898791187,{256,256},{0,0}},["layout-panel-left"]={16898674182,{256,256},{0,514}},pill={16898731819,{256,256},{257,257}},grip={16898672700,{256,256},{257,257}},["square-x"]={16898736597,{256,256},{514,0}},italic={16898673523,{256,256},{257,514}},["step-forward"]={16898736776,{256,256},{514,0}},["a-arrow-down"]={16898612629,{256,256},{0,0}},container={16898619347,{256,256},{257,514}},sticker={16898736776,{256,256},{0,514}},["parking-circle-off"]={16898731166,{256,256},{514,514}},import={16898673447,{256,256},{514,257}},bird={16898615570,{256,256},{257,257}},["square-terminal"]={16898736597,{256,256},{0,0}},gem={16898672166,{256,256},{257,514}},beef={16898615374,{256,256},{0,514}},["ticket-x"]={16898788789,{256,256},{257,0}},["timer-reset"]={16898788789,{256,256},{257,257}},["monitor-stop"]={16898729141,{256,256},{514,0}},smile={16898735175,{256,256},{0,0}},["signpost-big"]={16898734905,{256,256},{0,257}},cloudy={16898618899,{256,256},{514,514}},["square-percent"]={16898736237,{256,256},{0,514}},["navigation-off"]={16898730065,{256,256},{514,0}},["arrow-left"]={16898614166,{256,256},{514,257}},["car-taxi-front"]={16898617249,{256,256},{0,257}},laugh={16898673999,{256,256},{257,514}},["x-square"]={16898791349,{256,256},{0,0}},["step-back"]={16898736776,{256,256},{0,257}},equal={16898669772,{256,256},{514,0}},megaphone={16898675673,{256,256},{0,257}},["chevron-left"]={16898617509,{256,256},{0,257}},egg={16898669689,{256,256},{514,514}},["video-off"]={16898790439,{256,256},{257,257}},["japanese-yen"]={16898673616,{256,256},{257,0}},library={16898674337,{256,256},{257,257}},["file-terminal"]={16898670469,{256,256},{0,257}},["circle-chevron-down"]={16898617803,{256,256},{0,514}},["bell-off"]={16898615428,{256,256},{0,257}},["square-library"]={16898736072,{256,256},{514,257}},salad={16898733534,{256,256},{514,257}},["tally-2"]={16898788033,{256,256},{0,514}},sheet={16898734421,{256,256},{257,514}},["circle-check-big"]={16898617803,{256,256},{514,0}},["map-pinned"]={16898675359,{256,256},{257,257}},["corner-down-left"]={16898668288,{256,256},{257,0}},dribbble={16898669562,{256,256},{514,0}},["pilcrow-square"]={16898731819,{256,256},{0,257}},["lamp-wall-up"]={16898673794,{256,256},{514,257}},["book-dashed"]={16898616080,{256,256},{514,0}},bluetooth={16898615799,{256,256},{514,0}},["tree-pine"]={16898789012,{256,256},{514,257}},["receipt-indian-rupee"]={16898732855,{256,256},{0,257}},["check-circle-2"]={16898617325,{256,256},{514,257}},["flask-conical"]={16898670919,{256,256},{514,257}},["package-search"]={16898730641,{256,256},{257,0}},columns={16898619182,{256,256},{257,257}},["folder-sync"]={16898671463,{256,256},{514,257}},fingerprint={16898670775,{256,256},{257,0}},["arrow-up-narrow-wide"]={16898614410,{256,256},{0,514}},frame={16898671684,{256,256},{257,514}},["clock-12"]={16898618583,{256,256},{0,0}},images={16898673447,{256,256},{0,514}},lollipop={16898674825,{256,256},{0,514}},["folder-root"]={16898671463,{256,256},{0,257}},["arrow-left-circle"]={16898614166,{256,256},{257,0}},["lamp-floor"]={16898673794,{256,256},{257,257}},image={16898673447,{256,256},{257,257}},["badge-euro"]={16898614945,{256,256},{0,257}},bike={16898615570,{256,256},{257,0}},option={16898730417,{256,256},{0,257}},["scroll-text"]={16898734065,{256,256},{257,257}},["toggle-right"]={16898788789,{256,256},{257,514}},["ferris-wheel"]={16898669897,{256,256},{257,514}},["camera-off"]={16898617146,{256,256},{257,0}},["function-square"]={16898672004,{256,256},{514,0}},group={16898672700,{256,256},{0,514}},codesandbox={16898619015,{256,256},{514,257}},expand={16898669772,{256,256},{514,257}},["tent-tree"]={16898788248,{256,256},{514,0}},settings={16898734421,{256,256},{514,0}},bitcoin={16898615570,{256,256},{0,514}},["thumbs-up"]={16898788660,{256,256},{257,257}},["calendar-search"]={16898617053,{256,256},{514,257}},["hand-platter"]={16898672829,{256,256},{257,257}},["circle-x"]={16898618049,{256,256},{514,257}},["file-diff"]={16898670072,{256,256},{514,257}},["archive-restore"]={16898613699,{256,256},{0,514}},["clock-10"]={16898618392,{256,256},{257,514}},["dice-1"]={16898669042,{256,256},{0,257}},["copy-x"]={16898619423,{256,256},{514,257}},["folder-open-dot"]={16898671263,{256,256},{514,257}},["axis-3d"]={16898614755,{256,256},{257,257}},["arrow-down-1-0"]={16898613869,{256,256},{257,0}},["clipboard-check"]={16898618228,{256,256},{0,257}},["file-x"]={16898670620,{256,256},{257,257}},diff={16898669271,{256,256},{0,0}},dot={16898669433,{256,256},{257,514}},castle={16898617325,{256,256},{0,257}},["power-circle"]={16898732262,{256,256},{514,0}},["fast-forward"]={16898669897,{256,256},{257,257}},["mail-minus"]={16898675156,{256,256},{257,0}},["file-minus-2"]={16898670241,{256,256},{0,257}},paintbrush={16898730641,{256,256},{257,514}},cast={16898617325,{256,256},{257,0}},["parking-square-off"]={16898731301,{256,256},{0,257}},["clipboard-pen"]={16898618392,{256,256},{0,0}},["settings-2"]={16898734421,{256,256},{0,257}},["alarm-clock-off"]={16898612819,{256,256},{0,257}},["ice-cream-2"]={16898673358,{256,256},{257,257}},list={16898674684,{256,256},{257,0}},["file-pie-chart"]={16898670241,{256,256},{514,514}},["square-arrow-right"]={16898735664,{256,256},{257,0}},["scissors-square-dashed-bottom"]={16898733817,{256,256},{514,514}},["remove-formatting"]={16898733146,{256,256},{257,257}},["bookmark-check"]={16898616524,{256,256},{0,514}},cannabis={16898617146,{256,256},{257,514}},["file-plus-2"]={16898670367,{256,256},{0,0}},["bookmark-x"]={16898616524,{256,256},{514,514}},["a-arrow-up"]={16898612629,{256,256},{257,0}},["chevron-right-circle"]={16898617509,{256,256},{514,0}},caravan={16898617249,{256,256},{257,257}},["file-text"]={16898670469,{256,256},{514,0}},["vibrate-off"]={16898790439,{256,256},{0,257}},["mail-check"]={16898675156,{256,256},{0,0}},["square-split-vertical"]={16898736398,{256,256},{257,514}},["file-type-2"]={16898670469,{256,256},{257,257}},["file-code"]={16898670072,{256,256},{257,257}},["file-volume"]={16898670620,{256,256},{257,0}},["flag-triangle-left"]={16898670775,{256,256},{257,514}},["square-equal"]={16898736072,{256,256},{0,257}},["scan-barcode"]={16898733674,{256,256},{514,257}},["cassette-tape"]={16898617325,{256,256},{0,0}},["battery-low"]={16898615240,{256,256},{257,257}},["utility-pole"]={16898790259,{256,256},{514,257}},folder={16898671684,{256,256},{257,0}},signpost={16898734905,{256,256},{514,0}},["file-edit"]={16898670171,{256,256},{0,0}},["globe-2"]={16898672599,{256,256},{0,257}},landmark={16898673999,{256,256},{0,0}},["fish-symbol"]={16898670775,{256,256},{257,257}},["form-input"]={16898671684,{256,256},{0,514}},loader={16898674684,{256,256},{257,257}},bold={16898615799,{256,256},{257,257}},["dice-2"]={16898669042,{256,256},{514,0}},["file-type"]={16898670469,{256,256},{0,514}},["book-user"]={16898616524,{256,256},{0,257}},beer={16898615374,{256,256},{257,514}},["gantt-chart-square"]={16898672166,{256,256},{0,257}},ghost={16898672166,{256,256},{514,514}},globe={16898672599,{256,256},{257,257}},["satellite-dish"]={16898733534,{256,256},{514,514}},binary={16898615570,{256,256},{0,257}},["move-diagonal"]={16898729572,{256,256},{514,0}},["table-cells-merge"]={16898787819,{256,256},{0,257}},["door-closed"]={16898669433,{256,256},{0,514}},["image-minus"]={16898673447,{256,256},{0,0}},utensils={16898790259,{256,256},{0,514}},["paw-print"]={16898731301,{256,256},{514,514}},["bar-chart-4"]={16898615143,{256,256},{514,0}},["book-x"]={16898616524,{256,256},{514,0}},["panel-bottom-close"]={16898730821,{256,256},{257,0}},["hand-heart"]={16898672829,{256,256},{257,0}},["file-code-2"]={16898670072,{256,256},{514,0}},["move-down-left"]={16898729572,{256,256},{257,257}},indent={16898673523,{256,256},{257,0}},joystick={16898673616,{256,256},{0,257}},keyboard={16898673794,{256,256},{257,0}},["toggle-left"]={16898788789,{256,256},{514,257}},skull={16898734905,{256,256},{257,514}},["route-off"]={16898733415,{256,256},{257,257}},["dice-6"]={16898669042,{256,256},{257,514}},lightbulb={16898674337,{256,256},{514,514}},key={16898673616,{256,256},{514,514}},["clock-11"]={16898618392,{256,256},{514,514}},["list-video"]={16898674572,{256,256},{514,514}},["ticket-plus"]={16898788660,{256,256},{514,514}},["square-dashed-bottom"]={16898735845,{256,256},{514,257}},["layout-panel-top"]={16898674182,{256,256},{514,257}},["more-vertical"]={16898729337,{256,256},{257,0}},["monitor-pause"]={16898728878,{256,256},{514,514}},["book-open-check"]={16898616322,{256,256},{514,0}},projector={16898732504,{256,256},{0,0}},["lasso-select"]={16898673999,{256,256},{0,514}},maximize={16898675359,{256,256},{514,514}},["text-quote"]={16898788479,{256,256},{257,257}},["image-up"]={16898673447,{256,256},{514,0}},["message-square-quote"]={16898728402,{256,256},{0,0}},bus={16898616879,{256,256},{514,257}},["square-arrow-down-right"]={16898735593,{256,256},{514,0}},["bed-single"]={16898615374,{256,256},{514,0}},["list-music"]={16898674572,{256,256},{257,0}},["file-spreadsheet"]={16898670367,{256,256},{514,514}},["heart-pulse"]={16898673115,{256,256},{514,514}},["clipboard-list"]={16898618228,{256,256},{0,514}},video={16898790439,{256,256},{0,514}},["contact-round"]={16898619347,{256,256},{0,514}},battery={16898615240,{256,256},{257,514}},microscope={16898728659,{256,256},{514,0}},["message-circle-question"]={16898675752,{256,256},{0,514}},["file-badge"]={16898669984,{256,256},{0,514}},["battery-warning"]={16898615240,{256,256},{514,257}},["git-pull-request"]={16898672450,{256,256},{514,257}},["arrow-down-from-line"]={16898613869,{256,256},{257,257}},briefcase={16898616757,{256,256},{514,257}},biohazard={16898615570,{256,256},{514,0}},moon={16898729141,{256,256},{514,514}},["heading-6"]={16898673115,{256,256},{257,0}},["scale-3d"]={16898733674,{256,256},{514,0}},["chevron-down-circle"]={16898617411,{256,256},{257,257}},["mail-x"]={16898675156,{256,256},{257,514}},["square-dashed-mouse-pointer"]={16898735845,{256,256},{514,514}},["user-cog"]={16898789825,{256,256},{257,0}},["lock-open"]={16898674825,{256,256},{257,0}},["mouse-pointer-square-dashed"]={16898729337,{256,256},{514,257}},pizza={16898731819,{256,256},{514,514}},["pc-case"]={16898731419,{256,256},{0,0}},["arrow-up-wide-narrow"]={16898614574,{256,256},{0,257}},["mouse-pointer"]={16898729337,{256,256},{514,514}},["clock-5"]={16898618583,{256,256},{257,257}},dices={16898669042,{256,256},{514,514}},["rotate-ccw"]={16898733415,{256,256},{257,0}},["align-horizontal-justify-center"]={16898613353,{256,256},{0,257}},mouse={16898729572,{256,256},{0,0}},antenna={16898613613,{256,256},{514,514}},["memory-stick"]={16898675673,{256,256},{257,257}},["scan-eye"]={16898733674,{256,256},{257,514}},["bean-off"]={16898615374,{256,256},{0,0}},["square-check"]={16898735664,{256,256},{514,514}},unlock={16898789451,{256,256},{514,514}},highlighter={16898673271,{256,256},{0,514}},["loader-circle"]={16898674684,{256,256},{514,0}},["hard-drive-upload"]={16898672829,{256,256},{514,514}},["gallery-vertical-end"]={16898672004,{256,256},{257,514}},["menu-square"]={16898675673,{256,256},{0,514}},["hand-coins"]={16898672829,{256,256},{0,0}},["notepad-text"]={16898730298,{256,256},{257,257}},orbit={16898730417,{256,256},{514,0}},["package-open"]={16898730417,{256,256},{514,514}},clock={16898618763,{256,256},{0,0}},["file-pen"]={16898670241,{256,256},{257,514}},["git-compare-arrows"]={16898672316,{256,256},{0,514}},["cloud-sun-rain"]={16898618899,{256,256},{257,257}},["align-horizontal-justify-start"]={16898613353,{256,256},{257,257}},["grid-2x2"]={16898672700,{256,256},{0,0}},percent={16898731539,{256,256},{514,0}},vibrate={16898790439,{256,256},{514,0}},["calendar-plus"]={16898617053,{256,256},{257,257}},brain={16898616757,{256,256},{0,257}},["arrow-down-z-a"]={16898614020,{256,256},{514,514}},bath={16898615240,{256,256},{257,0}},["panel-right-close"]={16898731024,{256,256},{0,257}},["unlink-2"]={16898789451,{256,256},{0,514}},paperclip={16898731166,{256,256},{514,257}},["parking-circle"]={16898731301,{256,256},{0,0}},["folder-check"]={16898671139,{256,256},{0,0}},["parking-square"]={16898731301,{256,256},{514,0}},["book-key"]={16898616080,{256,256},{514,514}},ribbon={16898733317,{256,256},{257,257}},microwave={16898728659,{256,256},{257,257}},["air-vent"]={16898612629,{256,256},{514,257}},["library-big"]={16898674337,{256,256},{0,257}},["file-json"]={16898670171,{256,256},{0,514}},["folder-open"]={16898671263,{256,256},{257,514}},["monitor-off"]={16898728878,{256,256},{257,514}},["square-scissors"]={16898736398,{256,256},{514,0}},["move-up-left"]={16898729752,{256,256},{257,0}},brush={16898616757,{256,256},{514,514}},["folder-heart"]={16898671263,{256,256},{0,0}},hash={16898672954,{256,256},{0,257}},["arrow-up-1-0"]={16898614275,{256,256},{0,514}},["arrow-right"]={16898614275,{256,256},{514,0}},["arrow-up-a-z"]={16898614275,{256,256},{514,257}},["badge-x"]={16898615022,{256,256},{257,257}},["panel-bottom-inactive"]={16898730821,{256,256},{514,0}},["file-video-2"]={16898670469,{256,256},{257,514}},["phone-call"]={16898731539,{256,256},{0,514}},construction={16898619347,{256,256},{514,0}},["swatch-book"]={16898787671,{256,256},{257,257}},["receipt-cent"]={16898732855,{256,256},{0,0}},["badge-pound-sterling"]={16898615022,{256,256},{257,0}},["folder-archive"]={16898671019,{256,256},{514,514}},["folder-symlink"]={16898671463,{256,256},{0,514}},["columns-3"]={16898619182,{256,256},{0,257}},ban={16898615022,{256,256},{257,514}},["message-square-x"]={16898728402,{256,256},{0,514}},["paint-roller"]={16898730641,{256,256},{0,514}},plug={16898732061,{256,256},{0,0}},gamepad={16898672166,{256,256},{257,0}},["book-minus"]={16898616322,{256,256},{0,257}},popsicle={16898732262,{256,256},{257,0}},["building-2"]={16898616879,{256,256},{514,0}},["circle-slash-2"]={16898618049,{256,256},{257,0}},["rectangle-horizontal"]={16898733036,{256,256},{257,0}},cake={16898616953,{256,256},{257,0}},["cloud-rain"]={16898618899,{256,256},{0,257}},["maximize-2"]={16898675359,{256,256},{257,514}},["redo-2"]={16898733036,{256,256},{257,257}},wrench={16898791187,{256,256},{514,257}},["repeat-2"]={16898733146,{256,256},{514,257}},codepen={16898619015,{256,256},{0,514}},reply={16898733317,{256,256},{0,257}},["flag-triangle-right"]={16898670775,{256,256},{514,514}},["rotate-ccw-square"]={16898733415,{256,256},{0,0}},["scan-search"]={16898733817,{256,256},{257,0}},bell={16898615428,{256,256},{0,514}},["grid-3x3"]={16898672700,{256,256},{257,0}},save={16898733674,{256,256},{0,257}},["music-3"]={16898729752,{256,256},{257,514}},focus={16898671019,{256,256},{0,514}},["user-check"]={16898789644,{256,256},{514,257}},proportions={16898732504,{256,256},{257,0}},["alert-octagon"]={16898613044,{256,256},{257,0}},plane={16898731919,{256,256},{0,257}},["webhook-off"]={16898790996,{256,256},{257,0}},carrot={16898617249,{256,256},{0,514}},["square-arrow-left"]={16898735593,{256,256},{0,514}},["file-cog"]={16898670072,{256,256},{0,514}},heart={16898673271,{256,256},{0,0}},["scan-face"]={16898733674,{256,256},{514,514}},["folder-down"]={16898671139,{256,256},{0,514}},["layout-template"]={16898674182,{256,256},{257,514}},mailbox={16898675359,{256,256},{0,0}},home={16898673271,{256,256},{257,514}},["traffic-cone"]={16898788908,{256,256},{514,257}},scissors={16898734065,{256,256},{257,0}},split={16898735455,{256,256},{257,514}},twitter={16898789303,{256,256},{0,257}},["locate-off"]={16898674684,{256,256},{514,257}},forklift={16898671684,{256,256},{257,257}},["square-arrow-out-up-left"]={16898735593,{256,256},{514,514}},component={16898619182,{256,256},{514,514}},["panels-left-bottom"]={16898731166,{256,256},{514,0}},["message-square-diff"]={16898675863,{256,256},{514,0}},["book-marked"]={16898616322,{256,256},{257,0}},["alarm-plus"]={16898612819,{256,256},{514,257}},["bluetooth-connected"]={16898615799,{256,256},{0,0}},unlink={16898789451,{256,256},{514,257}},signal={16898734905,{256,256},{257,0}},slack={16898734905,{256,256},{514,514}},["file-volume-2"]={16898670620,{256,256},{0,0}},["pound-sterling"]={16898732262,{256,256},{0,257}},power={16898732262,{256,256},{514,257}},["skip-forward"]={16898734905,{256,256},{514,257}},["m-square"]={16898674825,{256,256},{257,514}},["git-merge"]={16898672450,{256,256},{0,0}},["file-box"]={16898669984,{256,256},{514,514}},["align-justify"]={16898613353,{256,256},{257,514}},["paint-bucket"]={16898730641,{256,256},{257,257}},wallpaper={16898790791,{256,256},{0,0}},filter={16898670775,{256,256},{0,0}},glasses={16898672599,{256,256},{257,0}},["piggy-bank"]={16898731819,{256,256},{257,0}},["square-play"]={16898736237,{256,256},{514,514}},shell={16898734421,{256,256},{514,514}},["cloud-off"]={16898618899,{256,256},{0,0}},["check-check"]={16898617325,{256,256},{0,514}},activity={16898612629,{256,256},{0,514}},axe={16898614755,{256,256},{514,0}},["plane-takeoff"]={16898731919,{256,256},{257,0}},snowflake={16898735175,{256,256},{0,257}},["cloud-rain-wind"]={16898618899,{256,256},{257,0}},["square-plus"]={16898736398,{256,256},{0,0}},["dice-5"]={16898669042,{256,256},{514,257}},["search-slash"]={16898734065,{256,256},{514,514}},["file-axis-3d"]={16898669984,{256,256},{514,0}},["receipt-euro"]={16898732855,{256,256},{257,0}},["square-radical"]={16898736398,{256,256},{0,257}},["cloud-drizzle"]={16898618763,{256,256},{514,0}},["bug-play"]={16898616879,{256,256},{257,0}},["align-vertical-distribute-start"]={16898613509,{256,256},{0,514}},layout={16898674182,{256,256},{514,514}},["square-stack"]={16898736398,{256,256},{514,514}},["tally-5"]={16898788033,{256,256},{514,514}},squirrel={16898736597,{256,256},{514,257}},["pen-square"]={16898731419,{256,256},{0,257}},["folder-lock"]={16898671263,{256,256},{257,257}},["circle-divide"]={16898617884,{256,256},{257,0}},["case-sensitive"]={16898617249,{256,256},{257,514}},sunset={16898787671,{256,256},{0,257}},linkedin={16898674482,{256,256},{257,257}},["life-buoy"]={16898674337,{256,256},{0,514}},["circle-play"]={16898617944,{256,256},{257,514}},["tally-4"]={16898788033,{256,256},{257,514}},["volume-2"]={16898790615,{256,256},{257,0}},["battery-charging"]={16898615240,{256,256},{0,257}},["russian-ruble"]={16898733534,{256,256},{257,257}},["wallet-minimal"]={16898790615,{256,256},{257,514}},["earth-lock"]={16898669689,{256,256},{514,0}},footprints={16898671684,{256,256},{514,0}},["text-cursor-input"]={16898788479,{256,256},{0,257}},building={16898616879,{256,256},{257,257}},["lock-keyhole-open"]={16898674684,{256,256},{514,514}},twitch={16898789303,{256,256},{257,0}},["thermometer-sun"]={16898788660,{256,256},{257,0}},["switch-camera"]={16898787671,{256,256},{514,257}},club={16898619015,{256,256},{257,0}},["shield-plus"]={16898734564,{256,256},{257,514}},["alarm-check"]={16898612629,{256,256},{514,514}},["bell-minus"]={16898615428,{256,256},{257,0}},["log-in"]={16898674825,{256,256},{514,0}},["bot-message-square"]={16898616650,{256,256},{0,257}},drum={16898669562,{256,256},{257,514}},["arrow-up-z-a"]={16898614574,{256,256},{514,0}},sun={16898787671,{256,256},{0,0}},["layers-3"]={16898674182,{256,256},{0,0}},["zoom-out"]={16898791349,{256,256},{514,257}},["file-key"]={16898670171,{256,256},{257,514}},tractor={16898788908,{256,256},{0,514}},["school-2"]={16898733817,{256,256},{0,514}},["scissors-line-dashed"]={16898733817,{256,256},{257,514}},["text-select"]={16898788479,{256,256},{514,257}},["file-search"]={16898670367,{256,256},{0,514}},["unfold-vertical"]={16898789451,{256,256},{0,257}},["ticket-check"]={16898788660,{256,256},{0,514}},pyramid={16898732504,{256,256},{514,0}},["hard-drive"]={16898672954,{256,256},{0,0}},["user-cog-2"]={16898789825,{256,256},{0,0}},["refresh-cw-off"]={16898733146,{256,256},{0,0}},["external-link"]={16898669772,{256,256},{257,514}},["picture-in-picture-2"]={16898731683,{256,256},{257,514}},["file-x-2"]={16898670620,{256,256},{514,0}},["flower-2"]={16898671019,{256,256},{514,0}},["calendar-x"]={16898617053,{256,256},{514,514}},["user-round-check"]={16898789825,{256,256},{514,257}},["user-round"]={16898790047,{256,256},{514,0}},["link-2-off"]={16898674482,{256,256},{257,0}},["keyboard-music"]={16898673794,{256,256},{0,0}},["star-half"]={16898736597,{256,256},{514,514}},["user-x"]={16898790047,{256,256},{514,514}},["code-xml"]={16898619015,{256,256},{514,0}},["trending-up"]={16898789153,{256,256},{257,0}},mails={16898675359,{256,256},{257,0}},["brain-cog"]={16898616757,{256,256},{257,0}},tablet={16898788033,{256,256},{0,0}},["users-round"]={16898790259,{256,256},{0,257}},pi={16898731683,{256,256},{257,257}},trash={16898789012,{256,256},{514,0}},dock={16898669433,{256,256},{257,0}},["hdmi-port"]={16898672954,{256,256},{257,257}},braces={16898616650,{256,256},{257,514}},["case-upper"]={16898617249,{256,256},{514,514}},["move-3d"]={16898729572,{256,256},{257,0}},wallet={16898790615,{256,256},{514,514}},croissant={16898668482,{256,256},{514,0}},["monitor-speaker"]={16898729141,{256,256},{0,257}},waves={16898790791,{256,256},{257,514}},barcode={16898615143,{256,256},{514,514}},lock={16898674825,{256,256},{0,257}},["wheat-off"]={16898790996,{256,256},{257,257}},bed={16898615374,{256,256},{257,257}},quote={16898732504,{256,256},{0,514}},divide={16898669271,{256,256},{257,514}},grape={16898672599,{256,256},{514,514}},["play-square"]={16898731919,{256,256},{257,257}},["party-popper"]={16898731301,{256,256},{257,257}},["file-video"]={16898670469,{256,256},{514,514}},university={16898789451,{256,256},{257,257}},["user-circle-2"]={16898789644,{256,256},{257,514}},truck={16898789153,{256,256},{514,257}},box={16898616650,{256,256},{0,514}},["calendar-range"]={16898617053,{256,256},{0,514}},subscript={16898736967,{256,256},{514,0}},["zap-off"]={16898791349,{256,256},{514,0}},["square-check-big"]={16898735664,{256,256},{257,514}},["wand-sparkles"]={16898790791,{256,256},{0,257}},["square-chevron-up"]={16898735845,{256,256},{514,0}},["circle-ellipsis"]={16898617884,{256,256},{0,514}},["laptop-minimal"]={16898673999,{256,256},{514,0}},["radio-receiver"]={16898732665,{256,256},{257,0}},sofa={16898735175,{256,256},{514,0}},["square-asterisk"]={16898735664,{256,256},{0,514}},wine={16898791187,{256,256},{0,257}},cookie={16898619423,{256,256},{0,0}},["message-square-more"]={16898675863,{256,256},{514,257}},clapperboard={16898618228,{256,256},{257,0}},euro={16898669772,{256,256},{0,514}},["dice-3"]={16898669042,{256,256},{257,257}},["heart-off"]={16898673115,{256,256},{257,514}},["clipboard-minus"]={16898618228,{256,256},{514,257}},info={16898673523,{256,256},{257,257}},["move-horizontal"]={16898729572,{256,256},{257,514}},["file-sliders"]={16898670367,{256,256},{257,514}},frown={16898672004,{256,256},{0,0}},["cloud-hail"]={16898618763,{256,256},{0,514}},["cup-soda"]={16898668755,{256,256},{0,0}},["cable-car"]={16898616879,{256,256},{257,514}},["lock-keyhole"]={16898674825,{256,256},{0,0}},sword={16898787671,{256,256},{257,514}},play={16898731919,{256,256},{0,514}},["laptop-2"]={16898673999,{256,256},{0,257}},earth={16898669689,{256,256},{257,257}},slice={16898735040,{256,256},{257,0}},["land-plot"]={16898673794,{256,256},{514,514}},milk={16898728659,{256,256},{257,514}},["circle-user"]={16898618049,{256,256},{0,514}},["align-left"]={16898613353,{256,256},{514,514}},["circle-slash"]={16898618049,{256,256},{0,257}},contact={16898619347,{256,256},{514,257}},["rotate-cw-square"]={16898733415,{256,256},{0,257}},atom={16898614574,{256,256},{514,514}},["package-x"]={16898730641,{256,256},{0,257}},["bed-double"]={16898615374,{256,256},{0,257}},anchor={16898613613,{256,256},{0,514}},["circle-dot"]={16898617884,{256,256},{257,257}},["git-commit-horizontal"]={16898672316,{256,256},{514,0}},["git-commit-vertical"]={16898672316,{256,256},{257,257}},["message-circle-code"]={16898675673,{256,256},{514,514}},["folder-git-2"]={16898671139,{256,256},{257,514}},["message-square-code"]={16898675863,{256,256},{257,0}},["mail-plus"]={16898675156,{256,256},{514,0}},["diamond-percent"]={16898669042,{256,256},{0,0}},["message-circle-heart"]={16898675752,{256,256},{257,0}},["arrow-big-left-dash"]={16898613777,{256,256},{514,0}},["circle-arrow-out-down-left"]={16898617705,{256,256},{514,257}},dumbbell={16898669689,{256,256},{0,0}},["file-music"]={16898670241,{256,256},{257,257}},["alert-triangle"]={16898613044,{256,256},{0,257}},["chevrons-right-left"]={16898617626,{256,256},{257,257}},scale={16898733674,{256,256},{257,257}},eraser={16898669772,{256,256},{257,257}},["flashlight-off"]={16898670919,{256,256},{514,0}},["panel-top-open"]={16898731166,{256,256},{257,0}},["cloud-lightning"]={16898618763,{256,256},{514,257}},ungroup={16898789451,{256,256},{514,0}},notebook={16898730298,{256,256},{0,257}},["power-square"]={16898732262,{256,256},{0,514}},sprout={16898735593,{256,256},{0,0}},["square-menu"]={16898736072,{256,256},{514,514}},["mic-vocal"]={16898728659,{256,256},{257,0}},["monitor-smartphone"]={16898729141,{256,256},{257,0}},laptop={16898673999,{256,256},{257,257}},["scan-line"]={16898733817,{256,256},{0,0}},["clock-4"]={16898618583,{256,256},{514,0}},["square-arrow-up"]={16898735664,{256,256},{257,257}},copyright={16898668288,{256,256},{0,0}},["monitor-up"]={16898729141,{256,256},{257,257}},["unlock-keyhole"]={16898789451,{256,256},{257,514}},usb={16898789644,{256,256},{514,0}},rocket={16898733317,{256,256},{0,514}},["arrow-down-to-line"]={16898614020,{256,256},{0,514}},["book-plus"]={16898616322,{256,256},{514,257}},["refresh-ccw"]={16898733036,{256,256},{514,514}},["venetian-mask"]={16898790439,{256,256},{257,0}},["calendar-check-2"]={16898616953,{256,256},{514,0}},["arrow-down-square"]={16898614020,{256,256},{514,0}},spline={16898735455,{256,256},{257,257}},mail={16898675156,{256,256},{514,514}},["git-pull-request-create-arrow"]={16898672450,{256,256},{514,0}},["library-square"]={16898674337,{256,256},{514,0}},["circle-check"]={16898617803,{256,256},{257,257}},["square-arrow-up-right"]={16898735664,{256,256},{514,0}},["book-text"]={16898616322,{256,256},{257,514}},user={16898790259,{256,256},{0,0}},["file-key-2"]={16898670171,{256,256},{514,257}},["gallery-horizontal"]={16898672004,{256,256},{0,514}},["circle-chevron-right"]={16898617803,{256,256},{257,514}},["timer-off"]={16898788789,{256,256},{514,0}},["arrow-big-right-dash"]={16898613777,{256,256},{0,514}},["wallet-2"]={16898790615,{256,256},{0,514}},cloud={16898618899,{256,256},{257,514}},triangle={16898789153,{256,256},{257,257}},backpack={16898614755,{256,256},{514,257}},lamp={16898673794,{256,256},{257,514}},flower={16898671019,{256,256},{257,257}},youtube={16898791349,{256,256},{0,257}},["upload-cloud"]={16898789644,{256,256},{257,0}},lasso={16898673999,{256,256},{514,257}},["arrow-down-right"]={16898614020,{256,256},{0,257}},sailboat={16898733534,{256,256},{0,514}},receipt={16898732855,{256,256},{514,514}},["bell-ring"]={16898615428,{256,256},{257,257}},["heart-crack"]={16898673115,{256,256},{0,514}},["tree-deciduous"]={16898789012,{256,256},{257,257}},["fire-extinguisher"]={16898670775,{256,256},{0,257}},["baggage-claim"]={16898615022,{256,256},{514,257}},["image-off"]={16898673447,{256,256},{257,0}},["arrow-left-to-line"]={16898614166,{256,256},{0,514}},["layout-grid"]={16898674182,{256,256},{514,0}},["pi-square"]={16898731683,{256,256},{514,0}},["clock-3"]={16898618583,{256,256},{0,257}},["square-chevron-right"]={16898735845,{256,256},{0,257}},navigation={16898730065,{256,256},{257,257}},["filter-x"]={16898670620,{256,256},{514,514}},["bar-chart-3"]={16898615143,{256,256},{0,257}},["map-pin"]={16898675359,{256,256},{514,0}},["arrow-down-right-from-circle"]={16898614020,{256,256},{0,0}},["shopping-bag"]={16898734664,{256,256},{0,514}},["chevron-right"]={16898617509,{256,256},{0,514}},["tally-1"]={16898788033,{256,256},{257,257}},ampersand={16898613613,{256,256},{514,0}},["arrow-up-from-line"]={16898614410,{256,256},{257,0}},["shopping-cart"]={16898734664,{256,256},{257,514}},["user-minus-2"]={16898789825,{256,256},{0,257}},vote={16898790615,{256,256},{257,257}},["alarm-smoke"]={16898612819,{256,256},{257,514}},["file-line-chart"]={16898670171,{256,256},{514,514}},["file-input"]={16898670171,{256,256},{514,0}},["clock-8"]={16898618583,{256,256},{257,514}},["server-cog"]={16898734242,{256,256},{257,514}},["cloud-cog"]={16898618763,{256,256},{257,0}},blend={16898615570,{256,256},{514,257}},["search-x"]={16898734242,{256,256},{0,0}},["radio-tower"]={16898732665,{256,256},{0,257}},["list-tree"]={16898674572,{256,256},{257,514}},droplet={16898669562,{256,256},{0,514}},["panel-right-open"]={16898731024,{256,256},{0,514}},eye={16898669897,{256,256},{0,0}},siren={16898734905,{256,256},{257,257}},star={16898736776,{256,256},{257,0}},banana={16898615022,{256,256},{514,514}},["panel-top"]={16898731166,{256,256},{0,257}},donut={16898669433,{256,256},{257,257}},telescope={16898788248,{256,256},{0,257}},["circle-equal"]={16898617884,{256,256},{514,257}},["arrow-up-right"]={16898614410,{256,256},{514,514}},calculator={16898616953,{256,256},{0,257}},magnet={16898674825,{256,256},{514,514}},crown={16898668482,{256,256},{257,514}},subtitles={16898736967,{256,256},{257,257}},["brick-wall"]={16898616757,{256,256},{514,0}},["message-circle-dashed"]={16898675752,{256,256},{0,0}},["leafy-green"]={16898674337,{256,256},{257,0}},["message-square-dot"]={16898675863,{256,256},{257,257}},["arrow-down-a-z"]={16898613869,{256,256},{0,257}},copyleft={16898619423,{256,256},{514,514}},["monitor-play"]={16898729141,{256,256},{0,0}},["text-cursor"]={16898788479,{256,256},{514,0}},["minimize-2"]={16898728659,{256,256},{514,514}},disc={16898669271,{256,256},{257,257}},locate={16898674684,{256,256},{257,514}},cone={16898619347,{256,256},{0,257}},["heading-1"]={16898672954,{256,256},{0,514}},["file-image"]={16898670171,{256,256},{0,257}},sparkles={16898735175,{256,256},{514,514}},palette={16898730641,{256,256},{514,514}},["user-plus-2"]={16898789825,{256,256},{257,257}},["gallery-thumbnails"]={16898672004,{256,256},{514,257}},["book-up"]={16898616524,{256,256},{257,0}},cpu={16898668482,{256,256},{0,0}},["split-square-horizontal"]={16898735455,{256,256},{0,514}},["thumbs-down"]={16898788660,{256,256},{514,0}},merge={16898675673,{256,256},{257,514}},["circle-dashed"]={16898617884,{256,256},{0,0}},["bar-chart-big"]={16898615143,{256,256},{257,257}},["test-tubes"]={16898788479,{256,256},{257,0}},hospital={16898673358,{256,256},{257,0}},haze={16898672954,{256,256},{514,0}},plus={16898732061,{256,256},{514,0}},["align-vertical-space-around"]={16898613613,{256,256},{0,0}},["key-square"]={16898673616,{256,256},{257,514}},palmtree={16898730821,{256,256},{0,0}},["file-audio"]={16898669984,{256,256},{0,257}},kanban={16898673616,{256,256},{0,514}},["sliders-vertical"]={16898735040,{256,256},{514,0}},apple={16898613699,{256,256},{257,257}},["wine-off"]={16898791187,{256,256},{257,0}},["check-circle"]={16898617325,{256,256},{257,514}},cuboid={16898668482,{256,256},{514,514}},["square-code"]={16898735845,{256,256},{257,257}},["bug-off"]={16898616879,{256,256},{0,0}},["circle-arrow-out-up-left"]={16898617705,{256,256},{514,514}},["corner-right-down"]={16898668288,{256,256},{0,514}},["plug-zap-2"]={16898731919,{256,256},{257,514}},["heading-2"]={16898672954,{256,256},{514,257}},["square-activity"]={16898735593,{256,256},{257,0}},["package-plus"]={16898730641,{256,256},{0,0}},["cigarette-off"]={16898617705,{256,256},{257,0}},["align-vertical-justify-start"]={16898613509,{256,256},{514,514}},["power-off"]={16898732262,{256,256},{257,257}},["undo-2"]={16898789303,{256,256},{257,514}},router={16898733415,{256,256},{514,257}},["tower-control"]={16898788908,{256,256},{514,0}},["git-branch"]={16898672316,{256,256},{0,257}},shovel={16898734664,{256,256},{514,514}},share={16898734421,{256,256},{514,257}},["wallet-cards"]={16898790615,{256,256},{514,257}},["square-arrow-out-down-right"]={16898735593,{256,256},{257,514}},["circuit-board"]={16898618049,{256,256},{514,514}},shield={16898734664,{256,256},{257,0}},["bar-chart-2"]={16898615143,{256,256},{257,0}},["cloud-snow"]={16898618899,{256,256},{514,0}},["file-question"]={16898670367,{256,256},{0,257}},["arrow-big-up-dash"]={16898613777,{256,256},{257,514}},["folder-closed"]={16898671139,{256,256},{0,257}},["smartphone-nfc"]={16898735040,{256,256},{514,257}},network={16898730065,{256,256},{0,514}},["file-bar-chart"]={16898669984,{256,256},{257,514}},["user-round-x"]={16898790047,{256,256},{0,257}},["signal-low"]={16898734792,{256,256},{257,514}},["mail-question"]={16898675156,{256,256},{257,257}},["clipboard-plus"]={16898618392,{256,256},{257,0}},["file-minus"]={16898670241,{256,256},{514,0}},["list-end"]={16898674482,{256,256},{257,514}},torus={16898788908,{256,256},{0,0}},["arrow-down-left"]={16898613869,{256,256},{257,514}},["chevrons-right"]={16898617626,{256,256},{0,514}},["file-badge-2"]={16898669984,{256,256},{257,257}},["message-square-reply"]={16898728402,{256,256},{257,0}},["corner-down-right"]={16898668288,{256,256},{0,257}},["gauge-circle"]={16898672166,{256,256},{257,257}},["users-2"]={16898790259,{256,256},{257,0}},["lamp-wall-down"]={16898673794,{256,256},{0,514}},["square-bottom-dashed-scissors"]={16898735664,{256,256},{514,257}},["repeat"]={16898733146,{256,256},{257,514}},["ellipsis-vertical"]={16898669772,{256,256},{0,0}},snail={16898735175,{256,256},{257,0}},check={16898617411,{256,256},{257,0}},["square-parking"]={16898736237,{256,256},{514,0}},["align-horizontal-justify-end"]={16898613353,{256,256},{514,0}},["mail-search"]={16898675156,{256,256},{0,514}},["align-vertical-distribute-end"]={16898613509,{256,256},{257,257}},soup={16898735175,{256,256},{257,257}},airplay={16898612629,{256,256},{257,514}},pentagon={16898731419,{256,256},{514,514}},["rocking-chair"]={16898733317,{256,256},{514,257}},["between-horizontal-start"]={16898615428,{256,256},{257,514}},["monitor-x"]={16898729141,{256,256},{0,514}},["octagon-pause"]={16898730298,{256,256},{514,514}},["square-kanban"]={16898736072,{256,256},{0,514}},["square-pen"]={16898736237,{256,256},{257,257}},["rectangle-vertical"]={16898733036,{256,256},{0,257}},["panels-right-bottom"]={16898731166,{256,256},{257,257}},["gantt-chart"]={16898672166,{256,256},{514,0}},octagon={16898730417,{256,256},{257,0}},ticket={16898788789,{256,256},{0,257}},pocket={16898732061,{256,256},{0,514}},["link-2"]={16898674482,{256,256},{0,257}},["train-front"]={16898788908,{256,256},{514,514}},["spray-can"]={16898735455,{256,256},{514,514}},["arrow-up-0-1"]={16898614275,{256,256},{257,257}},album={16898612819,{256,256},{514,514}},replace={16898733317,{256,256},{0,0}},["move-right"]={16898729752,{256,256},{0,0}},["hand-helping"]={16898672829,{256,256},{0,257}},["list-collapse"]={16898674482,{256,256},{514,257}},gauge={16898672166,{256,256},{0,514}},store={16898736776,{256,256},{514,514}},["circle-arrow-down"]={16898617705,{256,256},{257,257}},["notebook-pen"]={16898730065,{256,256},{514,514}},["egg-fried"]={16898669689,{256,256},{514,257}},ligature={16898674337,{256,256},{514,257}},["sticky-note"]={16898736776,{256,256},{514,257}},["corner-right-up"]={16898668288,{256,256},{514,257}},["badge-help"]={16898614945,{256,256},{514,0}},["panel-top-inactive"]={16898731166,{256,256},{0,0}},["user-round-plus"]={16898790047,{256,256},{0,0}},["panel-left-close"]={16898730821,{256,256},{514,257}},rewind={16898733317,{256,256},{514,0}},fuel={16898672004,{256,256},{257,0}},["divide-circle"]={16898669271,{256,256},{0,514}},["square-arrow-out-up-right"]={16898735664,{256,256},{0,0}},["chevrons-down-up"]={16898617626,{256,256},{0,0}},["message-square-text"]={16898728402,{256,256},{514,0}},["user-round-search"]={16898790047,{256,256},{257,0}},scan={16898733817,{256,256},{514,0}},["monitor-down"]={16898728878,{256,256},{514,257}},["play-circle"]={16898731919,{256,256},{514,0}},["file-digit"]={16898670072,{256,256},{257,514}},slash={16898735040,{256,256},{0,0}},["split-square-vertical"]={16898735455,{256,256},{514,257}},aperture={16898613699,{256,256},{257,0}},["arrow-right-left"]={16898614275,{256,256},{0,0}},["helping-hand"]={16898673271,{256,256},{514,0}},["flask-conical-off"]={16898670919,{256,256},{0,514}},["circle-gauge"]={16898617884,{256,256},{514,514}},crosshair={16898668482,{256,256},{514,257}},["move-down-right"]={16898729572,{256,256},{0,514}},["text-search"]={16898788479,{256,256},{0,514}},["square-slash"]={16898736398,{256,256},{0,514}},sandwich={16898733534,{256,256},{257,514}},factory={16898669897,{256,256},{0,257}},["chef-hat"]={16898617411,{256,256},{0,257}},["arrow-down-to-dot"]={16898614020,{256,256},{257,257}},["image-plus"]={16898673447,{256,256},{0,257}},["file-archive"]={16898669984,{256,256},{0,0}},["signal-high"]={16898734792,{256,256},{514,257}},inbox={16898673447,{256,256},{257,514}},["flip-horizontal-2"]={16898670919,{256,256},{514,514}},["book-type"]={16898616322,{256,256},{514,514}},["file-signature"]={16898670367,{256,256},{514,257}},["align-horizontal-space-between"]={16898613353,{256,256},{514,257}},["bookmark-minus"]={16898616524,{256,256},{514,257}},["calendar-check"]={16898616953,{256,256},{257,257}},["database-zap"]={16898668755,{256,256},{257,257}},droplets={16898669562,{256,256},{514,257}},boxes={16898616650,{256,256},{514,257}},["bell-electric"]={16898615428,{256,256},{0,0}},["bar-chart"]={16898615143,{256,256},{257,514}},["layout-list"]={16898674182,{256,256},{257,257}},link={16898674482,{256,256},{514,0}},["download-cloud"]={16898669433,{256,256},{514,514}},["alarm-clock-plus"]={16898612819,{256,256},{514,0}},["circle-dollar-sign"]={16898617884,{256,256},{0,257}},["activity-square"]={16898612629,{256,256},{257,257}},["arrow-up-square"]={16898614574,{256,256},{0,0}},["receipt-pound-sterling"]={16898732855,{256,256},{257,257}},grab={16898672599,{256,256},{514,257}},["align-center-horizontal"]={16898613044,{256,256},{514,0}},undo={16898789451,{256,256},{0,0}},ratio={16898732665,{256,256},{514,514}},minimize={16898728878,{256,256},{0,0}},["user-square-2"]={16898790047,{256,256},{0,514}},heading={16898673115,{256,256},{0,257}},["panel-top-close"]={16898731024,{256,256},{257,514}},["grip-horizontal"]={16898672700,{256,256},{0,257}},["boom-box"]={16898616650,{256,256},{257,0}},package={16898730641,{256,256},{514,0}},["user-round-minus"]={16898789825,{256,256},{514,514}},["file-audio-2"]={16898669984,{256,256},{257,0}},["align-end-horizontal"]={16898613044,{256,256},{514,257}},mountain={16898729337,{256,256},{514,0}},["arrow-down-left-square"]={16898613869,{256,256},{514,257}},["folder-kanban"]={16898671263,{256,256},{0,257}},["octagon-x"]={16898730417,{256,256},{0,0}},languages={16898673999,{256,256},{257,0}},["file-json-2"]={16898670171,{256,256},{257,257}},["alarm-clock-check"]={16898612819,{256,256},{0,0}},["refresh-cw"]={16898733146,{256,256},{257,0}},medal={16898675673,{256,256},{0,0}},["beer-off"]={16898615374,{256,256},{514,257}},["search-code"]={16898734065,{256,256},{257,514}},["square-parking-off"]={16898736237,{256,256},{0,257}},["notebook-text"]={16898730298,{256,256},{257,0}},["arrow-right-to-line"]={16898614275,{256,256},{0,257}},["ticket-minus"]={16898788660,{256,256},{514,257}},["test-tube-diagonal"]={16898788248,{256,256},{514,514}},["rows-4"]={16898733534,{256,256},{0,0}},["pencil-line"]={16898731419,{256,256},{0,514}},["door-open"]={16898669433,{256,256},{514,257}},["arrow-down-circle"]={16898613869,{256,256},{514,0}},["pen-line"]={16898731419,{256,256},{257,0}},file={16898670620,{256,256},{0,514}},["git-compare"]={16898672316,{256,256},{514,257}},["pocket-knife"]={16898732061,{256,256},{257,257}},["book-copy"]={16898616080,{256,256},{0,257}},["panel-left-inactive"]={16898730821,{256,256},{514,514}},["car-front"]={16898617249,{256,256},{257,0}},["align-start-horizontal"]={16898613509,{256,256},{257,0}},["reply-all"]={16898733317,{256,256},{257,0}},["cloud-moon-rain"]={16898618763,{256,256},{257,514}},["clipboard-type"]={16898618392,{256,256},{514,0}},["contact-2"]={16898619347,{256,256},{257,257}},["list-todo"]={16898674572,{256,256},{514,257}},tablets={16898788033,{256,256},{257,0}},["pie-chart"]={16898731819,{256,256},{0,0}},["list-start"]={16898674572,{256,256},{0,514}},milestone={16898728659,{256,256},{0,514}},["a-large-small"]={16898612629,{256,256},{0,257}},ship={16898734664,{256,256},{514,0}},["percent-circle"]={16898731539,{256,256},{0,0}},radiation={16898732504,{256,256},{514,514}},["code-2"]={16898619015,{256,256},{0,257}},["tablet-smartphone"]={16898787819,{256,256},{514,514}},["phone-forwarded"]={16898731539,{256,256},{514,257}},["gallery-vertical"]={16898672004,{256,256},{514,514}},["arrow-right-from-line"]={16898614166,{256,256},{514,514}},webcam={16898790996,{256,256},{0,0}},["square-power"]={16898736398,{256,256},{257,0}},["circle-help"]={16898617944,{256,256},{0,0}},["bring-to-front"]={16898616757,{256,256},{257,514}},archive={16898613699,{256,256},{257,514}},figma={16898669897,{256,256},{514,514}},school={16898733817,{256,256},{514,257}},download={16898669562,{256,256},{0,0}},piano={16898731683,{256,256},{0,514}},["line-chart"]={16898674482,{256,256},{0,0}},folders={16898671684,{256,256},{0,257}},["mail-warning"]={16898675156,{256,256},{514,257}},vault={16898790259,{256,256},{514,514}},["pause-circle"]={16898731301,{256,256},{0,514}},["mic-2"]={16898728402,{256,256},{514,514}},["chevrons-left-right"]={16898617626,{256,256},{0,257}},redo={16898733036,{256,256},{514,257}},["file-lock"]={16898670241,{256,256},{257,0}},radar={16898732504,{256,256},{257,514}},["circle-fading-plus"]={16898617884,{256,256},{257,514}},workflow={16898791187,{256,256},{514,0}},["undo-dot"]={16898789303,{256,256},{514,514}},target={16898788248,{256,256},{257,0}},["corner-left-down"]={16898668288,{256,256},{514,0}},["indent-increase"]={16898673523,{256,256},{0,0}},drama={16898669562,{256,256},{0,257}},["arrow-down-up"]={16898614020,{256,256},{514,257}},baseline={16898615240,{256,256},{0,0}},martini={16898675359,{256,256},{514,257}},contrast={16898619347,{256,256},{514,514}},["shield-ban"]={16898734564,{256,256},{257,0}},syringe={16898787819,{256,256},{0,0}},["chevron-left-circle"]={16898617509,{256,256},{0,0}},["book-check"]={16898616080,{256,256},{257,0}},["nut-off"]={16898730298,{256,256},{0,514}},["book-lock"]={16898616322,{256,256},{0,0}},["panel-right-inactive"]={16898731024,{256,256},{257,257}},["briefcase-medical"]={16898616757,{256,256},{0,514}},bookmark={16898616650,{256,256},{0,0}},["heading-5"]={16898673115,{256,256},{0,0}},["align-vertical-justify-end"]={16898613509,{256,256},{257,514}},["hop-off"]={16898673271,{256,256},{514,514}},warehouse={16898790791,{256,256},{257,257}},["plus-square"]={16898732061,{256,256},{0,257}},["drafting-compass"]={16898669562,{256,256},{257,0}},["save-all"]={16898733674,{256,256},{257,0}},["plus-circle"]={16898732061,{256,256},{257,0}},["square-sigma"]={16898736398,{256,256},{257,257}},["clipboard-signature"]={16898618392,{256,256},{0,257}},["fold-horizontal"]={16898671019,{256,256},{514,257}},["notepad-text-dashed"]={16898730298,{256,256},{514,0}},["glass-water"]={16898672599,{256,256},{0,0}},["book-headphones"]={16898616080,{256,256},{0,514}},["credit-card"]={16898668482,{256,256},{0,257}},["message-circle"]={16898675863,{256,256},{0,0}},["square-pilcrow"]={16898736237,{256,256},{257,514}},radical={16898732665,{256,256},{0,0}},["tally-3"]={16898788033,{256,256},{514,257}},["panel-bottom-open"]={16898730821,{256,256},{257,257}},["kanban-square-dashed"]={16898673616,{256,256},{514,0}},["book-audio"]={16898616080,{256,256},{0,0}},["file-search-2"]={16898670367,{256,256},{257,257}},["receipt-russian-ruble"]={16898732855,{256,256},{0,514}},["square-arrow-up-left"]={16898735664,{256,256},{0,257}},["locate-fixed"]={16898674684,{256,256},{0,514}},["clock-9"]={16898618583,{256,256},{514,514}},pen={16898731419,{256,256},{257,257}},["navigation-2"]={16898730065,{256,256},{0,257}},["candy-cane"]={16898617146,{256,256},{257,257}},["book-open"]={16898616322,{256,256},{0,514}},["user-check-2"]={16898789644,{256,256},{0,514}},["gamepad-2"]={16898672166,{256,256},{0,0}},["badge-info"]={16898614945,{256,256},{0,514}},wheat={16898790996,{256,256},{0,514}},["roller-coaster"]={16898733317,{256,256},{257,514}},["arrow-down-right-square"]={16898614020,{256,256},{257,0}},["shield-minus"]={16898734564,{256,256},{0,514}},thermometer={16898788660,{256,256},{0,257}},dessert={16898668755,{256,256},{257,514}},eclipse={16898669689,{256,256},{0,514}},church={16898617705,{256,256},{0,0}},combine={16898619182,{256,256},{0,514}},cylinder={16898668755,{256,256},{0,257}},["badge-japanese-yen"]={16898614945,{256,256},{514,257}},["calendar-plus-2"]={16898617053,{256,256},{514,0}},["receipt-text"]={16898732855,{256,256},{257,514}},film={16898670620,{256,256},{257,514}},["book-down"]={16898616080,{256,256},{257,257}},asterisk={16898614574,{256,256},{514,257}},cable={16898616879,{256,256},{514,514}},["file-output"]={16898670241,{256,256},{0,514}},["disc-album"]={16898669271,{256,256},{514,0}},["percent-square"]={16898731539,{256,256},{0,257}},["arrow-down-0-1"]={16898613869,{256,256},{0,0}},captions={16898617249,{256,256},{0,0}},diameter={16898668755,{256,256},{514,514}},bone={16898615799,{256,256},{257,514}},["umbrella-off"]={16898789303,{256,256},{257,257}},["badge-alert"]={16898614755,{256,256},{257,514}},flashlight={16898670919,{256,256},{257,257}},["folder-pen"]={16898671463,{256,256},{0,0}},cross={16898668482,{256,256},{0,514}},["badge-dollar-sign"]={16898614945,{256,256},{257,0}},["ice-cream-bowl"]={16898673358,{256,256},{0,514}},worm={16898791187,{256,256},{257,257}},["square-arrow-down-left"]={16898735593,{256,256},{0,257}},["share-2"]={16898734421,{256,256},{0,514}},["circle-arrow-out-down-right"]={16898617705,{256,256},{257,514}},["ear-off"]={16898669689,{256,256},{257,0}},wifi={16898790996,{256,256},{514,514}},["message-square-off"]={16898675863,{256,256},{257,514}},["tv-2"]={16898789153,{256,256},{514,514}},fish={16898670775,{256,256},{0,514}},sliders={16898735040,{256,256},{257,257}},["stretch-horizontal"]={16898736967,{256,256},{0,0}},currency={16898668755,{256,256},{257,0}},coffee={16898619015,{256,256},{257,514}},["message-circle-reply"]={16898675752,{256,256},{514,257}},route={16898733415,{256,256},{0,514}},["triangle-right"]={16898789153,{256,256},{514,0}},["folder-clock"]={16898671139,{256,256},{257,0}},["circle-off"]={16898617944,{256,256},{0,257}},["message-square-plus"]={16898675863,{256,256},{514,514}},type={16898789303,{256,256},{514,0}},webhook={16898790996,{256,256},{0,257}},["candlestick-chart"]={16898617146,{256,256},{514,0}},phone={16898731683,{256,256},{0,257}},["package-2"]={16898730417,{256,256},{0,514}},["chevrons-left"]={16898617626,{256,256},{514,0}},["pointer-off"]={16898732061,{256,256},{257,514}},turtle={16898789153,{256,256},{257,514}},camera={16898617146,{256,256},{0,257}},["thermometer-snowflake"]={16898788660,{256,256},{0,0}},clipboard={16898618392,{256,256},{0,514}},["send-horizontal"]={16898734242,{256,256},{0,257}},["bluetooth-searching"]={16898615799,{256,256},{0,257}},["arrow-up-to-line"]={16898614574,{256,256},{257,0}},["wrap-text"]={16898791187,{256,256},{0,514}},["file-check-2"]={16898670072,{256,256},{0,0}},["badge-percent"]={16898614945,{256,256},{514,514}},shuffle={16898734792,{256,256},{514,0}},refrigerator={16898733146,{256,256},{0,257}},["rows-3"]={16898733415,{256,256},{514,514}},sigma={16898734792,{256,256},{0,514}},["milk-off"]={16898728659,{256,256},{514,257}},["file-check"]={16898670072,{256,256},{257,0}},["pin-off"]={16898731819,{256,256},{0,514}},["clock-1"]={16898618392,{256,256},{514,257}},["file-heart"]={16898670171,{256,256},{257,0}},beaker={16898615240,{256,256},{514,514}},space={16898735175,{256,256},{0,514}},users={16898790259,{256,256},{514,0}},["shield-question"]={16898734564,{256,256},{514,514}},["arrow-up-circle"]={16898614275,{256,256},{257,514}},["corner-up-left"]={16898668288,{256,256},{257,514}},["clock-6"]={16898618583,{256,256},{0,514}},["layout-dashboard"]={16898674182,{256,256},{0,257}},["key-round"]={16898673616,{256,256},{514,257}},headphones={16898673115,{256,256},{514,0}},tv={16898789303,{256,256},{0,0}},["brain-circuit"]={16898616757,{256,256},{0,0}},["bar-chart-horizontal-big"]={16898615143,{256,256},{0,514}},rss={16898733534,{256,256},{0,257}},["file-stack"]={16898670469,{256,256},{0,0}},["at-sign"]={16898614574,{256,256},{257,514}},code={16898619015,{256,256},{257,257}},["calendar-minus"]={16898617053,{256,256},{257,0}},music={16898730065,{256,256},{0,0}},handshake={16898672829,{256,256},{514,257}},["graduation-cap"]={16898672599,{256,256},{257,514}},tornado={16898788789,{256,256},{514,514}},["copy-plus"]={16898619423,{256,256},{257,257}},stamp={16898736597,{256,256},{257,514}},cherry={16898617411,{256,256},{514,0}},shrink={16898734792,{256,256},{257,0}},["circle-arrow-out-up-right"]={16898617803,{256,256},{0,0}},meh={16898675673,{256,256},{514,0}},["search-check"]={16898734065,{256,256},{514,257}},crop={16898668482,{256,256},{257,257}},["columns-2"]={16898619182,{256,256},{257,0}},["mouse-pointer-square"]={16898729337,{256,256},{257,514}},["indent-decrease"]={16898673447,{256,256},{514,514}},["align-center-vertical"]={16898613044,{256,256},{257,257}},["wand-2"]={16898790791,{256,256},{257,0}},anvil={16898613699,{256,256},{0,0}},["align-start-vertical"]={16898613509,{256,256},{0,257}},["cloud-fog"]={16898618763,{256,256},{257,257}},accessibility={16898612629,{256,256},{514,0}},layers={16898674182,{256,256},{257,0}},["percent-diamond"]={16898731539,{256,256},{257,0}},["package-check"]={16898730417,{256,256},{514,257}},["chevron-first"]={16898617411,{256,256},{257,514}},pencil={16898731419,{256,256},{257,514}},["database-backup"]={16898668755,{256,256},{514,0}},["list-x"]={16898674684,{256,256},{0,0}},shapes={16898734421,{256,256},{257,257}},["move-down"]={16898729572,{256,256},{514,257}},["corner-up-right"]={16898668288,{256,256},{514,514}},computer={16898619347,{256,256},{0,0}},pin={16898731819,{256,256},{514,257}},["phone-off"]={16898731683,{256,256},{0,0}},["clipboard-x"]={16898618392,{256,256},{257,257}},fullscreen={16898672004,{256,256},{0,257}},["align-horizontal-distribute-start"]={16898613353,{256,256},{257,0}},["redo-dot"]={16898733036,{256,256},{0,514}},["cloud-moon"]={16898618763,{256,256},{514,514}},["stretch-vertical"]={16898736967,{256,256},{257,0}},["message-square-warning"]={16898728402,{256,256},{257,257}},["file-plus"]={16898670367,{256,256},{257,0}},["git-pull-request-arrow"]={16898672450,{256,256},{257,0}},guitar={16898672700,{256,256},{514,257}},tangent={16898788248,{256,256},{0,0}},["bell-dot"]={16898615374,{256,256},{514,514}},["panel-bottom"]={16898730821,{256,256},{0,514}},["flame-kindling"]={16898670919,{256,256},{257,0}},["table-2"]={16898787819,{256,256},{257,0}},["align-horizontal-space-around"]={16898613353,{256,256},{0,514}},server={16898734421,{256,256},{257,0}},["briefcase-business"]={16898616757,{256,256},{257,257}},diamond={16898669042,{256,256},{257,0}},blinds={16898615570,{256,256},{257,514}},weight={16898790996,{256,256},{514,0}},candy={16898617146,{256,256},{514,257}},["volume-1"]={16898790615,{256,256},{0,0}},["table-properties"]={16898787819,{256,256},{0,514}},["git-fork"]={16898672316,{256,256},{257,514}},recycle={16898733036,{256,256},{514,0}},["mountain-snow"]={16898729337,{256,256},{0,257}},luggage={16898674825,{256,256},{514,257}},["divide-square"]={16898669271,{256,256},{514,257}},["folder-minus"]={16898671263,{256,256},{0,514}},["phone-outgoing"]={16898731683,{256,256},{257,0}},["smartphone-charging"]={16898735040,{256,256},{0,514}},banknote={16898615143,{256,256},{0,0}},["train-track"]={16898789012,{256,256},{0,0}},["folder-up"]={16898671463,{256,256},{514,514}},["circle-percent"]={16898617944,{256,256},{514,257}},["bell-plus"]={16898615428,{256,256},{514,0}},fan={16898669897,{256,256},{514,0}},["disc-2"]={16898669271,{256,256},{257,0}},["git-pull-request-draft"]={16898672450,{256,256},{0,514}},coins={16898619182,{256,256},{0,0}},["square-divide"]={16898736072,{256,256},{0,0}},scroll={16898734065,{256,256},{0,514}},["circle-arrow-right"]={16898617803,{256,256},{257,0}},["candy-off"]={16898617146,{256,256},{0,514}},["square-pi"]={16898736237,{256,256},{514,257}},["arrow-left-right"]={16898614166,{256,256},{514,0}},["lightbulb-off"]={16898674337,{256,256},{257,514}},["panels-top-left"]={16898731166,{256,256},{0,514}},["move-up-right"]={16898729752,{256,256},{0,257}},["message-square-share"]={16898728402,{256,256},{0,257}},annoyed={16898613613,{256,256},{257,514}},["test-tube"]={16898788479,{256,256},{0,0}},["user-circle"]={16898789644,{256,256},{514,514}},["cooking-pot"]={16898619423,{256,256},{257,0}},["case-lower"]={16898617249,{256,256},{514,257}},["alarm-clock-minus"]={16898612819,{256,256},{257,0}},["square-user"]={16898736597,{256,256},{0,257}},square={16898736597,{256,256},{257,257}},["mail-open"]={16898675156,{256,256},{0,257}},["square-function"]={16898736072,{256,256},{514,0}},["arrow-up-left-from-circle"]={16898614410,{256,256},{0,257}},variable={16898790259,{256,256},{257,514}},["arrow-up-right-square"]={16898614410,{256,256},{257,514}},["badge-indian-rupee"]={16898614945,{256,256},{257,257}}}}
+    end)()
+    
+    -- Variables
+    
+    local CFileName = nil
+    local CEnabled = false
+    local Minimised = false
+    local Hidden = false
+    local Debounce = false
+    local searchOpen = false
+    local Notifications = Rayfield.Notifications
+    
+    local SelectedTheme = RayfieldLibrary.Theme.Default
+    
+    Rayfield:GetPropertyChangedSignal("AbsoluteSize"):Connect(function()
+    	if Rayfield.AbsoluteSize.X < minSize.X and Rayfield.AbsoluteSize.Y < minSize.Y then
+    		useMobileSizing = true
+    	else
+    		useMobileSizing = false
+    	end
+    
+    	if Main.Visible and not Minimised then
+    		TweenService:Create(Main, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {
+    			Size = useMobileSizing and UDim2.new(0, 500, 0, 275) or UDim2.new(0, 500, 0, 475)
+    		}):Play()
+    		updateDragBar()
+    	end
+    end)
+    
+    local function ChangeTheme(Theme)
+    	if typeof(Theme) == 'string' then
+    		SelectedTheme = RayfieldLibrary.Theme[Theme]
+    	elseif typeof(Theme) == 'table' then
+    		SelectedTheme = Theme
+    	end
+    
+    	Rayfield.Main.BackgroundColor3 = SelectedTheme.Background
+    	Rayfield.Main.Topbar.BackgroundColor3 = SelectedTheme.Topbar
+    	Rayfield.Main.Topbar.CornerRepair.BackgroundColor3 = SelectedTheme.Topbar
+    	Rayfield.Main.Shadow.Image.ImageColor3 = SelectedTheme.Shadow
+    
+    	Rayfield.Main.Topbar.ChangeSize.ImageColor3 = SelectedTheme.TextColor
+    	Rayfield.Main.Topbar.Hide.ImageColor3 = SelectedTheme.TextColor
+    	Rayfield.Main.Topbar.Search.ImageColor3 = SelectedTheme.TextColor
+    	if Topbar:FindFirstChild('Settings') then
+    		Rayfield.Main.Topbar.Settings.ImageColor3 = SelectedTheme.TextColor
+    		Rayfield.Main.Topbar.Divider.BackgroundColor3 = SelectedTheme.ElementStroke
+    	end
+    
+    	Main.Search.BackgroundColor3 = SelectedTheme.TextColor
+    	Main.Search.Shadow.ImageColor3 = SelectedTheme.TextColor
+    	Main.Search.Search.ImageColor3 = SelectedTheme.TextColor
+    	Main.Search.Input.PlaceholderColor3 = SelectedTheme.TextColor
+    	Main.Search.UIStroke.Color = SelectedTheme.SecondaryElementStroke
+    
+    	if Main:FindFirstChild('Notice') then
+    		Main.Notice.BackgroundColor3 = SelectedTheme.Background
+    	end
+    
+    	for _, text in ipairs(Rayfield:GetDescendants()) do
+    		if text.Parent.Parent ~= Notifications then
+    			if text:IsA('TextLabel') or text:IsA('TextBox') then text.TextColor3 = SelectedTheme.TextColor end
+    		end
+    	end
+    
+    	for _, TabPage in ipairs(Elements:GetChildren()) do
+    		for _, Element in ipairs(TabPage:GetChildren()) do
+    			if Element.ClassName == "Frame" and Element.Name ~= "Placeholder" and Element.Name ~= "SectionSpacing" and Element.Name ~= "Divider" and Element.Name ~= "SectionTitle" and Element.Name ~= "SearchTitle-fsefsefesfsefesfesfThanks" then
+    				Element.BackgroundColor3 = SelectedTheme.ElementBackground
+    				Element.UIStroke.Color = SelectedTheme.ElementStroke
+    			end
+    		end
+    	end
+    end
+    
+    local function getIcon(name : string)
+    	name = string.match(string.lower(name), "^%s*(.*)%s*$") :: string
+    	local sizedicons = Icons['48px']
+    
+    	local r = sizedicons[name]
+    	if not r then
+    		error(`Lucide Icons: Failed to find icon by the name of "{name}"`, 2)
+    	end
+    
+    	local rirs = r[2]
+    	local riro = r[3]
+    
+    	if type(r[1]) ~= "number" or type(rirs) ~= "table" or type(riro) ~= "table" then
+    		error("Lucide Icons: Internal error: Invalid auto-generated asset entry")
+    	end
+    
+    	local irs = Vector2.new(rirs[1], rirs[2])
+    	local iro = Vector2.new(riro[1], riro[2])
+    
+    	local asset = {
+    		id = r[1],
+    		imageRectSize = irs,
+    		imageRectOffset = iro,
+    	}
+    
+    	return asset
+    end
+    
+    local function makeDraggable(object, dragObject, enableTaptic, tapticOffset)
+    	local dragging = false
+    	local relative = nil
+    
+    	local offset = Vector2.zero
+    	local screenGui = object:FindFirstAncestorWhichIsA("ScreenGui")
+    	if screenGui and screenGui.IgnoreGuiInset then
+    		offset += getService('GuiService'):GetGuiInset()
+    	end
+    
+    	local function connectFunctions()
+    		if dragBar and enableTaptic then
+    			dragBar.MouseEnter:Connect(function()
+    				if not dragging and not Hidden then
+    					TweenService:Create(dragBarCosmetic, TweenInfo.new(0.25, Enum.EasingStyle.Back, Enum.EasingDirection.Out), {BackgroundTransparency = 0.5, Size = UDim2.new(0, 120, 0, 4)}):Play()
+    				end
+    			end)
+    
+    			dragBar.MouseLeave:Connect(function()
+    				if not dragging and not Hidden then
+    					TweenService:Create(dragBarCosmetic, TweenInfo.new(0.25, Enum.EasingStyle.Back, Enum.EasingDirection.Out), {BackgroundTransparency = 0.7, Size = UDim2.new(0, 100, 0, 4)}):Play()
+    				end
+    			end)
+    		end
+    	end
+    
+    	connectFunctions()
+    
+    	dragObject.InputBegan:Connect(function(input, processed)
+    		if processed then return end
+    
+    		local inputType = input.UserInputType.Name
+    		if inputType == "MouseButton1" or inputType == "Touch" then
+    			dragging = true
+    
+    			relative = object.AbsolutePosition + object.AbsoluteSize * object.AnchorPoint - UserInputService:GetMouseLocation()
+    			if enableTaptic and not Hidden then
+    				TweenService:Create(dragBarCosmetic, TweenInfo.new(0.35, Enum.EasingStyle.Back, Enum.EasingDirection.Out), {Size = UDim2.new(0, 110, 0, 4), BackgroundTransparency = 0}):Play()
+    			end
+    		end
+    	end)
+    
+    	local inputEnded = UserInputService.InputEnded:Connect(function(input)
+    		if not dragging then return end
+    
+    		local inputType = input.UserInputType.Name
+    		if inputType == "MouseButton1" or inputType == "Touch" then
+    			dragging = false
+    
+    			connectFunctions()
+    
+    			if enableTaptic and not Hidden then
+    				TweenService:Create(dragBarCosmetic, TweenInfo.new(0.35, Enum.EasingStyle.Back, Enum.EasingDirection.Out), {Size = UDim2.new(0, 100, 0, 4), BackgroundTransparency = 0.7}):Play()
+    			end
+    		end
+    	end)
+    
+    	local renderStepped = RunService.RenderStepped:Connect(function()
+    		if dragging and not Hidden then
+    			local position = UserInputService:GetMouseLocation() + relative + offset
+    			if enableTaptic and tapticOffset then
+    				TweenService:Create(object, TweenInfo.new(0.4, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Position = UDim2.fromOffset(position.X, position.Y)}):Play()
+    				TweenService:Create(dragObject.Parent, TweenInfo.new(0.05, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Position = UDim2.fromOffset(position.X, position.Y + ((useMobileSizing and tapticOffset[2]) or tapticOffset[1]))}):Play()
+    			else
+    				if dragBar and tapticOffset then
+    					dragBar.Position = UDim2.fromOffset(position.X, position.Y + ((useMobileSizing and tapticOffset[2]) or tapticOffset[1]))
+    				end
+    				object.Position = UDim2.fromOffset(position.X, position.Y)
+    			end
+    		end
+    	end)
+    
+    	if object == Main then
+    		updateDragBar = function()
+    			local relative = object.AbsolutePosition + object.AbsoluteSize * object.AnchorPoint - UserInputService:GetMouseLocation()
+    			local position = UserInputService:GetMouseLocation() + relative + offset
+    			dragBar.Position = UDim2.fromOffset(position.X, position.Y + ((useMobileSizing and tapticOffset[2]) or tapticOffset[1]))
+    		end
+    	end
+    
+    	object.Destroying:Connect(function()
+    		if inputEnded then inputEnded:Disconnect() end
+    		if renderStepped then renderStepped:Disconnect() end
+    	end)
+    end
+    
+    
+    local function PackColor(Color)
+    	return {R = Color.R * 255, G = Color.G * 255, B = Color.B * 255}
+    end
+    
+    local function UnpackColor(Color)
+    	return Color3.fromRGB(Color.R, Color.G, Color.B)
+    end
+    
+    local function LoadConfiguration(Configuration)
+    	local success, Data = pcall(function() return HttpService:JSONDecode(Configuration) end)
+    	local changed
+    
+    	if not success then warn('Rayfield had an issue decoding the configuration file, please try delete the file and reopen Rayfield.') return end
+    
+    	-- Iterate through current UI elements' flags
+    	for FlagName, Flag in pairs(RayfieldLibrary.Flags) do
+    		local FlagValue = Data[FlagName]
+    
+    		if (typeof(FlagValue) == 'boolean' and FlagValue == false) or FlagValue then
+    			task.spawn(function()
+    				if Flag.Type == "ColorPicker" then
+    					changed = true
+    					Flag:Set(UnpackColor(FlagValue))
+    				else
+    					if (Flag.CurrentValue or Flag.CurrentKeybind or Flag.CurrentOption or Flag.Color) ~= FlagValue then
+    						changed = true
+    						Flag:Set(FlagValue)
+    					end
+    				end
+    			end)
+    		else
+    			warn("Rayfield | Unable to find '"..FlagName.. "' in the save file.")
+    			print("The error above may not be an issue if new elements have been added or not been set values.")
+    			--RayfieldLibrary:Notify({Title = "Rayfield Flags", Content = "Rayfield was unable to find '"..FlagName.. "' in the save file. Check sirius.menu/discord for help.", Image = 3944688398})
+    		end
+    	end
+    
+    	return changed
+    end
+    
+    local function SaveConfiguration()
+    	if not CEnabled or not globalLoaded then return end
+    
+    	if debugX then
+    		print('Saving')
+    	end
+    
+    	local Data = {}
+    	for i, v in pairs(RayfieldLibrary.Flags) do
+    		if v.Type == "ColorPicker" then
+    			Data[i] = PackColor(v.Color)
+    		else
+    			if typeof(v.CurrentValue) == 'boolean' then
+    				if v.CurrentValue == false then
+    					Data[i] = false
+    				else
+    					Data[i] = v.CurrentValue or v.CurrentKeybind or v.CurrentOption or v.Color
+    				end
+    			else
+    				Data[i] = v.CurrentValue or v.CurrentKeybind or v.CurrentOption or v.Color
+    			end
+    		end
+    	end
+    
+    	if useStudio then
+    		if script.Parent:FindFirstChild('configuration') then script.Parent.configuration:Destroy() end
+    
+    		local ScreenGui = Instance.new("ScreenGui")
+    		ScreenGui.Parent = script.Parent
+    		ScreenGui.Name = 'configuration'
+    
+    		local TextBox = Instance.new("TextBox")
+    		TextBox.Parent = ScreenGui
+    		TextBox.Size = UDim2.new(0, 800, 0, 50)
+    		TextBox.AnchorPoint = Vector2.new(0.5, 0)
+    		TextBox.Position = UDim2.new(0.5, 0, 0, 30)
+    		TextBox.Text = HttpService:JSONEncode(Data)
+    		TextBox.ClearTextOnFocus = false
+    	end
+    
+    	if debugX then
+    		warn(HttpService:JSONEncode(Data))
+    	end
+    
+    	if writefile then
+    		writefile(ConfigurationFolder .. "/" .. CFileName .. ConfigurationExtension, tostring(HttpService:JSONEncode(Data)))
+    	end
+    end
+    
+    function RayfieldLibrary:Notify(data) -- action e.g open messages
+    	task.spawn(function()
+    
+    		-- Notification Object Creation
+    		local newNotification = Notifications.Template:Clone()
+    		newNotification.Name = data.Title or 'No Title Provided'
+    		newNotification.Parent = Notifications
+    		newNotification.LayoutOrder = #Notifications:GetChildren()
+    		newNotification.Visible = false
+    
+    		-- Set Data
+    		newNotification.Title.Text = data.Title or "Unknown Title"
+    		newNotification.Description.Text = data.Content or "Unknown Content"
+    
+    		if data.Image then
+    			if typeof(data.Image) == 'string' then
+    				local asset = getIcon(data.Image)
+    
+    				newNotification.Icon.Image = 'rbxassetid://'..asset.id
+    				newNotification.Icon.ImageRectOffset = asset.imageRectOffset
+    				newNotification.Icon.ImageRectSize = asset.imageRectSize
+    			else
+    				newNotification.Icon.Image = "rbxassetid://" .. (data.Image or 0)
+    			end
+    		else
+    			newNotification.Icon.Image = "rbxassetid://" .. 0
+    		end
+    
+    		-- Set initial transparency values
+    
+    		newNotification.Title.TextColor3 = SelectedTheme.TextColor
+    		newNotification.Description.TextColor3 = SelectedTheme.TextColor
+    		newNotification.BackgroundColor3 = SelectedTheme.Background
+    		newNotification.UIStroke.Color = SelectedTheme.TextColor
+    		newNotification.Icon.ImageColor3 = SelectedTheme.TextColor
+    
+    		newNotification.BackgroundTransparency = 1
+    		newNotification.Title.TextTransparency = 1
+    		newNotification.Description.TextTransparency = 1
+    		newNotification.UIStroke.Transparency = 1
+    		newNotification.Shadow.ImageTransparency = 1
+    		newNotification.Size = UDim2.new(1, 0, 0, 800)
+    		newNotification.Icon.ImageTransparency = 1
+    		newNotification.Icon.BackgroundTransparency = 1
+    
+    		task.wait()
+    
+    		newNotification.Visible = true
+    
+    		if data.Actions then
+    			warn('Rayfield | Not seeing your actions in notifications?')
+    			print("Notification Actions are being sunset for now, keep up to date on when they're back in the discord. (sirius.menu/discord)")
+    		end
+    
+    		-- Calculate textbounds and set initial values
+    		local bounds = {newNotification.Title.TextBounds.Y, newNotification.Description.TextBounds.Y}
+    		newNotification.Size = UDim2.new(1, -60, 0, -Notifications:FindFirstChild("UIListLayout").Padding.Offset)
+    
+    		newNotification.Icon.Size = UDim2.new(0, 32, 0, 32)
+    		newNotification.Icon.Position = UDim2.new(0, 20, 0.5, 0)
+    
+    		TweenService:Create(newNotification, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Size = UDim2.new(1, 0, 0, math.max(bounds[1] + bounds[2] + 31, 60))}):Play()
+    
+    		task.wait(0.15)
+    		TweenService:Create(newNotification, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.45}):Play()
+    		TweenService:Create(newNotification.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+    
+    		task.wait(0.05)
+    
+    		TweenService:Create(newNotification.Icon, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ImageTransparency = 0}):Play()
+    
+    		task.wait(0.05)
+    		TweenService:Create(newNotification.Description, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0.35}):Play()
+    		TweenService:Create(newNotification.UIStroke, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {Transparency = 0.95}):Play()
+    		TweenService:Create(newNotification.Shadow, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ImageTransparency = 0.82}):Play()
+    
+    		local waitDuration = math.min(math.max((#newNotification.Description.Text * 0.1) + 2.5, 3), 10)
+    		task.wait(data.Duration or waitDuration)
+    
+    		newNotification.Icon.Visible = false
+    		TweenService:Create(newNotification, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+    		TweenService:Create(newNotification.UIStroke, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+    		TweenService:Create(newNotification.Shadow, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ImageTransparency = 1}):Play()
+    		TweenService:Create(newNotification.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+    		TweenService:Create(newNotification.Description, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+    
+    		TweenService:Create(newNotification, TweenInfo.new(1, Enum.EasingStyle.Exponential), {Size = UDim2.new(1, -90, 0, 0)}):Play()
+    
+    		task.wait(1)
+    
+    		TweenService:Create(newNotification, TweenInfo.new(1, Enum.EasingStyle.Exponential), {Size = UDim2.new(1, -90, 0, -Notifications:FindFirstChild("UIListLayout").Padding.Offset)}):Play()
+    
+    		newNotification.Visible = false
+    		newNotification:Destroy()
+    	end)
+    end
+    
+    local function openSearch()
+    	searchOpen = true
+    
+    	Main.Search.BackgroundTransparency = 1
+    	Main.Search.Shadow.ImageTransparency = 1
+    	Main.Search.Input.TextTransparency = 1
+    	Main.Search.Search.ImageTransparency = 1
+    	Main.Search.UIStroke.Transparency = 1
+    	Main.Search.Size = UDim2.new(1, 0, 0, 80)
+    	Main.Search.Position = UDim2.new(0.5, 0, 0, 70)
+    
+    	Main.Search.Input.Interactable = true
+    
+    	Main.Search.Visible = true
+    
+    	for _, tabbtn in ipairs(TabList:GetChildren()) do
+    		if tabbtn.ClassName == "Frame" and tabbtn.Name ~= "Placeholder" then
+    			tabbtn.Interact.Visible = false
+    			TweenService:Create(tabbtn, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+    			TweenService:Create(tabbtn.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+    			TweenService:Create(tabbtn.Image, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ImageTransparency = 1}):Play()
+    			TweenService:Create(tabbtn.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+    		end
+    	end
+    
+    	Main.Search.Input:CaptureFocus()
+    	TweenService:Create(Main.Search.Shadow, TweenInfo.new(0.05, Enum.EasingStyle.Quint), {ImageTransparency = 0.95}):Play()
+    	TweenService:Create(Main.Search, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Position = UDim2.new(0.5, 0, 0, 57), BackgroundTransparency = 0.9}):Play()
+    	TweenService:Create(Main.Search.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 0.8}):Play()
+    	TweenService:Create(Main.Search.Input, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0.2}):Play()
+    	TweenService:Create(Main.Search.Search, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ImageTransparency = 0.5}):Play()
+    	TweenService:Create(Main.Search, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Size = UDim2.new(1, -35, 0, 35)}):Play()
+    end
+    
+    local function closeSearch()
+    	searchOpen = false
+    
+    	TweenService:Create(Main.Search, TweenInfo.new(0.35, Enum.EasingStyle.Quint), {BackgroundTransparency = 1, Size = UDim2.new(1, -55, 0, 30)}):Play()
+    	TweenService:Create(Main.Search.Search, TweenInfo.new(0.15, Enum.EasingStyle.Quint), {ImageTransparency = 1}):Play()
+    	TweenService:Create(Main.Search.Shadow, TweenInfo.new(0.15, Enum.EasingStyle.Quint), {ImageTransparency = 1}):Play()
+    	TweenService:Create(Main.Search.UIStroke, TweenInfo.new(0.15, Enum.EasingStyle.Quint), {Transparency = 1}):Play()
+    	TweenService:Create(Main.Search.Input, TweenInfo.new(0.15, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
+    
+    	for _, tabbtn in ipairs(TabList:GetChildren()) do
+    		if tabbtn.ClassName == "Frame" and tabbtn.Name ~= "Placeholder" then
+    			tabbtn.Interact.Visible = true
+    			if tostring(Elements.UIPageLayout.CurrentPage) == tabbtn.Title.Text then
+    				TweenService:Create(tabbtn, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+    				TweenService:Create(tabbtn.Image, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ImageTransparency = 0}):Play()
+    				TweenService:Create(tabbtn.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+    				TweenService:Create(tabbtn.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+    			else
+    				TweenService:Create(tabbtn, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.7}):Play()
+    				TweenService:Create(tabbtn.Image, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ImageTransparency = 0.2}):Play()
+    				TweenService:Create(tabbtn.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0.2}):Play()
+    				TweenService:Create(tabbtn.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+    			end
+    		end
+    	end
+    
+    	Main.Search.Input.Text = ''
+    	Main.Search.Input.Interactable = false
+    end
+    
+    local function Hide(notify: boolean?)
+    	if MPrompt then
+    		MPrompt.Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+    		MPrompt.Position = UDim2.new(0.5, 0, 0, -50)
+    		MPrompt.Size = UDim2.new(0, 40, 0, 10)
+    		MPrompt.BackgroundTransparency = 1
+    		MPrompt.Title.TextTransparency = 1
+    		MPrompt.Visible = true
+    	end
+    
+    	task.spawn(closeSearch)
+    
+    	Debounce = true
+    	if notify then
+    		if useMobilePrompt then
+    			RayfieldLibrary:Notify({Title = "Interface Hidden", Content = "The interface has been hidden, you can unhide the interface by tapping 'Show Rayfield'.", Duration = 7, Image = 4400697855})
+    		else
+    			RayfieldLibrary:Notify({Title = "Interface Hidden", Content = `The interface has been hidden, you can unhide the interface by tapping {settingsTable.General.rayfieldOpen.Value or 'K'}.`, Duration = 7, Image = 4400697855})
+    		end
+    	end
+    
+    	TweenService:Create(Main, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Size = UDim2.new(0, 470, 0, 0)}):Play()
+    	TweenService:Create(Main.Topbar, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Size = UDim2.new(0, 470, 0, 45)}):Play()
+    	TweenService:Create(Main, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+    	TweenService:Create(Main.Topbar, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+    	TweenService:Create(Main.Topbar.Divider, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+    	TweenService:Create(Main.Topbar.CornerRepair, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+    	TweenService:Create(Main.Topbar.Title, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+    	TweenService:Create(Main.Shadow.Image, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {ImageTransparency = 1}):Play()
+    	TweenService:Create(Topbar.UIStroke, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+    	TweenService:Create(dragBarCosmetic, TweenInfo.new(0.25, Enum.EasingStyle.Back, Enum.EasingDirection.Out), {BackgroundTransparency = 1}):Play()
+    
+    	if useMobilePrompt and MPrompt then
+    		TweenService:Create(MPrompt, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Size = UDim2.new(0, 120, 0, 30), Position = UDim2.new(0.5, 0, 0, 20), BackgroundTransparency = 0.3}):Play()
+    		TweenService:Create(MPrompt.Title, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {TextTransparency = 0.3}):Play()
+    	end
+    
+    	for _, TopbarButton in ipairs(Topbar:GetChildren()) do
+    		if TopbarButton.ClassName == "ImageButton" then
+    			TweenService:Create(TopbarButton, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {ImageTransparency = 1}):Play()
+    		end
+    	end
+    
+    	for _, tabbtn in ipairs(TabList:GetChildren()) do
+    		if tabbtn.ClassName == "Frame" and tabbtn.Name ~= "Placeholder" then
+    			TweenService:Create(tabbtn, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+    			TweenService:Create(tabbtn.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+    			TweenService:Create(tabbtn.Image, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ImageTransparency = 1}):Play()
+    			TweenService:Create(tabbtn.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+    		end
+    	end
+    
+    	dragInteract.Visible = false
+    
+    	for _, tab in ipairs(Elements:GetChildren()) do
+    		if tab.Name ~= "Template" and tab.ClassName == "ScrollingFrame" and tab.Name ~= "Placeholder" then
+    			for _, element in ipairs(tab:GetChildren()) do
+    				if element.ClassName == "Frame" then
+    					if element.Name ~= "SectionSpacing" and element.Name ~= "Placeholder" then
+    						if element.Name == "SectionTitle" or element.Name == 'SearchTitle-fsefsefesfsefesfesfThanks' then
+    							TweenService:Create(element.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+    						elseif element.Name == 'Divider' then
+    							TweenService:Create(element.Divider, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+    						else
+    							TweenService:Create(element, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+    							TweenService:Create(element.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+    							TweenService:Create(element.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+    						end
+    						for _, child in ipairs(element:GetChildren()) do
+    							if child.ClassName == "Frame" or child.ClassName == "TextLabel" or child.ClassName == "TextBox" or child.ClassName == "ImageButton" or child.ClassName == "ImageLabel" then
+    								child.Visible = false
+    							end
+    						end
+    					end
+    				end
+    			end
+    		end
+    	end
+    
+    	task.wait(0.5)
+    	Main.Visible = false
+    	Debounce = false
+    end
+    
+    local function Maximise()
+    	Debounce = true
+    	Topbar.ChangeSize.Image = "rbxassetid://"..10137941941
+    
+    	TweenService:Create(Topbar.UIStroke, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+    	TweenService:Create(Main.Shadow.Image, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {ImageTransparency = 0.6}):Play()
+    	TweenService:Create(Topbar.CornerRepair, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+    	TweenService:Create(Topbar.Divider, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+    	TweenService:Create(dragBarCosmetic, TweenInfo.new(0.25, Enum.EasingStyle.Back, Enum.EasingDirection.Out), {BackgroundTransparency = 0.7}):Play()
+    	TweenService:Create(Main, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Size = useMobileSizing and UDim2.new(0, 500, 0, 275) or UDim2.new(0, 500, 0, 475)}):Play()
+    	TweenService:Create(Topbar, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Size = UDim2.new(0, 500, 0, 45)}):Play()
+    	TabList.Visible = true
+    	task.wait(0.2)
+    
+    	Elements.Visible = true
+    
+    	for _, tab in ipairs(Elements:GetChildren()) do
+    		if tab.Name ~= "Template" and tab.ClassName == "ScrollingFrame" and tab.Name ~= "Placeholder" then
+    			for _, element in ipairs(tab:GetChildren()) do
+    				if element.ClassName == "Frame" then
+    					if element.Name ~= "SectionSpacing" and element.Name ~= "Placeholder" then
+    						if element.Name == "SectionTitle" or element.Name == 'SearchTitle-fsefsefesfsefesfesfThanks' then
+    							TweenService:Create(element.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0.4}):Play()
+    						elseif element.Name == 'Divider' then
+    							TweenService:Create(element.Divider, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.85}):Play()
+    						else
+    							TweenService:Create(element, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+    							TweenService:Create(element.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+    							TweenService:Create(element.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+    						end
+    						for _, child in ipairs(element:GetChildren()) do
+    							if child.ClassName == "Frame" or child.ClassName == "TextLabel" or child.ClassName == "TextBox" or child.ClassName == "ImageButton" or child.ClassName == "ImageLabel" then
+    								child.Visible = true
+    							end
+    						end
+    					end
+    				end
+    			end
+    		end
+    	end
+    
+    	task.wait(0.1)
+    
+    	for _, tabbtn in ipairs(TabList:GetChildren()) do
+    		if tabbtn.ClassName == "Frame" and tabbtn.Name ~= "Placeholder" then
+    			if tostring(Elements.UIPageLayout.CurrentPage) == tabbtn.Title.Text then
+    				TweenService:Create(tabbtn, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+    				TweenService:Create(tabbtn.Image, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ImageTransparency = 0}):Play()
+    				TweenService:Create(tabbtn.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+    				TweenService:Create(tabbtn.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+    			else
+    				TweenService:Create(tabbtn, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.7}):Play()
+    				TweenService:Create(tabbtn.Image, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ImageTransparency = 0.2}):Play()
+    				TweenService:Create(tabbtn.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0.2}):Play()
+    				TweenService:Create(tabbtn.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+    			end
+    
+    		end
+    	end
+    
+    	task.wait(0.5)
+    	Debounce = false
+    end
+    
+    
+    local function Unhide()
+    	Debounce = true
+    	Main.Position = UDim2.new(0.5, 0, 0.5, 0)
+    	Main.Visible = true
+    	TweenService:Create(Main, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Size = useMobileSizing and UDim2.new(0, 500, 0, 275) or UDim2.new(0, 500, 0, 475)}):Play()
+    	TweenService:Create(Main.Topbar, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Size = UDim2.new(0, 500, 0, 45)}):Play()
+    	TweenService:Create(Main.Shadow.Image, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {ImageTransparency = 0.6}):Play()
+    	TweenService:Create(Main, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+    	TweenService:Create(Main.Topbar, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+    	TweenService:Create(Main.Topbar.Divider, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+    	TweenService:Create(Main.Topbar.CornerRepair, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+    	TweenService:Create(Main.Topbar.Title, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+    
+    	if MPrompt then
+    		TweenService:Create(MPrompt, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Size = UDim2.new(0, 40, 0, 10), Position = UDim2.new(0.5, 0, 0, -50), BackgroundTransparency = 1}):Play()
+    		TweenService:Create(MPrompt.Title, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+    
+    		task.spawn(function()
+    			task.wait(0.5)
+    			MPrompt.Visible = false
+    		end)
+    	end
+    
+    	if Minimised then
+    		task.spawn(Maximise)
+    	end
+    
+    	dragBar.Position = useMobileSizing and UDim2.new(0.5, 0, 0.5, dragOffsetMobile) or UDim2.new(0.5, 0, 0.5, dragOffset)
+    
+    	dragInteract.Visible = true
+    
+    	for _, TopbarButton in ipairs(Topbar:GetChildren()) do
+    		if TopbarButton.ClassName == "ImageButton" then
+    			if TopbarButton.Name == 'Icon' then
+    				TweenService:Create(TopbarButton, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {ImageTransparency = 0}):Play()
+    			else
+    				TweenService:Create(TopbarButton, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {ImageTransparency = 0.8}):Play()
+    			end
+    
+    		end
+    	end
+    
+    	for _, tabbtn in ipairs(TabList:GetChildren()) do
+    		if tabbtn.ClassName == "Frame" and tabbtn.Name ~= "Placeholder" then
+    			if tostring(Elements.UIPageLayout.CurrentPage) == tabbtn.Title.Text then
+    				TweenService:Create(tabbtn, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+    				TweenService:Create(tabbtn.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+    				TweenService:Create(tabbtn.Image, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ImageTransparency = 0}):Play()
+    				TweenService:Create(tabbtn.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+    			else
+    				TweenService:Create(tabbtn, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.7}):Play()
+    				TweenService:Create(tabbtn.Image, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ImageTransparency = 0.2}):Play()
+    				TweenService:Create(tabbtn.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0.2}):Play()
+    				TweenService:Create(tabbtn.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+    			end
+    		end
+    	end
+    
+    	for _, tab in ipairs(Elements:GetChildren()) do
+    		if tab.Name ~= "Template" and tab.ClassName == "ScrollingFrame" and tab.Name ~= "Placeholder" then
+    			for _, element in ipairs(tab:GetChildren()) do
+    				if element.ClassName == "Frame" then
+    					if element.Name ~= "SectionSpacing" and element.Name ~= "Placeholder" then
+    						if element.Name == "SectionTitle" or element.Name == 'SearchTitle-fsefsefesfsefesfesfThanks' then
+    							TweenService:Create(element.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0.4}):Play()
+    						elseif element.Name == 'Divider' then
+    							TweenService:Create(element.Divider, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.85}):Play()
+    						else
+    							TweenService:Create(element, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+    							TweenService:Create(element.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+    							TweenService:Create(element.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+    						end
+    						for _, child in ipairs(element:GetChildren()) do
+    							if child.ClassName == "Frame" or child.ClassName == "TextLabel" or child.ClassName == "TextBox" or child.ClassName == "ImageButton" or child.ClassName == "ImageLabel" then
+    								child.Visible = true
+    							end
+    						end
+    					end
+    				end
+    			end
+    		end
+    	end
+    
+    	TweenService:Create(dragBarCosmetic, TweenInfo.new(0.25, Enum.EasingStyle.Back, Enum.EasingDirection.Out), {BackgroundTransparency = 0.5}):Play()
+    
+    	task.wait(0.5)
+    	Minimised = false
+    	Debounce = false
+    end
+    
+    local function Minimise()
+    	Debounce = true
+    	Topbar.ChangeSize.Image = "rbxassetid://"..11036884234
+    
+    	Topbar.UIStroke.Color = SelectedTheme.ElementStroke
+    
+    	task.spawn(closeSearch)
+    
+    	for _, tabbtn in ipairs(TabList:GetChildren()) do
+    		if tabbtn.ClassName == "Frame" and tabbtn.Name ~= "Placeholder" then
+    			TweenService:Create(tabbtn, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+    			TweenService:Create(tabbtn.Image, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ImageTransparency = 1}):Play()
+    			TweenService:Create(tabbtn.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+    			TweenService:Create(tabbtn.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+    		end
+    	end
+    
+    	for _, tab in ipairs(Elements:GetChildren()) do
+    		if tab.Name ~= "Template" and tab.ClassName == "ScrollingFrame" and tab.Name ~= "Placeholder" then
+    			for _, element in ipairs(tab:GetChildren()) do
+    				if element.ClassName == "Frame" then
+    					if element.Name ~= "SectionSpacing" and element.Name ~= "Placeholder" then
+    						if element.Name == "SectionTitle" or element.Name == 'SearchTitle-fsefsefesfsefesfesfThanks' then
+    							TweenService:Create(element.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+    						elseif element.Name == 'Divider' then
+    							TweenService:Create(element.Divider, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+    						else
+    							TweenService:Create(element, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+    							TweenService:Create(element.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+    							TweenService:Create(element.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+    						end
+    						for _, child in ipairs(element:GetChildren()) do
+    							if child.ClassName == "Frame" or child.ClassName == "TextLabel" or child.ClassName == "TextBox" or child.ClassName == "ImageButton" or child.ClassName == "ImageLabel" then
+    								child.Visible = false
+    							end
+    						end
+    					end
+    				end
+    			end
+    		end
+    	end
+    
+    	TweenService:Create(dragBarCosmetic, TweenInfo.new(0.25, Enum.EasingStyle.Back, Enum.EasingDirection.Out), {BackgroundTransparency = 1}):Play()
+    	TweenService:Create(Topbar.UIStroke, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+    	TweenService:Create(Main.Shadow.Image, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {ImageTransparency = 1}):Play()
+    	TweenService:Create(Topbar.CornerRepair, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+    	TweenService:Create(Topbar.Divider, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+    	TweenService:Create(Main, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Size = UDim2.new(0, 495, 0, 45)}):Play()
+    	TweenService:Create(Topbar, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Size = UDim2.new(0, 495, 0, 45)}):Play()
+    
+    	task.wait(0.3)
+    
+    	Elements.Visible = false
+    	TabList.Visible = false
+    
+    	task.wait(0.2)
+    	Debounce = false
+    end
+    
+    local function updateSettings()
+    	local encoded
+    	local success, err = pcall(function()
+    		encoded = HttpService:JSONEncode(settingsTable)
+    	end)
+    
+    	if success then
+    		if useStudio then
+    			if script.Parent['get.val'] then
+    				script.Parent['get.val'].Value = encoded
+    			end
+    		end
+    		if writefile then
+    			writefile(RayfieldFolder..'/settings'..ConfigurationExtension, encoded)
+    		end
+    	end
+    end
+    
+    local function createSettings(window)
+    	if not (writefile and isfile and readfile and isfolder and makefolder) and not useStudio then
+    		if Topbar['Settings'] then Topbar.Settings.Visible = false end
+    		Topbar['Search'].Position = UDim2.new(1, -75, 0.5, 0)
+    		warn('Can\'t create settings as no file-saving functionality is available.')
+    		return
+    	end
+    
+    	local newTab = window:CreateTab('Rayfield Settings', 0, true)
+    
+    	if TabList['Rayfield Settings'] then
+    		TabList['Rayfield Settings'].LayoutOrder = 1000
+    	end
+    
+    	if Elements['Rayfield Settings'] then
+    		Elements['Rayfield Settings'].LayoutOrder = 1000
+    	end
+    
+    	-- Create sections and elements
+    	for categoryName, settingCategory in pairs(settingsTable) do
+    		newTab:CreateSection(categoryName)
+    
+    		for _, setting in pairs(settingCategory) do
+    			if setting.Type == 'input' then
+    				setting.Element = newTab:CreateInput({
+    					Name = setting.Name,
+    					CurrentValue = setting.Value,
+    					PlaceholderText = setting.Placeholder,
+    					Ext = true,
+    					RemoveTextAfterFocusLost = setting.ClearOnFocus,
+    					Callback = function(Value)
+    						setting.Value = Value
+    						updateSettings()
+    					end,
+    				})
+    			elseif setting.Type == 'toggle' then
+    				setting.Element = newTab:CreateToggle({
+    					Name = setting.Name,
+    					CurrentValue = setting.Value,
+    					Ext = true,
+    					Callback = function(Value)
+    						setting.Value = Value
+    						updateSettings()
+    					end,
+    				})
+    			elseif setting.Type == 'bind' then
+    				setting.Element = newTab:CreateKeybind({
+    					Name = setting.Name,
+    					CurrentKeybind = setting.Value,
+    					HoldToInteract = false,
+    					Ext = true,
+    					CallOnChange = true,
+    					Callback = function(Value)
+    						setting.Value = Value
+    						updateSettings()
+    					end,
+    				})
+    			end
+    		end
+    	end
+    
+    	settingsCreated = true
+    	loadSettings()
+    	updateSettings()
+    end
+    
+    
+    
+    function RayfieldLibrary:CreateWindow(Settings)
+    	if Rayfield:FindFirstChild('Loading') then
+    		if getgenv and not getgenv().rayfieldCached then
+    			Rayfield.Enabled = true
+    			Rayfield.Loading.Visible = true
+    
+    			task.wait(1.4)
+    			Rayfield.Loading.Visible = false
+    		end
+    	end
+    
+    	if getgenv then getgenv().rayfieldCached = true end
+    
+    	if not correctBuild and not Settings.DisableBuildWarnings then
+    		task.delay(3,
+    			function()
+    				RayfieldLibrary:Notify({Title = 'Build Mismatch', Content = 'Rayfield may encounter issues as you are running an incompatible interface version ('.. ((Rayfield:FindFirstChild('Build') and Rayfield.Build.Value) or 'No Build') ..').\n\nThis version of Rayfield is intended for interface build '..InterfaceBuild..'.\n\nTry rejoining and then run the script twice.', Image = 4335487866, Duration = 15})
+    			end)
+    	end
+    
+    	if isfolder and not isfolder(RayfieldFolder) then
+    		makefolder(RayfieldFolder)
+    	end
+    
+    	local Passthrough = false
+    	Topbar.Title.Text = Settings.Name
+    
+    	Main.Size = UDim2.new(0, 420, 0, 100)
+    	Main.Visible = true
+    	Main.BackgroundTransparency = 1
+    	if Main:FindFirstChild('Notice') then Main.Notice.Visible = false end
+    	Main.Shadow.Image.ImageTransparency = 1
+    
+    	LoadingFrame.Title.TextTransparency = 1
+    	LoadingFrame.Subtitle.TextTransparency = 1
+    
+    	LoadingFrame.Version.TextTransparency = 1
+    	LoadingFrame.Title.Text = Settings.LoadingTitle or "Rayfield"
+    	LoadingFrame.Subtitle.Text = Settings.LoadingSubtitle or "Interface Suite"
+    
+    	if Settings.LoadingTitle ~= "Rayfield Interface Suite" then
+    		LoadingFrame.Version.Text = "Rayfield UI"
+    	end
+    
+    	if Settings.Icon and Settings.Icon ~= 0 and Topbar:FindFirstChild('Icon') then
+    		Topbar.Icon.Visible = true
+    		Topbar.Title.Position = UDim2.new(0, 47, 0.5, 0)
+    
+    		if Settings.Icon then
+    			if typeof(Settings.Icon) == 'string' then
+    				local asset = getIcon(Settings.Icon)
+    
+    				Topbar.Icon.Image = 'rbxassetid://'..asset.id
+    				Topbar.Icon.ImageRectOffset = asset.imageRectOffset
+    				Topbar.Icon.ImageRectSize = asset.imageRectSize
+    			else
+    				Topbar.Icon.Image = "rbxassetid://" .. (Settings.Icon or 0)
+    			end
+    		else
+    			Topbar.Icon.Image = "rbxassetid://" .. 0
+    		end
+    	end
+    
+    	if dragBar then
+    		dragBar.Visible = false
+    		dragBarCosmetic.BackgroundTransparency = 1
+    		dragBar.Visible = true
+    	end
+    
+    	if Settings.Theme then
+    		local success, result = pcall(ChangeTheme, Settings.Theme)
+    		if not success then
+    			local success, result2 = pcall(ChangeTheme, 'Default')
+    			if not success then
+    				warn('CRITICAL ERROR - NO DEFAULT THEME')
+    				print(result2)
+    			end
+    			warn('issue rendering theme. no theme on file')
+    			print(result)
+    		end
+    	end
+    
+    	Topbar.Visible = false
+    	Elements.Visible = false
+    	LoadingFrame.Visible = true
+    
+    	if not Settings.DisableRayfieldPrompts then
+    		task.spawn(function()
+    			while true do
+    				task.wait(math.random(180, 600))
+    				RayfieldLibrary:Notify({
+    					Title = "Rayfield Interface",
+    					Content = "Enjoying this UI library? Find it at sirius.menu/discord",
+    					Duration = 7,
+    					Image = 4370033185,
+    				})
+    			end
+    		end)
+    	end
+    
+    	pcall(function()
+    		if not Settings.ConfigurationSaving.FileName then
+    			Settings.ConfigurationSaving.FileName = tostring(game.PlaceId)
+    		end
+    
+    		if Settings.ConfigurationSaving.Enabled == nil then
+    			Settings.ConfigurationSaving.Enabled = false
+    		end
+    
+    		CFileName = Settings.ConfigurationSaving.FileName
+    		ConfigurationFolder = Settings.ConfigurationSaving.FolderName or ConfigurationFolder
+    		CEnabled = Settings.ConfigurationSaving.Enabled
+    
+    		if Settings.ConfigurationSaving.Enabled then
+    			if not isfolder(ConfigurationFolder) then
+    				makefolder(ConfigurationFolder)
+    			end
+    		end
+    	end)
+    
+    
+    	makeDraggable(Main, Topbar, false, {dragOffset, dragOffsetMobile})
+    	if dragBar then dragBar.Position = useMobileSizing and UDim2.new(0.5, 0, 0.5, dragOffsetMobile) or UDim2.new(0.5, 0, 0.5, dragOffset) makeDraggable(Main, dragInteract, true, {dragOffset, dragOffsetMobile}) end
+    
+    	for _, TabButton in ipairs(TabList:GetChildren()) do
+    		if TabButton.ClassName == "Frame" and TabButton.Name ~= "Placeholder" then
+    			TabButton.BackgroundTransparency = 1
+    			TabButton.Title.TextTransparency = 1
+    			TabButton.Image.ImageTransparency = 1
+    			TabButton.UIStroke.Transparency = 1
+    		end
+    	end
+    
+    	if Settings.Discord and not useStudio then
+    		if isfolder and not isfolder(RayfieldFolder.."/Discord Invites") then
+    			makefolder(RayfieldFolder.."/Discord Invites")
+    		end
+    
+    		if isfile and not isfile(RayfieldFolder.."/Discord Invites".."/"..Settings.Discord.Invite..ConfigurationExtension) then
+    			if request then
+    				pcall(function()
+    					request({
+    						Url = 'http://127.0.0.1:6463/rpc?v=1',
+    						Method = 'POST',
+    						Headers = {
+    							['Content-Type'] = 'application/json',
+    							Origin = 'https://discord.com'
+    						},
+    						Body = HttpService:JSONEncode({
+    							cmd = 'INVITE_BROWSER',
+    							nonce = HttpService:GenerateGUID(false),
+    							args = {code = Settings.Discord.Invite}
+    						})
+    					})
+    				end)
+    			end
+    
+    			if Settings.Discord.RememberJoins then -- We do logic this way so if the developer changes this setting, the user still won't be prompted, only new users
+    				writefile(RayfieldFolder.."/Discord Invites".."/"..Settings.Discord.Invite..ConfigurationExtension,"Rayfield RememberJoins is true for this invite, this invite will not ask you to join again")
+    			end
+    		end
+    	end
+    
+    	if (Settings.KeySystem) then
+    		if not Settings.KeySettings then
+    			Passthrough = true
+    			return
+    		end
+    
+    		if isfolder and not isfolder(RayfieldFolder.."/Key System") then
+    			makefolder(RayfieldFolder.."/Key System")
+    		end
+    
+    		if typeof(Settings.KeySettings.Key) == "string" then Settings.KeySettings.Key = {Settings.KeySettings.Key} end
+    
+    		if Settings.KeySettings.GrabKeyFromSite then
+    			for i, Key in ipairs(Settings.KeySettings.Key) do
+    				local Success, Response = pcall(function()
+    					Settings.KeySettings.Key[i] = tostring(game:HttpGet(Key):gsub("[\n\r]", " "))
+    					Settings.KeySettings.Key[i] = string.gsub(Settings.KeySettings.Key[i], " ", "")
+    				end)
+    				if not Success then
+    					print("Rayfield | "..Key.." Error " ..tostring(Response))
+    					warn('Check docs.sirius.menu for help with Rayfield specific development.')
+    				end
+    			end
+    		end
+    
+    		if not Settings.KeySettings.FileName then
+    			Settings.KeySettings.FileName = "No file name specified"
+    		end
+    
+    		if isfile and isfile(RayfieldFolder.."/Key System".."/"..Settings.KeySettings.FileName..ConfigurationExtension) then
+    			Passthrough = Settings.KeySettings.ValidateCallback(readfile(RayfieldFolder.."/Key System".."/"..Settings.KeySettings.FileName..ConfigurationExtension))
+    		end
+    
+    		if not Passthrough then
+    			local AttemptsRemaining = math.random(2, 5)
+    			Rayfield.Enabled = false
+    			local KeyUI = useStudio and script.Parent:FindFirstChild('Key') or game:GetObjects("rbxassetid://11380036235")[1]
+    
+    			KeyUI.Enabled = true
+    
+    			if gethui then
+    				KeyUI.Parent = gethui()
+    			elseif syn and syn.protect_gui then
+    				syn.protect_gui(KeyUI)
+    				KeyUI.Parent = CoreGui
+    			elseif not useStudio and CoreGui:FindFirstChild("RobloxGui") then
+    				KeyUI.Parent = CoreGui:FindFirstChild("RobloxGui")
+    			elseif not useStudio then
+    				KeyUI.Parent = CoreGui
+    			end
+    
+    			if gethui then
+    				for _, Interface in ipairs(gethui():GetChildren()) do
+    					if Interface.Name == KeyUI.Name and Interface ~= KeyUI then
+    						Interface.Enabled = false
+    						Interface.Name = "KeyUI-Old"
+    					end
+    				end
+    			elseif not useStudio then
+    				for _, Interface in ipairs(CoreGui:GetChildren()) do
+    					if Interface.Name == KeyUI.Name and Interface ~= KeyUI then
+    						Interface.Enabled = false
+    						Interface.Name = "KeyUI-Old"
+    					end
+    				end
+    			end
+    
+    			local KeyMain = KeyUI.Main
+    			KeyMain.Title.Text = Settings.KeySettings.Title or Settings.Name
+    			KeyMain.Subtitle.Text = Settings.KeySettings.Subtitle or "Key System"
+    			KeyMain.NoteMessage.Text = Settings.KeySettings.Note or "No instructions"
+    
+    			KeyMain.Size = UDim2.new(0, 467, 0, 175)
+    			KeyMain.BackgroundTransparency = 1
+    			KeyMain.Shadow.Image.ImageTransparency = 1
+    			KeyMain.Title.TextTransparency = 1
+    			KeyMain.Subtitle.TextTransparency = 1
+    			KeyMain.KeyNote.TextTransparency = 1
+    			KeyMain.Input.BackgroundTransparency = 1
+    			KeyMain.Input.UIStroke.Transparency = 1
+    			KeyMain.Input.InputBox.TextTransparency = 1
+    			KeyMain.NoteTitle.TextTransparency = 1
+    			KeyMain.NoteMessage.TextTransparency = 1
+    			KeyMain.Hide.ImageTransparency = 1
+    
+    			TweenService:Create(KeyMain, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+    			TweenService:Create(KeyMain, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Size = UDim2.new(0, 500, 0, 187)}):Play()
+    			TweenService:Create(KeyMain.Shadow.Image, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {ImageTransparency = 0.5}):Play()
+    			task.wait(0.05)
+    			TweenService:Create(KeyMain.Title, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+    			TweenService:Create(KeyMain.Subtitle, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+    			task.wait(0.05)
+    			TweenService:Create(KeyMain.KeyNote, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+    			TweenService:Create(KeyMain.Input, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+    			TweenService:Create(KeyMain.Input.UIStroke, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+    			TweenService:Create(KeyMain.Input.InputBox, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+    			task.wait(0.05)
+    			TweenService:Create(KeyMain.NoteTitle, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+    			TweenService:Create(KeyMain.NoteMessage, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+    			task.wait(0.15)
+    			TweenService:Create(KeyMain.Hide, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {ImageTransparency = 0.3}):Play()
+    
+    
+    			KeyUI.Main.Input.InputBox.FocusLost:Connect(function()
+    				if #KeyUI.Main.Input.InputBox.Text == 0 then return end
+    				local KeyFound, deniedReason = Settings.KeySettings.ValidateCallback(KeyMain.Input.InputBox.Text)
+    				if KeyFound then
+    					TweenService:Create(KeyMain, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+    					TweenService:Create(KeyMain, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Size = UDim2.new(0, 467, 0, 175)}):Play()
+    					TweenService:Create(KeyMain.Shadow.Image, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {ImageTransparency = 1}):Play()
+    					TweenService:Create(KeyMain.Title, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+    					TweenService:Create(KeyMain.Subtitle, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+    					TweenService:Create(KeyMain.KeyNote, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+    					TweenService:Create(KeyMain.Input, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+    					TweenService:Create(KeyMain.Input.UIStroke, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+    					TweenService:Create(KeyMain.Input.InputBox, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+    					TweenService:Create(KeyMain.NoteTitle, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+    					TweenService:Create(KeyMain.NoteMessage, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+    					TweenService:Create(KeyMain.Hide, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {ImageTransparency = 1}):Play()
+    					task.wait(0.51)
+    					Passthrough = true
+    					KeyMain.Visible = false
+    					if Settings.KeySettings.SaveKey then
+    						if writefile then
+    							writefile(RayfieldFolder.."/Key System".."/"..Settings.KeySettings.FileName..ConfigurationExtension, KeyMain.Input.InputBox.Text)
+    						end
+    						RayfieldLibrary:Notify({Title = "Key System", Content = "The key for this script has been saved successfully.", Image = 3605522284})
+    					end
+    				else
+    					task.spawn(function()
+    						local originalNoteTitleText = KeyMain.NoteTitle.Text
+    						local originalNoteText = KeyMain.NoteMessage.Text
+    						if #deniedReason >= 46 then
+    							KeyMain.NoteMessage.TextSize = 12
+    						end
+    						KeyMain.NoteTitle.Text = "Error"
+    						KeyMain.NoteMessage.Text = deniedReason
+    						task.wait(3)
+    						if #deniedReason >= 46 then
+    							KeyMain.NoteMessage.TextSize = 14
+    						end
+    						KeyMain.NoteTitle.Text = originalNoteTitleText
+    						KeyMain.NoteMessage.Text = originalNoteText
+    					end)
+    					if AttemptsRemaining == 0 then
+    						TweenService:Create(KeyMain, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+    						TweenService:Create(KeyMain, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Size = UDim2.new(0, 467, 0, 175)}):Play()
+    						TweenService:Create(KeyMain.Shadow.Image, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {ImageTransparency = 1}):Play()
+    						TweenService:Create(KeyMain.Title, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+    						TweenService:Create(KeyMain.Subtitle, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+    						TweenService:Create(KeyMain.KeyNote, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+    						TweenService:Create(KeyMain.Input, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+    						TweenService:Create(KeyMain.Input.UIStroke, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+    						TweenService:Create(KeyMain.Input.InputBox, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+    						TweenService:Create(KeyMain.NoteTitle, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+    						TweenService:Create(KeyMain.NoteMessage, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+    						TweenService:Create(KeyMain.Hide, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {ImageTransparency = 1}):Play()
+    						task.wait(0.45)
+    						Players.LocalPlayer:Kick("No Attempts Remaining")
+    						game:Shutdown()
+    					end
+    					KeyMain.Input.InputBox.Text = ""
+    					AttemptsRemaining = AttemptsRemaining - 1
+    					TweenService:Create(KeyMain, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Size = UDim2.new(0, 467, 0, 175)}):Play()
+    					TweenService:Create(KeyMain, TweenInfo.new(0.4, Enum.EasingStyle.Elastic), {Position = UDim2.new(0.495,0,0.5,0)}):Play()
+    					task.wait(0.1)
+    					TweenService:Create(KeyMain, TweenInfo.new(0.4, Enum.EasingStyle.Elastic), {Position = UDim2.new(0.505,0,0.5,0)}):Play()
+    					task.wait(0.1)
+    					TweenService:Create(KeyMain, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {Position = UDim2.new(0.5,0,0.5,0)}):Play()
+    					TweenService:Create(KeyMain, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Size = UDim2.new(0, 500, 0, 187)}):Play()
+    				end
+    			end)
+    
+    			KeyMain.Hide.MouseButton1Click:Connect(function()
+    				TweenService:Create(KeyMain, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+    				TweenService:Create(KeyMain, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Size = UDim2.new(0, 467, 0, 175)}):Play()
+    				TweenService:Create(KeyMain.Shadow.Image, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {ImageTransparency = 1}):Play()
+    				TweenService:Create(KeyMain.Title, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+    				TweenService:Create(KeyMain.Subtitle, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+    				TweenService:Create(KeyMain.KeyNote, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+    				TweenService:Create(KeyMain.Input, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+    				TweenService:Create(KeyMain.Input.UIStroke, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+    				TweenService:Create(KeyMain.Input.InputBox, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+    				TweenService:Create(KeyMain.NoteTitle, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+    				TweenService:Create(KeyMain.NoteMessage, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+    				TweenService:Create(KeyMain.Hide, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {ImageTransparency = 1}):Play()
+    				task.wait(0.51)
+    				RayfieldLibrary:Destroy()
+    				KeyUI:Destroy()
+    			end)
+    		else
+    			Passthrough = true
+    		end
+    	end
+    	if Settings.KeySystem then
+    		repeat task.wait() until Passthrough
+    	end
+    
+    	task.wait(0.5)
+    	TweenService:Create(Main, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+    	TweenService:Create(Main.Shadow.Image, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {ImageTransparency = 0.6}):Play()
+    	task.wait(0.1)
+    	TweenService:Create(LoadingFrame.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+    	task.wait(0.05)
+    	TweenService:Create(LoadingFrame.Subtitle, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+    	task.wait(0.05)
+    	TweenService:Create(LoadingFrame.Version, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+    
+    	Rayfield.Enabled = true
+    	Notifications.Template.Visible = false
+    	Notifications.Visible = true
+    
+    	Elements.Template.LayoutOrder = 100000
+    	Elements.Template.Visible = false
+    
+    	Elements.UIPageLayout.FillDirection = Enum.FillDirection.Horizontal
+    	TabList.Template.Visible = false
+    
+    	-- Tab
+    	local FirstTab = false
+    	local Window = {}
+    	getgenv().FARTSAKEN_WINDOW = Window
+    	function Window:SetWindowName(newName)
+    		Settings.Name = newName
+    		Topbar.Title.Text = newName
+    	end
+    
+    	function Window:CreateTab(Name, Image, Ext)
+    		local SDone = false
+    		local TabButton = TabList.Template:Clone()
+    		TabButton.Name = Name
+    		TabButton.Title.Text = Name
+    		TabButton.Parent = TabList
+    		TabButton.Title.TextWrapped = false
+    		TabButton.Size = UDim2.new(0, TabButton.Title.TextBounds.X + 30, 0, 30)
+    
+    		if Image and Image ~= 0 then
+    			if typeof(Image) == 'string' then
+    				local asset = getIcon(Image)
+    
+    				TabButton.Image.Image = 'rbxassetid://'..asset.id
+    				TabButton.Image.ImageRectOffset = asset.imageRectOffset
+    				TabButton.Image.ImageRectSize = asset.imageRectSize
+    			else
+    				TabButton.Image.Image = "rbxassetid://"..Image
+    			end
+    
+    			TabButton.Title.AnchorPoint = Vector2.new(0, 0.5)
+    			TabButton.Title.Position = UDim2.new(0, 37, 0.5, 0)
+    			TabButton.Image.Visible = true
+    			TabButton.Title.TextXAlignment = Enum.TextXAlignment.Left
+    			TabButton.Size = UDim2.new(0, TabButton.Title.TextBounds.X + 52, 0, 30)
+    		end
+    
+    
+    
+    		TabButton.BackgroundTransparency = 1
+    		TabButton.Title.TextTransparency = 1
+    		TabButton.Image.ImageTransparency = 1
+    		TabButton.UIStroke.Transparency = 1
+    
+    		TabButton.Visible = not Ext or false
+    
+    		-- Create Elements Page
+    		local TabPage = Elements.Template:Clone()
+    		TabPage.Name = Name
+    		TabPage.Visible = true
+    
+    		TabPage.LayoutOrder = #Elements:GetChildren() or Ext and 10000
+    
+    		for _, TemplateElement in ipairs(TabPage:GetChildren()) do
+    			if TemplateElement.ClassName == "Frame" and TemplateElement.Name ~= "Placeholder" then
+    				TemplateElement:Destroy()
+    			end
+    		end
+    
+    		TabPage.Parent = Elements
+    		if not FirstTab and not Ext then
+    			Elements.UIPageLayout.Animated = false
+    			Elements.UIPageLayout:JumpTo(TabPage)
+    			Elements.UIPageLayout.Animated = true
+    		end
+    
+    		TabButton.UIStroke.Color = SelectedTheme.TabStroke
+    
+    		if Elements.UIPageLayout.CurrentPage == TabPage then
+    			TabButton.BackgroundColor3 = SelectedTheme.TabBackgroundSelected
+    			TabButton.Image.ImageColor3 = SelectedTheme.SelectedTabTextColor
+    			TabButton.Title.TextColor3 = SelectedTheme.SelectedTabTextColor
+    		else
+    			TabButton.BackgroundColor3 = SelectedTheme.TabBackground
+    			TabButton.Image.ImageColor3 = SelectedTheme.TabTextColor
+    			TabButton.Title.TextColor3 = SelectedTheme.TabTextColor
+    		end
+    
+    
+    		-- Animate
+    		task.wait(0.1)
+    		if FirstTab or Ext then
+    			TabButton.BackgroundColor3 = SelectedTheme.TabBackground
+    			TabButton.Image.ImageColor3 = SelectedTheme.TabTextColor
+    			TabButton.Title.TextColor3 = SelectedTheme.TabTextColor
+    			TweenService:Create(TabButton, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.7}):Play()
+    			TweenService:Create(TabButton.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0.2}):Play()
+    			TweenService:Create(TabButton.Image, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {ImageTransparency = 0.2}):Play()
+    			TweenService:Create(TabButton.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+    		elseif not Ext then
+    			FirstTab = Name
+    			TabButton.BackgroundColor3 = SelectedTheme.TabBackgroundSelected
+    			TabButton.Image.ImageColor3 = SelectedTheme.SelectedTabTextColor
+    			TabButton.Title.TextColor3 = SelectedTheme.SelectedTabTextColor
+    			TweenService:Create(TabButton.Image, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {ImageTransparency = 0}):Play()
+    			TweenService:Create(TabButton, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+    			TweenService:Create(TabButton.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+    		end
+    
+    
+    		TabButton.Interact.MouseButton1Click:Connect(function()
+    			if Minimised then return end
+    			TweenService:Create(TabButton, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+    			TweenService:Create(TabButton.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+    			TweenService:Create(TabButton.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+    			TweenService:Create(TabButton.Image, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {ImageTransparency = 0}):Play()
+    			TweenService:Create(TabButton, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.TabBackgroundSelected}):Play()
+    			TweenService:Create(TabButton.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextColor3 = SelectedTheme.SelectedTabTextColor}):Play()
+    			TweenService:Create(TabButton.Image, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {ImageColor3 = SelectedTheme.SelectedTabTextColor}):Play()
+    
+    			for _, OtherTabButton in ipairs(TabList:GetChildren()) do
+    				if OtherTabButton.Name ~= "Template" and OtherTabButton.ClassName == "Frame" and OtherTabButton ~= TabButton and OtherTabButton.Name ~= "Placeholder" then
+    					TweenService:Create(OtherTabButton, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.TabBackground}):Play()
+    					TweenService:Create(OtherTabButton.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextColor3 = SelectedTheme.TabTextColor}):Play()
+    					TweenService:Create(OtherTabButton.Image, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {ImageColor3 = SelectedTheme.TabTextColor}):Play()
+    					TweenService:Create(OtherTabButton, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.7}):Play()
+    					TweenService:Create(OtherTabButton.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0.2}):Play()
+    					TweenService:Create(OtherTabButton.Image, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {ImageTransparency = 0.2}):Play()
+    					TweenService:Create(OtherTabButton.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+    				end
+    			end
+    
+    			if Elements.UIPageLayout.CurrentPage ~= TabPage then
+    				Elements.UIPageLayout:JumpTo(TabPage)
+    			end
+    		end)
+    
+    		local Tab = {}
+    
+    		-- Button
+    		function Tab:CreateButton(ButtonSettings)
+    			local ButtonValue = {}
+    
+    			local Button = Elements.Template.Button:Clone()
+    			Button.Name = ButtonSettings.Name
+    			Button.Title.Text = ButtonSettings.Name
+    			Button.Visible = true
+    			Button.Parent = TabPage
+    
+    			Button.BackgroundTransparency = 1
+    			Button.UIStroke.Transparency = 1
+    			Button.Title.TextTransparency = 1
+    
+    			TweenService:Create(Button, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+    			TweenService:Create(Button.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+    			TweenService:Create(Button.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+    
+    
+    			Button.Interact.MouseButton1Click:Connect(function()
+    				local Success, Response = pcall(ButtonSettings.Callback)
+    				if not Success then
+    					TweenService:Create(Button, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+    					TweenService:Create(Button.ElementIndicator, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+    					TweenService:Create(Button.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+    					Button.Title.Text = "Callback Error"
+    					print("Rayfield | "..ButtonSettings.Name.." Callback Error " ..tostring(Response))
+    					warn('Check docs.sirius.menu for help with Rayfield specific development.')
+    					task.wait(0.5)
+    					Button.Title.Text = ButtonSettings.Name
+    					TweenService:Create(Button, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+    					TweenService:Create(Button.ElementIndicator, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {TextTransparency = 0.9}):Play()
+    					TweenService:Create(Button.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+    				else
+    					if not ButtonSettings.Ext then
+    						SaveConfiguration(ButtonSettings.Name..'\n')
+    					end
+    					TweenService:Create(Button, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+    					TweenService:Create(Button.ElementIndicator, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+    					TweenService:Create(Button.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+    					task.wait(0.2)
+    					TweenService:Create(Button, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+    					TweenService:Create(Button.ElementIndicator, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {TextTransparency = 0.9}):Play()
+    					TweenService:Create(Button.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+    				end
+    			end)
+    
+    			Button.MouseEnter:Connect(function()
+    				TweenService:Create(Button, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+    				TweenService:Create(Button.ElementIndicator, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {TextTransparency = 0.7}):Play()
+    			end)
+    
+    			Button.MouseLeave:Connect(function()
+    				TweenService:Create(Button, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+    				TweenService:Create(Button.ElementIndicator, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {TextTransparency = 0.9}):Play()
+    			end)
+    
+    			function ButtonValue:Set(NewButton)
+    				Button.Title.Text = NewButton
+    				Button.Name = NewButton
+    			end
+    
+    			return ButtonValue
+    		end
+    
+    		-- ColorPicker
+    		function Tab:CreateColorPicker(ColorPickerSettings) -- by Throit
+    			ColorPickerSettings.Type = "ColorPicker"
+    			local ColorPicker = Elements.Template.ColorPicker:Clone()
+    			local Background = ColorPicker.CPBackground
+    			local Display = Background.Display
+    			local Main = Background.MainCP
+    			local Slider = ColorPicker.ColorSlider
+    			ColorPicker.ClipsDescendants = true
+    			ColorPicker.Name = ColorPickerSettings.Name
+    			ColorPicker.Title.Text = ColorPickerSettings.Name
+    			ColorPicker.Visible = true
+    			ColorPicker.Parent = TabPage
+    			ColorPicker.Size = UDim2.new(1, -10, 0, 45)
+    			Background.Size = UDim2.new(0, 39, 0, 22)
+    			Display.BackgroundTransparency = 0
+    			Main.MainPoint.ImageTransparency = 1
+    			ColorPicker.Interact.Size = UDim2.new(1, 0, 1, 0)
+    			ColorPicker.Interact.Position = UDim2.new(0.5, 0, 0.5, 0)
+    			ColorPicker.RGB.Position = UDim2.new(0, 17, 0, 70)
+    			ColorPicker.HexInput.Position = UDim2.new(0, 17, 0, 90)
+    			Main.ImageTransparency = 1
+    			Background.BackgroundTransparency = 1
+    
+    			for _, rgbinput in ipairs(ColorPicker.RGB:GetChildren()) do
+    				if rgbinput:IsA("Frame") then
+    					rgbinput.BackgroundColor3 = SelectedTheme.InputBackground
+    					rgbinput.UIStroke.Color = SelectedTheme.InputStroke
+    				end
+    			end
+    
+    			ColorPicker.HexInput.BackgroundColor3 = SelectedTheme.InputBackground
+    			ColorPicker.HexInput.UIStroke.Color = SelectedTheme.InputStroke
+    
+    			local opened = false
+    			local mouse = Players.LocalPlayer:GetMouse()
+    			Main.Image = "http://www.roblox.com/asset/?id=11415645739"
+    			local mainDragging = false
+    			local sliderDragging = false
+    			ColorPicker.Interact.MouseButton1Down:Connect(function()
+    				task.spawn(function()
+    					TweenService:Create(ColorPicker, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+    					TweenService:Create(ColorPicker.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+    					task.wait(0.2)
+    					TweenService:Create(ColorPicker, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+    					TweenService:Create(ColorPicker.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+    				end)
+    
+    				if not opened then
+    					opened = true
+    					TweenService:Create(Background, TweenInfo.new(0.45, Enum.EasingStyle.Exponential), {Size = UDim2.new(0, 18, 0, 15)}):Play()
+    					task.wait(0.1)
+    					TweenService:Create(ColorPicker, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Size = UDim2.new(1, -10, 0, 120)}):Play()
+    					TweenService:Create(Background, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Size = UDim2.new(0, 173, 0, 86)}):Play()
+    					TweenService:Create(Display, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+    					TweenService:Create(ColorPicker.Interact, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Position = UDim2.new(0.289, 0, 0.5, 0)}):Play()
+    					TweenService:Create(ColorPicker.RGB, TweenInfo.new(0.8, Enum.EasingStyle.Exponential), {Position = UDim2.new(0, 17, 0, 40)}):Play()
+    					TweenService:Create(ColorPicker.HexInput, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Position = UDim2.new(0, 17, 0, 73)}):Play()
+    					TweenService:Create(ColorPicker.Interact, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Size = UDim2.new(0.574, 0, 1, 0)}):Play()
+    					TweenService:Create(Main.MainPoint, TweenInfo.new(0.2, Enum.EasingStyle.Exponential), {ImageTransparency = 0}):Play()
+    					TweenService:Create(Main, TweenInfo.new(0.2, Enum.EasingStyle.Exponential), {ImageTransparency = SelectedTheme ~= RayfieldLibrary.Theme.Default and 0.25 or 0.1}):Play()
+    					TweenService:Create(Background, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+    				else
+    					opened = false
+    					TweenService:Create(ColorPicker, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Size = UDim2.new(1, -10, 0, 45)}):Play()
+    					TweenService:Create(Background, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Size = UDim2.new(0, 39, 0, 22)}):Play()
+    					TweenService:Create(ColorPicker.Interact, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Size = UDim2.new(1, 0, 1, 0)}):Play()
+    					TweenService:Create(ColorPicker.Interact, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Position = UDim2.new(0.5, 0, 0.5, 0)}):Play()
+    					TweenService:Create(ColorPicker.RGB, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Position = UDim2.new(0, 17, 0, 70)}):Play()
+    					TweenService:Create(ColorPicker.HexInput, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Position = UDim2.new(0, 17, 0, 90)}):Play()
+    					TweenService:Create(Display, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+    					TweenService:Create(Main.MainPoint, TweenInfo.new(0.2, Enum.EasingStyle.Exponential), {ImageTransparency = 1}):Play()
+    					TweenService:Create(Main, TweenInfo.new(0.2, Enum.EasingStyle.Exponential), {ImageTransparency = 1}):Play()
+    					TweenService:Create(Background, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+    				end
+    
+    			end)
+    
+    			UserInputService.InputEnded:Connect(function(input, gameProcessed) if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+    					mainDragging = false
+    					sliderDragging = false
+    				end end)
+    			Main.MouseButton1Down:Connect(function()
+    				if opened then
+    					mainDragging = true
+    				end
+    			end)
+    			Main.MainPoint.MouseButton1Down:Connect(function()
+    				if opened then
+    					mainDragging = true
+    				end
+    			end)
+    			Slider.MouseButton1Down:Connect(function()
+    				sliderDragging = true
+    			end)
+    			Slider.SliderPoint.MouseButton1Down:Connect(function()
+    				sliderDragging = true
+    			end)
+    			local h,s,v = ColorPickerSettings.Color:ToHSV()
+    			local color = Color3.fromHSV(h,s,v)
+    			local hex = string.format("#%02X%02X%02X",color.R*0xFF,color.G*0xFF,color.B*0xFF)
+    			ColorPicker.HexInput.InputBox.Text = hex
+    			local function setDisplay()
+    				--Main
+    				Main.MainPoint.Position = UDim2.new(s,-Main.MainPoint.AbsoluteSize.X/2,1-v,-Main.MainPoint.AbsoluteSize.Y/2)
+    				Main.MainPoint.ImageColor3 = Color3.fromHSV(h,s,v)
+    				Background.BackgroundColor3 = Color3.fromHSV(h,1,1)
+    				Display.BackgroundColor3 = Color3.fromHSV(h,s,v)
+    				--Slider
+    				local x = h * Slider.AbsoluteSize.X
+    				Slider.SliderPoint.Position = UDim2.new(0,x-Slider.SliderPoint.AbsoluteSize.X/2,0.5,0)
+    				Slider.SliderPoint.ImageColor3 = Color3.fromHSV(h,1,1)
+    				local color = Color3.fromHSV(h,s,v)
+    				local r,g,b = math.floor((color.R*255)+0.5),math.floor((color.G*255)+0.5),math.floor((color.B*255)+0.5)
+    				ColorPicker.RGB.RInput.InputBox.Text = tostring(r)
+    				ColorPicker.RGB.GInput.InputBox.Text = tostring(g)
+    				ColorPicker.RGB.BInput.InputBox.Text = tostring(b)
+    				hex = string.format("#%02X%02X%02X",color.R*0xFF,color.G*0xFF,color.B*0xFF)
+    				ColorPicker.HexInput.InputBox.Text = hex
+    			end
+    			setDisplay()
+    			ColorPicker.HexInput.InputBox.FocusLost:Connect(function()
+    				if not pcall(function()
+    						local r, g, b = string.match(ColorPicker.HexInput.InputBox.Text, "^#?(%w%w)(%w%w)(%w%w)$")
+    						local rgbColor = Color3.fromRGB(tonumber(r, 16),tonumber(g, 16), tonumber(b, 16))
+    						h,s,v = rgbColor:ToHSV()
+    						hex = ColorPicker.HexInput.InputBox.Text
+    						setDisplay()
+    						ColorPickerSettings.Color = rgbColor
+    					end)
+    				then
+    					ColorPicker.HexInput.InputBox.Text = hex
+    				end
+    				pcall(function()ColorPickerSettings.Callback(Color3.fromHSV(h,s,v))end)
+    				local r,g,b = math.floor((h*255)+0.5),math.floor((s*255)+0.5),math.floor((v*255)+0.5)
+    				ColorPickerSettings.Color = Color3.fromRGB(r,g,b)
+    				if not ColorPickerSettings.Ext then
+    					SaveConfiguration(ColorPickerSettings.Flag..'\n'..tostring(ColorPickerSettings.Color))
+    				end
+    			end)
+    			--RGB
+    			local function rgbBoxes(box,toChange)
+    				local value = tonumber(box.Text)
+    				local color = Color3.fromHSV(h,s,v)
+    				local oldR,oldG,oldB = math.floor((color.R*255)+0.5),math.floor((color.G*255)+0.5),math.floor((color.B*255)+0.5)
+    				local save
+    				if toChange == "R" then save = oldR
+oldR = value elseif toChange == "G" then save = oldG
+oldG = value else save = oldB
+oldB = value end
+    				if value then
+    					value = math.clamp(value,0,255)
+    					h,s,v = Color3.fromRGB(oldR,oldG,oldB):ToHSV()
+    
+    					setDisplay()
+    				else
+    					box.Text = tostring(save)
+    				end
+    				local r,g,b = math.floor((h*255)+0.5),math.floor((s*255)+0.5),math.floor((v*255)+0.5)
+    				ColorPickerSettings.Color = Color3.fromRGB(r,g,b)
+    				if not ColorPickerSettings.Ext then
+    					SaveConfiguration()
+    				end
+    			end
+    			ColorPicker.RGB.RInput.InputBox.FocusLost:connect(function()
+    				rgbBoxes(ColorPicker.RGB.RInput.InputBox,"R")
+    				pcall(function()ColorPickerSettings.Callback(Color3.fromHSV(h,s,v))end)
+    			end)
+    			ColorPicker.RGB.GInput.InputBox.FocusLost:connect(function()
+    				rgbBoxes(ColorPicker.RGB.GInput.InputBox,"G")
+    				pcall(function()ColorPickerSettings.Callback(Color3.fromHSV(h,s,v))end)
+    			end)
+    			ColorPicker.RGB.BInput.InputBox.FocusLost:connect(function()
+    				rgbBoxes(ColorPicker.RGB.BInput.InputBox,"B")
+    				pcall(function()ColorPickerSettings.Callback(Color3.fromHSV(h,s,v))end)
+    			end)
+    
+    			RunService.RenderStepped:connect(function()
+    				if mainDragging then
+    					local localX = math.clamp(mouse.X-Main.AbsolutePosition.X,0,Main.AbsoluteSize.X)
+    					local localY = math.clamp(mouse.Y-Main.AbsolutePosition.Y,0,Main.AbsoluteSize.Y)
+    					Main.MainPoint.Position = UDim2.new(0,localX-Main.MainPoint.AbsoluteSize.X/2,0,localY-Main.MainPoint.AbsoluteSize.Y/2)
+    					s = localX / Main.AbsoluteSize.X
+    					v = 1 - (localY / Main.AbsoluteSize.Y)
+    					Display.BackgroundColor3 = Color3.fromHSV(h,s,v)
+    					Main.MainPoint.ImageColor3 = Color3.fromHSV(h,s,v)
+    					Background.BackgroundColor3 = Color3.fromHSV(h,1,1)
+    					local color = Color3.fromHSV(h,s,v)
+    					local r,g,b = math.floor((color.R*255)+0.5),math.floor((color.G*255)+0.5),math.floor((color.B*255)+0.5)
+    					ColorPicker.RGB.RInput.InputBox.Text = tostring(r)
+    					ColorPicker.RGB.GInput.InputBox.Text = tostring(g)
+    					ColorPicker.RGB.BInput.InputBox.Text = tostring(b)
+    					ColorPicker.HexInput.InputBox.Text = string.format("#%02X%02X%02X",color.R*0xFF,color.G*0xFF,color.B*0xFF)
+    					pcall(function()ColorPickerSettings.Callback(Color3.fromHSV(h,s,v))end)
+    					ColorPickerSettings.Color = Color3.fromRGB(r,g,b)
+    					if not ColorPickerSettings.Ext then
+    						SaveConfiguration()
+    					end
+    				end
+    				if sliderDragging then
+    					local localX = math.clamp(mouse.X-Slider.AbsolutePosition.X,0,Slider.AbsoluteSize.X)
+    					h = localX / Slider.AbsoluteSize.X
+    					Display.BackgroundColor3 = Color3.fromHSV(h,s,v)
+    					Slider.SliderPoint.Position = UDim2.new(0,localX-Slider.SliderPoint.AbsoluteSize.X/2,0.5,0)
+    					Slider.SliderPoint.ImageColor3 = Color3.fromHSV(h,1,1)
+    					Background.BackgroundColor3 = Color3.fromHSV(h,1,1)
+    					Main.MainPoint.ImageColor3 = Color3.fromHSV(h,s,v)
+    					local color = Color3.fromHSV(h,s,v)
+    					local r,g,b = math.floor((color.R*255)+0.5),math.floor((color.G*255)+0.5),math.floor((color.B*255)+0.5)
+    					ColorPicker.RGB.RInput.InputBox.Text = tostring(r)
+    					ColorPicker.RGB.GInput.InputBox.Text = tostring(g)
+    					ColorPicker.RGB.BInput.InputBox.Text = tostring(b)
+    					ColorPicker.HexInput.InputBox.Text = string.format("#%02X%02X%02X",color.R*0xFF,color.G*0xFF,color.B*0xFF)
+    					pcall(function()ColorPickerSettings.Callback(Color3.fromHSV(h,s,v))end)
+    					ColorPickerSettings.Color = Color3.fromRGB(r,g,b)
+    					if not ColorPickerSettings.Ext then
+    						SaveConfiguration()
+    					end
+    				end
+    			end)
+    
+    			if Settings.ConfigurationSaving then
+    				if Settings.ConfigurationSaving.Enabled and ColorPickerSettings.Flag then
+    					RayfieldLibrary.Flags[ColorPickerSettings.Flag] = ColorPickerSettings
+    				end
+    			end
+    
+    			function ColorPickerSettings:Set(RGBColor)
+    				ColorPickerSettings.Color = RGBColor
+    				h,s,v = ColorPickerSettings.Color:ToHSV()
+    				color = Color3.fromHSV(h,s,v)
+    				setDisplay()
+    			end
+    
+    			ColorPicker.MouseEnter:Connect(function()
+    				TweenService:Create(ColorPicker, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+    			end)
+    
+    			ColorPicker.MouseLeave:Connect(function()
+    				TweenService:Create(ColorPicker, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+    			end)
+    
+    			Rayfield.Main:GetPropertyChangedSignal('BackgroundColor3'):Connect(function()
+    				for _, rgbinput in ipairs(ColorPicker.RGB:GetChildren()) do
+    					if rgbinput:IsA("Frame") then
+    						rgbinput.BackgroundColor3 = SelectedTheme.InputBackground
+    						rgbinput.UIStroke.Color = SelectedTheme.InputStroke
+    					end
+    				end
+    
+    				ColorPicker.HexInput.BackgroundColor3 = SelectedTheme.InputBackground
+    				ColorPicker.HexInput.UIStroke.Color = SelectedTheme.InputStroke
+    			end)
+    
+    			return ColorPickerSettings
+    		end
+    
+    		-- Section
+    		function Tab:CreateSection(SectionName)
+    
+    			local SectionValue = {}
+    
+    			if SDone then
+    				local SectionSpace = Elements.Template.SectionSpacing:Clone()
+    				SectionSpace.Visible = true
+    				SectionSpace.Parent = TabPage
+    			end
+    
+    			local Section = Elements.Template.SectionTitle:Clone()
+    			Section.Title.Text = SectionName
+    			Section.Visible = true
+    			Section.Parent = TabPage
+    
+    			Section.Title.TextTransparency = 1
+    			TweenService:Create(Section.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0.4}):Play()
+    
+    			function SectionValue:Set(NewSection)
+    				Section.Title.Text = NewSection
+    			end
+    
+    			SDone = true
+    
+    			return SectionValue
+    		end
+    
+    		-- Divider
+    		function Tab:CreateDivider()
+    			local DividerValue = {}
+    
+    			local Divider = Elements.Template.Divider:Clone()
+    			Divider.Visible = true
+    			Divider.Parent = TabPage
+    
+    			Divider.Divider.BackgroundTransparency = 1
+    			TweenService:Create(Divider.Divider, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.85}):Play()
+    
+    			function DividerValue:Set(Value)
+    				Divider.Visible = Value
+    			end
+    
+    			return DividerValue
+    		end
+    
+    		-- Label
+    		function Tab:CreateLabel(LabelText : string, Icon: number, Color : Color3, IgnoreTheme : boolean)
+    			local LabelValue = {}
+    
+    			local Label = Elements.Template.Label:Clone()
+    			Label.Title.Text = LabelText
+    			Label.Visible = true
+    			Label.Parent = TabPage
+    
+    			Label.BackgroundColor3 = Color or SelectedTheme.SecondaryElementBackground
+    			Label.UIStroke.Color = Color or SelectedTheme.SecondaryElementStroke
+    
+    			if Icon then
+    				if typeof(Icon) == 'string' then
+    					local asset = getIcon(Icon)
+    
+    					Label.Icon.Image = 'rbxassetid://'..asset.id
+    					Label.Icon.ImageRectOffset = asset.imageRectOffset
+    					Label.Icon.ImageRectSize = asset.imageRectSize
+    				else
+    					Label.Icon.Image = "rbxassetid://" .. (Icon or 0)
+    				end
+    			else
+    				Label.Icon.Image = "rbxassetid://" .. 0
+    			end
+    
+    			if Icon and Label:FindFirstChild('Icon') then
+    				Label.Title.Position = UDim2.new(0, 45, 0.5, 0)
+    				Label.Title.Size = UDim2.new(1, -100, 0, 14)
+    
+    				if Icon then
+    					if typeof(Icon) == 'string' then
+    						local asset = getIcon(Icon)
+    
+    						Label.Icon.Image = 'rbxassetid://'..asset.id
+    						Label.Icon.ImageRectOffset = asset.imageRectOffset
+    						Label.Icon.ImageRectSize = asset.imageRectSize
+    					else
+    						Label.Icon.Image = "rbxassetid://" .. (Icon or 0)
+    					end
+    				else
+    					Label.Icon.Image = "rbxassetid://" .. 0
+    				end
+    
+    				Label.Icon.Visible = true
+    			end
+    
+    			Label.Icon.ImageTransparency = 1
+    			Label.BackgroundTransparency = 1
+    			Label.UIStroke.Transparency = 1
+    			Label.Title.TextTransparency = 1
+    
+    			TweenService:Create(Label, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = Color and 0.8 or 0}):Play()
+    			TweenService:Create(Label.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = Color and 0.7 or 0}):Play()
+    			TweenService:Create(Label.Icon, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {ImageTransparency = 0.2}):Play()
+    			TweenService:Create(Label.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = Color and 0.2 or 0}):Play()
+    
+    			function LabelValue:Set(NewLabel, Icon, Color)
+    				Label.Title.Text = NewLabel
+    
+    				if Color then
+    					Label.BackgroundColor3 = Color or SelectedTheme.SecondaryElementBackground
+    					Label.UIStroke.Color = Color or SelectedTheme.SecondaryElementStroke
+    				end
+    
+    				if Icon and Label:FindFirstChild('Icon') then
+    					Label.Title.Position = UDim2.new(0, 45, 0.5, 0)
+    					Label.Title.Size = UDim2.new(1, -100, 0, 14)
+    
+    					if Icon then
+    						if typeof(Icon) == 'string' then
+    							local asset = getIcon(Icon)
+    
+    							Label.Icon.Image = 'rbxassetid://'..asset.id
+    							Label.Icon.ImageRectOffset = asset.imageRectOffset
+    							Label.Icon.ImageRectSize = asset.imageRectSize
+    						else
+    							Label.Icon.Image = "rbxassetid://" .. (Icon or 0)
+    						end
+    					else
+    						Label.Icon.Image = "rbxassetid://" .. 0
+    					end
+    
+    					Label.Icon.Visible = true
+    				end
+    			end
+    
+    			Rayfield.Main:GetPropertyChangedSignal('BackgroundColor3'):Connect(function()
+    				Label.BackgroundColor3 = IgnoreTheme and (Color or Label.BackgroundColor3) or SelectedTheme.SecondaryElementBackground
+    				Label.UIStroke.Color = IgnoreTheme and (Color or Label.BackgroundColor3) or SelectedTheme.SecondaryElementStroke
+    			end)
+    
+    			return LabelValue
+    		end
+    
+    		-- Paragraph
+    		function Tab:CreateParagraph(ParagraphSettings)
+    			local ParagraphValue = {}
+    
+    			local Paragraph = Elements.Template.Paragraph:Clone()
+    			Paragraph.Title.Text = ParagraphSettings.Title
+    			Paragraph.Content.Text = ParagraphSettings.Content
+    			Paragraph.Visible = true
+    			Paragraph.Parent = TabPage
+    
+    			Paragraph.BackgroundTransparency = 1
+    			Paragraph.UIStroke.Transparency = 1
+    			Paragraph.Title.TextTransparency = 1
+    			Paragraph.Content.TextTransparency = 1
+    
+    			Paragraph.BackgroundColor3 = SelectedTheme.SecondaryElementBackground
+    			Paragraph.UIStroke.Color = SelectedTheme.SecondaryElementStroke
+    
+    			TweenService:Create(Paragraph, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+    			TweenService:Create(Paragraph.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+    			TweenService:Create(Paragraph.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+    			TweenService:Create(Paragraph.Content, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+    
+    			function ParagraphValue:Set(NewParagraphSettings)
+    				Paragraph.Title.Text = NewParagraphSettings.Title
+    				Paragraph.Content.Text = NewParagraphSettings.Content
+    			end
+    
+    			Rayfield.Main:GetPropertyChangedSignal('BackgroundColor3'):Connect(function()
+    				Paragraph.BackgroundColor3 = SelectedTheme.SecondaryElementBackground
+    				Paragraph.UIStroke.Color = SelectedTheme.SecondaryElementStroke
+    			end)
+    
+    			return ParagraphValue
+    		end
+    
+    		-- Input
+    		function Tab:CreateInput(InputSettings)
+    			local Input = Elements.Template.Input:Clone()
+    			Input.Name = InputSettings.Name
+    			Input.Title.Text = InputSettings.Name
+    			Input.Visible = true
+    			Input.Parent = TabPage
+    
+    			Input.BackgroundTransparency = 1
+    			Input.UIStroke.Transparency = 1
+    			Input.Title.TextTransparency = 1
+    
+    			Input.InputFrame.InputBox.Text = InputSettings.CurrentValue or ''
+    
+    			Input.InputFrame.BackgroundColor3 = SelectedTheme.InputBackground
+    			Input.InputFrame.UIStroke.Color = SelectedTheme.InputStroke
+    
+    			TweenService:Create(Input, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+    			TweenService:Create(Input.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+    			TweenService:Create(Input.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+    
+    			Input.InputFrame.InputBox.PlaceholderText = InputSettings.PlaceholderText
+    			Input.InputFrame.Size = UDim2.new(0, Input.InputFrame.InputBox.TextBounds.X + 24, 0, 30)
+    
+    			Input.InputFrame.InputBox.FocusLost:Connect(function()
+    				local Success, Response = pcall(function()
+    					InputSettings.Callback(Input.InputFrame.InputBox.Text)
+    					InputSettings.CurrentValue = Input.InputFrame.InputBox.Text
+    				end)
+    
+    				if not Success then
+    					TweenService:Create(Input, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+    					TweenService:Create(Input.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+    					Input.Title.Text = "Callback Error"
+    					print("Rayfield | "..InputSettings.Name.." Callback Error " ..tostring(Response))
+    					warn('Check docs.sirius.menu for help with Rayfield specific development.')
+    					task.wait(0.5)
+    					Input.Title.Text = InputSettings.Name
+    					TweenService:Create(Input, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+    					TweenService:Create(Input.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+    				end
+    
+    				if InputSettings.RemoveTextAfterFocusLost then
+    					Input.InputFrame.InputBox.Text = ""
+    				end
+    
+    				if not InputSettings.Ext then
+    					SaveConfiguration()
+    				end
+    			end)
+    
+    			Input.MouseEnter:Connect(function()
+    				TweenService:Create(Input, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+    			end)
+    
+    			Input.MouseLeave:Connect(function()
+    				TweenService:Create(Input, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+    			end)
+    
+    			Input.InputFrame.InputBox:GetPropertyChangedSignal("Text"):Connect(function()
+    				TweenService:Create(Input.InputFrame, TweenInfo.new(0.55, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Size = UDim2.new(0, Input.InputFrame.InputBox.TextBounds.X + 24, 0, 30)}):Play()
+    			end)
+    
+    			function InputSettings:Set(text)
+    				Input.InputFrame.InputBox.Text = text
+    				InputSettings.CurrentValue = text
+    
+    				local Success, Response = pcall(function()
+    					InputSettings.Callback(text)
+    				end)
+    
+    				if not InputSettings.Ext then
+    					SaveConfiguration()
+    				end
+    			end
+    
+    			if Settings.ConfigurationSaving then
+    				if Settings.ConfigurationSaving.Enabled and InputSettings.Flag then
+    					RayfieldLibrary.Flags[InputSettings.Flag] = InputSettings
+    				end
+    			end
+    
+    			Rayfield.Main:GetPropertyChangedSignal('BackgroundColor3'):Connect(function()
+    				Input.InputFrame.BackgroundColor3 = SelectedTheme.InputBackground
+    				Input.InputFrame.UIStroke.Color = SelectedTheme.InputStroke
+    			end)
+    
+    			return InputSettings
+    		end
+    
+    		-- Dropdown
+    		function Tab:CreateDropdown(DropdownSettings)
+    			local Dropdown = Elements.Template.Dropdown:Clone()
+    			if string.find(DropdownSettings.Name,"closed") then
+    				Dropdown.Name = "Dropdown"
+    			else
+    				Dropdown.Name = DropdownSettings.Name
+    			end
+    			Dropdown.Title.Text = DropdownSettings.Name
+    			Dropdown.Visible = true
+    			Dropdown.Parent = TabPage
+    
+    			Dropdown.List.Visible = false
+    			if DropdownSettings.CurrentOption then
+    				if type(DropdownSettings.CurrentOption) == "string" then
+    					DropdownSettings.CurrentOption = {DropdownSettings.CurrentOption}
+    				end
+    				if not DropdownSettings.MultipleOptions and type(DropdownSettings.CurrentOption) == "table" then
+    					DropdownSettings.CurrentOption = {DropdownSettings.CurrentOption[1]}
+    				end
+    			else
+    				DropdownSettings.CurrentOption = {}
+    			end
+    
+    			if DropdownSettings.MultipleOptions then
+    				if DropdownSettings.CurrentOption and type(DropdownSettings.CurrentOption) == "table" then
+    					if #DropdownSettings.CurrentOption == 1 then
+    						Dropdown.Selected.Text = DropdownSettings.CurrentOption[1]
+    					elseif #DropdownSettings.CurrentOption == 0 then
+    						Dropdown.Selected.Text = "None"
+    					else
+    						Dropdown.Selected.Text = "Various"
+    					end
+    				else
+    					DropdownSettings.CurrentOption = {}
+    					Dropdown.Selected.Text = "None"
+    				end
+    			else
+    				Dropdown.Selected.Text = DropdownSettings.CurrentOption[1] or "None"
+    			end
+    
+    			Dropdown.Toggle.ImageColor3 = SelectedTheme.TextColor
+    			TweenService:Create(Dropdown, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+    
+    			Dropdown.BackgroundTransparency = 1
+    			Dropdown.UIStroke.Transparency = 1
+    			Dropdown.Title.TextTransparency = 1
+    
+    			Dropdown.Size = UDim2.new(1, -10, 0, 45)
+    
+    			TweenService:Create(Dropdown, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+    			TweenService:Create(Dropdown.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+    			TweenService:Create(Dropdown.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+    
+    			for _, ununusedoption in ipairs(Dropdown.List:GetChildren()) do
+    				if ununusedoption.ClassName == "Frame" and ununusedoption.Name ~= "Placeholder" then
+    					ununusedoption:Destroy()
+    				end
+    			end
+    
+    			Dropdown.Toggle.Rotation = 180
+    
+    			Dropdown.Interact.MouseButton1Click:Connect(function()
+    				TweenService:Create(Dropdown, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+    				TweenService:Create(Dropdown.UIStroke, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+    				task.wait(0.1)
+    				TweenService:Create(Dropdown, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+    				TweenService:Create(Dropdown.UIStroke, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+    				if Debounce then return end
+    				if Dropdown.List.Visible then
+    					Debounce = true
+    					TweenService:Create(Dropdown, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Size = UDim2.new(1, -10, 0, 45)}):Play()
+    					for _, DropdownOpt in ipairs(Dropdown.List:GetChildren()) do
+    						if DropdownOpt.ClassName == "Frame" and DropdownOpt.Name ~= "Placeholder" then
+    							TweenService:Create(DropdownOpt, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+    							TweenService:Create(DropdownOpt.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+    							TweenService:Create(DropdownOpt.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+    						end
+    					end
+    					TweenService:Create(Dropdown.List, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ScrollBarImageTransparency = 1}):Play()
+    					TweenService:Create(Dropdown.Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Rotation = 180}):Play()
+    					task.wait(0.35)
+    					Dropdown.List.Visible = false
+    					Debounce = false
+    				else
+    					TweenService:Create(Dropdown, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Size = UDim2.new(1, -10, 0, 180)}):Play()
+    					Dropdown.List.Visible = true
+    					TweenService:Create(Dropdown.List, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ScrollBarImageTransparency = 0.7}):Play()
+    					TweenService:Create(Dropdown.Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Rotation = 0}):Play()
+    					for _, DropdownOpt in ipairs(Dropdown.List:GetChildren()) do
+    						if DropdownOpt.ClassName == "Frame" and DropdownOpt.Name ~= "Placeholder" then
+    							if DropdownOpt.Name ~= Dropdown.Selected.Text then
+    								TweenService:Create(DropdownOpt.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+    							end
+    							TweenService:Create(DropdownOpt, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+    							TweenService:Create(DropdownOpt.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+    						end
+    					end
+    				end
+    			end)
+    
+    			Dropdown.MouseEnter:Connect(function()
+    				if not Dropdown.List.Visible then
+    					TweenService:Create(Dropdown, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+    				end
+    			end)
+    
+    			Dropdown.MouseLeave:Connect(function()
+    				TweenService:Create(Dropdown, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+    			end)
+    
+    			local function SetDropdownOptions()
+    				for _, Option in ipairs(DropdownSettings.Options) do
+    					local DropdownOption = Elements.Template.Dropdown.List.Template:Clone()
+    					DropdownOption.Name = Option
+    					DropdownOption.Title.Text = Option
+    					DropdownOption.Parent = Dropdown.List
+    					DropdownOption.Visible = true
+    
+    					DropdownOption.BackgroundTransparency = 1
+    					DropdownOption.UIStroke.Transparency = 1
+    					DropdownOption.Title.TextTransparency = 1
+    
+    					--local Dropdown = Tab:CreateDropdown({
+    					--	Name = "Dropdown Example",
+    					--	Options = {"Option 1","Option 2"},
+    					--	CurrentOption = {"Option 1"},
+    					--  MultipleOptions = true,
+    					--	Flag = "Dropdown1",
+    					--	Callback = function(TableOfOptions)
+    
+    					--	end,
+    					--})
+    
+    
+    					DropdownOption.Interact.ZIndex = 50
+    					DropdownOption.Interact.MouseButton1Click:Connect(function()
+    						if not DropdownSettings.MultipleOptions and table.find(DropdownSettings.CurrentOption, Option) then
+    							return
+    						end
+    
+    						if table.find(DropdownSettings.CurrentOption, Option) then
+    							table.remove(DropdownSettings.CurrentOption, table.find(DropdownSettings.CurrentOption, Option))
+    							if DropdownSettings.MultipleOptions then
+    								if #DropdownSettings.CurrentOption == 1 then
+    									Dropdown.Selected.Text = DropdownSettings.CurrentOption[1]
+    								elseif #DropdownSettings.CurrentOption == 0 then
+    									Dropdown.Selected.Text = "None"
+    								else
+    									Dropdown.Selected.Text = "Various"
+    								end
+    							else
+    								Dropdown.Selected.Text = DropdownSettings.CurrentOption[1]
+    							end
+    						else
+    							if not DropdownSettings.MultipleOptions then
+    								table.clear(DropdownSettings.CurrentOption)
+    							end
+    							table.insert(DropdownSettings.CurrentOption, Option)
+    							if DropdownSettings.MultipleOptions then
+    								if #DropdownSettings.CurrentOption == 1 then
+    									Dropdown.Selected.Text = DropdownSettings.CurrentOption[1]
+    								elseif #DropdownSettings.CurrentOption == 0 then
+    									Dropdown.Selected.Text = "None"
+    								else
+    									Dropdown.Selected.Text = "Various"
+    								end
+    							else
+    								Dropdown.Selected.Text = DropdownSettings.CurrentOption[1]
+    							end
+    							TweenService:Create(DropdownOption.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+    							TweenService:Create(DropdownOption, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.DropdownSelected}):Play()
+    							Debounce = true
+    						end
+    
+    
+    						local Success, Response = pcall(function()
+    							DropdownSettings.Callback(DropdownSettings.CurrentOption)
+    						end)
+    
+    						if not Success then
+    							TweenService:Create(Dropdown, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+    							TweenService:Create(Dropdown.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+    							Dropdown.Title.Text = "Callback Error"
+    							print("Rayfield | "..DropdownSettings.Name.." Callback Error " ..tostring(Response))
+    							warn('Check docs.sirius.menu for help with Rayfield specific development.')
+    							task.wait(0.5)
+    							Dropdown.Title.Text = DropdownSettings.Name
+    							TweenService:Create(Dropdown, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+    							TweenService:Create(Dropdown.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+    						end
+    
+    						for _, droption in ipairs(Dropdown.List:GetChildren()) do
+    							if droption.ClassName == "Frame" and droption.Name ~= "Placeholder" and not table.find(DropdownSettings.CurrentOption, droption.Name) then
+    								TweenService:Create(droption, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.DropdownUnselected}):Play()
+    							end
+    						end
+    						if not DropdownSettings.MultipleOptions then
+    							task.wait(0.1)
+    							TweenService:Create(Dropdown, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Size = UDim2.new(1, -10, 0, 45)}):Play()
+    							for _, DropdownOpt in ipairs(Dropdown.List:GetChildren()) do
+    								if DropdownOpt.ClassName == "Frame" and DropdownOpt.Name ~= "Placeholder" then
+    									TweenService:Create(DropdownOpt, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {BackgroundTransparency = 1}):Play()
+    									TweenService:Create(DropdownOpt.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+    									TweenService:Create(DropdownOpt.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+    								end
+    							end
+    							TweenService:Create(Dropdown.List, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {ScrollBarImageTransparency = 1}):Play()
+    							TweenService:Create(Dropdown.Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Rotation = 180}):Play()
+    							task.wait(0.35)
+    							Dropdown.List.Visible = false
+    						end
+    						Debounce = false
+    						if not DropdownSettings.Ext then
+    							SaveConfiguration()
+    						end
+    					end)
+    
+    					Rayfield.Main:GetPropertyChangedSignal('BackgroundColor3'):Connect(function()
+    						DropdownOption.UIStroke.Color = SelectedTheme.ElementStroke
+    					end)
+    				end
+    			end
+    			SetDropdownOptions()
+    
+    			for _, droption in ipairs(Dropdown.List:GetChildren()) do
+    				if droption.ClassName == "Frame" and droption.Name ~= "Placeholder" then
+    					if not table.find(DropdownSettings.CurrentOption, droption.Name) then
+    						droption.BackgroundColor3 = SelectedTheme.DropdownUnselected
+    					else
+    						droption.BackgroundColor3 = SelectedTheme.DropdownSelected
+    					end
+    
+    					Rayfield.Main:GetPropertyChangedSignal('BackgroundColor3'):Connect(function()
+    						if not table.find(DropdownSettings.CurrentOption, droption.Name) then
+    							droption.BackgroundColor3 = SelectedTheme.DropdownUnselected
+    						else
+    							droption.BackgroundColor3 = SelectedTheme.DropdownSelected
+    						end
+    					end)
+    				end
+    			end
+    
+    			function DropdownSettings:Set(NewOption)
+    				DropdownSettings.CurrentOption = NewOption
+    
+    				if typeof(DropdownSettings.CurrentOption) == "string" then
+    					DropdownSettings.CurrentOption = {DropdownSettings.CurrentOption}
+    				end
+    
+    				if not DropdownSettings.MultipleOptions then
+    					DropdownSettings.CurrentOption = {DropdownSettings.CurrentOption[1]}
+    				end
+    
+    				if DropdownSettings.MultipleOptions then
+    					if #DropdownSettings.CurrentOption == 1 then
+    						Dropdown.Selected.Text = DropdownSettings.CurrentOption[1]
+    					elseif #DropdownSettings.CurrentOption == 0 then
+    						Dropdown.Selected.Text = "None"
+    					else
+    						Dropdown.Selected.Text = "Various"
+    					end
+    				else
+    					Dropdown.Selected.Text = DropdownSettings.CurrentOption[1]
+    				end
+    
+    
+    				local Success, Response = pcall(function()
+    					DropdownSettings.Callback(NewOption)
+    				end)
+    				if not Success then
+    					TweenService:Create(Dropdown, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+    					TweenService:Create(Dropdown.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+    					Dropdown.Title.Text = "Callback Error"
+    					print("Rayfield | "..DropdownSettings.Name.." Callback Error " ..tostring(Response))
+    					warn('Check docs.sirius.menu for help with Rayfield specific development.')
+    					task.wait(0.5)
+    					Dropdown.Title.Text = DropdownSettings.Name
+    					TweenService:Create(Dropdown, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+    					TweenService:Create(Dropdown.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+    				end
+    
+    				for _, droption in ipairs(Dropdown.List:GetChildren()) do
+    					if droption.ClassName == "Frame" and droption.Name ~= "Placeholder" then
+    						if not table.find(DropdownSettings.CurrentOption, droption.Name) then
+    							droption.BackgroundColor3 = SelectedTheme.DropdownUnselected
+    						else
+    							droption.BackgroundColor3 = SelectedTheme.DropdownSelected
+    						end
+    					end
+    				end
+    				--SaveConfiguration()
+    			end
+    
+    			function DropdownSettings:Refresh(optionsTable: table) -- updates a dropdown with new options from optionsTable
+    				DropdownSettings.Options = optionsTable
+    				for _, option in Dropdown.List:GetChildren() do
+    					if option.ClassName == "Frame" and option.Name ~= "Placeholder" then
+    						option:Destroy()
+    					end
+    				end
+    				SetDropdownOptions()
+    			end
+    
+    			if Settings.ConfigurationSaving then
+    				if Settings.ConfigurationSaving.Enabled and DropdownSettings.Flag then
+    					RayfieldLibrary.Flags[DropdownSettings.Flag] = DropdownSettings
+    				end
+    			end
+    
+    			Rayfield.Main:GetPropertyChangedSignal('BackgroundColor3'):Connect(function()
+    				Dropdown.Toggle.ImageColor3 = SelectedTheme.TextColor
+    				TweenService:Create(Dropdown, TweenInfo.new(0.4, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+    			end)
+    
+    			return DropdownSettings
+    		end
+    
+    		-- Keybind
+    		function Tab:CreateKeybind(KeybindSettings)
+    			local CheckingForKey = false
+    			local Keybind = Elements.Template.Keybind:Clone()
+    			Keybind.Name = KeybindSettings.Name
+    			Keybind.Title.Text = KeybindSettings.Name
+    			Keybind.Visible = true
+    			Keybind.Parent = TabPage
+    
+    			Keybind.BackgroundTransparency = 1
+    			Keybind.UIStroke.Transparency = 1
+    			Keybind.Title.TextTransparency = 1
+    
+    			Keybind.KeybindFrame.BackgroundColor3 = SelectedTheme.InputBackground
+    			Keybind.KeybindFrame.UIStroke.Color = SelectedTheme.InputStroke
+    
+    			TweenService:Create(Keybind, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+    			TweenService:Create(Keybind.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+    			TweenService:Create(Keybind.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+    
+    			Keybind.KeybindFrame.KeybindBox.Text = KeybindSettings.CurrentKeybind
+    			Keybind.KeybindFrame.Size = UDim2.new(0, Keybind.KeybindFrame.KeybindBox.TextBounds.X + 24, 0, 30)
+    
+    			Keybind.KeybindFrame.KeybindBox.Focused:Connect(function()
+    				CheckingForKey = true
+    				Keybind.KeybindFrame.KeybindBox.Text = ""
+    			end)
+    			Keybind.KeybindFrame.KeybindBox.FocusLost:Connect(function()
+    				CheckingForKey = false
+    				if Keybind.KeybindFrame.KeybindBox.Text == nil or "" then
+    					Keybind.KeybindFrame.KeybindBox.Text = KeybindSettings.CurrentKeybind
+    					if not KeybindSettings.Ext then
+    						SaveConfiguration()
+    					end
+    				end
+    			end)
+    
+    			Keybind.MouseEnter:Connect(function()
+    				TweenService:Create(Keybind, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+    			end)
+    
+    			Keybind.MouseLeave:Connect(function()
+    				TweenService:Create(Keybind, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+    			end)
+    
+    			UserInputService.InputBegan:Connect(function(input, processed)
+    				if CheckingForKey then
+    					if input.KeyCode ~= Enum.KeyCode.Unknown then
+    						local SplitMessage = string.split(tostring(input.KeyCode), ".")
+    						local NewKeyNoEnum = SplitMessage[3]
+    						Keybind.KeybindFrame.KeybindBox.Text = tostring(NewKeyNoEnum)
+    						KeybindSettings.CurrentKeybind = tostring(NewKeyNoEnum)
+    						Keybind.KeybindFrame.KeybindBox:ReleaseFocus()
+    						if not KeybindSettings.Ext then
+    							SaveConfiguration()
+    						end
+    
+    						if KeybindSettings.CallOnChange then
+    							KeybindSettings.Callback(tostring(NewKeyNoEnum))
+    						end
+    					end
+    				elseif not KeybindSettings.CallOnChange and KeybindSettings.CurrentKeybind ~= nil and (input.KeyCode == Enum.KeyCode[KeybindSettings.CurrentKeybind] and not processed) then -- Test
+    					local Held = true
+    					local Connection
+    					Connection = input.Changed:Connect(function(prop)
+    						if prop == "UserInputState" then
+    							Connection:Disconnect()
+    							Held = false
+    						end
+    					end)
+    
+    					if not KeybindSettings.HoldToInteract then
+    						local Success, Response = pcall(KeybindSettings.Callback)
+    						if not Success then
+    							TweenService:Create(Keybind, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+    							TweenService:Create(Keybind.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+    							Keybind.Title.Text = "Callback Error"
+    							print("Rayfield | "..KeybindSettings.Name.." Callback Error " ..tostring(Response))
+    							warn('Check docs.sirius.menu for help with Rayfield specific development.')
+    							task.wait(0.5)
+    							Keybind.Title.Text = KeybindSettings.Name
+    							TweenService:Create(Keybind, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+    							TweenService:Create(Keybind.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+    						end
+    					else
+    						task.wait(0.25)
+    						if Held then
+    							local Loop
+Loop = RunService.Stepped:Connect(function()
+    								if not Held then
+    									KeybindSettings.Callback(false) -- maybe pcall this
+    									Loop:Disconnect()
+    								else
+    									KeybindSettings.Callback(true) -- maybe pcall this
+    								end
+    							end)
+    						end
+    					end
+    				end
+    			end)
+    
+    			Keybind.KeybindFrame.KeybindBox:GetPropertyChangedSignal("Text"):Connect(function()
+    				TweenService:Create(Keybind.KeybindFrame, TweenInfo.new(0.55, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Size = UDim2.new(0, Keybind.KeybindFrame.KeybindBox.TextBounds.X + 24, 0, 30)}):Play()
+    			end)
+    
+    			function KeybindSettings:Set(NewKeybind)
+    				Keybind.KeybindFrame.KeybindBox.Text = tostring(NewKeybind)
+    				KeybindSettings.CurrentKeybind = tostring(NewKeybind)
+    				Keybind.KeybindFrame.KeybindBox:ReleaseFocus()
+    				if not KeybindSettings.Ext then
+    					SaveConfiguration()
+    				end
+    
+    				if KeybindSettings.CallOnChange then
+    					KeybindSettings.Callback(tostring(NewKeybind))
+    				end
+    			end
+    
+    			if Settings.ConfigurationSaving then
+    				if Settings.ConfigurationSaving.Enabled and KeybindSettings.Flag then
+    					RayfieldLibrary.Flags[KeybindSettings.Flag] = KeybindSettings
+    				end
+    			end
+    
+    			Rayfield.Main:GetPropertyChangedSignal('BackgroundColor3'):Connect(function()
+    				Keybind.KeybindFrame.BackgroundColor3 = SelectedTheme.InputBackground
+    				Keybind.KeybindFrame.UIStroke.Color = SelectedTheme.InputStroke
+    			end)
+    
+    			return KeybindSettings
+    		end
+    
+    		-- Toggle
+    		function Tab:CreateToggle(ToggleSettings)
+    			local ToggleValue = {}
+    
+    			local Toggle = Elements.Template.Toggle:Clone()
+    			Toggle.Name = ToggleSettings.Name
+    			Toggle.Title.Text = ToggleSettings.Name
+    			Toggle.Visible = true
+    			Toggle.Parent = TabPage
+    
+    			Toggle.BackgroundTransparency = 1
+    			Toggle.UIStroke.Transparency = 1
+    			Toggle.Title.TextTransparency = 1
+    			Toggle.Switch.BackgroundColor3 = SelectedTheme.ToggleBackground
+    
+    			if SelectedTheme ~= RayfieldLibrary.Theme.Default then
+    				Toggle.Switch.Shadow.Visible = false
+    			end
+    
+    			TweenService:Create(Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+    			TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+    			TweenService:Create(Toggle.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+    
+    			if ToggleSettings.CurrentValue == true then
+    				Toggle.Switch.Indicator.Position = UDim2.new(1, -20, 0.5, 0)
+    				Toggle.Switch.Indicator.UIStroke.Color = SelectedTheme.ToggleEnabledStroke
+    				Toggle.Switch.Indicator.BackgroundColor3 = SelectedTheme.ToggleEnabled
+    				Toggle.Switch.UIStroke.Color = SelectedTheme.ToggleEnabledOuterStroke
+    			else
+    				Toggle.Switch.Indicator.Position = UDim2.new(1, -40, 0.5, 0)
+    				Toggle.Switch.Indicator.UIStroke.Color = SelectedTheme.ToggleDisabledStroke
+    				Toggle.Switch.Indicator.BackgroundColor3 = SelectedTheme.ToggleDisabled
+    				Toggle.Switch.UIStroke.Color = SelectedTheme.ToggleDisabledOuterStroke
+    			end
+    
+    			Toggle.MouseEnter:Connect(function()
+    				TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+    			end)
+    
+    			Toggle.MouseLeave:Connect(function()
+    				TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+    			end)
+    
+    			Toggle.Interact.MouseButton1Click:Connect(function()
+    				if ToggleSettings.CurrentValue == true then
+    					ToggleSettings.CurrentValue = false
+    					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+    					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+    					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.45, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {Position = UDim2.new(1, -40, 0.5, 0)}):Play()
+    					TweenService:Create(Toggle.Switch.Indicator.UIStroke, TweenInfo.new(0.55, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Color = SelectedTheme.ToggleDisabledStroke}):Play()
+    					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.8, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {BackgroundColor3 = SelectedTheme.ToggleDisabled}):Play()
+    					TweenService:Create(Toggle.Switch.UIStroke, TweenInfo.new(0.55, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Color = SelectedTheme.ToggleDisabledOuterStroke}):Play()
+    					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+    					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+    				else
+    					ToggleSettings.CurrentValue = true
+    					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+    					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+    					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.5, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {Position = UDim2.new(1, -20, 0.5, 0)}):Play()
+    					TweenService:Create(Toggle.Switch.Indicator.UIStroke, TweenInfo.new(0.55, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Color = SelectedTheme.ToggleEnabledStroke}):Play()
+    					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.8, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {BackgroundColor3 = SelectedTheme.ToggleEnabled}):Play()
+    					TweenService:Create(Toggle.Switch.UIStroke, TweenInfo.new(0.55, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Color = SelectedTheme.ToggleEnabledOuterStroke}):Play()
+    					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+    					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+    				end
+    
+    				local Success, Response = pcall(function()
+    					if debugX then warn('Running toggle \''..ToggleSettings.Name..'\' (Interact)') end
+    
+    					ToggleSettings.Callback(ToggleSettings.CurrentValue)
+    				end)
+    
+    				if not Success then
+    					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+    					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+    					Toggle.Title.Text = "Callback Error"
+    					print("Rayfield | "..ToggleSettings.Name.." Callback Error " ..tostring(Response))
+    					warn('Check docs.sirius.menu for help with Rayfield specific development.')
+    					task.wait(0.5)
+    					Toggle.Title.Text = ToggleSettings.Name
+    					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+    					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+    				end
+    
+    				if not ToggleSettings.Ext then
+    					SaveConfiguration()
+    				end
+    			end)
+    
+    			function ToggleSettings:Set(NewToggleValue)
+    				if NewToggleValue == true then
+    					ToggleSettings.CurrentValue = true
+    					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+    					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+    					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.5, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {Position = UDim2.new(1, -20, 0.5, 0)}):Play()
+    					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.4, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {Size = UDim2.new(0,12,0,12)}):Play()
+    					TweenService:Create(Toggle.Switch.Indicator.UIStroke, TweenInfo.new(0.55, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Color = SelectedTheme.ToggleEnabledStroke}):Play()
+    					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.8, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {BackgroundColor3 = SelectedTheme.ToggleEnabled}):Play()
+    					TweenService:Create(Toggle.Switch.UIStroke, TweenInfo.new(0.55, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Color = SelectedTheme.ToggleEnabledOuterStroke}):Play()
+    					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.45, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {Size = UDim2.new(0,17,0,17)}):Play()
+    					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+    					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+    				else
+    					ToggleSettings.CurrentValue = false
+    					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+    					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+    					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.45, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {Position = UDim2.new(1, -40, 0.5, 0)}):Play()
+    					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.4, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {Size = UDim2.new(0,12,0,12)}):Play()
+    					TweenService:Create(Toggle.Switch.Indicator.UIStroke, TweenInfo.new(0.55, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Color = SelectedTheme.ToggleDisabledStroke}):Play()
+    					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.8, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {BackgroundColor3 = SelectedTheme.ToggleDisabled}):Play()
+    					TweenService:Create(Toggle.Switch.UIStroke, TweenInfo.new(0.55, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Color = SelectedTheme.ToggleDisabledOuterStroke}):Play()
+    					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.4, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {Size = UDim2.new(0,17,0,17)}):Play()
+    					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+    					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+    				end
+    
+    				local Success, Response = pcall(function()
+    					if debugX then warn('Running toggle \''..ToggleSettings.Name..'\' (:Set)') end
+    
+    					ToggleSettings.Callback(ToggleSettings.CurrentValue)
+    				end)
+    
+    				if not Success then
+    					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+    					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+    					Toggle.Title.Text = "Callback Error"
+    					print("Rayfield | "..ToggleSettings.Name.." Callback Error " ..tostring(Response))
+    					warn('Check docs.sirius.menu for help with Rayfield specific development.')
+    					task.wait(0.5)
+    					Toggle.Title.Text = ToggleSettings.Name
+    					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+    					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+    				end
+    
+    				if not ToggleSettings.Ext then
+    					SaveConfiguration()
+    				end
+    			end
+    
+    			if not ToggleSettings.Ext then
+    				if Settings.ConfigurationSaving then
+    					if Settings.ConfigurationSaving.Enabled and ToggleSettings.Flag then
+    						RayfieldLibrary.Flags[ToggleSettings.Flag] = ToggleSettings
+    					end
+    				end
+    			end
+    
+    
+    			Rayfield.Main:GetPropertyChangedSignal('BackgroundColor3'):Connect(function()
+    				Toggle.Switch.BackgroundColor3 = SelectedTheme.ToggleBackground
+    
+    				if SelectedTheme ~= RayfieldLibrary.Theme.Default then
+    					Toggle.Switch.Shadow.Visible = false
+    				end
+    
+    				task.wait()
+    
+    				if not ToggleSettings.CurrentValue then
+    					Toggle.Switch.Indicator.UIStroke.Color = SelectedTheme.ToggleDisabledStroke
+    					Toggle.Switch.Indicator.BackgroundColor3 = SelectedTheme.ToggleDisabled
+    					Toggle.Switch.UIStroke.Color = SelectedTheme.ToggleDisabledOuterStroke
+    				else
+    					Toggle.Switch.Indicator.UIStroke.Color = SelectedTheme.ToggleEnabledStroke
+    					Toggle.Switch.Indicator.BackgroundColor3 = SelectedTheme.ToggleEnabled
+    					Toggle.Switch.UIStroke.Color = SelectedTheme.ToggleEnabledOuterStroke
+    				end
+    			end)
+    
+    			return ToggleSettings
+    		end
+    
+    		-- Slider
+    		function Tab:CreateSlider(SliderSettings)
+    			local SLDragging = false
+    			local Slider = Elements.Template.Slider:Clone()
+    			Slider.Name = SliderSettings.Name
+    			Slider.Title.Text = SliderSettings.Name
+    			Slider.Visible = true
+    			Slider.Parent = TabPage
+    
+    			Slider.BackgroundTransparency = 1
+    			Slider.UIStroke.Transparency = 1
+    			Slider.Title.TextTransparency = 1
+    
+    			if SelectedTheme ~= RayfieldLibrary.Theme.Default then
+    				Slider.Main.Shadow.Visible = false
+    			end
+    
+    			Slider.Main.BackgroundColor3 = SelectedTheme.SliderBackground
+    			Slider.Main.UIStroke.Color = SelectedTheme.SliderStroke
+    			Slider.Main.Progress.UIStroke.Color = SelectedTheme.SliderStroke
+    			Slider.Main.Progress.BackgroundColor3 = SelectedTheme.SliderProgress
+    
+    			TweenService:Create(Slider, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+    			TweenService:Create(Slider.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+    			TweenService:Create(Slider.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+    
+    			Slider.Main.Progress.Size =	UDim2.new(0, Slider.Main.AbsoluteSize.X * ((SliderSettings.CurrentValue + SliderSettings.Range[1]) / (SliderSettings.Range[2] - SliderSettings.Range[1])) > 5 and Slider.Main.AbsoluteSize.X * (SliderSettings.CurrentValue / (SliderSettings.Range[2] - SliderSettings.Range[1])) or 5, 1, 0)
+    
+    			if not SliderSettings.Suffix then
+    				Slider.Main.Information.Text = tostring(SliderSettings.CurrentValue)
+    			else
+    				Slider.Main.Information.Text = tostring(SliderSettings.CurrentValue) .. " " .. SliderSettings.Suffix
+    			end
+    
+    			Slider.MouseEnter:Connect(function()
+    				TweenService:Create(Slider, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+    			end)
+    
+    			Slider.MouseLeave:Connect(function()
+    				TweenService:Create(Slider, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+    			end)
+    
+    			Slider.Main.Interact.InputBegan:Connect(function(Input)
+    				if Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch then
+    					TweenService:Create(Slider.Main.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+    					TweenService:Create(Slider.Main.Progress.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+    					SLDragging = true
+    				end
+    			end)
+    
+    			Slider.Main.Interact.InputEnded:Connect(function(Input)
+    				if Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch then
+    					TweenService:Create(Slider.Main.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 0.4}):Play()
+    					TweenService:Create(Slider.Main.Progress.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 0.3}):Play()
+    					SLDragging = false
+    				end
+    			end)
+    
+    			Slider.Main.Interact.MouseButton1Down:Connect(function(X)
+    				local Current = Slider.Main.Progress.AbsolutePosition.X + Slider.Main.Progress.AbsoluteSize.X
+    				local Start = Current
+    				local Location = X
+    				local Loop
+Loop = RunService.Stepped:Connect(function()
+    					if SLDragging then
+    						Location = UserInputService:GetMouseLocation().X
+    						Current = Current + 0.025 * (Location - Start)
+    
+    						if Location < Slider.Main.AbsolutePosition.X then
+    							Location = Slider.Main.AbsolutePosition.X
+    						elseif Location > Slider.Main.AbsolutePosition.X + Slider.Main.AbsoluteSize.X then
+    							Location = Slider.Main.AbsolutePosition.X + Slider.Main.AbsoluteSize.X
+    						end
+    
+    						if Current < Slider.Main.AbsolutePosition.X + 5 then
+    							Current = Slider.Main.AbsolutePosition.X + 5
+    						elseif Current > Slider.Main.AbsolutePosition.X + Slider.Main.AbsoluteSize.X then
+    							Current = Slider.Main.AbsolutePosition.X + Slider.Main.AbsoluteSize.X
+    						end
+    
+    						if Current <= Location and (Location - Start) < 0 then
+    							Start = Location
+    						elseif Current >= Location and (Location - Start) > 0 then
+    							Start = Location
+    						end
+    						TweenService:Create(Slider.Main.Progress, TweenInfo.new(0.45, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Size = UDim2.new(0, Current - Slider.Main.AbsolutePosition.X, 1, 0)}):Play()
+    						local NewValue = SliderSettings.Range[1] + (Location - Slider.Main.AbsolutePosition.X) / Slider.Main.AbsoluteSize.X * (SliderSettings.Range[2] - SliderSettings.Range[1])
+    
+    						NewValue = math.floor(NewValue / SliderSettings.Increment + 0.5) * (SliderSettings.Increment * 10000000) / 10000000
+    						NewValue = math.clamp(NewValue, SliderSettings.Range[1], SliderSettings.Range[2])
+    
+    						if not SliderSettings.Suffix then
+    							Slider.Main.Information.Text = tostring(NewValue)
+    						else
+    							Slider.Main.Information.Text = tostring(NewValue) .. " " .. SliderSettings.Suffix
+    						end
+    
+    						if SliderSettings.CurrentValue ~= NewValue then
+    							local Success, Response = pcall(function()
+    								SliderSettings.Callback(NewValue)
+    							end)
+    							if not Success then
+    								TweenService:Create(Slider, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+    								TweenService:Create(Slider.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+    								Slider.Title.Text = "Callback Error"
+    								print("Rayfield | "..SliderSettings.Name.." Callback Error " ..tostring(Response))
+    								warn('Check docs.sirius.menu for help with Rayfield specific development.')
+    								task.wait(0.5)
+    								Slider.Title.Text = SliderSettings.Name
+    								TweenService:Create(Slider, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+    								TweenService:Create(Slider.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+    							end
+    
+    							SliderSettings.CurrentValue = NewValue
+    							if not SliderSettings.Ext then
+    								SaveConfiguration()
+    							end
+    						end
+    					else
+    						TweenService:Create(Slider.Main.Progress, TweenInfo.new(0.3, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Size = UDim2.new(0, Location - Slider.Main.AbsolutePosition.X > 5 and Location - Slider.Main.AbsolutePosition.X or 5, 1, 0)}):Play()
+    						Loop:Disconnect()
+    					end
+    				end)
+    			end)
+    
+    			function SliderSettings:Set(NewVal)
+    				local NewVal = math.clamp(NewVal, SliderSettings.Range[1], SliderSettings.Range[2])
+    
+    				TweenService:Create(Slider.Main.Progress, TweenInfo.new(0.45, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Size = UDim2.new(0, Slider.Main.AbsoluteSize.X * ((NewVal + SliderSettings.Range[1]) / (SliderSettings.Range[2] - SliderSettings.Range[1])) > 5 and Slider.Main.AbsoluteSize.X * (NewVal / (SliderSettings.Range[2] - SliderSettings.Range[1])) or 5, 1, 0)}):Play()
+    				Slider.Main.Information.Text = tostring(NewVal) .. " " .. (SliderSettings.Suffix or "")
+    
+    				local Success, Response = pcall(function()
+    					SliderSettings.Callback(NewVal)
+    				end)
+    
+    				if not Success then
+    					TweenService:Create(Slider, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+    					TweenService:Create(Slider.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
+    					Slider.Title.Text = "Callback Error"
+    					print("Rayfield | "..SliderSettings.Name.." Callback Error " ..tostring(Response))
+    					warn('Check docs.sirius.menu for help with Rayfield specific development.')
+    					task.wait(0.5)
+    					Slider.Title.Text = SliderSettings.Name
+    					TweenService:Create(Slider, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+    					TweenService:Create(Slider.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
+    				end
+    
+    				SliderSettings.CurrentValue = NewVal
+    				if not SliderSettings.Ext then
+    					SaveConfiguration()
+    				end
+    			end
+    
+    			if Settings.ConfigurationSaving then
+    				if Settings.ConfigurationSaving.Enabled and SliderSettings.Flag then
+    					RayfieldLibrary.Flags[SliderSettings.Flag] = SliderSettings
+    				end
+    			end
+    
+    			Rayfield.Main:GetPropertyChangedSignal('BackgroundColor3'):Connect(function()
+    				if SelectedTheme ~= RayfieldLibrary.Theme.Default then
+    					Slider.Main.Shadow.Visible = false
+    				end
+    
+    				Slider.Main.BackgroundColor3 = SelectedTheme.SliderBackground
+    				Slider.Main.UIStroke.Color = SelectedTheme.SliderStroke
+    				Slider.Main.Progress.UIStroke.Color = SelectedTheme.SliderStroke
+    				Slider.Main.Progress.BackgroundColor3 = SelectedTheme.SliderProgress
+    			end)
+    
+    			return SliderSettings
+    		end
+    
+    		Rayfield.Main:GetPropertyChangedSignal('BackgroundColor3'):Connect(function()
+    			TabButton.UIStroke.Color = SelectedTheme.TabStroke
+    
+    			if Elements.UIPageLayout.CurrentPage == TabPage then
+    				TabButton.BackgroundColor3 = SelectedTheme.TabBackgroundSelected
+    				TabButton.Image.ImageColor3 = SelectedTheme.SelectedTabTextColor
+    				TabButton.Title.TextColor3 = SelectedTheme.SelectedTabTextColor
+    			else
+    				TabButton.BackgroundColor3 = SelectedTheme.TabBackground
+    				TabButton.Image.ImageColor3 = SelectedTheme.TabTextColor
+    				TabButton.Title.TextColor3 = SelectedTheme.TabTextColor
+    			end
+    		end)
+    
+    		return Tab
+    	end
+    
+    	Elements.Visible = true
+    
+    
+    	task.wait(1.1)
+    	TweenService:Create(Main, TweenInfo.new(0.7, Enum.EasingStyle.Exponential, Enum.EasingDirection.InOut), {Size = UDim2.new(0, 390, 0, 90)}):Play()
+    	task.wait(0.3)
+    	TweenService:Create(LoadingFrame.Title, TweenInfo.new(0.2, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+    	TweenService:Create(LoadingFrame.Subtitle, TweenInfo.new(0.2, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+    	TweenService:Create(LoadingFrame.Version, TweenInfo.new(0.2, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+    	task.wait(0.1)
+    	TweenService:Create(Main, TweenInfo.new(0.6, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Size = useMobileSizing and UDim2.new(0, 500, 0, 275) or UDim2.new(0, 500, 0, 475)}):Play()
+    	TweenService:Create(Main.Shadow.Image, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {ImageTransparency = 0.6}):Play()
+    
+    	Topbar.BackgroundTransparency = 1
+    	Topbar.Divider.Size = UDim2.new(0, 0, 0, 1)
+    	Topbar.Divider.BackgroundColor3 = SelectedTheme.ElementStroke
+    	Topbar.CornerRepair.BackgroundTransparency = 1
+    	Topbar.Title.TextTransparency = 1
+    	Topbar.Search.ImageTransparency = 1
+    	if Topbar:FindFirstChild('Settings') then
+    		Topbar.Settings.ImageTransparency = 1
+    	end
+    	Topbar.ChangeSize.ImageTransparency = 1
+    	Topbar.Hide.ImageTransparency = 1
+    
+    
+    	task.wait(0.5)
+    	Topbar.Visible = true
+    	TweenService:Create(Topbar, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+    	TweenService:Create(Topbar.CornerRepair, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
+    	task.wait(0.1)
+    	TweenService:Create(Topbar.Divider, TweenInfo.new(1, Enum.EasingStyle.Exponential), {Size = UDim2.new(1, 0, 0, 1)}):Play()
+    	TweenService:Create(Topbar.Title, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()
+    	task.wait(0.05)
+    	TweenService:Create(Topbar.Search, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {ImageTransparency = 0.8}):Play()
+    	task.wait(0.05)
+    	if Topbar:FindFirstChild('Settings') then
+    		TweenService:Create(Topbar.Settings, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {ImageTransparency = 0.8}):Play()
+    		task.wait(0.05)
+    	end
+    	TweenService:Create(Topbar.ChangeSize, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {ImageTransparency = 0.8}):Play()
+    	task.wait(0.05)
+    	TweenService:Create(Topbar.Hide, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {ImageTransparency = 0.8}):Play()
+    	task.wait(0.3)
+    
+    	if dragBar then
+    		TweenService:Create(dragBarCosmetic, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.7}):Play()
+    	end
+    
+    	function Window.ModifyTheme(NewTheme)
+    		local success = pcall(ChangeTheme, NewTheme)
+    		if not success then
+    			RayfieldLibrary:Notify({Title = 'Unable to Change Theme', Content = 'We are unable find a theme on file.', Image = 4400704299})
+    		else
+    			RayfieldLibrary:Notify({Title = 'Theme Changed', Content = 'Successfully changed theme to '..(typeof(NewTheme) == 'string' and NewTheme or 'Custom Theme')..'.', Image = 4483362748})
+    		end
+    	end
+    
+    	local success, result = pcall(function()
+    		createSettings(Window)
+    	end)
+    
+    	if not success then warn('Rayfield had an issue creating settings.') end
+    
+    	return Window
+    end
+    
+    local function setVisibility(visibility: boolean, notify: boolean?)
+    	if Debounce then return end
+    	if visibility then
+    		Hidden = false
+    		Unhide()
+    	else
+    		Hidden = true
+    		Hide(notify)
+    	end
+    end
+    
+    function RayfieldLibrary:SetVisibility(visibility: boolean)
+    	setVisibility(visibility, false)
+    end
+    
+    function RayfieldLibrary:IsVisible(): boolean
+    	return not Hidden
+    end
+    
+    local hideHotkeyConnection -- Has to be initialized here since the connection is made later in the script
+    function RayfieldLibrary:Destroy()
+    	hideHotkeyConnection:Disconnect()
+    	Rayfield:Destroy()
+    end
+    
+    Topbar.ChangeSize.MouseButton1Click:Connect(function()
+    	if Debounce then return end
+    	if Minimised then
+    		Minimised = false
+    		Maximise()
+    	else
+    		Minimised = true
+    		Minimise()
+    	end
+    end)
+    
+    Main.Search.Input:GetPropertyChangedSignal('Text'):Connect(function()
+    	if #Main.Search.Input.Text > 0 then
+    		if not Elements.UIPageLayout.CurrentPage:FindFirstChild('SearchTitle-fsefsefesfsefesfesfThanks') then
+    			local searchTitle = Elements.Template.SectionTitle:Clone()
+    			searchTitle.Parent = Elements.UIPageLayout.CurrentPage
+    			searchTitle.Name = 'SearchTitle-fsefsefesfsefesfesfThanks'
+    			searchTitle.LayoutOrder = -100
+    			searchTitle.Title.Text = "Results from '"..Elements.UIPageLayout.CurrentPage.Name.."'"
+    			searchTitle.Visible = true
+    		end
+    	else
+    		local searchTitle = Elements.UIPageLayout.CurrentPage:FindFirstChild('SearchTitle-fsefsefesfsefesfesfThanks')
+    
+    		if searchTitle then
+    			searchTitle:Destroy()
+    		end
+    	end
+    
+    	for _, element in ipairs(Elements.UIPageLayout.CurrentPage:GetChildren()) do
+    		if element.ClassName ~= 'UIListLayout' and element.Name ~= 'Placeholder' and element.Name ~= 'SearchTitle-fsefsefesfsefesfesfThanks' then
+    			if element.Name == 'SectionTitle' then
+    				if #Main.Search.Input.Text == 0 then
+    					element.Visible = true
+    				else
+    					element.Visible = false
+    				end
+    			else
+    				if string.lower(element.Name):find(string.lower(Main.Search.Input.Text), 1, true) then
+    					element.Visible = true
+    				else
+    					element.Visible = false
+    				end
+    			end
+    		end
+    	end
+    end)
+    
+    Main.Search.Input.FocusLost:Connect(function(enterPressed)
+    	if #Main.Search.Input.Text == 0 and searchOpen then
+    		task.wait(0.12)
+    		closeSearch()
+    	end
+    end)
+    
+    Topbar.Search.MouseButton1Click:Connect(function()
+    	task.spawn(function()
+    		if searchOpen then
+    			closeSearch()
+    		else
+    			openSearch()
+    		end
+    	end)
+    end)
+    
+    if Topbar:FindFirstChild('Settings') then
+    	Topbar.Settings.MouseButton1Click:Connect(function()
+    		task.spawn(function()
+    			for _, OtherTabButton in ipairs(TabList:GetChildren()) do
+    				if OtherTabButton.Name ~= "Template" and OtherTabButton.ClassName == "Frame" and OtherTabButton ~= TabButton and OtherTabButton.Name ~= "Placeholder" then
+    					TweenService:Create(OtherTabButton, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.TabBackground}):Play()
+    					TweenService:Create(OtherTabButton.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextColor3 = SelectedTheme.TabTextColor}):Play()
+    					TweenService:Create(OtherTabButton.Image, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {ImageColor3 = SelectedTheme.TabTextColor}):Play()
+    					TweenService:Create(OtherTabButton, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0.7}):Play()
+    					TweenService:Create(OtherTabButton.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0.2}):Play()
+    					TweenService:Create(OtherTabButton.Image, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {ImageTransparency = 0.2}):Play()
+    					TweenService:Create(OtherTabButton.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0.5}):Play()
+    				end
+    			end
+    
+    			Elements.UIPageLayout:JumpTo(Elements['Rayfield Settings'])
+    		end)
+    	end)
+    
+    end
+    
+    
+    Topbar.Hide.MouseButton1Click:Connect(function()
+    	setVisibility(Hidden, not useMobileSizing)
+    end)
+    
+    hideHotkeyConnection = UserInputService.InputBegan:Connect(function(input, processed)
+    	if (input.KeyCode == Enum.KeyCode[settingsTable.General.rayfieldOpen.Value or 'K'] and not processed) then
+    		if Debounce then return end
+    		if Hidden then
+    			Hidden = false
+    			Unhide()
+    		else
+    			Hidden = true
+    			Hide()
+    		end
+    	end
+    end)
+    
+    if MPrompt then
+    	MPrompt.Interact.MouseButton1Click:Connect(function()
+    		if Debounce then return end
+    		if Hidden then
+    			Hidden = false
+    			Unhide()
+    		end
+    	end)
+    end
+    
+    for _, TopbarButton in ipairs(Topbar:GetChildren()) do
+    	if TopbarButton.ClassName == "ImageButton" and TopbarButton.Name ~= 'Icon' then
+    		TopbarButton.MouseEnter:Connect(function()
+    			TweenService:Create(TopbarButton, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {ImageTransparency = 0}):Play()
+    		end)
+    
+    		TopbarButton.MouseLeave:Connect(function()
+    			TweenService:Create(TopbarButton, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {ImageTransparency = 0.8}):Play()
+    		end)
+    	end
+    end
+    
+    
+    function RayfieldLibrary:LoadConfiguration()
+    	local config
+    
+    	if debugX then
+    		warn('Loading Configuration')
+    	end
+    
+    	if useStudio then
+    		config = [[{"Toggle1adwawd":true,"ColorPicker1awd":{"B":255,"G":255,"R":255},"Slider1dawd":100,"ColorPicfsefker1":{"B":255,"G":255,"R":255},"Slidefefsr1":80,"dawdawd":"","Input1":"hh","Keybind1":"B","Dropdown1":["Ocean"]}]]
+    	end
+    
+    	if CEnabled then
+    		local notified
+    		local loaded
+    
+    		local success, result = pcall(function()
+    			if useStudio and config then
+    				loaded = LoadConfiguration(config)
+    				return
+    			end
+    
+    			if isfile then
+    				if isfile(ConfigurationFolder .. "/" .. CFileName .. ConfigurationExtension) then
+    					loaded = LoadConfiguration(readfile(ConfigurationFolder .. "/" .. CFileName .. ConfigurationExtension))
+    				end
+    			else
+    				notified = true
+    				RayfieldLibrary:Notify({Title = "Rayfield Configurations", Content = "We couldn't enable Configuration Saving as you are not using software with filesystem support.", Image = 4384402990})
+    			end
+    		end)
+    
+    		if success and loaded and not notified then
+    			RayfieldLibrary:Notify({Title = "Rayfield Configurations", Content = "The configuration file for this script has been loaded from a previous session.", Image = 4384403532})
+    		elseif not success and not notified then
+    			warn('Rayfield Configurations Error | '..tostring(result))
+    			RayfieldLibrary:Notify({Title = "Rayfield Configurations", Content = "We've encountered an issue loading your configuration correctly.\n\nCheck the Developer Console for more information.", Image = 4384402990})
+    		end
+    	end
+    
+    	globalLoaded = true
+    end
+    
+    
+    
+    if useStudio then
+    	-- run w/ studio
+    	-- Feel free to place your own script here to see how it'd work in Roblox Studio before running it on your execution software.
+    
+    
+    	local Window = RayfieldLibrary:CreateWindow({
+    		Name = "Rayfield Example Window",
+    		LoadingTitle = "Rayfield Interface Suite",
+    		Theme = 'Default',
+    		Icon = 0,
+    		LoadingSubtitle = "by Sirius",
+    		ConfigurationSaving = {
+    			Enabled = true,
+    			FolderName = nil, -- Create a custom folder for your hub/game
+    			FileName = "Big Hub52"
+    		},
+    		Discord = {
+    			Enabled = true,
+    			Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+    			RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+    		},
+    		KeySystem = false, -- Set this to true to use our key system
+    		KeySettings = {
+    			Title = "Untitled",
+    			Subtitle = "Key System",
+    			Note = "No method of obtaining the key is provided",
+    			FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+    			SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+    			GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+    			Key = {"Hello"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+    		}
+    	})
+    
+    	local Tab = Window:CreateTab("Tab Example", 'key-round') -- Title, Image
+    	local Tab2 = Window:CreateTab("Tab Example 2", 4483362458) -- Title, Image
+    
+    	local Section = Tab2:CreateSection("Section")
+    
+    
+    	local ColorPicker = Tab2:CreateColorPicker({
+    		Name = "Color Picker",
+    		Color = Color3.fromRGB(255,255,255),
+    		Flag = "ColorPicfsefker1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+    		Callback = function(Value)
+    			-- The function that takes place every time the color picker is moved/changed
+    			-- The variable (Value) is a Color3fromRGB value based on which color is selected
+    		end
+    	})
+    
+    	local Slider = Tab2:CreateSlider({
+    		Name = "Slider Example",
+    		Range = {0, 100},
+    		Increment = 10,
+    		Suffix = "Bananas",
+    		CurrentValue = 40,
+    		Flag = "Slidefefsr1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+    		Callback = function(Value)
+    			-- The function that takes place when the slider changes
+    			-- The variable (Value) is a number which correlates to the value the slider is currently at
+    		end,
+    	})
+    
+    	local Input = Tab2:CreateInput({
+    		Name = "Input Example",
+    		CurrentValue = '',
+    		PlaceholderText = "Input Placeholder",
+    		Flag = 'dawdawd',
+    		RemoveTextAfterFocusLost = false,
+    		Callback = function(Text)
+    			-- The function that takes place when the input is changed
+    			-- The variable (Text) is a string for the value in the text box
+    		end,
+    	})
+    
+    
+    	--RayfieldLibrary:Notify({Title = "Rayfield Interface", Content = "Welcome to Rayfield. These - are the brand new notification design for Rayfield, with custom sizing and Rayfield calculated wait times.", Image = 4483362458})
+    
+    	local Section = Tab:CreateSection("Section Example")
+    
+    	local Button = Tab:CreateButton({
+    		Name = "Change Theme",
+    		Callback = function()
+    			-- The function that takes place when the button is pressed
+    			Window.ModifyTheme('DarkBlue')
+    		end,
+    	})
+    
+    	local Toggle = Tab:CreateToggle({
+    		Name = "Toggle Example",
+    		CurrentValue = false,
+    		Flag = "Toggle1adwawd", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+    		Callback = function(Value)
+    			-- The function that takes place when the toggle is pressed
+    			-- The variable (Value) is a boolean on whether the toggle is true or false
+    		end,
+    	})
+    
+    	local ColorPicker = Tab:CreateColorPicker({
+    		Name = "Color Picker",
+    		Color = Color3.fromRGB(255,255,255),
+    		Flag = "ColorPicker1awd", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+    		Callback = function(Value)
+    			-- The function that takes place every time the color picker is moved/changed
+    			-- The variable (Value) is a Color3fromRGB value based on which color is selected
+    		end
+    	})
+    
+    	local Slider = Tab:CreateSlider({
+    		Name = "Slider Example",
+    		Range = {0, 100},
+    		Increment = 10,
+    		Suffix = "Bananas",
+    		CurrentValue = 40,
+    		Flag = "Slider1dawd", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+    		Callback = function(Value)
+    			-- The function that takes place when the slider changes
+    			-- The variable (Value) is a number which correlates to the value the slider is currently at
+    		end,
+    	})
+    
+    	local Input = Tab:CreateInput({
+    		Name = "Input Example",
+    		CurrentValue = "Helo",
+    		PlaceholderText = "Adaptive Input",
+    		RemoveTextAfterFocusLost = false,
+    		Flag = 'Input1',
+    		Callback = function(Text)
+    			-- The function that takes place when the input is changed
+    			-- The variable (Text) is a string for the value in the text box
+    		end,
+    	})
+    
+    	local thoptions = {}
+    	for themename, theme in pairs(RayfieldLibrary.Theme) do
+    		table.insert(thoptions, themename)
+    	end
+    
+    	local Dropdown = Tab:CreateDropdown({
+    		Name = "Theme",
+    		Options = thoptions,
+    		CurrentOption = {"Default"},
+    		MultipleOptions = false,
+    		Flag = "Dropdown1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+    		Callback = function(Options)
+    			--Window.ModifyTheme(Options[1])
+    			-- The function that takes place when the selected option is changed
+    			-- The variable (Options) is a table of strings for the current selected options
+    		end,
+    	})
+    
+    
+    	--Window.ModifyTheme({
+    	--	TextColor = Color3.fromRGB(50, 55, 60),
+    	--	Background = Color3.fromRGB(240, 245, 250),
+    	--	Topbar = Color3.fromRGB(215, 225, 235),
+    	--	Shadow = Color3.fromRGB(200, 210, 220),
+    
+    	--	NotificationBackground = Color3.fromRGB(210, 220, 230),
+    	--	NotificationActionsBackground = Color3.fromRGB(225, 230, 240),
+    
+    	--	TabBackground = Color3.fromRGB(200, 210, 220),
+    	--	TabStroke = Color3.fromRGB(180, 190, 200),
+    	--	TabBackgroundSelected = Color3.fromRGB(175, 185, 200),
+    	--	TabTextColor = Color3.fromRGB(50, 55, 60),
+    	--	SelectedTabTextColor = Color3.fromRGB(30, 35, 40),
+    
+    	--	ElementBackground = Color3.fromRGB(210, 220, 230),
+    	--	ElementBackgroundHover = Color3.fromRGB(220, 230, 240),
+    	--	SecondaryElementBackground = Color3.fromRGB(200, 210, 220),
+    	--	ElementStroke = Color3.fromRGB(190, 200, 210),
+    	--	SecondaryElementStroke = Color3.fromRGB(180, 190, 200),
+    
+    	--	SliderBackground = Color3.fromRGB(200, 220, 235),  -- Lighter shade
+    	--	SliderProgress = Color3.fromRGB(70, 130, 180),
+    	--	SliderStroke = Color3.fromRGB(150, 180, 220),
+    
+    	--	ToggleBackground = Color3.fromRGB(210, 220, 230),
+    	--	ToggleEnabled = Color3.fromRGB(70, 160, 210),
+    	--	ToggleDisabled = Color3.fromRGB(180, 180, 180),
+    	--	ToggleEnabledStroke = Color3.fromRGB(60, 150, 200),
+    	--	ToggleDisabledStroke = Color3.fromRGB(140, 140, 140),
+    	--	ToggleEnabledOuterStroke = Color3.fromRGB(100, 120, 140),
+    	--	ToggleDisabledOuterStroke = Color3.fromRGB(120, 120, 130),
+    
+    	--	DropdownSelected = Color3.fromRGB(220, 230, 240),
+    	--	DropdownUnselected = Color3.fromRGB(200, 210, 220),
+    
+    	--	InputBackground = Color3.fromRGB(220, 230, 240),
+    	--	InputStroke = Color3.fromRGB(180, 190, 200),
+    	--	PlaceholderColor = Color3.fromRGB(150, 150, 150)
+    	--})
+    
+    	local Keybind = Tab:CreateKeybind({
+    		Name = "Keybind Example",
+    		CurrentKeybind = "Q",
+    		HoldToInteract = false,
+    		Flag = "Keybind1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+    		Callback = function(Keybind)
+    			-- The function that takes place when the keybind is pressed
+    			-- The variable (Keybind) is a boolean for whether the keybind is being held or not (HoldToInteract needs to be true)
+    		end,
+    	})
+    
+    	local Label = Tab:CreateLabel("Label Example")
+    
+    	local Label2 = Tab:CreateLabel("Warning", 4483362458, Color3.fromRGB(255, 159, 49),  true)
+    
+    	local Paragraph = Tab:CreateParagraph({Title = "Paragraph Example", Content = "Paragraph ExampleParagraph ExampleParagraph ExampleParagraph ExampleParagraph ExampleParagraph ExampleParagraph ExampleParagraph ExampleParagraph ExampleParagraph ExampleParagraph ExampleParagraph ExampleParagraph ExampleParagraph Example"})
+    end
+    
+    if CEnabled and Main:FindFirstChild('Notice') then
+    	Main.Notice.BackgroundTransparency = 1
+    	Main.Notice.Title.TextTransparency = 1
+    	Main.Notice.Size = UDim2.new(0, 0, 0, 0)
+    	Main.Notice.Position = UDim2.new(0.5, 0, 0, -100)
+    	Main.Notice.Visible = true
+    
+    
+    	TweenService:Create(Main.Notice, TweenInfo.new(0.5, Enum.EasingStyle.Exponential, Enum.EasingDirection.InOut), {Size = UDim2.new(0, 280, 0, 35), Position = UDim2.new(0.5, 0, 0, -50), BackgroundTransparency = 0.5}):Play()
+    	TweenService:Create(Main.Notice.Title, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {TextTransparency = 0.1}):Play()
+    end
+    
+    task.delay(4, function()
+    	RayfieldLibrary.LoadConfiguration()
+    	if Main:FindFirstChild('Notice') and Main.Notice.Visible then
+    		TweenService:Create(Main.Notice, TweenInfo.new(0.5, Enum.EasingStyle.Exponential, Enum.EasingDirection.InOut), {Size = UDim2.new(0, 100, 0, 25), Position = UDim2.new(0.5, 0, 0, -100), BackgroundTransparency = 1}):Play()
+    		TweenService:Create(Main.Notice.Title, TweenInfo.new(0.3, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
+    
+    		task.wait(0.5)
+    		Main.Notice.Visible = false
+    	end
+    end)
+    
+    return RayfieldLibrary
+end)()
+
+local LuaArmorAPI = loadstring(game:HttpGet("https://sdkapi-public.luarmor.net/library.lua"))()
+LuaArmorAPI.script_id = "624a0bc4ce8a5660f80ecd8d6d16b2a4"
+
+local validKey = nil
+function validateKey(enteredKey)
+    local wasSucess, serverResponseOrError = pcall(LuaArmorAPI.check_key, enteredKey)
+    if not wasSucess then
+        return false, ("Unknown error occured while authenticating: %s"):format(serverResponseOrError)
+    end
+
+    if serverResponseOrError.code == "KEY_VALID" then
+        validKey = enteredKey
+        return true
+    else
+        local userFacingMessage
+        local receivedCode = serverResponseOrError.code
+        if receivedCode == "KEY_EXPIRED" then
+            userFacingMessage = "Your daily key has expired! Please get a new one."
+        elseif receivedCode == "KEY_BANNED" then
+            userFacingMessage = "Sorry, you have been blacklisted."
+        elseif receivedCode == "KEY_HWID_LOCKED" then
+            userFacingMessage = "Your key is HWID locked."
+        elseif receivedCode == "KEY_INCORRECT" or receivedCode == "KEY_INVALID" then
+            userFacingMessage = "This key is invalid."
+        else
+            userFacingMessage = ("Unknown error occured while authenticating: %s"):format(serverResponseOrError.code)
+        end
+
+        return false, userFacingMessage
+    end
+end
+
+task.spawn(function()
+    RayfieldLib:CreateWindow({
+        Name = "Fartsaken",
+        Icon = "microwave",
+        LoadingTitle = "Fartsaken",
+        LoadingSubtitle = "by ivannetta",
+
+        DisableRayfieldPrompts = false,
+        DisableBuildWarnings = false,
+
+        ConfigurationSaving = {
+            Enabled = true,
+            FolderName = nil,
+            FileName = "FartsakenConfig",
+        },
+
+        Discord = {
+            Enabled = true,
+            Invite = "fartsaken",
+            RememberJoins = true,
+        },
+
+        KeySystem = true,
+        KeySettings = {
+            Title = "Fartsaken | Key System",
+            Subtitle = "A tree filled with keys is the best tree...",
+            Note = "Key link copied to clipboard!",
+            FileName = "fartsaken_key",
+            SaveKey = true,
+            GrabKeyFromSite = false,
+            ValidateCallback = validateKey
+        },
+    })
+end)
+
+repeat
+    task.wait()
+until validKey ~= nil and getgenv().FARTSAKEN_WINDOW ~= nil
+task.wait(0.5)
+script_key = validKey
+getgenv().FARTHUB_RAYFIELD = RayfieldLib
+LuaArmorAPI.load_script()
