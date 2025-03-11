@@ -4072,7 +4072,7 @@ task.spawn(function()
 		ConfigurationSaving = {
 			Enabled = true,
 			FolderName = nil,
-			FileName = "FartsakenConfig",
+			FileName = "FartsakenConfiga",
 		},
 
 		Discord = {
