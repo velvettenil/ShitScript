@@ -33,7 +33,7 @@ local function makeUI()
     local StatusLabel = Instance.new("TextLabel")
     StatusLabel.Size = UDim2.new(1, -20, 0, 20)
     StatusLabel.Position = UDim2.new(0, 10, 0, 180)
-    StatusLabel.Text = "You don’t need a key to continue"
+    StatusLabel.Text = "Velvette On Top"
     StatusLabel.TextColor3 = Color3.fromRGB(200, 200, 200)
     StatusLabel.BackgroundTransparency = 1
     StatusLabel.TextSize = 14
@@ -82,7 +82,7 @@ local function makeUI()
     end)
 
     local ChekyButton = MakeSigmaButton("Start Script", 145, Color3.fromRGB(0, 158, 73), function()
-        StatusLabel.Text = "Validating... but you don’t need a key anymore"
+        StatusLabel.Text = "Thank Velvette. This Shit getting patched tho LOL"
 
         -- Bypass key check, just load the script
         api.load_script()
