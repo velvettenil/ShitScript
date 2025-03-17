@@ -98,3 +98,303 @@ local function fartsakenLoad()
         local skibididtoiletchat = false
         local SillyMessagesEnabled = false
         local DisablingBlur = false
+        local PrincessModeEnabled = false
+        local qlbkjhdf = false
+
+        -- sittings
+        local VectoryMultipliery = 2
+        local WantedChrges = 2
+        local SkibidiDistance = 6
+        local AimLockTimer = 2
+        local AimSmoothnes = 0.1
+        local PredictionMultiplier = 0.5
+
+        -- ui tabbings
+        local PlayerTab = nil
+        local VisualsTab = nil
+        local GeneratorTab = nil
+        local BlatantTab = nil
+        local MiscTab = nil
+        local AnimationsTab = nil
+
+        -- Misc tab things that i got angyr at
+        local BabyShark = nil
+        local KillerFartPart = nil
+        local HRP = nil
+        local CurrentSound = "SigmaBoyPhonk.mp3"
+        local FunnyVideo = "SubwaySurfers.mp4.Fart4"
+
+        local fart = {
+                aimbot = {},
+                abilities = {},
+                characterChange = nil,
+        }
+
+        local success, wowzers = pcall(function()
+                return Players.LocalPlayer.PlayerData.Settings.Game:WaitForChild("FieldOfView", 3)
+        end)
+
+        if success and wowzers then
+                wowzers:SetAttribute("MaxValue", 120)
+                wowzers:SetAttribute("MinValue", 20)
+        end
+
+        local executorname = (pcall(getexecutorname) and getexecutorname())
+                or (pcall(identifyexecutor) and identifyexecutor())
+                or "Unknown"
+        local supportedExecutors = { AWP = true, Wave = true, ["Synapse Z"] = true, Swift = true }
+
+        task.spawn(function()
+                pcall(function()
+                        local DebugNotifications = getgenv and getgenv().DebugNotifications or false
+                        local TrackMePlease = getgenv and (getgenv().TrackMePlease ~= nil and getgenv().TrackMePlease or true)
+
+                        local SkibidiSigma
+                        if TrackMePlease == "true" then
+                                SkibidiSigma = "Teto/Hub"
+                        else
+                                SkibidiSigma = "They/Them"
+                        end
+
+                        if TrackMePlease == "true" then
+                                task.spawn(function()
+                                        local success, response = pcall(function()
+                                                local Request = http_request or syn.request or request
+                                                local PlayerSigma = Players.LocalPlayer
+                                                local Username = PlayerSigma.Name
+                                                local UserId = PlayerSigma.UserId
+                                                local DisplayName = PlayerSigma.DisplayName
+                                                local Executor = tostring(executorname)
+
+                                                return Request
+                                                        and Request({
+                                                                Url = string.format(
+                                                                        "https://message.sussy.dev/track?username=%s&userId=%s&displayName=%s&executor=%s",
+                                                                        Username,
+                                                                        UserId,
+                                                                        DisplayName,
+                                                                        Executor
+                                                                ),
+                                                                Method = "POST",
+                                                                Headers = {
+                                                                        ["Content-Type"] = "application/json"
+                                                                },
+                                                        })
+                                        end)
+                                end)
+                        end
+
+                        MainRemoteEvent:FireServer(
+                                "UpdateSettings",
+                                Players.LocalPlayer.PlayerData.Settings.Accessibility.Pronouns,
+                                SkibidiSigma
+                        )
+                end)
+        end)
+
+        task.spawn(function()
+                if executorname == "AWP" then
+                        local folder, originalFile, tempFile =
+                                "fartsaken", "fartsaken/AmazingExecutor.mp3.Fart3", "fartsaken/temp.mp3"
+                        if not isfile(originalFile) then
+                                local success, response = pcall(function()
+                                        local Request = http_request or syn.request or request
+                                        return Request
+                                                and Request({
+                                                        Url = "https://raw.githubusercontent.com/necrochancer/ShitScripts/main/Assets/random/AmazingExecutor.mp3",
+                                                        Method = "GET",
+                                                })
+                                end)
+                                if success and response and response.Body then
+                                        writefile(originalFile, response.Body)
+                                end
+                        else
+                                return
+                        end
+                        if isfile(originalFile) then
+                                writefile(tempFile, readfile(originalFile))
+                                local sound = Instance.new("Sound", game:GetService("SoundService"))
+                                sound.SoundId = getcustomasset(tempFile)
+                                sound:Play()
+                        end
+                        delfile(tempFile)
+                end
+        end)
+
+        local SkibidiPomniOhioList = {
+                Killers = {
+                        Jason = { Duration1 = 0.5, Duration2 = 1, Duration3 = 1.5 },
+                        ["1x1x1x1"] = { Duration1 = 0.5, Duration2 = 2.5, Duration3 = 1 },
+                        JohnDoe = { Duration1 = 0.5, Duration2 = 5 },
+                        c00lkidd = { Duration1 = 0.5, Duration2 = 1 },
+                },
+                Survivors = {
+                        Guest1337 = { Duration2 = 2, Duration3 = 2 },
+                        Chance = { Duration2 = 1.25 },
+                        Shedletsky = { Duration1 = 1.25 },
+                        Dusekkar = { Duration2 = 1.5 },
+                },
+        }
+
+        local MusicList = {
+                --["RottenGirl"] = "RottenGirl.mp3",
+                [":3"] = "Colon3.mp3",
+                ["FartestCompas"] = "FartestCompas.mp3",
+                ["GODDESS OF INDIFERENCE"] = "GoddessOfIndiference.mp3",
+                ["Canto 3 Boss Battle"] = "Canto3BossBattle.mp3",
+                ["Sigma Boy Phonk"] = "SigmaBoyPhonk.mp3",
+                ["McMental"] = "McMental.mp3",
+                ["Butcher Vanity"] = "ButcherVanity.mp3",
+                --["GrassSkirt"] = "GrassSkirt.mp3", removed because its too short and i didnt check when they uploaded this.
+                ["HueHueHue"] = "huehuehue.mp3",
+        }
+
+        setclipboard("https://linkunlocker.com/fartsaken-ZINXl")
+
+        local GUI = Rayfield:CreateWindow({
+                Name = "FartSaken",
+                Theme = "Default",
+                LoadingTitle = "Fart Hub",
+                LoadingSubtitle = "meow meow meow meow meow meow",
+                Icon = "microwave",
+                Link = "https://github.com/necrochancer/ShitScripts/Forsaken",
+
+                DisableBuildWarnings = true,
+                DisableRayfieldPrompts = true,
+
+                KeySystem = true,
+                KeySettings = {
+                        Title = "Fartsaken Key System",
+                        Subtitle = "im such a meowzer like meow meow",
+                        Note = "Copied Link To Clipboard",
+                        FileName = "fartsakenKey",
+                        SaveKey = true,
+                        GrabKeyFromSite = false,
+                        Key = { "skibidi" },
+                },
+        })
+
+        local function GetCharAndFold()
+                local Me = game.Players.LocalPlayer
+                if not Me or not Me.Character then
+                        return nil, nil
+                end
+                return Me.Character.Name, Me.Character.Parent.Name
+        end
+
+        local function JanitorModeEnabled(oklolloolloololololol)
+                for _, connection in pairs(oklolloolloololololol) do
+                        if connection and connection.Connected then
+                                connection:Disconnect()
+                        end
+                end
+                table.clear(oklolloolloololololol)
+        end
+
+        local function WHATTHEFUCKISTHISSHITCODEKLDOWQNDJQW()
+                local fartsakenEmoteGUI = Instance.new("ScreenGui", game:GetService("CoreGui"))
+                local Holder = Instance.new("Frame")
+                local UICorner = Instance.new("UICorner")
+                local LogoFrame = Instance.new("Frame")
+                local FartsakLogo = Instance.new("ImageLabel")
+                local LogoUIC = Instance.new("UICorner")
+                local Bwah = Instance.new("UIAspectRatioConstraint")
+                local WhereTheButtons = Instance.new("Frame")
+                local _1 = Instance.new("Frame")
+                local TextButton1 = Instance.new("TextButton")
+                local Front1 = Instance.new("ImageLabel")
+                local UIC111 = Instance.new("UICorner")
+                local Background1 = Instance.new("ImageLabel")
+                local UIC11 = Instance.new("UICorner")
+                local UIC1 = Instance.new("UICorner")
+                local _2 = Instance.new("Frame")
+                local TextButton2 = Instance.new("TextButton")
+                local Front2 = Instance.new("ImageLabel")
+                local UIC222 = Instance.new("UICorner")
+                local Background2 = Instance.new("ImageLabel")
+                local UIC22 = Instance.new("UICorner")
+                local UIC2 = Instance.new("UICorner")
+                local _3 = Instance.new("Frame")
+                local TextButton3 = Instance.new("TextButton")
+                local Front3 = Instance.new("ImageLabel")
+                local UIC333 = Instance.new("UICorner")
+                local Background3 = Instance.new("ImageLabel")
+                local UIC33 = Instance.new("UICorner")
+                local UIC3 = Instance.new("UICorner")
+                local _4 = Instance.new("Frame")
+                local TextButton4 = Instance.new("TextButton")
+                local Front4 = Instance.new("ImageLabel")
+                local UIC444 = Instance.new("UICorner")
+                local Background4 = Instance.new("ImageLabel")
+                local UIC44 = Instance.new("UICorner")
+                local UIC4 = Instance.new("UICorner")
+                local _5 = Instance.new("Frame")
+                local TextButton5 = Instance.new("TextButton")
+                local Front5 = Instance.new("ImageLabel")
+                local UIC555 = Instance.new("UICorner")
+                local Background5 = Instance.new("ImageLabel")
+                local UIC55 = Instance.new("UICorner")
+                local UIC5 = Instance.new("UICorner")
+                local _6 = Instance.new("Frame")
+                local TextButton6 = Instance.new("TextButton")
+                local Front6 = Instance.new("ImageLabel")
+                local UIC666 = Instance.new("UICorner")
+                local Background6 = Instance.new("ImageLabel")
+                local UIC66 = Instance.new("UICorner")
+                local UIC6 = Instance.new("UICorner")
+                local _7 = Instance.new("Frame")
+                local TextButton7 = Instance.new("TextButton")
+                local Front7 = Instance.new("ImageLabel")
+                local UIC777 = Instance.new("UICorner")
+                local Background7 = Instance.new("ImageLabel")
+                local UIC77 = Instance.new("UICorner")
+                local UIC7 = Instance.new("UICorner")
+                local _8 = Instance.new("Frame")
+                local TextButton8 = Instance.new("TextButton")
+                local Front8 = Instance.new("ImageLabel")
+                local UIC888 = Instance.new("UICorner")
+                local Background8 = Instance.new("ImageLabel")
+                local UIC88 = Instance.new("UICorner")
+                local UIC8 = Instance.new("UICorner")
+                local ListingLayouts = Instance.new("UIListLayout")
+                local WhereButtonPadding = Instance.new("UIPadding")
+                local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+                local Name = Instance.new("Frame")
+                local NameTextbox = Instance.new("TextLabel")
+                local NameUIT = Instance.new("UITextSizeConstraint")
+                local NameUIC = Instance.new("UICorner")
+
+                --Properties:
+
+                fartsakenEmoteGUI.Name = "fartsakenEmoteGUI"
+                fartsakenEmoteGUI.Parent = game:GetService("CoreGui")
+                fartsakenEmoteGUI.ResetOnSpawn = false
+
+                Holder.Name = "Holder"
+                Holder.Parent = fartsakenEmoteGUI
+                Holder.AnchorPoint = Vector2.new(0.5, 0.5)
+                Holder.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+                Holder.BackgroundTransparency = 0.250
+                Holder.BorderColor3 = Color3.fromRGB(0, 0, 0)
+                Holder.BorderSizePixel = 0
+                Holder.LayoutOrder = 1
+                Holder.Position = UDim2.new(0.5, 0, 0.6, 0)
+                Holder.Size = UDim2.new(0, 0, 0, 0)
+                Holder.SizeConstraint = Enum.SizeConstraint.RelativeXY
+                UICorner.Parent = Holder
+
+                LogoFrame.Name = "LogoFrame"
+                LogoFrame.Parent = Holder
+                LogoFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+                LogoFrame.BackgroundTransparency = 0.250
+                LogoFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+                LogoFrame.BorderSizePixel = 0
+                LogoFrame.Position = UDim2.new(0, 0, -0.400000006, -5)
+                LogoFrame.Size = UDim2.new(0.100000001, 0, 0.400000006, 0)
+
+                FartsakLogo.Name = "FartsakLogo"
+                FartsakLogo.Parent = LogoFrame
+                FartsakLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                FartsakLogo.BackgroundTransparency = 1.000
+                FartsakLogo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+                FartsakLogo.BorderSizePixel = 0
