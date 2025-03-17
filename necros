@@ -827,4 +827,368 @@ local function fartsakenLoad()
                 Background7.Position = UDim2.new(0.5, 0, 0.5, 0)
                 Background7.Size = UDim2.new(0.800000012, 0, 0.800000012, 0)
                 Background7.SizeConstraint = Enum.SizeConstraint.RelativeXX
- 
+                 Background7.ZIndex = 3
+                Background7.Image = "rbxassetid://138110752460865"
+
+                UIC77.Name = "UIC77"
+                UIC77.Parent = Background7
+
+                UIC7.Name = "UIC7"
+                UIC7.Parent = _7
+
+                _8.Name = "8"
+                _8.Parent = WhereTheButtons
+                _8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+                _8.BackgroundTransparency = 0.700
+                _8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+                _8.BorderSizePixel = 0
+                _8.LayoutOrder = 8
+                _8.Size = UDim2.new(0.125, 0, 1, 0)
+                _8.ZIndex = 2
+
+                TextButton8.Name = "TextButton8"
+                TextButton8.Parent = _8
+                TextButton8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                TextButton8.BackgroundTransparency = 1.000
+                TextButton8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+                TextButton8.BorderSizePixel = 0
+                TextButton8.Size = UDim2.new(1, 0, 1, 0)
+                TextButton8.ZIndex = 3
+                TextButton8.Font = Enum.Font.FredokaOne
+                TextButton8.Text = ""
+                TextButton8.TextColor3 = Color3.fromRGB(255, 255, 255)
+                TextButton8.TextScaled = true
+                TextButton8.TextSize = 10.000
+                TextButton8.TextWrapped = true
+
+                Front8.Name = "Front8"
+                Front8.Parent = TextButton8
+                Front8.AnchorPoint = Vector2.new(0.5, 0.5)
+                Front8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                Front8.BackgroundTransparency = 1.000
+                Front8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+                Front8.BorderSizePixel = 0
+                Front8.Position = UDim2.new(0.5, 0, 0.5, 0)
+                Front8.Size = UDim2.new(0.899999976, 0, 0.899999976, 0)
+                Front8.SizeConstraint = Enum.SizeConstraint.RelativeXX
+                Front8.ZIndex = 4
+                Front8.Image = "rbxassetid://112068843495830"
+
+                UIC888.Name = "UIC888"
+                UIC888.Parent = Front8
+
+                Background8.Name = "Background8"
+                Background8.Parent = TextButton8
+                Background8.AnchorPoint = Vector2.new(0.5, 0.5)
+                Background8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                Background8.BackgroundTransparency = 1.000
+                Background8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+                Background8.BorderSizePixel = 0
+                Background8.Position = UDim2.new(0.5, 0, 0.5, 0)
+                Background8.Size = UDim2.new(0.800000012, 0, 0.800000012, 0)
+                Background8.SizeConstraint = Enum.SizeConstraint.RelativeXX
+                Background8.ZIndex = 3
+                Background8.Image = "rbxassetid://138110752460865"
+
+                UIC88.Name = "UIC88"
+                UIC88.Parent = Background8
+
+                UIC8.Name = "UIC8"
+                UIC8.Parent = _8
+
+                ListingLayouts.Name = "ListingLayouts"
+                ListingLayouts.Parent = WhereTheButtons
+                ListingLayouts.FillDirection = Enum.FillDirection.Horizontal
+                ListingLayouts.SortOrder = Enum.SortOrder.LayoutOrder
+                ListingLayouts.VerticalAlignment = Enum.VerticalAlignment.Center
+                ListingLayouts.HorizontalAlignment = Enum.HorizontalAlignment.Left
+                ListingLayouts.Padding = UDim.new(0, 5)
+
+                WhereButtonPadding.Name = "WhereButtonPadding"
+                WhereButtonPadding.Parent = WhereTheButtons
+                WhereButtonPadding.PaddingBottom = UDim.new(0, 5)
+                WhereButtonPadding.PaddingLeft = UDim.new(0, 5)
+                WhereButtonPadding.PaddingRight = UDim.new(0, 5)
+                WhereButtonPadding.PaddingTop = UDim.new(0, 5)
+
+                UIAspectRatioConstraint.Parent = Holder
+                UIAspectRatioConstraint.AspectRatio = 9.000
+
+                Name.Name = "Name"
+                Name.Parent = Holder
+                Name.AnchorPoint = Vector2.new(0.5, 1)
+                Name.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+                Name.BackgroundTransparency = 0.250
+                Name.BorderColor3 = Color3.fromRGB(0, 0, 0)
+                Name.BorderSizePixel = 0
+                Name.Position = UDim2.new(0.5, 0, 1.29999995, 5)
+                Name.Size = UDim2.new(1, 0, 0.300000012, 0)
+
+                NameTextbox.Name = "NameTextbox"
+                NameTextbox.Parent = Name
+                NameTextbox.AnchorPoint = Vector2.new(0.5, 0.5)
+                NameTextbox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                NameTextbox.BackgroundTransparency = 1.000
+                NameTextbox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+                NameTextbox.BorderSizePixel = 0
+                NameTextbox.Position = UDim2.new(0.5, 0, 0.5, 0)
+                NameTextbox.Size = UDim2.new(1, 0, 1, 0)
+                NameTextbox.Font = Enum.Font.FredokaOne
+                NameTextbox.Text = "Some Emote Name"
+                NameTextbox.TextColor3 = Color3.fromRGB(255, 255, 255)
+                NameTextbox.TextScaled = true
+                NameTextbox.TextSize = 14.000
+                NameTextbox.TextWrapped = true
+
+                NameUIT.Name = "NameUIT"
+                NameUIT.Parent = NameTextbox
+                NameUIT.MaxTextSize = 30
+                NameUIT.MinTextSize = 10
+
+                NameUIC.Name = "NameUIC"
+                NameUIC.Parent = Name
+
+                local Images = {
+                        { name = "Jumpstyle", renderImage = "rbxassetid://73574803924243" },
+                        { name = "JumpingForJoy", renderImage = "rbxassetid://129614581942080" },
+                        { name = "Drumsticks", renderImage = "rbxassetid://80678095206124" },
+                        { name = "KazotskyKick", renderImage = "rbxassetid://132653220480177" },
+                        { name = "MonsterMash", renderImage = "rbxassetid://73592720532565" },
+                        { name = "CCShimmy", renderImage = "rbxassetid://92379847382802" },
+                        { name = "AshleyLookAtMe", renderImage = "rbxassetid://101141010818082" },
+                        { name = "Brickbattler", renderImage = "rbxassetid://97057214315889" },
+                        { name = "AintNoLovinMyMan", renderImage = "rbxassetid://93998300527888" },
+                        { name = "TwoTwoTwo", renderImage = "rbxassetid://96092312091932" },
+                        { name = "Sukuna", renderImage = "rbxassetid://95950437854407" },
+                        { name = "Silly", renderImage = "rbxassetid://121965062547127" },
+                        { name = "StockDance", renderImage = "rbxassetid://136238391916155" },
+                        { name = "GangnamStyle", renderImage = "rbxassetid://101388085235785" },
+                        { name = "Khaled", renderImage = "rbxassetid://104716889279869" },
+                        { name = "HeyNow", renderImage = "rbxassetid://93665655595946" },
+                        { name = "Locked", renderImage = "rbxassetid://103241825392940" },
+                        { name = "LethalCompany", renderImage = "rbxassetid://89769371017185" },
+                        { name = "Headbanger", renderImage = "rbxassetid://126222345373558" },
+                        { name = "SoRetro", renderImage = "rbxassetid://129885437120707" },
+                        { name = "AICatDance", renderImage = "rbxassetid://93387041641721" },
+                        { name = "SubjectThree", renderImage = "rbxassetid://83639505456623" },
+                        { name = "Subterfuge", renderImage = "rbxassetid://71165177698139" },
+                        { name = "Griddy", renderImage = "rbxassetid://71748174857033" },
+                        { name = "Prince", renderImage = "rbxassetid://125197961882771" },
+                        { name = "MissTheQuiet", renderImage = "rbxassetid://86125219137797" },
+                        { name = "Hero", renderImage = "rbxassetid://78969991165860" },
+                        { name = "PYT", renderImage = "rbxassetid://121927033287000" },
+                        { name = "Wait", renderImage = "rbxassetid://106561882302009" },
+                        { name = "No", renderImage = "rbxassetid://101973569734115" },
+                        { name = "Konton", renderImage = "rbxassetid://135343313057075" },
+                        { name = "TickTock", renderImage = "rbxassetid://112068843495830" },
+                        { name = "Dio", renderImage = "rbxassetid://78716828045407" },
+                        { name = "Shucks", renderImage = "rbxassetid://139634009593796" },
+                        { name = "ThePhone", renderImage = "rbxassetid://91657126735088" },
+                        { name = "Skeleton", renderImage = "rbxassetid://94678300716216" },
+                        { name = "Insanity", renderImage = "rbxassetid://79579234154217" },
+                        { name = "HakariDance", renderImage = "rbxassetid://124587965197013" },
+                        { name = "SillyBilly", renderImage = "rbxassetid://96660516353249" },
+                        { name = "Hotdog", renderImage = "rbxassetid://70514684116327" },
+                        { name = "DistractionDance", renderImage = "rbxassetid://110811886859354" },
+                        { name = "CaliforniaGirls", renderImage = "rbxassetid://127260772788474" },
+                        { name = "AolGuy", renderImage = "rbxassetid://81493512531467" },
+                        { name = "Eggrolled", renderImage = "rbxassetid://75402218293560" },
+                        { name = "BagUp", renderImage = "rbxassetid://135883870615399" },
+                        { name = "Poisoned", renderImage = "rbxassetid://92399495788269" },
+                        { name = "Wave", renderImage = "rbxassetid://132063131763271" },
+                }
+
+                local buttons = {
+                        TextButton1,
+                        TextButton2,
+                        TextButton3,
+                        TextButton4,
+                        TextButton5,
+                        TextButton6,
+                        TextButton7,
+                        TextButton8,
+                }
+
+                local function GetEmoteList()
+                        local player = game:GetService("Players").LocalPlayer
+                        local emotes = player:FindFirstChild("PlayerData")
+                                        and player.PlayerData:FindFirstChild("Equipped")
+                                        and player.PlayerData.Equipped:FindFirstChild("Emotes")
+                                        and player.PlayerData.Equipped.Emotes.Value
+                                or ""
+                        local emoteList = {}
+                        for i, emote in ipairs(string.split(emotes, "|")) do
+                                local EmoteImage = ""
+                                for _, image in ipairs(Images) do
+                                        if image.name == emote then
+                                                EmoteImage = image.renderImage
+                                                break
+                                        end
+                                end
+                                table.insert(emoteList, { index = i, name = emote, renderImage = EmoteImage })
+                        end
+                        return emoteList
+                end
+
+                local emoteList = GetEmoteList()
+
+                local function SetImages()
+                        for i, button in ipairs(buttons) do
+                                local emote = emoteList[i]
+                                if emote and emote.renderImage ~= "" then
+                                        button:FindFirstChild("Front" .. i).Image = emote.renderImage
+                                else
+                                        button.Text = ""
+                                        for _, child in ipairs(button:GetChildren()) do
+                                                if child:IsA("ImageLabel") then
+                                                        child:Destroy()
+                                                end
+                                        end
+                                end
+                        end
+                end
+
+                SetImages()
+
+                for i, button in ipairs(buttons) do
+                        button.MouseEnter:Connect(function()
+                                local emote = emoteList[i]
+                                if emote and emote.name ~= "" then
+                                        NameTextbox.Text = emote.name
+                                end
+                        end)
+                end
+
+                local TweenServiceSigma = game:GetService("TweenService")
+
+                local Blur = Instance.new("BlurEffect", game:GetService("Lighting"))
+                Blur.Size = 0
+                Blur.Name = "Blur"
+
+                local tweenInfoSigmaBlur = TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0, false, 0)
+                local tweenSigmaBlur = TweenServiceSigma:Create(Blur, tweenInfoSigmaBlur, { Size = 0 })
+                tweenSigmaBlur:Play()
+
+                local tweeninfoholdersize = TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0, false, 0)
+                local tweenholdersize =
+                        TweenServiceSigma:Create(Holder, tweeninfoholdersize, { Size = UDim2.new(0.8 * 0.8, 0, 0.15 * 0.8, 0) })
+                tweenholdersize:Play()
+
+                for i, button in ipairs(buttons) do
+                        button.Activated:Connect(function()
+                                local PlayThingText = emoteList[i].name
+
+                                local ohString1 = "PlayEmote"
+                                local ohString2 = "Animations"
+                                local ohString3 = "TickTock"
+                                game:GetService("ReplicatedStorage").Modules.Network.RemoteEvent
+                                        :FireServer(ohString1, ohString2, PlayThingText)
+
+                                local TweenService = game:GetService("TweenService")
+
+                                local originalSize = Holder.Size
+                                local DestinationSize = UDim2.new(0, 0, 0, 0)
+
+                                local tweenInfo = TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0, false, 0)
+                                local tween = TweenService:Create(Holder, tweenInfo, { Size = DestinationSize })
+                                local tweenblurinfo = TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, 0, false, 0)
+                                local tweenblur = TweenService:Create(Blur, tweenblurinfo, { Size = 0 })
+
+                                tweenblur:Play()
+                                tween:Play()
+                                task.wait(0.25)
+                                fartsakenEmoteGUI:Destroy()
+                        end)
+                end
+        end
+
+        local function ToggleAcid(state)
+                local success, map = pcall(function()
+                        return workspace.Map.Ingame.Map
+                end)
+                if success and map and map:FindFirstChild("AcidContainer") then
+                        for i, v in pairs(map["AcidContainer"].Acid:GetChildren()) do
+                                if v:IsA("Part") then
+                                        if state then
+                                                v.Size = Vector3.new(v.Size.X, 7, v.Size.Z)
+                                        elseif not state then
+                                                v.Size = Vector3.new(v.Size.X, 6, v.Size.Z)
+                                        end
+                                end
+                        end
+                end
+        end
+
+        local function ToggleKillerCollide(state)
+                if state == true then
+                        state = false
+                else
+                        state = true
+                end
+                local success, map = pcall(function()
+                        return workspace.Map.Ingame.Map
+                end)
+                if success and map and map:FindFirstChild("Walls (Red Trans = Killer Walkthrough)") then
+                        for i, v in pairs(map["Walls (Red Trans = Killer Walkthrough)"].KillerWalkThru:GetChildren()) do
+                                if v:IsA("Part") then
+                                        v.CanCollide = state
+                                end
+                        end
+                end
+        end
+
+        local function Aimbot(Dur)
+                if not Dur or not EnableIAIMBOTPLS then
+                        return
+                end
+
+                local Char, CharacterGender = GetCharAndFold()
+                if not Char or not CharacterGender then
+                        return
+                end
+
+                local Me = game.Players.LocalPlayer
+                local MeButCharacter = Me.Character
+                if not MeButCharacter or not MeButCharacter:FindFirstChild("HumanoidRootPart") then
+                        return
+                end
+
+                local HornyFolder = workspace:FindFirstChild("Players")
+                        and workspace.Players:FindFirstChild(CharacterGender == "Killers" and "Survivors" or "Killers")
+                if not HornyFolder then
+                        return
+                end
+
+                local function FindClosestPerson()
+                        local ClosestTarget, ClosestDistance = nil, math.huge
+                        local MyPosition = MeButCharacter.HumanoidRootPart.Position
+
+                        for _, v in pairs(HornyFolder:GetChildren()) do
+                                if v:FindFirstChild("Humanoid") and v.Humanoid.Health > 0 and v:FindFirstChild("HumanoidRootPart") then
+                                        local distance = (v.HumanoidRootPart.Position - MyPosition).Magnitude
+                                        if distance < ClosestDistance then
+                                                ClosestDistance = distance
+                                                ClosestTarget = v
+                                        end
+                                end
+                        end
+                        return ClosestTarget
+                end
+
+                local target = FindClosestPerson()
+                task.spawn(function()
+                        pcall(function()
+                                local success, err = pcall(function()
+                                        if SmoothShiftLock ~= "Unavailable" and not SmoothShiftLock.Enabled then
+                                                SmoothShiftLock:ToggleShiftLock()
+                                        else
+                                                if not game:GetService("UserInputService").MouseBehavior == Enum.MouseBehavior.LockCenter then
+                                                        local ShiftlockKeybindEnum =
+                                                                game:GetService("Players").LocalPlayer.PlayerData.Settings.Keybinds.ShiftLock.Value
+                                                        -- get keycode of shiftlock
+                                                        local ShiftlockKeyCode = Enum.KeyCode[ShiftlockKeybindEnum]
+                                                        VIM:SendKeyEvent(
+                                                                true,
+                                                                ShiftlockKeyCode,
+                                                                false,
+                        
