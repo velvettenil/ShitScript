@@ -1,0 +1,100 @@
+local TweenService = game:GetService("TweenService")
+local UserInputService = game:GetService("UserInputService")
+local Workspace = game:GetService("Workspace")
+local KeySystem
+local Frame
+local TextBox
+local UICorner14
+local UIPadding
+local UICorner_2
+local TextLabel
+local CheckKeyButton
+local UICorner_3
+local GetKey
+local UICorner_4
+local player = game.Players.LocalPlayer
+
+local SupportedVersion = 9264
+-- this is like the worst script ever bro
+-- like allat needs to be deleted 🙏
+
+local function fartsakenLoad()
+        -- roblox services that i dont need and totaly never use
+        local Players = game:GetService("Players")
+        local SoundService = game:GetService("SoundService")
+        local RunService = game:GetService("RunService")
+        local HttpService = game:GetService("HttpService")
+        local VIM = game:GetService("VirtualInputManager")
+        local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+        -- remote skibidi toilet enabler
+        local MainRemoteEvent = ReplicatedStorage.Modules.Network.RemoteEvent
+
+        -- literally just playergui 😭
+        local PlayerGui = Players.LocalPlayer:WaitForChild("PlayerGui")
+
+        -- modulales
+        local Rayfield = loadstring(
+                game:HttpGet("https://raw.githubusercontent.com/SiriusSoftwareLtd/Rayfield/refs/heads/main/source.lua")
+        )()
+
+        local SmoothShiftLock
+        local smoothShiftLockModule = ReplicatedStorage:WaitForChild("Systems")
+                :WaitForChild("Player")
+                :WaitForChild("Game")
+                :FindFirstChild("SmoothShiftLock")
+        local function GetShiftlock()
+                local success, shiftlock = pcall(function()
+                        return require(ReplicatedStorage.Systems.Player.Game.SmoothShiftLock)
+                end)
+                if success then
+                        SmoothShiftLock = require(ReplicatedStorage.Systems.Player.Game.SmoothShiftLock)
+                else
+                        Rayfield:Notify({
+                                Title = "An error occured!",
+                                Content = "Require isnt available",
+                                Duration = 10,
+                                Image = "ban",
+                        })
+                        SmoothShiftLock = "Unavailable"
+                end
+        end
+
+        task.spawn(GetShiftlock)
+
+        local SigmaData
+        local vlkhjb
+
+        -- tablets
+        local buttonFrames = {}
+        local imageButtons = {}
+        local CheckedPlayers = {}
+        local SkibPlr = {}
+        local CurrentFartsActive = {}
+        local NameProtectNames = {}
+        local pizzaConnections = {}
+        local MusicConnections = {}
+
+        -- flagatrons
+        local CoolDownBlockers = false
+        local SheddyEnabled = false
+        local loopty = false
+        local JoinedSigmaServer = false
+        local WowWhatTheZestIsThis = nil
+        local BlockEnabled = false
+        local FlipCooldown = false
+        local GeneratorKeybindCooldown = false
+        local LopticaGenBill = false
+        local LopticaNameHighlight = false
+        local CoinFlipping = false
+        local Runners = false
+        local LopticaCooldown = false
+        local ReplaceStandingMusic = false
+        local Prediction = false
+        local EnableIAIMBOTPLS = false
+        local LowAttentionSpanModeActivated = false
+        local BypassCooldown = false
+        local Dogens = false
+        local skibididtoiletchat = false
+        local SillyMessagesEnabled = false
+        local DisablingBlur = false
