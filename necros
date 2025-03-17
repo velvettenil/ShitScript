@@ -398,3 +398,433 @@ local function fartsakenLoad()
                 FartsakLogo.BackgroundTransparency = 1.000
                 FartsakLogo.BorderColor3 = Color3.fromRGB(0, 0, 0)
                 FartsakLogo.BorderSizePixel = 0
+                FartsakLogo.Size = UDim2.new(1, 0, 1, 0)
+                FartsakLogo.Image = "http://www.roblox.com/asset/?id=138949854455429"
+
+                LogoUIC.Name = "LogoUIC"
+                LogoUIC.Parent = LogoFrame
+
+                Bwah.Name = "Bwah"
+                Bwah.Parent = LogoFrame
+                Bwah.AspectRatio = 2.250
+
+                WhereTheButtons.Name = "WhereTheButtons"
+                WhereTheButtons.Parent = Holder
+                WhereTheButtons.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                WhereTheButtons.BackgroundTransparency = 1.000
+                WhereTheButtons.BorderColor3 = Color3.fromRGB(0, 0, 0)
+                WhereTheButtons.BorderSizePixel = 0
+                WhereTheButtons.Size = UDim2.new(1, -40, 1, 0)
+
+                _1.Name = "1"
+                _1.Parent = WhereTheButtons
+                _1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+                _1.BackgroundTransparency = 0.700
+                _1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+                _1.BorderSizePixel = 0
+                _1.LayoutOrder = 1
+                _1.Size = UDim2.new(0.125, 0, 1, 0)
+                _1.ZIndex = 2
+
+                TextButton1.Name = "TextButton1"
+                TextButton1.Parent = _1
+                TextButton1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                TextButton1.BackgroundTransparency = 1.000
+                TextButton1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+                TextButton1.BorderSizePixel = 0
+                TextButton1.Size = UDim2.new(1, 0, 1, 0)
+                TextButton1.ZIndex = 3
+                TextButton1.Font = Enum.Font.FredokaOne
+                TextButton1.Text = ""
+                TextButton1.TextColor3 = Color3.fromRGB(255, 255, 255)
+                TextButton1.TextScaled = true
+                TextButton1.TextSize = 10.000
+                TextButton1.TextWrapped = true
+
+                Front1.Name = "Front1"
+                Front1.Parent = TextButton1
+                Front1.AnchorPoint = Vector2.new(0.5, 0.5)
+                Front1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                Front1.BackgroundTransparency = 1.000
+                Front1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+                Front1.BorderSizePixel = 0
+                Front1.Position = UDim2.new(0.5, 0, 0.5, 0)
+                Front1.Size = UDim2.new(0.899999976, 0, 0.899999976, 0)
+                Front1.SizeConstraint = Enum.SizeConstraint.RelativeXX
+                Front1.ZIndex = 4
+                Front1.Image = "rbxassetid://112068843495830"
+
+                UIC111.Name = "UIC111"
+                UIC111.Parent = Front1
+
+                Background1.Name = "Background1"
+                Background1.Parent = TextButton1
+                Background1.AnchorPoint = Vector2.new(0.5, 0.5)
+                Background1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                Background1.BackgroundTransparency = 1.000
+                Background1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+                Background1.BorderSizePixel = 0
+                Background1.Position = UDim2.new(0.5, 0, 0.5, 0)
+                Background1.Size = UDim2.new(0.800000012, 0, 0.800000012, 0)
+                Background1.SizeConstraint = Enum.SizeConstraint.RelativeXX
+                Background1.ZIndex = 3
+                Background1.Image = "rbxassetid://138110752460865"
+
+                UIC11.Name = "UIC11"
+                UIC11.Parent = Background1
+
+                UIC1.Name = "UIC1"
+                UIC1.Parent = _1
+
+                _2.Name = "2"
+                _2.Parent = WhereTheButtons
+                _2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+                _2.BackgroundTransparency = 0.700
+                _2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+                _2.BorderSizePixel = 0
+                _2.LayoutOrder = 2
+                _2.Size = UDim2.new(0.125, 0, 1, 0)
+                _2.ZIndex = 2
+
+                TextButton2.Name = "TextButton2"
+                TextButton2.Parent = _2
+                TextButton2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                TextButton2.BackgroundTransparency = 1.000
+                TextButton2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+                TextButton2.BorderSizePixel = 0
+                TextButton2.Size = UDim2.new(1, 0, 1, 0)
+                TextButton2.ZIndex = 3
+                TextButton2.Font = Enum.Font.FredokaOne
+                TextButton2.Text = ""
+                TextButton2.TextColor3 = Color3.fromRGB(255, 255, 255)
+                TextButton2.TextScaled = true
+                TextButton2.TextSize = 10.000
+                TextButton2.TextWrapped = true
+
+                Front2.Name = "Front2"
+                Front2.Parent = TextButton2
+                Front2.AnchorPoint = Vector2.new(0.5, 0.5)
+                Front2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                Front2.BackgroundTransparency = 1.000
+                Front2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+                Front2.BorderSizePixel = 0
+                Front2.Position = UDim2.new(0.5, 0, 0.5, 0)
+                Front2.Size = UDim2.new(0.899999976, 0, 0.899999976, 0)
+                Front2.SizeConstraint = Enum.SizeConstraint.RelativeXX
+                Front2.ZIndex = 4
+                Front2.Image = "rbxassetid://112068843495830"
+
+                UIC222.Name = "UIC222"
+                UIC222.Parent = Front2
+
+                Background2.Name = "Background2"
+                Background2.Parent = TextButton2
+                Background2.AnchorPoint = Vector2.new(0.5, 0.5)
+                Background2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                Background2.BackgroundTransparency = 1.000
+                Background2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+                Background2.BorderSizePixel = 0
+                Background2.Position = UDim2.new(0.5, 0, 0.5, 0)
+                Background2.Size = UDim2.new(0.800000012, 0, 0.800000012, 0)
+                Background2.SizeConstraint = Enum.SizeConstraint.RelativeXX
+                Background2.ZIndex = 3
+                Background2.Image = "rbxassetid://138110752460865"
+
+                UIC22.Name = "UIC22"
+                UIC22.Parent = Background2
+
+                UIC2.Name = "UIC2"
+                UIC2.Parent = _2
+
+                _3.Name = "3"
+                _3.Parent = WhereTheButtons
+                _3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+                _3.BackgroundTransparency = 0.700
+                _3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+                _3.BorderSizePixel = 0
+                _3.LayoutOrder = 3
+                _3.Size = UDim2.new(0.125, 0, 1, 0)
+                _3.ZIndex = 2
+
+                TextButton3.Name = "TextButton3"
+                TextButton3.Parent = _3
+                TextButton3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                TextButton3.BackgroundTransparency = 1.000
+                TextButton3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+                TextButton3.BorderSizePixel = 0
+                TextButton3.Size = UDim2.new(1, 0, 1, 0)
+                TextButton3.ZIndex = 3
+                TextButton3.Font = Enum.Font.FredokaOne
+                TextButton3.Text = ""
+                TextButton3.TextColor3 = Color3.fromRGB(255, 255, 255)
+                TextButton3.TextScaled = true
+                TextButton3.TextSize = 10.000
+                TextButton3.TextWrapped = true
+
+                Front3.Name = "Front3"
+                Front3.Parent = TextButton3
+                Front3.AnchorPoint = Vector2.new(0.5, 0.5)
+                Front3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                Front3.BackgroundTransparency = 1.000
+                Front3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+                Front3.BorderSizePixel = 0
+                Front3.Position = UDim2.new(0.5, 0, 0.5, 0)
+                Front3.Size = UDim2.new(0.899999976, 0, 0.899999976, 0)
+                Front3.SizeConstraint = Enum.SizeConstraint.RelativeXX
+                Front3.ZIndex = 4
+                Front3.Image = "rbxassetid://112068843495830"
+
+                UIC333.Name = "UIC333"
+                UIC333.Parent = Front3
+
+                Background3.Name = "Background3"
+                Background3.Parent = TextButton3
+                Background3.AnchorPoint = Vector2.new(0.5, 0.5)
+                Background3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                Background3.BackgroundTransparency = 1.000
+                Background3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+                Background3.BorderSizePixel = 0
+                Background3.Position = UDim2.new(0.5, 0, 0.5, 0)
+                Background3.Size = UDim2.new(0.800000012, 0, 0.800000012, 0)
+                Background3.SizeConstraint = Enum.SizeConstraint.RelativeXX
+                Background3.ZIndex = 3
+                Background3.Image = "rbxassetid://138110752460865"
+
+                UIC33.Name = "UIC33"
+                UIC33.Parent = Background3
+
+                UIC3.Name = "UIC3"
+                UIC3.Parent = _3
+
+                _4.Name = "4"
+                _4.Parent = WhereTheButtons
+                _4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+                _4.BackgroundTransparency = 0.700
+                _4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+                _4.BorderSizePixel = 0
+                _4.LayoutOrder = 4
+                _4.Size = UDim2.new(0.125, 0, 1, 0)
+                _4.ZIndex = 2
+
+                TextButton4.Name = "TextButton4"
+                TextButton4.Parent = _4
+                TextButton4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                TextButton4.BackgroundTransparency = 1.000
+                TextButton4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+                TextButton4.BorderSizePixel = 0
+                TextButton4.Size = UDim2.new(1, 0, 1, 0)
+                TextButton4.ZIndex = 3
+                TextButton4.Font = Enum.Font.FredokaOne
+                TextButton4.Text = ""
+                TextButton4.TextColor3 = Color3.fromRGB(255, 255, 255)
+                TextButton4.TextScaled = true
+                TextButton4.TextSize = 10.000
+                TextButton4.TextWrapped = true
+
+                Front4.Name = "Front4"
+                Front4.Parent = TextButton4
+                Front4.AnchorPoint = Vector2.new(0.5, 0.5)
+                Front4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                Front4.BackgroundTransparency = 1.000
+                Front4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+                Front4.BorderSizePixel = 0
+                Front4.Position = UDim2.new(0.5, 0, 0.5, 0)
+                Front4.Size = UDim2.new(0.899999976, 0, 0.899999976, 0)
+                Front4.SizeConstraint = Enum.SizeConstraint.RelativeXX
+                Front4.ZIndex = 4
+                Front4.Image = "rbxassetid://112068843495830"
+
+                UIC444.Name = "UIC444"
+                UIC444.Parent = Front4
+
+                Background4.Name = "Background4"
+                Background4.Parent = TextButton4
+                Background4.AnchorPoint = Vector2.new(0.5, 0.5)
+                Background4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                Background4.BackgroundTransparency = 1.000
+                Background4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+                Background4.BorderSizePixel = 0
+                Background4.Position = UDim2.new(0.5, 0, 0.5, 0)
+                Background4.Size = UDim2.new(0.800000012, 0, 0.800000012, 0)
+                Background4.SizeConstraint = Enum.SizeConstraint.RelativeXX
+                Background4.ZIndex = 3
+                Background4.Image = "rbxassetid://138110752460865"
+
+                UIC44.Name = "UIC44"
+                UIC44.Parent = Background4
+
+                UIC4.Name = "UIC4"
+                UIC4.Parent = _4
+
+                _5.Name = "5"
+                _5.Parent = WhereTheButtons
+                _5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+                _5.BackgroundTransparency = 0.700
+                _5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+                _5.BorderSizePixel = 0
+                _5.LayoutOrder = 5
+                _5.Size = UDim2.new(0.125, 0, 1, 0)
+                _5.ZIndex = 2
+
+                TextButton5.Name = "TextButton5"
+                TextButton5.Parent = _5
+                TextButton5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                TextButton5.BackgroundTransparency = 1.000
+                TextButton5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+                TextButton5.BorderSizePixel = 0
+                TextButton5.Size = UDim2.new(1, 0, 1, 0)
+                TextButton5.ZIndex = 3
+                TextButton5.Font = Enum.Font.FredokaOne
+                TextButton5.Text = ""
+                TextButton5.TextColor3 = Color3.fromRGB(255, 255, 255)
+                TextButton5.TextScaled = true
+                TextButton5.TextSize = 10.000
+                TextButton5.TextWrapped = true
+
+                Front5.Name = "Front5"
+                Front5.Parent = TextButton5
+                Front5.AnchorPoint = Vector2.new(0.5, 0.5)
+                Front5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                Front5.BackgroundTransparency = 1.000
+                Front5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+                Front5.BorderSizePixel = 0
+                Front5.Position = UDim2.new(0.5, 0, 0.5, 0)
+                Front5.Size = UDim2.new(0.899999976, 0, 0.899999976, 0)
+                Front5.SizeConstraint = Enum.SizeConstraint.RelativeXX
+                Front5.ZIndex = 4
+                Front5.Image = "rbxassetid://112068843495830"
+
+                UIC555.Name = "UIC555"
+                UIC555.Parent = Front5
+
+                Background5.Name = "Background5"
+                Background5.Parent = TextButton5
+                Background5.AnchorPoint = Vector2.new(0.5, 0.5)
+                Background5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                Background5.BackgroundTransparency = 1.000
+                Background5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+                Background5.BorderSizePixel = 0
+                Background5.Position = UDim2.new(0.5, 0, 0.5, 0)
+                Background5.Size = UDim2.new(0.800000012, 0, 0.800000012, 0)
+                Background5.SizeConstraint = Enum.SizeConstraint.RelativeXX
+                Background5.ZIndex = 3
+                Background5.Image = "rbxassetid://138110752460865"
+
+                UIC55.Name = "UIC55"
+                UIC55.Parent = Background5
+
+                UIC5.Name = "UIC5"
+                UIC5.Parent = _5
+
+                _6.Name = "6"
+                _6.Parent = WhereTheButtons
+                _6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+                _6.BackgroundTransparency = 0.700
+                _6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+                _6.BorderSizePixel = 0
+                _6.LayoutOrder = 6
+                _6.Size = UDim2.new(0.125, 0, 1, 0)
+                _6.ZIndex = 2
+
+                TextButton6.Name = "TextButton6"
+                TextButton6.Parent = _6
+                TextButton6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                TextButton6.BackgroundTransparency = 1.000
+                TextButton6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+                TextButton6.BorderSizePixel = 0
+                TextButton6.Size = UDim2.new(1, 0, 1, 0)
+                TextButton6.ZIndex = 3
+                TextButton6.Font = Enum.Font.FredokaOne
+                TextButton6.Text = ""
+                TextButton6.TextColor3 = Color3.fromRGB(255, 255, 255)
+                TextButton6.TextScaled = true
+                TextButton6.TextSize = 10.000
+                TextButton6.TextWrapped = true
+
+                Front6.Name = "Front6"
+                Front6.Parent = TextButton6
+                Front6.AnchorPoint = Vector2.new(0.5, 0.5)
+                Front6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                Front6.BackgroundTransparency = 1.000
+                Front6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+                Front6.BorderSizePixel = 0
+                Front6.Position = UDim2.new(0.5, 0, 0.5, 0)
+                Front6.Size = UDim2.new(0.899999976, 0, 0.899999976, 0)
+                Front6.SizeConstraint = Enum.SizeConstraint.RelativeXX
+                Front6.ZIndex = 4
+                Front6.Image = "rbxassetid://112068843495830"
+
+                UIC666.Name = "UIC666"
+                UIC666.Parent = Front6
+
+                Background6.Name = "Background6"
+                Background6.Parent = TextButton6
+                Background6.AnchorPoint = Vector2.new(0.5, 0.5)
+                Background6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                Background6.BackgroundTransparency = 1.000
+                Background6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+                Background6.BorderSizePixel = 0
+                Background6.Position = UDim2.new(0.5, 0, 0.5, 0)
+                Background6.Size = UDim2.new(0.800000012, 0, 0.800000012, 0)
+                Background6.SizeConstraint = Enum.SizeConstraint.RelativeXX
+                Background6.ZIndex = 3
+                Background6.Image = "rbxassetid://138110752460865"
+
+                UIC66.Name = "UIC66"
+                UIC66.Parent = Background6
+
+                UIC6.Name = "UIC6"
+                UIC6.Parent = _6
+
+                _7.Name = "7"
+                _7.Parent = WhereTheButtons
+                _7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+                _7.BackgroundTransparency = 0.700
+                _7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+                _7.BorderSizePixel = 0
+                _7.LayoutOrder = 7
+                _7.Size = UDim2.new(0.125, 0, 1, 0)
+                _7.ZIndex = 2
+
+                TextButton7.Name = "TextButton7"
+                TextButton7.Parent = _7
+                TextButton7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                TextButton7.BackgroundTransparency = 1.000
+                TextButton7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+                TextButton7.BorderSizePixel = 0
+                TextButton7.Size = UDim2.new(1, 0, 1, 0)
+                TextButton7.ZIndex = 3
+                TextButton7.Font = Enum.Font.FredokaOne
+                TextButton7.Text = ""
+                TextButton7.TextColor3 = Color3.fromRGB(255, 255, 255)
+                TextButton7.TextScaled = true
+                TextButton7.TextSize = 10.000
+                TextButton7.TextWrapped = true
+
+                Front7.Name = "Front7"
+                Front7.Parent = TextButton7
+                Front7.AnchorPoint = Vector2.new(0.5, 0.5)
+                Front7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                Front7.BackgroundTransparency = 1.000
+                Front7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+                Front7.BorderSizePixel = 0
+                Front7.Position = UDim2.new(0.5, 0, 0.5, 0)
+                Front7.Size = UDim2.new(0.899999976, 0, 0.899999976, 0)
+                Front7.SizeConstraint = Enum.SizeConstraint.RelativeXX
+                Front7.ZIndex = 4
+                Front7.Image = "rbxassetid://112068843495830"
+
+                UIC777.Name = "UIC777"
+                UIC777.Parent = Front7
+
+                Background7.Name = "Background7"
+                Background7.Parent = TextButton7
+                Background7.AnchorPoint = Vector2.new(0.5, 0.5)
+                Background7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                Background7.BackgroundTransparency = 1.000
+                Background7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+                Background7.BorderSizePixel = 0
+                Background7.Position = UDim2.new(0.5, 0, 0.5, 0)
+                Background7.Size = UDim2.new(0.800000012, 0, 0.800000012, 0)
+                Background7.SizeConstraint = Enum.SizeConstraint.RelativeXX
+ 
