@@ -1,0 +1,62 @@
+repeat
+    task.wait()
+until game:IsLoaded()
+
+local ScriptData = {
+    [7018190066] = "0374691aefd44c855f38a154fb427d27",
+    [6931042565] = "c4db58baa788dfaafe935f3329ea6ff2"
+}
+
+local CurrentGameID = game.GameId
+local CurrentScriptID = ScriptData[CurrentGameID]
+
+makefolder("Nebula")
+
+local Cloneref = cloneref or clonereference or function(instance)
+    return instance
+end
+
+local Players = Cloneref(game:GetService("Players"))
+local libraryLoader = loadstring(game:HttpGet("https://raw.githubusercontent.com/deividcomsono/Obsidian/refs/heads/main/Library.lua"))
+local apiLoader = loadstring(game:HttpGet("https://sdkAPI-public.luarmor.net/library.lua"))
+local Library = libraryLoader()
+local API = apiLoader()
+
+local Window = Library:CreateWindow({
+    Title = "Nebula Hub",
+    Footer = "by Nebula Team",
+    Size = UDim2.fromOffset(580, 460),
+    Center = true,
+    AutoShow = true,
+    ToggleKeybind = Enum.KeyCode.End
+})
+
+local MainTab = Window:AddTab("Main", "main")
+local SettingsTab = Window:AddTab("Settings", "settings")
+
+if CurrentScriptID then
+    API.script_id = CurrentScriptID
+    Library:Notify({
+        Title = "Verification Skipped",
+        Description = "Key system removed. Loading script...",
+        Time = 3
+    })
+    task.wait(1)
+    Library:Unload()
+    API.load_script()
+else
+    task.spawn(function()
+        task.wait(1)
+        Library:Notify({
+            Title = "Unsupported Game",
+            Description = "Nebula Hub does not currently support this game.",
+            Time = 5
+        })
+    end)
+end
+
+Library:Notify({
+    Title = "Nebula Hub",
+    Description = "Welcome to Nebula Hub!",
+    Time = 5
+})
