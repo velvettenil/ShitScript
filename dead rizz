@@ -1,0 +1,157 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/deividcomsono/Obsidian/refs/heads/main/Library.lua"))()
+local TweenService = game:GetService("TweenService")
+local UIS = game:GetService("UserInputService")
+local Player = game.Players.LocalPlayer
+local TweenTime = 0.5
+
+-- Create Window
+local Window = Library:CreateWindow({
+    Title = "Xenor Hub",
+    Footer = "by Xenor Team",
+    Size = UDim2.fromOffset(650, 500),
+    Center = true,
+    AutoShow = false,
+    ToggleKeybind = Enum.KeyCode.End,
+    Theme = Library.Theme.Dark
+})
+
+local MainTab = Window:AddTab("Main", "home")
+local SettingsTab = Window:AddTab("Settings", "settings")
+local KeyTab = Window:AddTab("Key System", "key")
+
+-- Window Style Refinement
+Window.BackgroundTransparency = 0.85
+Window.BackgroundColor3 = Color3.fromRGB(25, 25, 45)
+Window.BorderSizePixel = 5
+Window.BorderColor3 = Color3.fromRGB(255, 100, 255)
+Window.ZIndex = 10
+
+-- Smooth Entrance Animation with Xenor Covering the Screen
+local coverFrame = Instance.new("Frame")
+coverFrame.Size = UDim2.new(1, 0, 1, 0)
+coverFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+coverFrame.BorderSizePixel = 0
+coverFrame.ZIndex = 1000
+coverFrame.Parent = Window
+
+local textLabel = Instance.new("TextLabel")
+textLabel.Text = "XENOR"
+textLabel.Font = Enum.Font.GothamBold
+textLabel.TextSize = 72
+textLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+textLabel.BackgroundTransparency = 1
+textLabel.Size = UDim2.new(1, 0, 1, 0)
+textLabel.Parent = coverFrame
+
+TweenService:Create(coverFrame, TweenInfo.new(1), {BackgroundTransparency = 1}):Play()
+TweenService:Create(textLabel, TweenInfo.new(1), {TextTransparency = 1}):Play()
+
+-- Draggable UI for the Window
+local dragging = false
+local dragInput, dragStart, startPos
+
+local function updateDrag(input)
+    local delta = input.Position - dragStart
+    Window.Position = UDim2.new(0, startPos.X + delta.X, 0, startPos.Y + delta.Y)
+end
+
+Window.InputBegan:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 then
+        dragging = true
+        dragStart = input.Position
+        startPos = Window.Position
+    end
+end)
+
+Window.InputEnded:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 then
+        dragging = false
+    end
+end)
+
+UIS.InputChanged:Connect(function(input)
+    if dragging then
+        updateDrag(input)
+    end
+end)
+
+-- Key System UI
+local keyInputGroupbox = KeyTab:AddLeftGroupbox("Key System")
+keyInputGroupbox:AddLabel({
+    Text = "Enter your key to unlock Xenor Hub.\nIf you don’t have one, use the button below to get it.",
+    DoesWrap = true
+})
+
+local keyInput = keyInputGroupbox:AddInput("Key", {
+    Text = "Enter Your Key",
+    Default = "",
+    Placeholder = "Enter: XenorSigma",
+    Numeric = false,
+    Finished = false,
+    Callback = function(Value)
+        if Value == "XenorSigma" then
+            notify("Key Correct", "You have entered the correct key!")
+            -- Open tabs with functionality here
+            local EspTab = Window:AddTab("ESP", "esp")
+            local MiscTab = Window:AddTab("Misc", "misc")
+            local KillauraTab = Window:AddTab("Killaura", "killaura")
+            -- Placeholder for future functionalities
+        else
+            notify("Key Incorrect", "The key you entered is incorrect.")
+        end
+    end
+})
+
+keyInputGroupbox:AddButton({
+    Text = "Get Key ~> Linkvertise",
+    Func = function()
+        setclipboard("https://ads.luarmor.net/get_key?for=Xenor_Hub")
+        notify("Copied to Clipboard", "Link to get your key has been copied to your clipboard.")
+    end
+})
+
+-- Smooth fade out and UI transition
+TweenService:Create(coverFrame, TweenInfo.new(2), {BackgroundTransparency = 1}):Play()
+TweenService:Create(textLabel, TweenInfo.new(2), {TextTransparency = 1}):Play()
+
+-- Notification Function
+local function notify(title, message)
+    Library:Notify({
+        Title = title,
+        Description = message,
+        Time = 5
+    })
+end
+
+-- Settings Tab: Customization options
+SettingsTab:AddLeftGroupbox("Background Blur", {
+    Text = "Enable Blur Effect",
+    Callback = function(Value)
+        -- Functionality to toggle background blur
+    end
+})
+
+-- UI Toggle Button (Small Button to Toggle Visibility)
+local toggleButton = Instance.new("TextButton")
+toggleButton.Size = UDim2.new(0, 100, 0, 50)
+toggleButton.Position = UDim2.new(0.5, -50, 0.95, -25)
+toggleButton.Text = "Toggle GUI"
+toggleButton.TextSize = 18
+toggleButton.BackgroundColor3 = Color3.fromRGB(100, 100, 255)
+toggleButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+toggleButton.Parent = game:GetService("CoreGui")
+
+toggleButton.MouseButton1Click:Connect(function()
+    if Window.Visible then
+        Window:Hide()
+    else
+        Window:Show()
+    end
+end)
+
+-- Adding Background Fade In Animation for New Users
+TweenService:Create(Window, TweenInfo.new(2), {BackgroundTransparency = 0}):Play()
+TweenService:Create(Window, TweenInfo.new(2), {BackgroundColor3 = Color3.fromRGB(30, 30, 60)}):Play()
+
+-- Make the window visible after the setup is completed
+Window:Show()
