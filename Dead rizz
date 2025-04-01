@@ -15,7 +15,7 @@ MainFrame.Parent = ScreenGui
 MainFrame.Size = UDim2.new(0, 620, 0, 420)
 MainFrame.Position = UDim2.new(0.5, -310, 0.5, -210)
 MainFrame.BackgroundColor3 = Color3.fromRGB(20, 20, 30)
-MainFrame.BackgroundTransparency = 0.5 -- Fully transparent but tinted
+MainFrame.BackgroundTransparency = 0.5
 MainFrame.BorderSizePixel = 0
 MainFrame.Active = true
 MainFrame.Draggable = true
@@ -25,13 +25,13 @@ local UIGradient = Instance.new("UIGradient")
 UIGradient.Parent = MainFrame
 UIGradient.Rotation = 45
 UIGradient.Color = ColorSequence.new{
-    ColorSequenceKeypoint.new(0, Color3.fromRGB(60, 0, 120)), -- Purple gradient start
-    ColorSequenceKeypoint.new(1, Color3.fromRGB(20, 20, 30)) -- Darker purple end
+    ColorSequenceKeypoint.new(0, Color3.fromRGB(60, 0, 120)),
+    ColorSequenceKeypoint.new(1, Color3.fromRGB(20, 20, 30))
 }
 
 Title.Parent = MainFrame
 Title.Size = UDim2.new(1, 0, 0.12, 0)
-Title.BackgroundTransparency = 0.5 -- Slight transparency
+Title.BackgroundTransparency = 0.5
 Title.Text = "Xenor Hub"
 Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title.Font = Enum.Font.GothamBlack
@@ -43,7 +43,7 @@ TabContainer.Parent = MainFrame
 TabContainer.Size = UDim2.new(0.23, 0, 0.88, 0)
 TabContainer.Position = UDim2.new(0, 0, 0.12, 0)
 TabContainer.BackgroundColor3 = Color3.fromRGB(30, 0, 60)
-TabContainer.BackgroundTransparency = 0.3 -- Slight transparency for a glass-like effect
+TabContainer.BackgroundTransparency = 0.3
 TabContainer.BorderSizePixel = 0
 
 ContentContainer.Parent = MainFrame
@@ -71,7 +71,7 @@ fadeTween:Play()
 ToggleButton.Parent = ScreenGui
 ToggleButton.Size = UDim2.new(0, 100, 0, 40)
 ToggleButton.Position = UDim2.new(0.05, 0, 0.05, 0)
-ToggleButton.BackgroundColor3 = Color3.fromRGB(100, 0, 200) -- Purple with glass effect
+ToggleButton.BackgroundColor3 = Color3.fromRGB(100, 0, 200)
 ToggleButton.BackgroundTransparency = 0.5
 ToggleButton.Text = "Toggle UI"
 ToggleButton.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -111,16 +111,39 @@ ToggleButton.MouseButton1Click:Connect(function()
     end
 end)
 
--- Tabs so sigma ts ts pmo sybau
-local Tabs = {
-    {"🐺 ESP", Color3.fromRGB(120, 0, 220)},
-    {"🧏 Misc", Color3.fromRGB(140, 0, 240)},
-    {"💀 Blatant", Color3.fromRGB(160, 0, 260)},
-    {"⚔️ Killaura", Color3.fromRGB(180, 0, 280)},
-    {"🏁 Auto End", Color3.fromRGB(200, 0, 300)}
-}
+local function createExplodingStars(position)
+    local tabWidth = position.X.Offset
+    local tabHeight = position.Y.Offset
+    for i = 1, 10 do
+        local star = Instance.new("TextLabel")
+        star.Size = UDim2.new(0, 10, 0, 10)
+        star.Position = UDim2.new(0.5, tabWidth, 0.5, tabHeight)
+        star.AnchorPoint = Vector2.new(0.5, 0.5)
+        star.Text = "✴"
+        star.TextColor3 = Color3.fromRGB(255, 255, 255)
+        star.BackgroundTransparency = 1
+        star.Parent = ScreenGui
 
--- tabs again. Check out futanari uwu
+        local randomDirection = Vector2.new(math.random() - 0.5, math.random() - 0.5).unit
+        local randomSpeed = math.random(50, 100)
+        local randomSize = math.random(15, 30)
+        local randomDelay = math.random(0, 0.5)
+
+        local tweenInfo = TweenInfo.new(randomDelay + 2, Enum.EasingStyle.Quint, Enum.EasingDirection.Out)
+        local moveTween = TweenService:Create(star, tweenInfo, {
+            Position = UDim2.new(0.5 + randomDirection.X * randomSpeed / 100, 0, 0.5 + randomDirection.Y * randomSpeed / 100, 0),
+            TextSize = randomSize,
+            TextTransparency = 1
+        })
+        
+        moveTween:Play()
+
+        moveTween.Completed:Connect(function()
+            star:Destroy()
+        end)
+    end
+end
+
 local function createTab(name, color, position)
     local button = Instance.new("TextButton")
     button.Size = UDim2.new(1, 0, 0.15, 0)
@@ -134,47 +157,22 @@ local function createTab(name, color, position)
     button.TextStrokeTransparency = 0.2
     button.Parent = TabContainer
 
-    -- Hover effect looking thing
-    button.MouseEnter:Connect(function()
-        TweenService:Create(button, TweenInfo.new(0.2), {BackgroundColor3 = Color3.fromRGB(255, 255, 255), TextColor3 = Color3.fromRGB(0, 0, 0)}):Play()
+    button.MouseButton1Click:Connect(function()
+        createExplodingStars(button.Position)
     end)
-    button.MouseLeave:Connect(function()
-        TweenService:Create(button, TweenInfo.new(0.2), {BackgroundColor3 = color, TextColor3 = Color3.fromRGB(255, 255, 255)}):Play()
-    end)
+    
     return button
 end
 
-local function createContentFrame()
-    local frame = Instance.new("Frame")
-    frame.Size = UDim2.new(1, 0, 1, 0)
-    frame.BackgroundTransparency = 0.3 -- Slight transparency for glass effect
-    frame.BackgroundColor3 = Color3.fromRGB(45, 0, 90)
-    frame.BorderSizePixel = 0
-    frame.Visible = false
-    frame.Parent = ContentContainer
-    return frame
-end
+local Tabs = {
+    {"🐺 ESP", Color3.fromRGB(120, 0, 220)},
+    {"🧏 Misc", Color3.fromRGB(140, 0, 240)},
+    {"💀 Blatant", Color3.fromRGB(160, 0, 260)},
+    {"⚔️ Killaura", Color3.fromRGB(180, 0, 280)},
+    {"🏁 Auto End", Color3.fromRGB(200, 0, 300)}
+}
 
 local TabFrames = {}
 for i, tab in ipairs(Tabs) do
     local button = createTab(tab[1], tab[2], (i - 1) * 0.16)
-    local content = createContentFrame()
-    button.MouseButton1Click:Connect(function()
-        for _, frame in pairs(TabFrames) do
-            frame.Visible = false
-        end
-        content.Visible = true
-    end)
-    TabFrames[i] = content
-    
-    -- shit placeholders
-    local placeholder = Instance.new("TextLabel")
-    placeholder.Size = UDim2.new(1, 0, 1, 0)
-    placeholder.Text = tab[1] .. " Scripts Coming Soon..."
-    placeholder.TextColor3 = Color3.fromRGB(255, 255, 255)
-    placeholder.BackgroundTransparency = 1
-    placeholder.Font = Enum.Font.GothamBlack
-    placeholder.TextSize = 22
-    placeholder.TextStrokeTransparency = 0.1
-    placeholder.Parent = content
 end
