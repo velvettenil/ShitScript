@@ -57,7 +57,7 @@ Notification.Size = UDim2.new(0, 320, 0, 55)
 Notification.Position = UDim2.new(0.5, -160, 0.05, 0)
 Notification.BackgroundTransparency = 0.3
 Notification.BackgroundColor3 = Color3.fromRGB(150, 0, 250)
-Notification.Text = "Welcome to Xenor Hub!"
+Notification.Text = "Welcome to VelvetteX!"
 Notification.TextColor3 = Color3.fromRGB(255, 255, 255)
 Notification.Font = Enum.Font.GothamBlack
 Notification.TextSize = 22
@@ -73,7 +73,7 @@ ToggleButton.Size = UDim2.new(0, 100, 0, 40)
 ToggleButton.Position = UDim2.new(0.05, 0, 0.05, 0)
 ToggleButton.BackgroundColor3 = Color3.fromRGB(100, 0, 200)
 ToggleButton.BackgroundTransparency = 0.5
-ToggleButton.Text = "Toggle UI"
+ToggleButton.Text = "Sigma Ui"
 ToggleButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 ToggleButton.Font = Enum.Font.GothamBold
 ToggleButton.TextSize = 16
@@ -192,11 +192,11 @@ local function createTab(name, color, position)
 end
 
 local Tabs = {
-    {"🐺 ESP", Color3.fromRGB(120, 0, 220)},
-    {"🧏 Misc", Color3.fromRGB(140, 0, 240)},
-    {"💀 Blatant", Color3.fromRGB(160, 0, 260)},
-    {"⚔️ Killaura", Color3.fromRGB(180, 0, 280)},
-    {"🏁 Auto End", Color3.fromRGB(200, 0, 300)}
+    {"👁️‍🗨️ Funni eye", Color3.fromRGB(120, 0, 220)},
+    {"😡 Verblantant", Color3.fromRGB(140, 0, 240)},
+    {"🥀 funni auto", Color3.fromRGB(160, 0, 260)},
+    {"⚔️ Kill thingy", Color3.fromRGB(180, 0, 280)},
+    {"🏁 Real Ending", Color3.fromRGB(200, 0, 300)}
 }
 
 local TabFrames = {}
