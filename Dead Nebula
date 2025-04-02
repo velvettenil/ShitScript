@@ -1,0 +1,18 @@
+task.wait() until game:IsLoaded()
+
+local ScriptData = { [7018190066] = "0374691aefd44c855f38a154fb427d27", [6931042565] = "c4db58baa788dfaafe935f3329ea6ff2", [4777817887] = "5a90e9f345f6b58f4a1be04e72e2a631" }
+
+local CurrentGameID = game.GameId local CurrentScriptID = ScriptData[CurrentGameID]
+
+makefolder("Nebula")
+
+local Cloneref = cloneref or clonereference or function(instance) return instance end local Players = Cloneref(game:GetService("Players"))
+
+local libraryLoader = loadstring(game:HttpGet("https://raw.githubusercontent.com/deividcomsono/Obsidian/refs/heads/main/Library.lua")) local Library = libraryLoader()
+
+local Window = Library:CreateWindow({ Title = "Nebula Hub", Footer = "by Nebula Team", Size = UDim2.fromOffset(580, 460), Center = true, AutoShow = true, ToggleKeybind = Enum.KeyCode.End })
+
+Library:Notify({ Title = "Nebula Hub", Description = "Welcome to Nebula Hub!", Time = 5 })
+
+if CurrentScriptID then loadstring(game:HttpGet("https://raw.githubusercontent.com/NebulaHubOfc/Public/" .. CurrentScriptID .. "/Script.lua"))() else Library:Notify({ Title = "Unsupported Game", Description = "Nebula Hub does not currently support this game.", Time = 5 }) end
+
