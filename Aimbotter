@@ -1,0 +1,122 @@
+-- AimbotCameraBloomie.lua
+-- NOT smooth camera aim to nearest head while aiming. Stops when unaim is received.
+
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local UserInputService = game:GetService("UserInputService")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local player = Players.LocalPlayer
+local camera = workspace.CurrentCamera
+local ReliableRedEvent = ReplicatedStorage:WaitForChild("ReliableRedEvent") -- change path if needed
+
+-- Config
+local SMOOTH_ALPHA = 0.28       -- lerp factor each frame (0–1)
+local MAX_TARGET_DISTANCE = 400 -- uses studs, and ignores very far players
+local SCREEN_RADIUS = 200       -- px only and considers players near screen center
+
+-- Internal
+local aiming = false
+local aimConnection = nil
+
+-- returns head part or nil
+local function findNearestHeadToScreenCenter()
+	local bestHead = nil
+	local bestDist = math.huge
+	local viewportSize = camera.ViewportSize
+	local centerX, centerY = viewportSize.X * 0.5, viewportSize.Y * 0.5
+
+	for _, other in ipairs(Players:GetPlayers()) do
+		if other ~= player then
+			local char = other.Character
+			local humanoid = char and char:FindFirstChildOfClass("Humanoid")
+			local head = char and char:FindFirstChild("Head")
+
+			if humanoid and head and humanoid.Health > 0 then
+				local headPos = head.Position
+				local screenPos, onScreen = camera:WorldToViewportPoint(headPos)
+
+				if onScreen then
+					local dx = screenPos.X - centerX
+					local dy = screenPos.Y - centerY
+					local screenDistance = math.sqrt(dx * dx + dy * dy)
+					local worldDist = (headPos - camera.CFrame.Position).Magnitude
+
+					if worldDist <= MAX_TARGET_DISTANCE and screenDistance <= SCREEN_RADIUS then
+						local score = screenDistance + worldDist * 0.05
+						if score < bestDist then
+							bestDist = score
+							bestHead = head
+						end
+					end
+				end
+			end
+		end
+	end
+
+	return bestHead
+end
+
+local function startAiming()
+	if aiming then return end
+	aiming = true
+
+	aimConnection = RunService.RenderStepped:Connect(function()
+		if not aiming then return end
+		local head = findNearestHeadToScreenCenter()
+
+		if head and head.Parent then
+			local camPos = camera.CFrame.Position
+			local targetPos = head.Position
+			local desired = CFrame.lookAt(camPos, targetPos)
+			camera.CFrame = camera.CFrame:Lerp(desired, SMOOTH_ALPHA)
+		end
+	end)
+end
+
+local function stopAiming()
+	if not aiming then return end
+	aiming = false
+	if aimConnection then
+		aimConnection:Disconnect()
+		aimConnection = nil
+	end
+end
+
+-- Input bindings
+UserInputService.InputBegan:Connect(function(input, gameProcessed)
+	if gameProcessed then return end
+	if input.UserInputType == Enum.UserInputType.MouseButton2 or input.KeyCode == Enum.KeyCode.ButtonL2 then
+		startAiming()
+	end
+end)
+
+UserInputService.InputEnded:Connect(function(input)
+	if input.UserInputType == Enum.UserInputType.MouseButton2 or input.KeyCode == Enum.KeyCode.ButtonL2 then
+		stopAiming()
+	end
+end)
+
+-- Respond to server events
+ReliableRedEvent.OnClientEvent:Connect(function(data, extra)
+	local ok = false
+
+	if type(data) == "table" then
+		local r = data.R
+		if type(r) == "table" and type(r[1]) == "table" and r[1][1] == false then
+			ok = true
+		end
+		if data == false or data.stop == true or data.aim == false then
+			ok = true
+		end
+	end
+
+	if ok then
+		stopAiming()
+	end
+end)
+
+-- Clean up if character dies. you're a loser if you died.
+player.CharacterRemoving:Connect(function()
+	stopAiming()
+end)
