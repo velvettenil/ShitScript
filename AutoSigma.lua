@@ -1,1 +1,168 @@
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/f6965dd22d0e3fa371a3aceba76648cf.lua"))()
+-- GlobalFarPredAimbot.lua
+-- Instant snap + long-range prediction to nearest player ANYWHERE (not just on-screen)
+
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local TweenService = game:GetService("TweenService")
+
+local player = Players.LocalPlayer
+local camera = workspace.CurrentCamera
+local playerGui = player:WaitForChild("PlayerGui")
+
+-- ===== CONFIG =====
+local MAX_TARGET_DISTANCE = 2000 -- studs; search radius
+local VELOCITY_SMOOTH = 0.6
+local PREDICTION_ENABLED = true
+
+-- Weapon model
+local SHOT_DELAY = 0.6       -- seconds before projectile hits/fires
+local BULLET_SPEED = 0        -- studs/sec; 0 = fallback lead
+local FIXED_LEAD_CAP = 2.5
+local LEAD_DISTANCE_SCALE = 0.0035
+
+-- GUI
+local BUTTON_SIZE = UDim2.new(0, 140, 0, 44)
+local BUTTON_POS = UDim2.new(0.5, -70, 0.92, -22)
+
+-- ===== STATE =====
+local aiming = false
+local aimConn = nil
+local targetState = {}
+
+-- ===== GUI =====
+local screenGui = Instance.new("ScreenGui")
+screenGui.Name = "FarPredAimbotGui"
+screenGui.ResetOnSpawn = false
+screenGui.Parent = playerGui
+
+local button = Instance.new("TextButton")
+button.Name = "FarPredToggle"
+button.Size = BUTTON_SIZE
+button.Position = BUTTON_POS
+button.AnchorPoint = Vector2.new(0.5, 0.5)
+button.Text = "PRED AIM: OFF"
+button.Font = Enum.Font.SourceSansBold
+button.TextSize = 18
+button.BackgroundTransparency = 0.12
+button.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+button.TextColor3 = Color3.fromRGB(240, 240, 240)
+button.BorderSizePixel = 0
+button.Parent = screenGui
+
+local dot = Instance.new("Frame")
+dot.Name = "Dot"
+dot.Size = UDim2.new(0,12,0,12)
+dot.Position = UDim2.new(1, -22, 0.5, -6)
+dot.AnchorPoint = Vector2.new(0.5, 0.5)
+dot.BackgroundColor3 = Color3.fromRGB(180, 0, 0)
+dot.BorderSizePixel = 0
+dot.Parent = button
+
+-- ===== VELOCITY ESTIMATION =====
+local function ensureStateForChar(char, pos, now)
+	if not targetState[char] then
+		targetState[char] = { lastPos = pos, lastTime = now, vel = Vector3.new() }
+	end
+end
+
+local function updateVelocityForChar(char, pos, now)
+	if not char then return end
+	if not targetState[char] then
+		targetState[char] = { lastPos = pos, lastTime = now, vel = Vector3.new() }
+		return
+	end
+	local st = targetState[char]
+	local dt = now - st.lastTime
+	if dt <= 0 then return end
+	local rawVel = (pos - st.lastPos) / dt
+	st.vel = st.vel:Lerp(rawVel, VELOCITY_SMOOTH)
+	st.lastPos = pos
+	st.lastTime = now
+end
+
+-- ===== PREDICTION =====
+local function computeLeadSeconds(distance)
+	if BULLET_SPEED > 0 then
+		local travel = distance / BULLET_SPEED
+		return math.min(SHOT_DELAY + travel, FIXED_LEAD_CAP)
+	else
+		local lead = SHOT_DELAY + distance * LEAD_DISTANCE_SCALE
+		return math.min(lead, FIXED_LEAD_CAP)
+	end
+end
+
+local function getPredictedHeadPosition(head)
+	local char = head.Parent
+	local st = targetState[char] or { vel = Vector3.zero }
+	local vel = st.vel or Vector3.zero
+	local camPos = camera.CFrame.Position
+	local dist = (head.Position - camPos).Magnitude
+	local leadSec = computeLeadSeconds(dist)
+	return head.Position + vel * leadSec
+end
+
+-- ===== TARGETING (GLOBAL NEAREST) =====
+local function findNearestHead()
+	local bestHead = nil
+	local bestDist = math.huge
+	local now = tick()
+	local camPos = camera.CFrame.Position
+
+	for _, pl in ipairs(Players:GetPlayers()) do
+		if pl ~= player then
+			local char = pl.Character
+			local hum = char and char:FindFirstChildOfClass("Humanoid")
+			local head = char and char:FindFirstChild("Head")
+			if hum and head and hum.Health > 0 then
+				updateVelocityForChar(char, head.Position, now)
+				local dist = (head.Position - camPos).Magnitude
+				if dist < bestDist and dist <= MAX_TARGET_DISTANCE then
+					bestDist = dist
+					bestHead = head
+				end
+			end
+		end
+	end
+	return bestHead
+end
+
+-- ===== AIM CONTROL =====
+local function startAiming()
+	if aiming then return end
+	aiming = true
+	button.Text = "PRED AIM: ON"
+	TweenService:Create(dot, TweenInfo.new(0.12), {BackgroundColor3 = Color3.fromRGB(0,200,80)}):Play()
+
+	aimConn = RunService.RenderStepped:Connect(function()
+		if not aiming then return end
+		local head = findNearestHead()
+		if head and head.Parent then
+			local camPos = camera.CFrame.Position
+			local targetPos = PREDICTION_ENABLED and getPredictedHeadPosition(head) or head.Position
+			camera.CFrame = CFrame.new(camPos, targetPos)
+		end
+	end)
+end
+
+local function stopAiming()
+	if not aiming then return end
+	aiming = false
+	button.Text = "PRED AIM: OFF"
+	TweenService:Create(dot, TweenInfo.new(0.12), {BackgroundColor3 = Color3.fromRGB(180,0,0)}):Play()
+	if aimConn then aimConn:Disconnect() aimConn = nil end
+end
+
+-- ===== GUI Toggle =====
+local debounce = false
+button.MouseButton1Click:Connect(function()
+	if debounce then return end
+	debounce = true
+	if aiming then stopAiming() else startAiming() end
+	task.wait(0.15)
+	debounce = false
+end)
+
+player.CharacterRemoving:Connect(function()
+	targetState = {}
+	stopAiming()
+end)
