@@ -133,6 +133,13 @@ local function startAiming()
 	button.Text = "PRED AIM: ON"
 	TweenService:Create(dot, TweenInfo.new(0.12), {BackgroundColor3 = Color3.fromRGB(0,200,80)}):Play()
 
+	aimConn = RunService.RenderStepped:Connect(function()
+		if not aiming then return end
+		local head = findNearestHead()
+		if head and head.Parent then
+			local camPos = camera.CFrame.Position
+			local targetPos = PREDICTION_ENABLED and getPredictedHeadPosition(head) or head.Position
+			camera.CFrame = CFrame.new(camPos, targetPos)
 -- Lerp function
 local function lerp(a, b, t)
     return a + (b - a) * t
@@ -144,15 +151,7 @@ local targetCFrame = -- your predicted target CFrame
 local smooth = 0.6 -- between 0 (no movement) and 1 (instant snap)
 
 camera.CFrame = currentCFrame:Lerp(targetCFrame, smooth)
-
-	aimConn = RunService.RenderStepped:Connect(function()
-		if not aiming then return end
-		local head = findNearestHead()
-		if head and head.Parent then
-			local camPos = camera.CFrame.Position
-			local targetPos = PREDICTION_ENABLED and getPredictedHeadPosition(head) or head.Position
-			camera.CFrame = CFrame.new(camPos, targetPos)
-		end
+		 end
 	end)
 end
 
