@@ -139,7 +139,9 @@ local function startAiming()
 		if head and head.Parent then
 			local camPos = camera.CFrame.Position
 			local targetPos = PREDICTION_ENABLED and getPredictedHeadPosition(head) or head.Position
-			camera.CFrame = CFrame.new(camPos, targetPos)
+			local currentCFrame = camera.CFrame
+local targetCFrame = CFrame.new(camPos, targetPos)
+camera.CFrame = currentCFrame:Lerp(targetCFrame, VELOCITY_SMOOTH)
 		end
 	end)
 end
