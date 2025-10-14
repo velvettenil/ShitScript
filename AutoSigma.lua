@@ -101,6 +101,19 @@ local function getPredictedHeadPosition(head)
 	return head.Position + vel * leadSec
 end
 
+-- SKIBIDI AIMERBOT
+-- Lerp function
+local function lerp(a, b, t)
+    return a + (b - a) * t
+end
+
+-- Example: Smoothly update aim CFrame
+local currentCFrame = camera.CFrame
+local targetCFrame = -- your predicted target CFrame
+local smooth = 0.6 -- between 0 (no movement) and 1 (instant snap)
+
+camera.CFrame = currentCFrame:Lerp(targetCFrame, smooth)
+
 -- ===== TARGETING (GLOBAL NEAREST) =====
 local function findNearestHead()
 	local bestHead = nil
