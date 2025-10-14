@@ -1,122 +1,90 @@
--- AimbotCameraBloomie.lua
--- NOT smooth camera aim to nearest head while aiming. Stops when unaim is received.
+local P=game:GetService("Players")
+local R=game:GetService("RunService")
+local T=game:GetService("TweenService")
+local p=P.LocalPlayer
+local c=workspace.CurrentCamera
+local g=p:WaitForChild("PlayerGui")
+local M=2000 -- max dist
+local S=0.6 -- smooth
+local E=true
+local D=0.6
+local B=0
+local F=2.5
+local L=0.0035
+local a=false
+local n=nil
+local z={}
+local x=Instance.new("ScreenGui") x.Name="FPG" x.Parent=g
+local b=Instance.new("TextButton") b.Name="fpt" b.Size=UDim2.new(0,140,0,44)
+b.Position=UDim2.new(.5,-70,.92,-22) b.AnchorPoint=Vector2.new(.5,.5)
+b.Text="OFF" b.Parent=x
+local d=Instance.new("Frame") d.Name="D" d.Size=UDim2.new(0,12,0,12) d.Parent=b
 
-local Players = game:GetService("Players")
-local RunService = game:GetService("RunService")
-local UserInputService = game:GetService("UserInputService")
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
-
-local player = Players.LocalPlayer
-local camera = workspace.CurrentCamera
-local ReliableRedEvent = ReplicatedStorage:WaitForChild("ReliableRedEvent") -- change path if needed
-
--- Config
-local SMOOTH_ALPHA = 0.28       -- lerp factor each frame (0–1)
-local MAX_TARGET_DISTANCE = 400 -- uses studs, and ignores very far players
-local SCREEN_RADIUS = 200       -- px only and considers players near screen center
-
--- Internal
-local aiming = false
-local aimConnection = nil
-
--- returns head part or nil
-local function findNearestHeadToScreenCenter()
-	local bestHead = nil
-	local bestDist = math.huge
-	local viewportSize = camera.ViewportSize
-	local centerX, centerY = viewportSize.X * 0.5, viewportSize.Y * 0.5
-
-	for _, other in ipairs(Players:GetPlayers()) do
-		if other ~= player then
-			local char = other.Character
-			local humanoid = char and char:FindFirstChildOfClass("Humanoid")
-			local head = char and char:FindFirstChild("Head")
-
-			if humanoid and head and humanoid.Health > 0 then
-				local headPos = head.Position
-				local screenPos, onScreen = camera:WorldToViewportPoint(headPos)
-
-				if onScreen then
-					local dx = screenPos.X - centerX
-					local dy = screenPos.Y - centerY
-					local screenDistance = math.sqrt(dx * dx + dy * dy)
-					local worldDist = (headPos - camera.CFrame.Position).Magnitude
-
-					if worldDist <= MAX_TARGET_DISTANCE and screenDistance <= SCREEN_RADIUS then
-						local score = screenDistance + worldDist * 0.05
-						if score < bestDist then
-							bestDist = score
-							bestHead = head
-						end
-					end
-				end
-			end
-		end
-	end
-
-	return bestHead
+local function k(h,j,y) if not z[h] then z[h]={l=j,t=y,v=Vector3.new()} end end
+local function u(h,j,y)
+    if not h then return end
+    if not z[h] then z[h]={l=j,t=y,v=Vector3.new()} return end
+    local st=z[h] local dt=y-st.t if dt<=0 then return end
+    local rv=(j-st.l)/dt st.v=st.v:Lerp(rv,S) st.l=j st.t=y
+end
+local function m(dist)
+    if B>0 then local tr=dist/B return math.min(D+tr,F)
+    else local l=D+dist*L return math.min(l,F) end
+end
+local function G(H)
+    local ch=H.Parent
+    local st=z[ch] or {v=Vector3.zero}
+    local v=st.v or Vector3.zero
+    local cp=c.CFrame.Position
+    local dist=(H.Position-cp).Magnitude
+    local ls=m(dist)
+    return H.Position+v*ls
+end
+local function f()
+    local bh=nil;local bd=math.huge;local nw=tick();local cp=c.CFrame.Position;
+    for _,pl in ipairs(P:GetPlayers())do
+        if pl~=p then
+            local ch=pl.Character
+            local hu=ch and ch:FindFirstChildOfClass("Humanoid")
+            local hd=ch and ch:FindFirstChild("Head")
+            if hu and hd and hu.Health>0 then
+                u(ch,hd.Position,nw)
+                local dist=(hd.Position-cp).Magnitude
+                if dist<bd and dist<=M then bd=dist;bh=hd; end
+            end
+        end
+    end
+    return bh
 end
 
-local function startAiming()
-	if aiming then return end
-	aiming = true
-
-	aimConnection = RunService.RenderStepped:Connect(function()
-		if not aiming then return end
-		local head = findNearestHeadToScreenCenter()
-
-		if head and head.Parent then
-			local camPos = camera.CFrame.Position
-			local targetPos = head.Position
-			local desired = CFrame.lookAt(camPos, targetPos)
-			camera.CFrame = camera.CFrame:Lerp(desired, SMOOTH_ALPHA)
-		end
-	end)
+local function v()
+    if a then return end
+    a=true
+    b.Text="ON"
+    n=R.RenderStepped:Connect(function()
+        if not a then return end
+        local hd=f()
+        if hd and hd.Parent then
+            local cp=c.CFrame.Position
+            local tp=E and G(hd) or hd.Position
+            local currentCFrame=c.CFrame
+            local targetCFrame=CFrame.new(cp,tp)
+            c.CFrame=currentCFrame:Lerp(targetCFrame,S)
+        end
+    end)
 end
 
-local function stopAiming()
-	if not aiming then return end
-	aiming = false
-	if aimConnection then
-		aimConnection:Disconnect()
-		aimConnection = nil
-	end
+local function w()
+    if not a then return end
+    a=false
+    b.Text="OFF"
+    if n then n:Disconnect() n=nil end
 end
 
--- Input bindings
-UserInputService.InputBegan:Connect(function(input, gameProcessed)
-	if gameProcessed then return end
-	if input.UserInputType == Enum.UserInputType.MouseButton2 or input.KeyCode == Enum.KeyCode.ButtonL2 then
-		startAiming()
-	end
+b.MouseButton1Click:Connect(function()
+    if a then w() else v() end
 end)
-
-UserInputService.InputEnded:Connect(function(input)
-	if input.UserInputType == Enum.UserInputType.MouseButton2 or input.KeyCode == Enum.KeyCode.ButtonL2 then
-		stopAiming()
-	end
-end)
-
--- Respond to server events
-ReliableRedEvent.OnClientEvent:Connect(function(data, extra)
-	local ok = false
-
-	if type(data) == "table" then
-		local r = data.R
-		if type(r) == "table" and type(r[1]) == "table" and r[1][1] == false then
-			ok = true
-		end
-		if data == false or data.stop == true or data.aim == false then
-			ok = true
-		end
-	end
-
-	if ok then
-		stopAiming()
-	end
-end)
-
--- Clean up if character dies. you're a loser if you died.
-player.CharacterRemoving:Connect(function()
-	stopAiming()
+p.CharacterRemoving:Connect(function()
+    z={}
+    w()
 end)
